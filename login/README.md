@@ -1,2 +1,2 @@
-## C4E JS - Student book
-### Giới thiệu khoá học
+## Login & Regist Component
+### Code thực tế
