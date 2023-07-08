@@ -31,3 +31,11 @@
   + Validate giá trị và đưa ra lổi
   + Xử lý việc submit form
   + Yup giúp chung ta xây dựng được một lược đồ để chúng ta có thể kiểm tra các giá trị cho phù hợp với các điều kiện mà chúng ta đã định nghĩa
+    
+**2.3 Cài đặt Router**
+
+  - Xử lý vấn đề điều hướng người dùng ở phía trình duyệt
+    
+  ```
+  npm install react-router-dom@6
+  ```
