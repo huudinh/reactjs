@@ -2,7 +2,7 @@
 
 ### I. Ý tưởng
 
-**1. Phân tích chức năng**
+**Phân tích chức năng**
 
 -   Tạo 2 From đăng ký và đăng nhập
 
@@ -10,15 +10,15 @@
 
 -   Sau khi đăng nhập gửi lời chào đến tài khoản 
 
-**2. Các hook sẽ sử dụng**
+### II. Các hook sẽ sử dụng
 
-**2.1 Cài đặt sass**
+**1 Cài đặt sass**
 
   ```
   npm i sass
   ```
 
-**2.2 Cài đặt Formik**
+**2 Cài đặt Formik**
 
   ```
   npm install formik --save
@@ -32,7 +32,7 @@
   + Xử lý việc submit form
   + Yup giúp chung ta xây dựng được một lược đồ để chúng ta có thể kiểm tra các giá trị cho phù hợp với các điều kiện mà chúng ta đã định nghĩa
     
-**2.3 Cài đặt Router**
+**3 Cài đặt Router**
     
   ```
   npm install react-router-dom@6
