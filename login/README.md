@@ -69,3 +69,9 @@ npx json-server --watch db.json --port 3100
 npm install axios
 ```
 - Axios là một thư viện máy khách HTTP dựa trên các Promise. Nó làm cho việc gửi các yêu cầu HTTP không đồng bộ đến các điểm cuối REST dễ dàng hơn và giúp bạn thực hiện các hoạt động CRUD.
+
+**8 Cài đặt bcryptjs**
+```
+npm install bcryptjs --save
+```
+- Bcrypt là một chức năng mã hóa mật khẩu thiết kế bởi Niels Provos và David Mazières, dựa trên các thuật toán mã hóa Blowfish, và trình bày tại USENIX trong năm 1999. Bcrypt là một nền tảng tập tin tiện ích mã hóa chéo
