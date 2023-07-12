@@ -55,3 +55,11 @@ npm i yup@0.28.5
 npm i clsx hoặc yarn clsx
 ```
 - Giúp chúng ta thay đổi className một cách linh động và hỗ trợ rất nhiều trường hợp
+
+**6 Cài đặt json-server**
+```
+npm i -g json-server
+npx json-server --watch db.json --port 3100
+```
+- Json server là một server trả về các dữ liệu dưới dạng json.
+- Thông tin tài khoản được tạo sẽ lưu trữ vào file db.json
