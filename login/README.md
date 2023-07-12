@@ -40,13 +40,8 @@ npm i yup@0.28.5
 ```
 
   + Yup giúp chung ta xây dựng được một lược đồ để chúng ta có thể kiểm tra các giá trị cho phù hợp với các điều kiện mà chúng ta đã định nghĩa
-
-**4 Cài đặt Validate Email**
-```
-npm install email-validator
-```
-    
-**5 Cài đặt sass**
+   
+**4 Cài đặt sass**
 
   ```
   npm i sass
@@ -55,7 +50,7 @@ npm install email-validator
   
 - CSS Preprocessors là ngôn ngữ tiền xử lý CSS. Là một ngôn ngữ kịch bản mở rộng của CSS và được biên dịch thành cú pháp CSS giúp bạn viết CSS nhanh hơn và có cấu trúc rõ ràng hơn. CSS Preprocessor có thể giúp bạn tiết kiệm thời gian viết CSS, dễ dàng bảo trì và phát triển CSS.
 
-**6 Cài đặt clsx**
+**5 Cài đặt clsx**
 ```
 npm i clsx hoặc yarn clsx
 ```
