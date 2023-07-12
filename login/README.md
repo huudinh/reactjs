@@ -63,3 +63,9 @@ npx json-server --watch db.json --port 3100
 ```
 - Json server là một server trả về các dữ liệu dưới dạng json.
 - Thông tin tài khoản được tạo sẽ lưu trữ vào file db.json
+
+**7 Cài đặt axios**
+```
+npm install axios
+```
+- Axios là một thư viện máy khách HTTP dựa trên các Promise. Nó làm cho việc gửi các yêu cầu HTTP không đồng bộ đến các điểm cuối REST dễ dàng hơn và giúp bạn thực hiện các hoạt động CRUD.
