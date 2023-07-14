@@ -69,6 +69,21 @@ npx json-server --watch db.json --port 3100
 npm install axios
 ```
 - Axios là một thư viện máy khách HTTP dựa trên các Promise. Nó làm cho việc gửi các yêu cầu HTTP không đồng bộ đến các điểm cuối REST dễ dàng hơn và giúp bạn thực hiện các hoạt động CRUD.
+```reactjs
+// Read API
+
+axios
+  .get(`${API_BASE_URL}/users`)
+  .then(response => {
+      return response.data;
+  })
+  .then(data => {
+      console.log(data)
+  })
+  .catch(error => {
+      // console.log(error.response.data.error)
+  })
+```
 
 **8 Cài đặt bcryptjs**
 ```
