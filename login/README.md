@@ -75,3 +75,28 @@ npm install axios
 npm install bcryptjs --save
 ```
 - Bcrypt là một chức năng mã hóa mật khẩu thiết kế bởi Niels Provos và David Mazières, dựa trên các thuật toán mã hóa Blowfish, và trình bày tại USENIX trong năm 1999. Bcrypt là một nền tảng tập tin tiện ích mã hóa chéo
+
+```Reactjs
+    // Ma hoa
+    const pw = '123'
+    const hashedPassword = bcrypt.hashSync(pw, 10)
+    console.log(pw);
+    console.log(hashedPassword);
+
+    // Add API
+    window.localStorage.setItem('login', hashedPassword);
+
+    // Read API
+    const getHashedPassword = localStorage.getItem('login');
+
+    // So sanh
+    bcrypt.compare(pw, getHashedPassword, function(err, isMatch){
+        if(err){
+            throw err;
+        } else if(!isMatch){
+            console.log("Password doesn't matches!")
+        } else {
+            console.log("Password matches!")
+        }
+    });
+```
