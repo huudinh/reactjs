@@ -1,14 +1,24 @@
 ## Login & Regist Component
 
-### I. Ý tưởng
+### I. Phân tích chức năng
 
-**Phân tích chức năng**
+**1 Yêu cầu**
 
 -   Tạo 2 From đăng ký và đăng nhập
 
 -   Dưới mỗi Form sẽ có nút chuyển màn hình, nếu đang ở Login có thể chuyển sang đăng ký, nếu đang ở đăng ký có thể chuyển sang login
 
--   Sau khi đăng nhập gửi lời chào đến tài khoản 
+-   Sau khi đăng nhập gửi lời chào đến tài khoản
+  
+**2 Giao diện Login**
+
+  => Khi click vào nút submit:
+
+  - Ứng dụng yêu cầu nhập đúng định dạng Email và Password
+  
+  - Khi nhập đúng định dạng thì kiểm tra thông tin có trùng với API trả về hay không
+  
+  - Trường hợp đúng thông tin trả về thì chuyển sang màn hình chính
 
 ### II. Các hook sẽ sử dụng
 
