@@ -1,0 +1,26 @@
+@import url('https://huudinh.github.io/assets/sass/lib.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300&display=swap');
+.form {
+    margin: 20vh auto;
+    max-width: 340px;
+    width: 100%;
+
+    &Title {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    &Link {
+        padding: 12px;
+        font-size: 12px;
+        font-style: italic;
+        cursor: pointer;
+        text-align: center;
+    }
+}
+a{
+    color:blue;
+    &:hover{
+        text-decoration: underline;
+    }
+}

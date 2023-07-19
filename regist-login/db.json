@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "dinhth@scigroup.com.vn",
+      "password": "12345678",
+      "name": "Định",
+      "id": 1
+    },
+    {
+      "name": "kangnam",
+      "email": "dinhth@scigroup.com.vn",
+      "password": "$2a$10$d1keNnXkjBDp9X1xuvgp2eMX0oUHL8lCMd/jTjtSziUdTIhHnyXTK",
+      "id": 2
+    }
+  ]
+}

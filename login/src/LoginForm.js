@@ -29,7 +29,8 @@ export class LoginForm extends React.Component {
           value={password}
           onChange={this.handleChange}
         />
-        <button className="login__button" type="submit">Login</button>
+        <button className="form__button" type="submit">Login</button>
+        <p class="form__link">Create new account</p>
       </form>
     );
   }

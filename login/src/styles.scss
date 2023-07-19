@@ -9,7 +9,7 @@
   font-family: 'Roboto', Helvetica, asans-serif;
 }
 
-.login{
+.form{
   margin: 20vh auto;
   max-width: 340px;
   width: 100%;
@@ -32,6 +32,12 @@
   &__button:hover {
     cursor: pointer;
     background-color: #1da224;
+  }
+  &__link {
+    padding: 12px;
+    font-size: 14px;
+    font-style: italic;
+    cursor: pointer;
   }
 }
 

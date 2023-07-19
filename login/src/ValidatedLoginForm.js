@@ -59,9 +59,10 @@ const ValidatedLoginForm = () => (
           {errors.password && touched.password && (
             <div className="input-feedback">{errors.password}</div>
           )}
-          <button className="login__button" type="submit" disabled={isSubmitting}>
+          <button className="form__button" type="submit" disabled={isSubmitting}>
             Đăng nhập
           </button>
+          <p class="form__link">Create new account</p>
         </form>
       );
     }}

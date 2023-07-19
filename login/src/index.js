@@ -6,8 +6,8 @@ import ValidatedLoginForm from "./ValidatedLoginForm";
 
 function App() {
   return (
-    <div className="App login">
-      <h1 className="login__title">ĐĂNG NHẬP</h1>
+    <div className="App form">
+      <h1 className="form__title">ĐĂNG NHẬP</h1>
       <ValidatedLoginForm />
     </div>
   );
