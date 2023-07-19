@@ -127,3 +127,12 @@ npm install bcryptjs --save
         }
     });
 ```
+
+**9 Cài đặt react-loading**
+```
+npm i react-loading
+```
+hoặc
+```
+yarn add react-loading
+```
