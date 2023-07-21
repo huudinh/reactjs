@@ -20,7 +20,11 @@
   
   - Khi nhập đúng định dạng thì kiểm tra thông tin có trùng với API trả về hay không
   
-  - Trường hợp đúng thông tin trả về thì chuyển sang màn hình chính
+  - Trường hợp đúng thông tin trả về thì chuyển sang màn hình chính (Hiển thị biểu tượng login trong khi chờ chuyển màn hình)
+    
+**2 Giao diện màn hình chính**
+
+  - Hiển thị lời chào đến tên của tài khoản Email đã đăng nhập thành công
 
 ### II. Các hook sẽ sử dụng
 
