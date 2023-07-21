@@ -2,7 +2,7 @@
 
 ### I. Phân tích chức năng
 
-**1 Yêu cầu**
+**1. Yêu cầu**
 
 -   Tạo 2 From đăng ký và đăng nhập
 
@@ -12,7 +12,7 @@
 
 -   Sau khi đăng nhập gửi lời chào đến tài khoản
   
-**2 Giao diện Login**
+**2. Giao diện Login**
 
   => Khi click vào nút submit:
 
@@ -22,9 +22,11 @@
   
   - Trường hợp đúng thông tin trả về thì chuyển sang màn hình chính (Hiển thị biểu tượng login trong khi chờ chuyển màn hình)
     
-**2 Giao diện màn hình chính**
+**3. Giao diện màn hình chính**
 
   - Hiển thị lời chào đến tên của tài khoản Email đã đăng nhập thành công
+    
+  - Hiển thị Logout để thoát tài khoàn (Khi đã thoát tài khoản, yêu cầu phải đăng nhập mới vào được màn hình chính)
 
 ### II. Các hook sẽ sử dụng
 
