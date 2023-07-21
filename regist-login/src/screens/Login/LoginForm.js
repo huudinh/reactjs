@@ -21,13 +21,14 @@ const LoginForm = (props) => (
             );
           });
 
-          // console.log(result);
+          console.log(result);
           if(result == undefined){
             alert('Tài khoản hoặc mật khẩu chưa đúng');
             setSubmitting(false);
           } else {
             setSubmitting(true);
             props.onClick();
+            localStorage.setItem('name', result.name);
           }
         })
         .catch(function (error) {

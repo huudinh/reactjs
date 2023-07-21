@@ -52,7 +52,7 @@ function Regist() {
             <div className="form">
                 <h1 className="formTitle">ĐĂNG KÝ</h1>
                 <RegistForm onClick={handleRegist} />
-                <p class="formLink">
+                <p className="formLink">
                     Click to <Link to="/login">Login</Link>
                 </p>
             </div>

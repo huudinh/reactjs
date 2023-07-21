@@ -12,7 +12,7 @@ function Login() {
         setTimeout(() => {
             navigate('/main');
             setIsLoading(false);
-        }, 30000)
+        }, 3000)
     };
 
     return (
@@ -21,7 +21,7 @@ function Login() {
             <div className="form">
                 <h1 className="formTitle">ĐĂNG NHẬP</h1>
                 <LoginForm onClick={handleLogin}  />
-                <p class="formLink">
+                <p className="formLink">
                     Click to <Link to="/regist">Create new account</Link>
                 </p>
             </div>
