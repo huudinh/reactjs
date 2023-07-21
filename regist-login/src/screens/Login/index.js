@@ -1,17 +1,23 @@
 import LoginForm from "./LoginForm";
 import { Link, useNavigate } from 'react-router-dom';
+import Loading from "../../components/Loading";
+import {useState} from 'react'
 
 function Login() {
+    const [isLoading, setIsLoading] = useState(false);
     const navigate = useNavigate();
-
-    const handleLogin = () => {
+        
+    const handleLogin = () => {  
+        setIsLoading(true);      
         setTimeout(() => {
             navigate('/main');
-        }, 3000)
+            setIsLoading(false);
+        }, 30000)
     };
 
     return (
-        <>
+        <>  
+            {isLoading && <Loading type="spinningBubbles" color="#eee" />}          
             <div className="form">
                 <h1 className="formTitle">ĐĂNG NHẬP</h1>
                 <LoginForm onClick={handleLogin}  />

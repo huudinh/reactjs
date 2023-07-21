@@ -1,44 +1,38 @@
 import React from "react";
 import { Formik } from "formik";
+import * as Yup from "yup";
+import bcrypt from 'bcryptjs';
 import Button from "../../components/Button";
 import Input from "../../components/Input";
-import * as Yup from "yup";
 import { getUser } from '../../api/user';
-import bcrypt from 'bcryptjs';
 
 const LoginForm = (props) => (
   <Formik
     initialValues={{ email: "", password: "" }}
     onSubmit={(values, { setSubmitting }) => {
-
       // Get API User
       getUser() 
         .then(db => {
-          let check = '';
-          for(let item of db.data){
-            if(item.email !== values.email){
-              alert('Tài khoản hoặc mật khẩu chưa đúng');
-              setSubmitting(false);
-              return;
-            }
+          const users = db.data;
+          const result = users.find(user => {
+            return (
+              (values.email == user.email) && 
+              (bcrypt.compareSync(values.password, user.password))
+            );
+          });
 
-            // Check pass
-            if(bcrypt.compareSync(values.password, item.password)){
-              check = true;
-              props.onClick();
-              setSubmitting(true);
-            } else {
-              check = false;
-              setSubmitting(false);
-            }
-          }
-          if(!check){
+          // console.log(result);
+          if(result == undefined){
             alert('Tài khoản hoặc mật khẩu chưa đúng');
+            setSubmitting(false);
+          } else {
+            setSubmitting(true);
+            props.onClick();
           }
         })
         .catch(function (error) {
           console.log(error);
-          alert('Error Network');
+          alert('API Error');
           setSubmitting(false);
         });   
     }}
@@ -65,7 +59,7 @@ const LoginForm = (props) => (
       } = props;
 
       return (
-        <>
+        <>        
         <form onSubmit={handleSubmit}>
           <Input
             default

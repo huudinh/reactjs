@@ -31,7 +31,7 @@ function Regist() {
 
 
     const handleRegist = async (db) => {
-        await axios.post(`${API_BASE_URL}/usersa`, {
+        await axios.post(`${API_BASE_URL}/users`, {
             name: db.name,
             email: db.email,
             password: bcrypt.hashSync(db.password, 10)

@@ -11,6 +11,18 @@
       "email": "dinhth@scigroup.com.vn",
       "password": "$2a$10$d1keNnXkjBDp9X1xuvgp2eMX0oUHL8lCMd/jTjtSziUdTIhHnyXTK",
       "id": 2
+    },
+    {
+      "name": "hong",
+      "email": "hong@scigroup.com.vn",
+      "password": "$2a$10$wV1B/VJnD/hc5k/ih/VutO0HmGTdAkShWfhFDDkMF9SoT2zqahKnK",
+      "id": 3
+    },
+    {
+      "name": "nam",
+      "email": "nam@scigroup.com.vn",
+      "password": "$2a$10$dny66fY2Onf7UsSoobqTkOuEBLS0MywPad5ioFpsNv8cXIluGWq5K",
+      "id": 4
     }
   ]
 }

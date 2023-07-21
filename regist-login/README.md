@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+## Login & Regist Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### I. Phân tích chức năng
 
-## Available Scripts
+**1 Yêu cầu**
 
-In the project directory, you can run:
+-   Tạo 2 From đăng ký và đăng nhập
 
-### `npm start`
+-   Dưới mỗi Form sẽ có nút chuyển màn hình, nếu đang ở Login có thể chuyển sang đăng ký, nếu đang ở đăng ký có thể chuyển sang login
+  
+-   Mỗi khi đăng nhập thành công hoặc đăng ký thành công sẽ loading chờ đợi 3s
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   Sau khi đăng nhập gửi lời chào đến tài khoản
+  
+**2 Giao diện Login**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  => Khi click vào nút submit:
 
-### `npm test`
+  - Ứng dụng yêu cầu nhập đúng định dạng Email và Password
+  
+  - Khi nhập đúng định dạng thì kiểm tra thông tin có trùng với API trả về hay không
+  
+  - Trường hợp đúng thông tin trả về thì chuyển sang màn hình chính
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### II. Các hook sẽ sử dụng
 
-### `npm run build`
+**1 Cài đặt Router**
+  
+```
+npm install react-router-dom@6
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Xử lý vấn đề điều hướng người dùng ở phía trình duyệt, giúp ta có để chuyển đổi qua lại giữa các màn hình của ứng dụng
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**2 Cài đặt Formik**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ```
+  npm install formik --save
+ 
+  //hoăc
+   
+  yarn add formik
+  ```
+  + Nhận giá trị trong và ngoài state form
+  + Validate giá trị và đưa ra lổi
+  + Xử lý việc submit form
 
-### `npm run eject`
+**3 Cài đặt Yup**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm i yup@0.28.5
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  + Yup giúp chung ta xây dựng được một lược đồ để chúng ta có thể kiểm tra các giá trị cho phù hợp với các điều kiện mà chúng ta đã định nghĩa
+   
+**4 Cài đặt sass**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  ```
+  npm i sass
+  ```
+- SASS/SCSS là một chương trình tiền xử lý CSS (CSS preprocessor). Nó giúp bạn viết CSS theo cách của một ngôn ngữ lập trình, có cấu trúc rõ ràng, rành mạch, dễ phát triển và bảo trì code hơn. Ngoài ra nó có rất nhiều các thư viện hỗ trợ kèm theo giúp bạn viết code CSS một cách dễ dàng vào đơn giản hơn. Có rất nhiều loại CSS Preprocessor trong đó bao gồm SASS, Stylus hay LESS.
+  
+- CSS Preprocessors là ngôn ngữ tiền xử lý CSS. Là một ngôn ngữ kịch bản mở rộng của CSS và được biên dịch thành cú pháp CSS giúp bạn viết CSS nhanh hơn và có cấu trúc rõ ràng hơn. CSS Preprocessor có thể giúp bạn tiết kiệm thời gian viết CSS, dễ dàng bảo trì và phát triển CSS.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**5 Cài đặt clsx**
+```
+npm i clsx hoặc yarn clsx
+```
+- Giúp chúng ta thay đổi className một cách linh động và hỗ trợ rất nhiều trường hợp
 
-## Learn More
+**6 Cài đặt json-server**
+```
+npm i -g json-server
+npx json-server --watch db.json --port 3100
+```
+- Json server là một server trả về các dữ liệu dưới dạng json.
+- Thông tin tài khoản được tạo sẽ lưu trữ vào file db.json
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**7 Cài đặt axios**
+```
+npm install axios
+```
+- Axios là một thư viện máy khách HTTP dựa trên các Promise. Nó làm cho việc gửi các yêu cầu HTTP không đồng bộ đến các điểm cuối REST dễ dàng hơn và giúp bạn thực hiện các hoạt động CRUD.
+```reactjs
+// Read API
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+axios
+  .get(`${API_BASE_URL}/users`)
+  .then(response => {
+      return response.data;
+  })
+  .then(data => {
+      console.log(data)
+  })
+  .catch(error => {
+      // console.log(error.response.data.error)
+  })
+```
 
-### Code Splitting
+**8 Cài đặt bcryptjs**
+```
+npm install bcryptjs --save
+```
+- Bcrypt là một chức năng mã hóa mật khẩu thiết kế bởi Niels Provos và David Mazières, dựa trên các thuật toán mã hóa Blowfish, và trình bày tại USENIX trong năm 1999. Bcrypt là một nền tảng tập tin tiện ích mã hóa chéo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```Reactjs
+    // Ma hoa
+    const pw = '123'
+    const hashedPassword = bcrypt.hashSync(pw, 10)
+    console.log(pw);
+    console.log(hashedPassword);
 
-### Analyzing the Bundle Size
+    // Add API
+    window.localStorage.setItem('login', hashedPassword);
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    // Read API
+    const getHashedPassword = localStorage.getItem('login');
 
-### Making a Progressive Web App
+    // So sanh
+    bcrypt.compare(pw, getHashedPassword, function(err, isMatch){
+        if(err){
+            throw err;
+        } else if(!isMatch){
+            console.log("Password doesn't matches!")
+        } else {
+            console.log("Password matches!")
+        }
+    });
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**9 Cài đặt react-loading**
+```
+npm i react-loading
+```
+hoặc
+```
+yarn add react-loading
+```
