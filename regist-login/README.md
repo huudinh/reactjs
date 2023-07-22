@@ -4,13 +4,13 @@
 
 **1. Yêu cầu**
 
--   Tạo 2 From đăng ký và đăng nhập
+-   Tạo From đăng ký, đăng nhập màn hình chính, màn hình đầu
 
 -   Dưới mỗi Form sẽ có nút chuyển màn hình, nếu đang ở Login có thể chuyển sang đăng ký, nếu đang ở đăng ký có thể chuyển sang login
   
 -   Mỗi khi đăng nhập thành công hoặc đăng ký thành công sẽ loading chờ đợi 3s
 
--   Sau khi đăng nhập gửi lời chào đến tài khoản
+-   Sau khi đăng nhập thành công thì sẽ vào trang Main hiển thị gửi lời chào đến tài khoản và nút Logout
 
 -   Khi đã logout thì không thể vào trang main / và khi login thì không thể vào trang login và regist
   
