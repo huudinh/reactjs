@@ -2,6 +2,7 @@ import React from "react";
 import { Formik } from "formik";
 import Input from "../../components/Input";
 import Button from "../../components/Button";
+import { getUser } from '../../api/user';
 import * as Yup from "yup";
 
 const RegistForm = (props) => (
@@ -9,12 +10,32 @@ const RegistForm = (props) => (
     initialValues={{ name: "", email: "", password: "", confirmPassword:"" }}
 
     onSubmit={(values, { setSubmitting }) => {
-      setTimeout(() => {
-        console.log("Logging in", values);
-        props.onClick(values);
-        setSubmitting(true);
-      }, 500);
+      // Get API User
+      getUser() 
+        .then(db => {
+          const users = db.data;
+          const result = users.find(user => {
+            return values.email == user.email;
+          });
+
+          if(result){
+            alert('Email đã tồn tại');
+            setSubmitting(false);
+          } else {
+            setSubmitting(true);
+            props.onClick(values);
+          }
+        })
+        .catch(function () {
+          alert('API Error');
+          setSubmitting(false);
+        });   
     }}
+      // setTimeout(() => {
+      //   props.onClick(values);
+      //   setSubmitting(true);
+      // }, 500);
+    // }}
 
     validationSchema={Yup.object().shape({
       name: Yup.string()

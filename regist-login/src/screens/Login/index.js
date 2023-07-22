@@ -2,9 +2,12 @@ import LoginForm from "./LoginForm";
 import { Link, useNavigate } from 'react-router-dom';
 import Loading from "../../components/Loading";
 import {useState} from 'react'
+import { useLogin } from "../../utils/hook";
 
 function Login() {
     const [isLoading, setIsLoading] = useState(false);
+    useLogin('name');
+
     const navigate = useNavigate();
         
     const handleLogin = () => {  

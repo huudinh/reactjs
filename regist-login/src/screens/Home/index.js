@@ -4,10 +4,9 @@ import DefaultLayout from "../../layouts/DefaultLayout";
 
 const Home = () => {
     const navigate = useNavigate();
+    
     useEffect(() => {
-        setTimeout(() => {
-            navigate('/login');
-        }, 3000)
+        navigate('/login');
     }, [navigate]);
 
     return (

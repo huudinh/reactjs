@@ -12,7 +12,8 @@ const LoginForm = (props) => (
     onSubmit={(values, { setSubmitting }) => {
       // Get API User
       getUser() 
-        .then(db => {
+      .then(db => {
+          const listUser = [];
           const users = db.data;
           const result = users.find(user => {
             return (
@@ -21,7 +22,14 @@ const LoginForm = (props) => (
             );
           });
 
-          console.log(result);
+          users.forEach(user => {
+            listUser.push({
+              name: user.name,
+              email: user.email
+            })
+          });
+
+          // console.log(result);
           if(result == undefined){
             alert('Tài khoản hoặc mật khẩu chưa đúng');
             setSubmitting(false);
@@ -29,6 +37,7 @@ const LoginForm = (props) => (
             setSubmitting(true);
             props.onClick();
             localStorage.setItem('name', result.name);
+            localStorage.setItem('users', JSON.stringify(listUser));
           }
         })
         .catch(function (error) {
@@ -36,7 +45,8 @@ const LoginForm = (props) => (
           alert('API Error');
           setSubmitting(false);
         });   
-    }}
+      }}
+
 
     validationSchema={Yup.object().shape({
       email: Yup.string()
