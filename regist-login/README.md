@@ -11,6 +11,8 @@
 -   Mỗi khi đăng nhập thành công hoặc đăng ký thành công sẽ loading chờ đợi 3s
 
 -   Sau khi đăng nhập gửi lời chào đến tài khoản
+
+-   Khi đã logout thì không thể vào trang main / và khi login thì không thể vào trang login và regist
   
 **2. Giao diện Login**
 
