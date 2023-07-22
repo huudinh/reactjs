@@ -10,6 +10,8 @@
   
 -   Mỗi khi đăng nhập thành công hoặc đăng ký thành công sẽ loading chờ đợi 3s
 
+-   Mỗi Email chỉ được đăng ký 1 lần duy nhất
+
 -   Sau khi đăng nhập thành công thì sẽ vào trang Main hiển thị gửi lời chào đến tài khoản và nút Logout
 
 -   Khi đã logout thì không thể vào trang main / và khi login thì không thể vào trang login và regist
