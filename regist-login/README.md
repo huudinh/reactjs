@@ -146,3 +146,23 @@ hoặc
 ```
 yarn add react-loading
 ```
+
+**10 Cài đặt react-data-table-component-extensions**
+```
+$ npm install react-data-table-component styled-components
+```
+và
+```
+$ npm install react-data-table-component-extensions
+
+```
+
+- Xuất tệp ở định dạng *.csv và *.xls.
+  
+- In dữ liệu bảng.
+  
+- Lọc dữ liệu bảng theo tất cả các cột.
+
+- Lọc bảng theo độ dài chữ số. Giá trị mặc định là 2.
+  
+*Link demo (https://codesandbox.io/s/data-table-extensions-qxpv4?fontsize=14)*
