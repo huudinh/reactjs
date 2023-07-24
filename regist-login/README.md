@@ -32,6 +32,8 @@
     
   - Hiển thị Logout để thoát tài khoàn (Khi đã thoát tài khoản, yêu cầu phải đăng nhập mới vào được màn hình chính)
 
+  - Hiển thị danh sách các user có trong hệ thống
+
 ### II. Các hook sẽ sử dụng
 
 **1 Cài đặt Router**
