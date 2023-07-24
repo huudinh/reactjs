@@ -93,9 +93,9 @@ npx json-server --watch db.json --port 3100
 npm install axios
 ```
 - Axios là một thư viện máy khách HTTP dựa trên các Promise. Nó làm cho việc gửi các yêu cầu HTTP không đồng bộ đến các điểm cuối REST dễ dàng hơn và giúp bạn thực hiện các hoạt động CRUD.
-```reactjs
-// Read API
 
+- Read API
+```
 axios
   .get(`${API_BASE_URL}/users`)
   .then(response => {
@@ -107,6 +107,20 @@ axios
   .catch(error => {
       // console.log(error.response.data.error)
   })
+```
+
+// Delete API
+```
+export const handleDelete = async (id) => {
+    // const id = 2;
+    await axios.delete(`${API_BASE_URL}/users/${id}`)
+        .then(response => {
+            console.log(`Deleted post with ID ${id}`);
+        })
+        .catch(error => {
+            console.error(error);
+        });
+};
 ```
 
 **8 Cài đặt bcryptjs**
