@@ -182,3 +182,8 @@ $ npm install react-data-table-component-extensions
 - Lọc bảng theo độ dài chữ số. Giá trị mặc định là 2.
   
 *Link demo (https://codesandbox.io/s/data-table-extensions-qxpv4?fontsize=14)*
+
+**11 Cài đặt sweetalert2**
+```
+npm install --save sweetalert2 sweetalert2-react-content
+```
