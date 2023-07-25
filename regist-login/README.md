@@ -204,3 +204,4 @@ MySwal.fire({
   return MySwal.fire(<p>Shorthand works too</p>)
 })
 ```
+* Link doc https://sweetalert2.github.io/
