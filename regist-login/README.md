@@ -34,6 +34,8 @@
 
   - Hiển thị danh sách các user có trong hệ thống
 
+  - Sửa Tên cho tài khoản và có thể xóa tài khoản
+
 ### II. Các hook sẽ sử dụng
 
 **1 Cài đặt Router**
