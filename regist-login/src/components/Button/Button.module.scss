@@ -7,6 +7,14 @@
     transition: .6s;
     width: 100%;
     color: #fff;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.edit{
+    border-radius: 4px;
+    width:auto;
+    padding: 6px;
 }
 .default {
     color:#000;
@@ -20,23 +28,34 @@
     background-color: #4caf50;
     border-color: #4cae4c;
     &:hover {
-        cursor: pointer;
         background-color: #1da224;
     }
 }
 .info {
     background-color: #5bc0de;
     border-color: #46b8da;
+    &:hover{
+        background-color: #31b0d5;
+        border-color: #269abc;
+    }
 }
 
 .warning {
     background-color: #f0ad4e;
     border-color: #eea236;
+    &:hover{
+        background-color: #ec971f;
+        border-color: #d58512;
+    }
 }
 
 .danger {
     background-color: #d9534f;
     border-color: #d43f3a;
+    &:hover{
+        background-color: #c9302c;
+        border-color: #ac2925;
+    }
 }
 
 .disabled{

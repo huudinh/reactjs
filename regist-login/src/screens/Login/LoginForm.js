@@ -17,7 +17,7 @@ const LoginForm = (props) => (
           const users = db.data;
           const result = users.find(user => {
             return (
-              (values.email == user.email) && 
+              (values.email === user.email) && 
               (bcrypt.compareSync(values.password, user.password))
             );
           });
@@ -25,19 +25,20 @@ const LoginForm = (props) => (
           users.forEach(user => {
             listUser.push({
               name: user.name,
-              email: user.email
+              email: user.email,
+              id: user.id
             })
           });
 
           // console.log(result);
-          if(result == undefined){
+          if(result === undefined){
             alert('Tài khoản hoặc mật khẩu chưa đúng');
             setSubmitting(false);
           } else {
             setSubmitting(true);
             props.onClick();
             localStorage.setItem('name', result.name);
-            localStorage.setItem('users', JSON.stringify(listUser));
+            // localStorage.setItem('users', JSON.stringify(listUser));
           }
         })
         .catch(function (error) {

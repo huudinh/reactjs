@@ -1,64 +1,63 @@
 {
   "users": [
     {
+      "id": 2,
+      "name": "Trieu Huu Dinh",
       "email": "dinhth@scigroup.com.vn",
-      "password": "12345678",
-      "name": "Định",
-      "id": 1
+      "password": "$2a$10$Iyif6kncLVduAjL3xwH3.O7qwiSGoTIQ/1ug.r3UYdj2PqPeXVdQK"
     },
     {
-      "name": "kangnam",
-      "email": "dinhth@scigroup.com.vn",
-      "password": "$2a$10$d1keNnXkjBDp9X1xuvgp2eMX0oUHL8lCMd/jTjtSziUdTIhHnyXTK",
-      "id": 2
+      "id": 3,
+      "name": "Nguyen Nhat Hai",
+      "email": "hai@scigroup.com.vn",
+      "password": "$2a$10$D65rBcenNweunkcx/uxyu.YJCyFukovAuuSceJW.vWOldCjWgiGCm"
     },
     {
-      "name": "hong",
-      "email": "hong@scigroup.com.vn",
-      "password": "$2a$10$wV1B/VJnD/hc5k/ih/VutO0HmGTdAkShWfhFDDkMF9SoT2zqahKnK",
-      "id": 3
+      "id": 5,
+      "name": "Nguyen Thi Nhan",
+      "email": "nhan@scigroup.com.vn"
     },
     {
-      "name": "nam",
-      "email": "nam@scigroup.com.vn",
-      "password": "$2a$10$dny66fY2Onf7UsSoobqTkOuEBLS0MywPad5ioFpsNv8cXIluGWq5K",
-      "id": 4
+      "id": 6,
+      "name": "Dao Hau",
+      "email": "hau@scigroup.com.vn",
+      "password": "$2a$10$qFv0tadjiBk8gob7pz8NHuwYqN7QFkqRwKMdyLkTXTSf8eHo7ghf2"
     },
     {
-      "name": "Bình",
-      "email": "binh@scigroup.com.vn",
-      "password": "$2a$10$Tf9dl4q4X/PT/GM0YilquuA0f6qHDVnEIBQbY0gD.CEIeP8pzdbsy",
-      "id": 5
+      "id": 7,
+      "name": "Quoc Viet",
+      "email": "viet@scigroup.com.vn",
+      "password": "$2a$10$xXVdgg/HqZJFno63TlkwoO9wV1DPmaqJazSN6U6gHzXqPjA9WPo86"
     },
     {
+      "id": 8,
       "name": "Nhung",
       "email": "nhung@scigroup.com.vn",
-      "password": "$2a$10$4rr8OxBgSsgtVyV5Cz.bfOCXyah13CN.lgZpDjgsfO6HZYKCt7Qji",
-      "id": 6
+      "password": "$2a$10$jn2wzC5ttrx1aEyp7T/bIux4Aeeb.8vEvDQU3sn6SmT/KXDQC54Eq"
     },
     {
-      "name": "Hai",
-      "email": "hai@scigroup.com.vn",
-      "password": "$2a$10$rBndFCvhsGjMcG.JW4PO3.3EsvWErO6/VVNA7TQ6nb1W263jc/usy",
-      "id": 7
+      "id": 9,
+      "name": "Phạm Thành Nam",
+      "email": "nam@scigroup.com.vn",
+      "password": "$2a$10$t9ePYwgUoC0Svd7Apa9uNOQMv3J64ZEnmQ6T6Zau/N.gSbzO0Wd7m"
     },
     {
-      "name": "Thuy",
-      "email": "thuy@scigroup.com.vn",
-      "password": "$2a$10$oIvxMnED.5MpfwmQfRgONuRLJsWzJs1Eh6QLO1hC0XEnslFZ72lWu",
-      "id": 8
+      "id": 11,
+      "name": "Trang",
+      "email": "trang@scigroup.com.vn",
+      "password": "$2a$10$M2uoGH5qoHTprTNPWYtrxeHMFjEFKJQZwKU2jIlhNJxjdgu8qLWb."
     },
     {
-      "name": "Chau",
-      "email": "thuy@scigroup.com.vn",
-      "password": "$2a$10$XXFxDOEhQzioOSNZiHHOIOBXkNmZ3j2ufWcsv6nvq8BNT43oEtj36",
-      "id": 9
+      "id": 13,
+      "name": "Nguyen Anh",
+      "email": "anh@scigroup.com.vn",
+      "password": "$2a$10$eYXYNfs.3WN134w9NKTvR.vJo2SUh4rxX79qAAHQwCUZwY29eQ/Ka"
     },
     {
-      "name": "Quang",
-      "email": "quang@scigroup.com.vn",
-      "password": "$2a$10$N/dRGlEDEm29uKUHDq1j8e2C9s91EPyrVuUqNg/51E5MKprlq5qaS",
-      "id": 10
+      "id": 14,
+      "name": "Đức",
+      "email": "duc@scigroup.com.vn",
+      "password": "$2a$10$Ryig3A0X3QV01skPbvU4t.Azh.HuyL.Qx1hGeydMp7tdg8VDrm4VS"
     }
   ]
 }

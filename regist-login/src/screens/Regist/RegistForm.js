@@ -8,14 +8,12 @@ import * as Yup from "yup";
 const RegistForm = (props) => (
   <Formik
     initialValues={{ name: "", email: "", password: "", confirmPassword:"" }}
-
     onSubmit={(values, { setSubmitting }) => {
-      // Get API User
       getUser() 
         .then(db => {
           const users = db.data;
           const result = users.find(user => {
-            return values.email == user.email;
+            return values.email === user.email;
           });
 
           if(result){
@@ -31,11 +29,6 @@ const RegistForm = (props) => (
           setSubmitting(false);
         });   
     }}
-      // setTimeout(() => {
-      //   props.onClick(values);
-      //   setSubmitting(true);
-      // }, 500);
-    // }}
 
     validationSchema={Yup.object().shape({
       name: Yup.string()

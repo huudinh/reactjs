@@ -4,6 +4,7 @@ import styles from './Button.module.scss';
 function Button(props) {
     const classes = clsx(styles.btn, {
         [styles.default]: props.default,
+        [styles.edit]: props.edit,
         [styles.primary]: props.primary,
         [styles.success]: props.success,
         [styles.info]: props.info,
@@ -13,7 +14,7 @@ function Button(props) {
     });
     
     return (
-        <button className={classes} type="submit" disabled={props.disabled} >
+        <button className={classes} t={props.id} onClick={props.handleClick} type="submit" disabled={props.disabled} >
             {props.children} 
         </button>
     )

@@ -1,21 +1,23 @@
 import LoginForm from "./LoginForm";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Loading from "../../components/Loading";
-import {useState} from 'react'
-import { useLogin } from "../../utils/hook";
+import {useEffect, useState} from 'react'
+import { useCheckLogin } from "../../utils/hook";
 
 function Login() {
     const [isLoading, setIsLoading] = useState(false);
-    useLogin('name');
-
-    const navigate = useNavigate();
-        
+    const check = useCheckLogin();    
+    
+    useEffect(()=> {
+        check.login();        
+    });
+    
     const handleLogin = () => {  
-        setIsLoading(true);      
+        setIsLoading(true);              
         setTimeout(() => {
-            navigate('/main');
+            check.login();
             setIsLoading(false);
-        }, 3000)
+        }, 1000)
     };
 
     return (
