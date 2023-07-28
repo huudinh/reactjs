@@ -7,6 +7,7 @@
 - Chọn ổ cứng và thư mục để lưu trữ App, Sử dụng Terminal gõ lệnh `npx create-react-app regist-login`. Trong đó `regist-login` là tên thư mục App
 
 **2 Làm việc với file index.js**
+
     ```
     import React from 'react';
     import ReactDOM from 'react-dom/client';
