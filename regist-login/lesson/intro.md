@@ -52,55 +52,8 @@
   
   + `index.js`: Dùng để thiết lập Router và gọi đến thư mục App
 
-     ```
-    import React from 'react';
-    import ReactDOM from 'react-dom/client';
-    import { BrowserRouter as Router } from 'react-router-dom';
-    import App from './App';
-    import reportWebVitals from './reportWebVitals';
-    
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(
-      <React.StrictMode>
-        <Router>
-          <App />
-        </Router>
-      </React.StrictMode>
-    );
-    
-    reportWebVitals();
-     ```
-
   + `App.js`: Dùng để khai báo các đường dẫn cho Router
-
-    ```
-    import { Routes, Route } from 'react-router-dom';
-    import Home from './screens/Home';
-    import Login from './screens/Login';
-    import Regist from './screens/Regist';
-    import Main from './screens/Main';
-    import GlobalStyle from './components/GlobalStyles';
     
-    function App() {
-      return (
-        <GlobalStyle>
-          <div className="App">
-            <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/login' element={<Login />} />
-              <Route path='/regist' element={<Regist />} />
-              <Route path='/main' element={<Main />} />
-              <Route path="*" element={<h1>Page not found</h1>} />
-            </Routes>
-          </div>
-        </GlobalStyle>
-      );
-    }
-    
-    export default App;
-    ```
-    
-
 - `Components`: Đây là mục lữu trữ các components được sử dụng lại nhiều lần. Ví dụ: Input, Button, ...
 
 - `Layout`: Lưu trữ các bố cục giao diện, layout mặc định sẽ là `DefaultLayout`
