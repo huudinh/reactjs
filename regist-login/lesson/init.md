@@ -1,4 +1,6 @@
-### III. Bắt đầu làm App
+## Login & Regist Component / Init App
+
+### 1. Bắt đầu làm App
 
 **1 Khởi tạo App**
 
