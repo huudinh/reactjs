@@ -65,3 +65,87 @@ function App() {
 
 export default App;
 ```
+
+- Trong thư mục `screens` Tạo các components Home, Login, Regist, Main
+
+- Import các screen tương tứng vào trong file App.js
+
+- Trong thư mục `components` tạo components GlobalStyles index.js và GlobalStyles.scss (components này sẽ chứa tất cả các css khai báo chung của app)
+
+- index.js
+  ```
+  import './GlobalStyle.scss';
+  
+  function GlobalStyle({children}) {
+      return children;
+  }
+  
+  export default GlobalStyle;
+  ```
+
+  - GlobalStyle.scss
+  ```
+  @import url('https://huudinh.github.io/assets/sass/lib.min.css');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300&display=swap');
+  @import url('https://huudinh.github.io/assets/sass/icon.min.css');
+  @font-face {
+      font-family: 'fontello';
+      src: url(https://huudinh.github.io/assets/fonts/fontello.woff2) format("woff2"),
+      url(https://huudinh.github.io/assets/fonts/fontello.woff) format("woff");
+  }
+  .form {
+      margin: 20vh auto;
+      max-width: 340px;
+      width: 100%;
+  
+      &Title {
+          text-align: center;
+          margin: 30px 0;
+      }
+  
+      &Link {
+          padding: 12px;
+          font-size: 12px;
+          font-style: italic;
+          cursor: pointer;
+          text-align: center;
+      }
+  }
+  a{
+      color:blue;
+      &:hover{
+          text-decoration: underline;
+      }
+  }
+  
+  // Data table
+  .dlink {
+      text-decoration: none !important;
+      color: #03a9f3 !important;
+  }
+  
+  .data-table-extensions-filter {
+      border: 1px solid lightgray;
+      border-radius: 50px;
+      padding: 3px 5px;
+      width: 70%;
+  }
+  
+  .first {
+      padding-right: 10px !important;
+  }
+  
+  .filter-text {
+      border: none !important;
+      width: 80%;
+  }
+  .data-table-extensions{width:290px}
+  label.icon {
+      margin: 1px 0 0 5px;
+  }
+  code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  ```
+- 
