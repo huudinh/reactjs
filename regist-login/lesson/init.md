@@ -33,7 +33,7 @@ reportWebVitals();
 
 - Components của Router phải lồng bên ngoài của components App
   
-**2 Làm việc với file App.js**
+**2 Làm việc với component App.js**
 
 ```
 import { Routes, Route } from 'react-router-dom';
@@ -66,9 +66,12 @@ export default App;
 
 - Import các screen tương tứng vào trong file App.js
 
+**3 Làm việc với component GlobalStyles**
+
 - Trong thư mục `components` tạo components GlobalStyles index.js và GlobalStyles.scss (components này sẽ chứa tất cả các css khai báo chung của app)
 
-  + index.js
+- index.js
+  
   ```
   import './GlobalStyle.scss';
   
@@ -79,7 +82,8 @@ export default App;
   export default GlobalStyle;
   ```
 
-  + GlobalStyle.scss
+- GlobalStyle.scss
+  
   ```
   @import url('https://huudinh.github.io/assets/sass/lib.min.css');
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300&display=swap');
