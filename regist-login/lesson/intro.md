@@ -46,7 +46,9 @@
 
   - Sửa Tên cho tài khoản và có thể xóa tài khoản
 
-### II. Các hook sẽ sử dụng
+### II. Cấu trúc ứng dụng
+
+### III. Các hook sẽ sử dụng
 
 **1 Cài đặt Router**
   
