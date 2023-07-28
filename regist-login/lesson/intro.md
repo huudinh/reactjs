@@ -16,17 +16,7 @@
 
 -   Khi đã logout thì không thể vào trang main / và khi login thì không thể vào trang login và regist
   
-**2. Giao diện Regist**
-
-  - Mỗi Email chỉ đăng ký 1 lần
-
-  - Dưới Form đăng ký có link điều hướng san màn Login
-
-  - Validate Email, Password
-
-  - Sau khi đăng ký thành công tự động chuyển sang màn Login
-
-**3. Giao diện Login**
+**2. Giao diện Login**
 
   => Khi click vào nút submit:
 
@@ -35,6 +25,16 @@
   - Khi nhập đúng định dạng thì kiểm tra thông tin có trùng với API trả về hay không
   
   - Trường hợp đúng thông tin trả về thì chuyển sang màn hình chính (Hiển thị biểu tượng login trong khi chờ chuyển màn hình)
+
+**3. Giao diện Regist**
+
+  - Mỗi Email chỉ đăng ký 1 lần
+
+  - Dưới Form đăng ký có link điều hướng san màn Login
+
+  - Validate Email, Password
+
+  - Sau khi đăng ký thành công tự động chuyển sang màn Login
     
 **4. Giao diện màn hình chính**
 
