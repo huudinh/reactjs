@@ -1,7 +1,20 @@
 ## Login & Regist Component / Login
 
+### Mục Lục
+
+- [1. Làm việc với file index.js](#index)
+- [2. Làm việc với component LoginForm](#login-form)
+- [3. Làm việc với component Input](#input)
+- [4. Làm việc với Input.module.scss](#input-sass)
+- [5. Làm việc với component Button](#button)
+- [6. Làm việc với Button.module.scss](#button-sass)
+- [7. Xây dựng file src/api/user.js](#user)
+- [8. Xây dựng file src/api/http.js](#http)
+
+
 ### Giao diện Login
 
+<a name="index"></a>
 **1. Làm việc với file index.js**
 
 ```
@@ -49,7 +62,7 @@ export default Login;
 
 - Sử dụng component `Link` để điều hướng và màn hình đăng ký
 
-
+<a name="login-form"></a>
 **2. Làm việc với component LoginForm**
 ```
 import React from "react";
@@ -158,6 +171,7 @@ export default LoginForm;
 
 - Sau khi đăng nhập thành công chuyển đến màn hình main, và lưu trữ tên cùng id của user đăng nhập vào localStorage
 
+<a name="input"></a>
 **3. Làm việc với component Input**
 ```
 import clsx from 'clsx';
@@ -202,6 +216,7 @@ export default Input;
 
 - Render ra lable, input, Error
 
+<a name="input-sass"></a>
 **4. Làm việc với Input.module.scss**
 ```
 .input {
@@ -276,6 +291,7 @@ input.error {
 }
 ```
 
+<a name="button"></a>
 **5. Làm việc với component Button**
 ```
 import clsx from 'clsx';
@@ -301,6 +317,7 @@ function Button(props) {
 }
 export default Button;
 ```
+<a name="button-sass"></a>
 **6. Làm việc với Button.module.scss**
 ```
 .btn {
@@ -369,6 +386,7 @@ export default Button;
 }
 
 ```
+<a name="user"></a>
 **7. Xây dựng file src/api/user.js**
 
 ```
@@ -386,6 +404,7 @@ export const editUser = async (id, data) => {
 };
 
 ```
+<a name="http"></a>
 **8. Xây dựng file src/api/http.js**
 ```
 import axios from "axios";
