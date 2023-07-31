@@ -1,5 +1,11 @@
 ## Login & Regist Component
 
+### Mục lục
+1. [Phân tích chức năng](#phan-tich-chuc-nang)
+2. [Cấu trúc ứng dụng](#cau-truc-ung-dung)
+3. [Các hook sẽ sử dụng](#cac-hook-se-su-dung)
+
+<a name="phan-tich-chuc-nang"></a>
 ### I. Phân tích chức năng
 
 **1. Yêu cầu**
@@ -46,6 +52,7 @@
 
   - Sửa Tên cho tài khoản và có thể xóa tài khoản
 
+<a name="cau-truc-ung-dung"></a>
 ### II. Cấu trúc ứng dụng
 
 - Tất cả ứng dụng sẽ nằm trong mục `src`, trong thư mục này sẽ có 2 file chính là
@@ -62,7 +69,7 @@
 
 - `utils`: Lưu trữ các hook, và các hằng số
 
-
+<a name="cac-hook-se-su-dung"></a>
 ### III. Các hook sẽ sử dụng
 
 **1 Cài đặt Router**
