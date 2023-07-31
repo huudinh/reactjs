@@ -33,7 +33,7 @@ reportWebVitals();
 
 - Components của Router phải lồng bên ngoài của components App
   
-**2 Làm việc với component App.js**
+**3 Làm việc với component App.js**
 
 ```
 import { Routes, Route } from 'react-router-dom';
@@ -66,7 +66,7 @@ export default App;
 
 - Import các screen tương tứng vào trong file App.js
 
-**3. Làm việc với component GlobalStyles**
+**4. Làm việc với component GlobalStyles**
 
 - Trong thư mục `components` tạo components GlobalStyles index.js và GlobalStyles.scss (components này sẽ chứa tất cả các css khai báo chung của app)
 
@@ -148,7 +148,7 @@ export default App;
       monospace;
   }
   ```
-**4. Làm việc với component Home**
+**5. Làm việc với component Home**
 ```
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
@@ -177,7 +177,7 @@ export default Home;
 
 - Khi truy cập vào Component Home thì ứng dụng sẽ tự động điều hướng sang companent Login
 
-**5. Làm việc với component DefaultLayout**
+**6. Làm việc với component DefaultLayout**
 
 ```
 const DefaultLayout = ({children}) => {
