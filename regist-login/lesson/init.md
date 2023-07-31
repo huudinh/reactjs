@@ -176,3 +176,19 @@ export default Home;
 - Component `Home` sẽ nằm trong component `DefaultLayout`
 
 - Khi truy cập vào Component Home thì ứng dụng sẽ tự động điều hướng sang companent Login
+
+**5. Làm việc với component DefaultLayout**
+
+```
+const DefaultLayout = ({children}) => {
+    return (
+        <div className="container">
+            {children}
+        </div>
+    );
+}
+
+export default DefaultLayout;
+```
+
+- Component `DefaultLayout` giúp chúng ta sẽ mở rộng hệ thống, dễ dàng chia ứng dụng thày nhiều Layout gọi đến các component
