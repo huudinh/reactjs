@@ -421,3 +421,5 @@ export default http
 ```
 export const API_BASE_URL = 'http://localhost:3100';
 ```
+
+*Bài tiếp theo [Màn hình Register](/regist-login/lesson/register.md)*
