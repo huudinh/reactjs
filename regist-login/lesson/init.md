@@ -191,4 +191,6 @@ const DefaultLayout = ({children}) => {
 export default DefaultLayout;
 ```
 
-- Component `DefaultLayout` giúp chúng ta sẽ mở rộng hệ thống, dễ dàng chia ứng dụng thày nhiều Layout gọi đến các component
+- Component `DefaultLayout` nằm trong thự mục `layout/DefaultLayout.js`
+
+- Component `DefaultLayout` giúp chúng ta có thể mở rộng hệ thống, dễ dàng chia ứng dụng thành nhiều Layout gọi đến các component
