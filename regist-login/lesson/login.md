@@ -80,7 +80,11 @@ const LoginForm = (props) => (
           } else {
             setSubmitting(true);
             props.onClick();
-            localStorage.setItem('name', result.name);
+            const data = {
+              id: result.id,
+              name: result.name,
+            }
+            localStorage.setItem('name', JSON.stringify(data));
           }
         })
         .catch(function (error) {
@@ -88,7 +92,6 @@ const LoginForm = (props) => (
           setSubmitting(false);
         });   
       }}
-
 
     validationSchema={Yup.object().shape({
       email: Yup.string()
