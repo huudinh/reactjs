@@ -209,3 +209,5 @@ export default DefaultLayout;
 - Component `DefaultLayout` nằm trong thự mục `layout/DefaultLayout.js`
 
 - Component `DefaultLayout` giúp chúng ta có thể mở rộng hệ thống, dễ dàng chia ứng dụng thành nhiều Layout gọi đến các component
+
+*Bài tiếp theo [Màn hình Login](/login.md)*
