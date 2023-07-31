@@ -73,7 +73,7 @@
 
   - Hiển thị danh sách các user có trong hệ thống
 
-  - Sửa Tên cho tài khoản và có thể xóa tài khoản (không tể xóa tài khoản đã đăng nhập)
+  - Sửa Tên cho tài khoản và có thể xóa tài khoản (không thể xóa tài khoản đã đăng nhập)
 
 <a name="cau-truc-ung-dung"></a>
 ### II. Cấu trúc ứng dụng
