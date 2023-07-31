@@ -143,10 +143,129 @@ const LoginForm = (props) => (
 
 export default LoginForm;
 ```
-- Render Conponent Input, Button
+- Render Components Input, Button
   
 - Import thư viện Formik và Yup để Validate dữ liệu Login
 
 - Sử dụng Axiox để đọc dữ data từ API
 
 - Sử dụng bcrypt để so sánh mật khẩu nhập vào từ UI và API
+
+**3. Làm việc với component Input**
+```
+import clsx from 'clsx';
+import styles from './Input.module.scss';
+
+function Input(props) {
+    const classes = clsx(styles.input,  {
+        [styles.default]: props.default,
+        [styles.primary]: props.primary,
+        [styles.success]: props.success,
+        [styles.info]: props.info,
+        [styles.warning]: props.warning,
+        [styles.danger]: props.danger,
+        [styles.disabled]: props.disabled,
+        [styles.error]:props.className
+    });
+
+    const feedback = clsx(styles.feedback);
+    
+    return (
+        <>
+            <label htmlFor={props.name}>{props.label}</label>
+            <input
+                id={props.name}
+                name={props.name}
+                type={props.type}
+                placeholder={'Enter your ' + props.label}
+                value={props.value}
+                onChange={props.onChange}
+                onBlur={props.onBlur}
+                className={classes}
+            />
+            {props.className && (
+                <div className={feedback}>{props.errorMessage}</div>
+            )}
+        </>
+    )
+}
+export default Input;
+```
+- File index.js sử dụng thư viện clsx và kỹ thuật module để đọc class
+
+- Render ra lable, input, Error
+
+**4. Làm việc với Input.module.scss**
+```
+.input {
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .6s;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 10px;
+    background: #eee;
+    border: 1px solid #eee;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    height: 22px;
+    margin-left: 15px;
+}
+
+input.error {
+    border-color: red;
+}
+
+.feedback {
+    color: rgb(235, 54, 54);
+    margin-top: -5px;
+    font-size: 13px;
+    padding-left: 15px;
+    font-style: italic;
+}
+.default {
+    color:#000;
+}
+.primary {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.success {
+    background-color: #4caf50;
+    border-color: #4cae4c;
+    &:hover {
+        cursor: pointer;
+        background-color: #1da224;
+    }
+}
+.info {
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.warning {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.disabled{
+    opacity: .5;
+    pointer-events: none;
+}
+```
+
