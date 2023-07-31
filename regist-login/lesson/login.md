@@ -156,6 +156,8 @@ export default LoginForm;
 
 - Sử dụng bcrypt để so sánh mật khẩu nhập vào từ UI và API
 
+- Sau khi đăng nhập thành công chuyển đến màn hình main, và lưu trữ tên cùng id của user đăng nhập vào localStorage
+
 **3. Làm việc với component Input**
 ```
 import clsx from 'clsx';
