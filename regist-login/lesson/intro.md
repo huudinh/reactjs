@@ -281,3 +281,5 @@ MySwal.fire({
 })
 ```
 * Link doc https://sweetalert2.github.io/
+
+*Bài tiếp theo [Khởi tạo app](/regist-login/lesson/init.md)*
