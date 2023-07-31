@@ -1,11 +1,22 @@
 ## Login & Regist Component / Init App
 
+### Mục Lục
+
+- [1. Khởi tạo App](#init)
+- [2. Làm việc với file index.js](#index)
+- [3. Làm việc với component App.js](#app)
+- [4. Làm việc với component GlobalStyles](#global-style)
+- [5. Làm việc với component Home](#home)
+- [6. Làm việc với component DefaultLayout](#default-layout)
+
 ### Bắt đầu làm App
 
+<a name="init"></a>
 **1. Khởi tạo App**
 
 - Chọn ổ cứng và thư mục để lưu trữ App, Sử dụng Terminal gõ lệnh `npx create-react-app regist-login`. Trong đó `regist-login` là tên thư mục App
 
+<a name="index"></a>
 **2. Làm việc với file index.js**
 
 ```
@@ -32,7 +43,8 @@ reportWebVitals();
 - Impornt thư viện của router để sử dụng ` import { BrowserRouter as Router } from 'react-router-dom';`
 
 - Components của Router phải lồng bên ngoài của components App
-  
+
+<a name="app"></a>
 **3 Làm việc với component App.js**
 
 ```
@@ -66,6 +78,7 @@ export default App;
 
 - Import các screen tương tứng vào trong file App.js
 
+<a name="global-style"></a>
 **4. Làm việc với component GlobalStyles**
 
 - Trong thư mục `components` tạo components GlobalStyles index.js và GlobalStyles.scss (components này sẽ chứa tất cả các css khai báo chung của app)
@@ -148,6 +161,7 @@ export default App;
       monospace;
   }
   ```
+<a name="home"></a>
 **5. Làm việc với component Home**
 ```
 import { useEffect } from "react";
@@ -177,6 +191,7 @@ export default Home;
 
 - Khi truy cập vào Component Home thì ứng dụng sẽ tự động điều hướng sang companent Login
 
+<a name="default-layout"></a>
 **6. Làm việc với component DefaultLayout**
 
 ```
