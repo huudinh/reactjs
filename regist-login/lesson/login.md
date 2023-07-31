@@ -364,3 +364,36 @@ export default Button;
 }
 
 ```
+**7. Xây dựng file src/api/user.js**
+
+```
+import http from "./http";
+
+export const getUser = async () => {
+    return await http.get(`/users`)
+};
+export const deleteUser = async (id) => {
+    return await http.delete(`/users/${id}`)
+};
+
+export const editUser = async (id, data) => {
+    return await http.put(`/users/${id}`, data)
+};
+
+```
+**8. Xây dựng file src/api/http.js**
+```
+import axios from "axios";
+import { API_BASE_URL } from "../utils/const";
+
+const http = axios.create({
+    baseURL: API_BASE_URL,
+})
+
+export default http
+```
+
+**9. Xây dựng file src/utils/const.js**
+```
+export const API_BASE_URL = 'http://localhost:3100';
+```
