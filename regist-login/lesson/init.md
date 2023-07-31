@@ -1,12 +1,12 @@
 ## Login & Regist Component / Init App
 
-### 1. Bắt đầu làm App
+### Bắt đầu làm App
 
-**1 Khởi tạo App**
+**1. Khởi tạo App**
 
 - Chọn ổ cứng và thư mục để lưu trữ App, Sử dụng Terminal gõ lệnh `npx create-react-app regist-login`. Trong đó `regist-login` là tên thư mục App
 
-**2 Làm việc với file index.js**
+**2. Làm việc với file index.js**
 
 ```
 import React from 'react';
@@ -66,7 +66,7 @@ export default App;
 
 - Import các screen tương tứng vào trong file App.js
 
-**3 Làm việc với component GlobalStyles**
+**3. Làm việc với component GlobalStyles**
 
 - Trong thư mục `components` tạo components GlobalStyles index.js và GlobalStyles.scss (components này sẽ chứa tất cả các css khai báo chung của app)
 
@@ -148,3 +148,31 @@ export default App;
       monospace;
   }
   ```
+**4. Làm việc với component Home**
+```
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import DefaultLayout from "../../layouts/DefaultLayout";
+
+const Home = () => {
+    const navigate = useNavigate();
+    
+    useEffect(() => {
+        navigate('/login');
+    }, [navigate]);
+
+    return (
+        <DefaultLayout>
+            <h1>Home</h1>
+        </DefaultLayout>
+    )
+}
+
+export default Home;
+```
+
+- Component `Home` nằm trong thự mục `screens/Home/index.js`, đây là thư mục đầu tiên khi bạn truy cập vào hệ thống
+
+- Component `Home` sẽ nằm trong component `DefaultLayout`
+
+- Khi truy cập vào Component Home thì ứng dụng sẽ tự động điều hướng sang companent Login
