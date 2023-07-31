@@ -53,6 +53,12 @@ export const handleDelete = async (id) => {
 };
 ```
 
+react-js-pagination
+**4 Cài đặt react-js-pagination**
+```
+npm install react-js-pagination
+```
+
 <a name="data-table-component"></a>
 **10 Cài đặt react-data-table-component-extensions**
 ```
