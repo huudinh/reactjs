@@ -10,10 +10,8 @@ const LoginForm = (props) => (
   <Formik
     initialValues={{ email: "", password: "" }}
     onSubmit={(values, { setSubmitting }) => {
-      // Get API User
-      getUser() 
+      getUser()
       .then(db => {
-          const listUser = [];
           const users = db.data;
           const result = users.find(user => {
             return (
@@ -22,32 +20,24 @@ const LoginForm = (props) => (
             );
           });
 
-          users.forEach(user => {
-            listUser.push({
-              name: user.name,
-              email: user.email,
-              id: user.id
-            })
-          });
-
-          // console.log(result);
           if(result === undefined){
             alert('Tài khoản hoặc mật khẩu chưa đúng');
             setSubmitting(false);
           } else {
             setSubmitting(true);
             props.onClick();
-            localStorage.setItem('name', result.name);
-            // localStorage.setItem('users', JSON.stringify(listUser));
+            const data = {
+              id: result.id,
+              name: result.name,
+            }
+            localStorage.setItem('name', JSON.stringify(data));
           }
         })
         .catch(function (error) {
           console.log(error);
-          alert('API Error');
           setSubmitting(false);
         });   
       }}
-
 
     validationSchema={Yup.object().shape({
       email: Yup.string()

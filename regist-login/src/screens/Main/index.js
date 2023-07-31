@@ -13,8 +13,16 @@ import { deleteUser, editUser, getUser } from '../../api/user';
 const Main = () => {
     const exit = useLogout('name');
     const [checkUsers, setCheckUsers] = useState(false);
-    const [checkUpdate, setCheckupdate] = useState(false);
     const [data, setData] = useState([]);
+
+    const deleteUserChose = (id) => {
+        deleteUser(id)
+            .then(() => {
+                getListUser();
+            })
+    }
+
+    const userInfo = JSON.parse(localStorage.getItem('name'));
 
     const handleDelete = (id) => {
         Swal.fire({
@@ -27,18 +35,23 @@ const Main = () => {
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                Swal.fire(
-                    'Deleted!',
-                    'Your file has been deleted.',
-                    'success'
-                )
-                deleteUser(id).catch(error => {
-                    console.error(error);
-                });
-                setCheckupdate(true);
+                if(userInfo.id === id){
+                    Swal.fire(
+                        "You can't delete your account",
+                    )
+                } else {
+                    Swal.fire(
+                        'Deleted!',
+                        'Your file has been deleted.',
+                        'success'
+                    )
+                    deleteUserChose(id);
+                }
+
             }
         })
     };
+
     const editUserChose = (id, name) => {
         getUser()
             .then(db => {
@@ -49,8 +62,9 @@ const Main = () => {
                     "name": name,
                     "email": user.email,
                     "password": user.password
-                });
-                setCheckupdate(true);
+                }).then(()=>{
+                    getListUser();
+                })
             })
             .catch(function (error) {
                 console.log(error);
@@ -114,14 +128,18 @@ const Main = () => {
     ];
 
     useEffect(() => {
+        getListUser();
+    }, [checkUsers]);
+
+    const getListUser = () => {
         getUser()
-            .then(db => {
-                setData(db.data);
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
-    }, [checkUsers, checkUpdate])
+        .then(db => {
+            setData(db.data);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+    }
 
     const tableData = {
         columns,
@@ -134,10 +152,11 @@ const Main = () => {
         }
 
     }, [checkUsers]);
+    
 
     return (
         <DefaultLayout>
-            <h1>Xin chào bạn {localStorage.getItem('name')}</h1>
+            <h1>Xin chào bạn {userInfo.name}</h1>
             <p>Click to <Link onClick={exit.logout} to="/login">Logout</Link></p>
             {checkUsers && (
                 <DataTableExtensions {...tableData}>

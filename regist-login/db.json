@@ -60,10 +60,16 @@
       "password": "$2a$10$Ryig3A0X3QV01skPbvU4t.Azh.HuyL.Qx1hGeydMp7tdg8VDrm4VS"
     },
     {
-      "name": "Hung",
+      "id": 15,
+      "name": "Pham Thanh Hung",
       "email": "hung@scigroup.com.vn",
-      "password": "$2a$10$voGEroDU3UM2zhKE/GvHwuf1e.2v3ZVvkf2TgVgV/nIb7O.umlfIe",
-      "id": 15
+      "password": "$2a$10$voGEroDU3UM2zhKE/GvHwuf1e.2v3ZVvkf2TgVgV/nIb7O.umlfIe"
+    },
+    {
+      "id": 16,
+      "name": "Ngo Thi PHong",
+      "email": "phong@scigroup.com.vn",
+      "password": "$2a$10$JML3f96Ypzr293JUs0ih.ODBMeq9puO4/ePBucOQSOt29/maSL.ei"
     }
   ]
 }

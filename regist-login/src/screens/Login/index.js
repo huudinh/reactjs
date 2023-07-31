@@ -1,7 +1,7 @@
-import LoginForm from "./LoginForm";
-import { Link } from 'react-router-dom';
-import Loading from "../../components/Loading";
 import {useEffect, useState} from 'react'
+import { Link } from 'react-router-dom';
+import LoginForm from "./LoginForm";
+import Loading from "../../components/Loading";
 import { useCheckLogin } from "../../utils/hook";
 
 function Login() {
