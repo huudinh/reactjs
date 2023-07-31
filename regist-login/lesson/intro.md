@@ -3,10 +3,10 @@
 ### Mục lục
 
 [I. Phân tích chức năng](#phan-tich-chuc-nang)
-- [1. Yêu cầu](#thetieude)
-- [2. Giao diện Login](#thetieude)
-- [3. Giao diện Regist](#thetieude)
-- [4. Giao diện màn hình chính](#thetieude)
+- [1. Yêu cầu](#request)
+- [2. Giao diện Login](#login)
+- [3. Giao diện Regist](#register)
+- [4. Giao diện màn hình chính](#main)
 
 [II. Cấu trúc ứng dụng](#cau-truc-ung-dung)
 
@@ -26,6 +26,7 @@
 <a name="phan-tich-chuc-nang"></a>
 ### I. Phân tích chức năng
 
+<a name="request"></a>
 **1. Yêu cầu**
 
 -   Tạo From đăng ký, đăng nhập màn hình chính, màn hình đầu
@@ -39,7 +40,8 @@
 -   Sau khi đăng nhập thành công thì sẽ vào trang Main hiển thị gửi lời chào đến tài khoản và nút Logout
 
 -   Khi đã logout thì không thể vào trang main / và khi login thì không thể vào trang login và regist
-  
+
+<a name="login"></a>
 **2. Giao diện Login**
 
   => Khi click vào nút submit:
@@ -50,6 +52,8 @@
   
   - Trường hợp đúng thông tin trả về thì chuyển sang màn hình chính (Hiển thị biểu tượng login trong khi chờ chuyển màn hình)
 
+
+<a name="regist"></a>
 **3. Giao diện Regist**
 
   - Mỗi Email chỉ đăng ký 1 lần
@@ -59,7 +63,8 @@
   - Validate Email, Password
 
   - Sau khi đăng ký thành công tự động chuyển sang màn Login
-    
+
+<a name="main"></a>
 **4. Giao diện màn hình chính**
 
   - Hiển thị lời chào đến tên của tài khoản Email đã đăng nhập thành công
@@ -68,7 +73,7 @@
 
   - Hiển thị danh sách các user có trong hệ thống
 
-  - Sửa Tên cho tài khoản và có thể xóa tài khoản
+  - Sửa Tên cho tài khoản và có thể xóa tài khoản (không tể xóa tài khoản đã đăng nhập)
 
 <a name="cau-truc-ung-dung"></a>
 ### II. Cấu trúc ứng dụng
