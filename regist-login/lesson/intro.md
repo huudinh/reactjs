@@ -1,9 +1,27 @@
 ## Login & Regist Component
 
 ### Mục lục
-1. [Phân tích chức năng](#phan-tich-chuc-nang)
-2. [Cấu trúc ứng dụng](#cau-truc-ung-dung)
-3. [Các hook sẽ sử dụng](#cac-hook-se-su-dung)
+
+[I. Phân tích chức năng](#phan-tich-chuc-nang)
+- [1. Yêu cầu](#thetieude)
+- [2. Giao diện Login](#thetieude)
+- [3. Giao diện Regist](#thetieude)
+- [4. Giao diện màn hình chính](#thetieude)
+
+[II. Cấu trúc ứng dụng](#cau-truc-ung-dung)
+
+[III. Các hook sẽ sử dụng](#cac-hook-se-su-dung)
+- [1. Cài đặt Router](#router)
+- [2. Cài đặt Formik](#formik)
+- [3. Cài đặt Yup](#yup)
+- [4. Cài đặt sass](#sass)
+- [5. Cài đặt clsx](#clsx)
+- [6. Cài đặt json-server](#json-server)
+- [7. Cài đặt axios](#axios)
+- [8. Cài đặt bcryptjs](#bcryptjs)
+- [9. Cài đặt react-loading](#loading)
+- [10. Cài đặt react-data-table-component-extensions](#data-table-component)
+- [11. Cài đặt sweetalert2](#sweetalert2)
 
 <a name="phan-tich-chuc-nang"></a>
 ### I. Phân tích chức năng
@@ -72,6 +90,8 @@
 <a name="cac-hook-se-su-dung"></a>
 ### III. Các hook sẽ sử dụng
 
+
+<a name="router"></a>
 **1 Cài đặt Router**
   
 ```
@@ -80,6 +100,7 @@ npm install react-router-dom@6
 
 - Xử lý vấn đề điều hướng người dùng ở phía trình duyệt, giúp ta có để chuyển đổi qua lại giữa các màn hình của ứng dụng
 
+<a name="rormik"></a>
 **2 Cài đặt Formik**
 
   ```
@@ -93,6 +114,7 @@ npm install react-router-dom@6
   + Validate giá trị và đưa ra lổi
   + Xử lý việc submit form
 
+<a name="yup"></a>
 **3 Cài đặt Yup**
 
 ```
@@ -100,7 +122,8 @@ npm i yup@0.28.5
 ```
 
   + Yup giúp chung ta xây dựng được một lược đồ để chúng ta có thể kiểm tra các giá trị cho phù hợp với các điều kiện mà chúng ta đã định nghĩa
-   
+
+<a name="sass"></a>
 **4 Cài đặt sass**
 
   ```
@@ -110,12 +133,15 @@ npm i yup@0.28.5
   
 - CSS Preprocessors là ngôn ngữ tiền xử lý CSS. Là một ngôn ngữ kịch bản mở rộng của CSS và được biên dịch thành cú pháp CSS giúp bạn viết CSS nhanh hơn và có cấu trúc rõ ràng hơn. CSS Preprocessor có thể giúp bạn tiết kiệm thời gian viết CSS, dễ dàng bảo trì và phát triển CSS.
 
+<a name="clsx"></a>
 **5 Cài đặt clsx**
 ```
 npm i clsx hoặc yarn clsx
 ```
 - Giúp chúng ta thay đổi className một cách linh động và hỗ trợ rất nhiều trường hợp
 
+
+<a name="json-server"></a>
 **6 Cài đặt json-server**
 ```
 npm i -g json-server
@@ -124,6 +150,8 @@ npx json-server --watch db.json --port 3100
 - Json server là một server trả về các dữ liệu dưới dạng json.
 - Thông tin tài khoản được tạo sẽ lưu trữ vào file db.json
 
+
+<a name="axios"></a>
 **7 Cài đặt axios**
 ```
 npm install axios
@@ -159,6 +187,7 @@ export const handleDelete = async (id) => {
 };
 ```
 
+<a name="bcryptjs"></a>
 **8 Cài đặt bcryptjs**
 ```
 npm install bcryptjs --save
@@ -190,6 +219,8 @@ npm install bcryptjs --save
     });
 ```
 
+
+<a name="loading"></a>
 **9 Cài đặt react-loading**
 ```
 npm i react-loading
@@ -199,6 +230,8 @@ hoặc
 yarn add react-loading
 ```
 
+
+<a name="data-table-component"></a>
 **10 Cài đặt react-data-table-component-extensions**
 ```
 $ npm install react-data-table-component styled-components
@@ -219,6 +252,8 @@ $ npm install react-data-table-component-extensions
   
 *Link demo (https://codesandbox.io/s/data-table-extensions-qxpv4?fontsize=14)*
 
+
+<a name="sweetalert2"></a>
 **11 Cài đặt sweetalert2**
 ```
 npm install --save sweetalert2 sweetalert2-react-content
