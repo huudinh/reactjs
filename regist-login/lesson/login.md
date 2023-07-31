@@ -43,5 +43,7 @@ function Login() {
 
 export default Login;
 ```
-  
+- File Login/index.js trả về bộ khung của giao diện Login như tiêu đề, link chuyển hướng về giao diện `Register` và `component LoginForm`
+
+- Check trạng thái của Login
 
