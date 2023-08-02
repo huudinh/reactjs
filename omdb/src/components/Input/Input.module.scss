@@ -1,0 +1,76 @@
+.input {
+    padding: 5px 12px;
+    cursor: pointer;
+    transition: .6s;
+    width: 200px;
+    color: #fff;
+    margin-bottom: 10px;
+    background: #eee;
+    border: 1px solid #eee;
+    display: inline-block;
+}
+.input ~ button{
+    margin-left:6px;
+}
+
+.circle{
+    border-radius: 25px;
+}
+
+.square{
+    border-radius: 6px;
+}
+
+label {
+    margin-bottom: 5px;
+    height: 22px;
+    margin-left: 15px;
+}
+
+input.error {
+    border-color: red;
+}
+
+.feedback {
+    color: rgb(235, 54, 54);
+    margin-top: -5px;
+    font-size: 13px;
+    padding-left: 15px;
+    font-style: italic;
+}
+.default {
+    color:#000;
+}
+.primary {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.success {
+    background-color: #4caf50;
+    border-color: #4cae4c;
+    &:hover {
+        cursor: pointer;
+        background-color: #1da224;
+    }
+}
+.info {
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.warning {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.disabled{
+    opacity: .5;
+    pointer-events: none;
+}
+

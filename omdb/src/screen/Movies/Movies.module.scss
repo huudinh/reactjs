@@ -4,4 +4,11 @@
 }
 .item{
     width: 30%;
+    margin: 10px 0;
+}
+.item img{
+    width: 80%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
 }
