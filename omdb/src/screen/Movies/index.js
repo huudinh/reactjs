@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Pagination from "react-js-pagination";
 import clsx from 'clsx';
 
 import DefaultLayout from "../../layouts/DefaultLayout";
@@ -8,6 +7,7 @@ import Input from "../../components/Input";
 import Modal from "../../components/Modal";
 import { getMovies } from "../../api/movies";
 import styles from './Movies.module.scss';
+import Paging from "../../components/Paging";
 
 const Movies = () => {
     const [movies, setMovies] = useState([]);
@@ -86,18 +86,9 @@ const Movies = () => {
                     ))
                 }
             </div>
-            <div style={{ display: "flex", justifyContent: "center" }}>
-                <Pagination
-                    itemClass="page-item"
-                    linkClass="page-link"
-                    //hideNavigation
-                    activePage={activePage}
-                    itemsCountPerPage={10}
-                    totalItemsCount={totalResult}
-                    pageRangeDisplayed={5}
-                    onChange={handlePageChange}
-                />
-            </div>
+            
+            <Paging activePage={activePage} totalResult={totalResult} handlePageChange={handlePageChange} />
+
             {modal && (
                 <Modal modal={modal} toggle={toggle} movie={movieDetails} />             
             )}
