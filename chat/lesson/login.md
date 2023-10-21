@@ -2,424 +2,247 @@
 
 ### Mục Lục
 
-- [1. Làm việc với file index.js](#index)
-- [2. Làm việc với component LoginForm](#login-form)
-- [3. Làm việc với component Input](#input)
-- [4. Làm việc với Input.module.scss](#input-sass)
-- [5. Làm việc với component Button](#button)
-- [6. Làm việc với Button.module.scss](#button-sass)
-- [7. Xây dựng file src/api/user.js](#user)
-- [8. Xây dựng file src/api/http.js](#http)
+- [1. Tạo component src/context/AuthContext.js](#1)
+- [2. Sửa file src/index.js](#2)
+- [3. Sửa file src/app.js](#3)
+- [4. Tạo component src/screen/Login/index.js](#4)
+- [5. Tạo component src/screen/Home/index.js](#5)
 
 
 ### Giao diện Login
 
-<a name="index"></a>
-**1. Làm việc với file index.js**
+![Create-HTML-1](images/login-1.png)  
 
+- Validate Form Login, sử dụng component Input Button tương tự trang Register
+
+- Kết nối với Firebase, thông báo lỗi khi tài khoản và mật khẩu đăng nhập không đúng
+
+- Khi Logout không thể vào trang chính mặc định chuyển sang trang Login
+
+
+
+<a name="1"></a>
+**1. Tạo component src/context/AuthContext.js**
 ```
-import LoginForm from "./LoginForm";
-import { Link } from 'react-router-dom';
-import Loading from "../../components/Loading";
-import {useEffect, useState} from 'react'
-import { useCheckLogin } from "../../utils/hook";
+import { createContext, useEffect, useState } from "react";
+import { auth } from "../firebase";
+import { onAuthStateChanged } from "firebase/auth";
 
-function Login() {
-    const [isLoading, setIsLoading] = useState(false);
-    const check = useCheckLogin();    
-    
-    useEffect(()=> {
-        check.login();        
-    });
-    
-    const handleLogin = () => {  
-        setIsLoading(true);              
-        setTimeout(() => {
-            check.login();
-            setIsLoading(false);
-        }, 1000)
-    };
+export const AuthContext = createContext();
+
+export const AuthContextProvider = ({children}) => {
+    const [currentUser, setCurrentUser] = useState({});
+
+    useEffect(()=>{
+        const unsub = onAuthStateChanged(auth, (user) => {
+            setCurrentUser(user);
+        })
+
+        return () => {
+            unsub();
+        };
+    }, []);
 
     return (
-        <>  
-            {isLoading && <Loading type="spinningBubbles" color="#eee" />}          
-            <div className="form">
-                <h1 className="formTitle">ĐĂNG NHẬP</h1>
-                <LoginForm onClick={handleLogin}  />
-                <p className="formLink">
-                    Click to <Link to="/regist">Create new account</Link>
-                </p>
-            </div>
-        </>
+        <AuthContext.Provider value={{currentUser}}>
+            {children}
+        </AuthContext.Provider>
+    );
+
+};
+```
+
+- `Context`: Hoạt động giống như một kho dữ liệu, cung cấp dữ liệu cho các thành phần cần tới nó.
+
+- `Context Provider`: một React component, sử dụng để cung cấp dữ liệu từ trong kho dữ liệu tới các component con.
+
+- `Context Consumer`: một React component, được sử dụng để lấy dữ liệu từ trong kho context.
+
+<a name="2"></a>
+**2. Sửa file `src/index.js`**
+
+```
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router } from 'react-router-dom';
+import App from './App';
+import { AuthContextProvider } from './context/AuthContext';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <AuthContextProvider>
+    <Router>
+      <App />
+    </Router>
+  </AuthContextProvider>
+);
+```
+- Sử dụng Context để lưu trữ thông tin user khi user đăng nhập thành công
+
+- `Context Provider` là một component của React. Nhiệm vụ của Provider là cho phép các component con được phép nhận sự thay đổi từ trong context. Context Provider nhận vào một props là value. Đây là giá trị mà tất cả các descendants nodes nằm trong provider có thể nhận được thông qua Context Consumer
+
+<a name="3"></a>
+**3. Sửa file `src/app.js`**
+```
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Home from './screen/Home';
+import Login from './screen/Login';
+import Register from './screen/Register';
+import GlobalStyle from './components/GlobalStyles';
+import { useContext } from 'react';
+import { AuthContext } from './context/AuthContext';
+
+function App() {
+  const {currentUser} = useContext(AuthContext)
+  const ProtectedRoute = ({children}) => {
+    if(!currentUser){
+      return <Navigate to="/login" />
+    }
+    return children;
+  }
+  
+  return (
+    <GlobalStyle>
+      <div className="App">
+        <Routes>
+          <Route path='/'>
+            <Route index element={<ProtectedRoute><Home /></ProtectedRoute>} />
+            <Route path='login' element={<Login />} />
+            <Route path='register' element={<Register />} />
+            <Route path="*" element={<h1>Page not found</h1>} />
+          </Route>
+        </Routes>
+      </div>
+    </GlobalStyle>
+  );
+}
+
+export default App;
+```
+- Kiểm tra xem nếu user chưa đăng nhập thì chuyển về màn hình Login
+
+<a name="4"></a>
+
+**4. Tạo component src/screen/Login/index.js**
+
+```
+import { Link, useNavigate } from 'react-router-dom';
+import Input from "../../components/Input";
+import Button from "../../components/Button";
+import { useState, useEffect } from "react";
+import { auth } from "../../firebase";
+import { signInWithEmailAndPassword } from "firebase/auth";
+
+function Login() {
+    const intialValues = { username: "", email: "", password: "" };
+    const [formValues, setFormValues] = useState(intialValues);
+    const [formErrors, setFormErrors] = useState({});
+    const [isSubmit, setIsSubmit] = useState(false);    
+    const navigate = useNavigate();
+    const [error, setError] = useState('');
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormValues({ ...formValues, [name]: value });
+    }
+
+    useEffect(() => {
+        if(Object.keys(formErrors).length === 0 && isSubmit){
+            // Call API
+            const email = formValues.email;
+            const password = formValues.password;
+            // Sign in Firebase
+            signInWithEmailAndPassword(auth, email, password)
+                .then((userInfo)=>{
+                    // console.log(userInfo);
+                    navigate('/');
+                })
+                .catch((err)=>{
+                    // console.log(err)
+                    setError(err)
+                })
+        }
+    }, [formErrors]);    
+    
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setFormErrors(validate(formValues));
+        setIsSubmit(true);
+    }
+
+    const validate = (values) => {
+        const errors = {};
+        const regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+        if (!values.email) {
+            errors.email = "Email is required!";
+        } else if (!regex.test(values.email)) {
+            errors.email = "This is not a valid email format!";
+        }
+
+        if (!values.password) {
+            errors.password = "Password is required!";
+        } else if (values.password.length <= 4) {
+            errors.password = "Password must be more than 4 characters!" + values.password;
+        }else if (values.password.length > 16) {
+            errors.password = "Password cannot be more than 16 characters!";
+        }
+
+        return errors;
+    }
+
+    return (
+        <div className="form">
+            <h1 className="formTitle">ĐĂNG NHẬP</h1>
+            {error != '' && <p className='formError'>Something went wrong</p>}
+            <form onSubmit={handleSubmit}>
+                <Input
+                    default
+                    label="Email"
+                    name="email"
+                    value={formValues.email}
+                    onChange={handleChange}
+                    error={formErrors.email}
+                />
+                <Input
+                    default
+                    label="Password"
+                    name="password"
+                    type="password"
+                    value={formValues.password}
+                    onChange={handleChange}
+                    error={formErrors.password}
+                />
+                <Button success >Hoàn Thành</Button>
+            </form>
+            <p className="formLink">
+                Click to <Link to="/register">Create new acount</Link>
+            </p>
+        </div>
     )
 }
 
 export default Login;
 ```
-- File Login/index.js trả về bộ khung của giao diện Login như tiêu đề, link chuyển hướng về giao diện `Register` và `component LoginForm`
 
-- Check trạng thái của Login
+<a name="5"></a>
 
-- Sử dụng component `Link` để điều hướng và màn hình đăng ký
+**5. Tạo component src/screen/Home/index.js**
 
-<a name="login-form"></a>
-**2. Làm việc với component LoginForm**
 ```
-import React from "react";
-import { Formik } from "formik";
-import * as Yup from "yup";
-import bcrypt from 'bcryptjs';
-import Button from "../../components/Button";
-import Input from "../../components/Input";
-import { getUser } from '../../api/user';
+import {signOut} from "firebase/auth";
+import { auth } from '../../firebase';
 
-const LoginForm = (props) => (
-  <Formik
-    initialValues={{ email: "", password: "" }}
-    onSubmit={(values, { setSubmitting }) => {
-      getUser() 
-      .then(db => {
-          const users = db.data;
-          const result = users.find(user => {
-            return (
-              (values.email === user.email) && 
-              (bcrypt.compareSync(values.password, user.password))
-            );
-          });
-
-          if(result === undefined){
-            alert('Tài khoản hoặc mật khẩu chưa đúng');
-            setSubmitting(false);
-          } else {
-            setSubmitting(true);
-            props.onClick();
-            const data = {
-              id: result.id,
-              name: result.name,
-            }
-            localStorage.setItem('name', JSON.stringify(data));
-          }
-        })
-        .catch(function (error) {
-          console.log(error);
-          setSubmitting(false);
-        });   
-      }}
-
-    validationSchema={Yup.object().shape({
-      email: Yup.string()
-        .email()
-        .required("Không được để trống"),
-      password: Yup.string()
-        .required("Chưa nhập mật khẩu.")
-        .min(8, "Mật khẩu quá ngắn - ít nhất phải 8 ký tự.")
-        .matches(/(?=.*[0-9])/, "Mật khẩu phải chứa nhất một số.")
-    })}
-  >
-    {props => {
-      const {
-        values,
-        touched,
-        errors,
-        isSubmitting,
-        handleChange,
-        handleBlur,
-        handleSubmit
-      } = props;
-
-      return (
-        <>        
-        <form onSubmit={handleSubmit}>
-          <Input
-            default
-            label="Email" 
-            name="email"
-            value={values.email}
-            onChange={handleChange}
-            onBlur={handleBlur}
-            className={errors.email && touched.email && "error"}
-            errorMessage={errors.email}
-          />
-          <Input
-            default
-            label="Password" 
-            name="password"
-            type="password"
-            value={values.password}
-            onChange={handleChange}
-            onBlur={handleBlur}
-            className={errors.password && touched.password && "error"}
-            errorMessage={errors.password}
-          />
-          <Button success disabled={isSubmitting}>Đăng nhập</Button>
-        </form>
-        </>          
-      );
-    }}
-  </Formik>
-);
-
-export default LoginForm;
-```
-- Render Components Input, Button
-  
-- Import thư viện Formik và Yup để Validate dữ liệu Login
-
-- Sử dụng Axiox để đọc dữ data từ API
-
-- Sử dụng bcrypt để so sánh mật khẩu nhập vào từ UI và API
-
-- Sau khi đăng nhập thành công chuyển đến màn hình main, và lưu trữ tên cùng id của user đăng nhập vào localStorage
-
-<a name="input"></a>
-**3. Làm việc với component Input**
-```
-import clsx from 'clsx';
-import styles from './Input.module.scss';
-
-function Input(props) {
-    const classes = clsx(styles.input,  {
-        [styles.default]: props.default,
-        [styles.primary]: props.primary,
-        [styles.success]: props.success,
-        [styles.info]: props.info,
-        [styles.warning]: props.warning,
-        [styles.danger]: props.danger,
-        [styles.disabled]: props.disabled,
-        [styles.error]:props.className
-    });
-
-    const feedback = clsx(styles.feedback);
-    
+const Home = () => {
     return (
-        <>
-            <label htmlFor={props.name}>{props.label}</label>
-            <input
-                id={props.name}
-                name={props.name}
-                type={props.type}
-                placeholder={'Enter your ' + props.label}
-                value={props.value}
-                onChange={props.onChange}
-                onBlur={props.onBlur}
-                className={classes}
-            />
-            {props.className && (
-                <div className={feedback}>{props.errorMessage}</div>
-            )}
-        </>
+        <div>
+            <button onClick={()=>signOut(auth)}>logout</button>
+        </div>
     )
 }
-export default Input;
+
+export default Home;
 ```
-- File index.js sử dụng thư viện clsx và kỹ thuật module để đọc class
+- Tạo nút Logout, sử dụng phương thức signOut() để logout ra khỏi tài khoản đã đăng nhập.
 
-- Render ra lable, input, Error
-
-<a name="input-sass"></a>
-**4. Làm việc với Input.module.scss**
-```
-.input {
-    padding: 10px 15px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: .6s;
-    width: 100%;
-    color: #fff;
-    margin-bottom: 10px;
-    background: #eee;
-    border: 1px solid #eee;
-}
-
-label,
-input {
-    display: block;
-    width: 100%;
-}
-
-label {
-    margin-bottom: 5px;
-    height: 22px;
-    margin-left: 15px;
-}
-
-input.error {
-    border-color: red;
-}
-
-.feedback {
-    color: rgb(235, 54, 54);
-    margin-top: -5px;
-    font-size: 13px;
-    padding-left: 15px;
-    font-style: italic;
-}
-.default {
-    color:#000;
-}
-.primary {
-    background-color: #337ab7;
-    border-color: #2e6da4;
-}
-
-.success {
-    background-color: #4caf50;
-    border-color: #4cae4c;
-    &:hover {
-        cursor: pointer;
-        background-color: #1da224;
-    }
-}
-.info {
-    background-color: #5bc0de;
-    border-color: #46b8da;
-}
-
-.warning {
-    background-color: #f0ad4e;
-    border-color: #eea236;
-}
-
-.danger {
-    background-color: #d9534f;
-    border-color: #d43f3a;
-}
-
-.disabled{
-    opacity: .5;
-    pointer-events: none;
-}
-```
-
-<a name="button"></a>
-**5. Làm việc với component Button**
-```
-import clsx from 'clsx';
-import styles from './Button.module.scss';
-
-function Button(props) {
-    const classes = clsx(styles.btn, {
-        [styles.default]: props.default,
-        [styles.edit]: props.edit,
-        [styles.primary]: props.primary,
-        [styles.success]: props.success,
-        [styles.info]: props.info,
-        [styles.warning]: props.warning,
-        [styles.danger]: props.danger,
-        [styles.disabled]: props.disabled,
-    });
-    
-    return (
-        <button className={classes} t={props.id} onClick={props.handleClick} type="submit" disabled={props.disabled} >
-            {props.children} 
-        </button>
-    )
-}
-export default Button;
-```
-<a name="button-sass"></a>
-**6. Làm việc với Button.module.scss**
-```
-.btn {
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    margin:3px;
-    cursor: pointer;
-    transition: .6s;
-    width: 100%;
-    color: #fff;
-    &:hover{
-        cursor: pointer;
-    }
-}
-.edit{
-    border-radius: 4px;
-    width:auto;
-    padding: 6px;
-}
-.default {
-    color:#000;
-}
-.primary {
-    background-color: #337ab7;
-    border-color: #2e6da4;
-}
-
-.success {
-    background-color: #4caf50;
-    border-color: #4cae4c;
-    &:hover {
-        background-color: #1da224;
-    }
-}
-.info {
-    background-color: #5bc0de;
-    border-color: #46b8da;
-    &:hover{
-        background-color: #31b0d5;
-        border-color: #269abc;
-    }
-}
-
-.warning {
-    background-color: #f0ad4e;
-    border-color: #eea236;
-    &:hover{
-        background-color: #ec971f;
-        border-color: #d58512;
-    }
-}
-
-.danger {
-    background-color: #d9534f;
-    border-color: #d43f3a;
-    &:hover{
-        background-color: #c9302c;
-        border-color: #ac2925;
-    }
-}
-
-.disabled{
-    opacity: .5;
-    pointer-events: none;
-}
-
-```
-<a name="user"></a>
-**7. Xây dựng file src/api/user.js**
-
-```
-import http from "./http";
-
-export const getUser = async () => {
-    return await http.get(`/users`)
-};
-export const deleteUser = async (id) => {
-    return await http.delete(`/users/${id}`)
-};
-
-export const editUser = async (id, data) => {
-    return await http.put(`/users/${id}`, data)
-};
-
-```
-<a name="http"></a>
-**8. Xây dựng file src/api/http.js**
-```
-import axios from "axios";
-import { API_BASE_URL } from "../utils/const";
-
-const http = axios.create({
-    baseURL: API_BASE_URL,
-})
-
-export default http
-```
-
-**9. Xây dựng file src/utils/const.js**
-```
-export const API_BASE_URL = 'http://localhost:3100';
-```
-
-*Bài tiếp theo [Màn hình Register](/regist-login/lesson/register.md)*
+*Bài tiếp theo [Màn hình Home](/chat/lesson/home.md)*

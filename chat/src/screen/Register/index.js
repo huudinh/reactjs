@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { auth } from "../../firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 
-function Register() {
+const Register = () => {
     const intialValues = { username: "", email: "", password: "" };
     const [formValues, setFormValues] = useState(intialValues);
     const [formErrors, setFormErrors] = useState({});
@@ -30,10 +30,10 @@ function Register() {
                 .catch((error) => {
                     const errorCode = error.code;
                     const errorMessage = error.message;
-                    console.log(errorMessage);
+                    // console.log(errorMessage);
                 });
         }
-    }, [formErrors]);    
+    }, [formErrors]);
     
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -71,7 +71,7 @@ function Register() {
 
     return (
         <div className="form">
-            <h1 className="formTitle">ĐĂNG NHẬP</h1>
+            <h1 className="formTitle">ĐĂNG KÝ</h1>
             <form onSubmit={handleSubmit}>
                 <Input
                     default
