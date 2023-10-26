@@ -107,7 +107,7 @@ const Register = () => {
                     onChange={handleChange}
                     error={formErrors.confirmPassword}
                 />
-                <Button success >Hoàn Thành</Button>
+                <Button success block round >Register</Button>
             </form>
             <p className="formLink">
                 Click to <Link to="/login">Login</Link>

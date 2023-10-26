@@ -245,4 +245,4 @@ export default Home;
 ```
 - Tạo nút Logout, sử dụng phương thức signOut() để logout ra khỏi tài khoản đã đăng nhập.
 
-*Bài tiếp theo [Màn hình Home](/chat/lesson/home.md)*
+*Bài tiếp theo [Màn hình Create Conversation](/chat/lesson/conversation.md)*

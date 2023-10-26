@@ -85,7 +85,7 @@ function Login() {
                     onChange={handleChange}
                     error={formErrors.password}
                 />
-                <Button success >Hoàn Thành</Button>
+                <Button success block round >Login</Button>
             </form>
             <p className="formLink">
                 Click to <Link to="/register">Create new acount</Link>

@@ -1,10 +1,9 @@
-import {signOut} from "firebase/auth";
-import { auth } from '../../firebase';
+import SideBar from "../../components/SideBar";
 
 const Home = () => {
     return (
         <div>
-            <button onClick={()=>signOut(auth)}>logout</button>
+            <SideBar />            
         </div>
     )
 }

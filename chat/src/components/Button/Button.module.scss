@@ -1,16 +1,22 @@
 .btn {
-    padding: 10px 15px;
     border: 1px solid #ccc;
-    border-radius: 25px;
     margin:3px;
     cursor: pointer;
     transition: .6s;
-    width: 100%;
     color: #fff;
     &:hover{
         cursor: pointer;
     }
 }
+.round{
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.block{
+    width: 100%;
+}
+
 .edit{
     border-radius: 4px;
     width:auto;

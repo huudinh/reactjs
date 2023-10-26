@@ -11,10 +11,12 @@ function Button(props) {
         [styles.warning]: props.warning,
         [styles.danger]: props.danger,
         [styles.disabled]: props.disabled,
+        [styles.block]: props.block,
+        [styles.round]: props.round,
     });
     
     return (
-        <button className={classes} t={props.id} onClick={props.handleClick} type="submit" disabled={props.disabled} >
+        <button className={classes} t={props.id} onClick={props.handleClick} type={props.type} disabled={props.disabled} >
             {props.children} 
         </button>
     )
