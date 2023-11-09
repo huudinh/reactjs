@@ -24,13 +24,20 @@ const ConversationModal = (props) => {
             createBy: auth.currentUser.email,
             users: [auth.currentUser.email],
         });
-        // console.log("Document written with ID: ", docRef.id);
+        // console.log("Document written with ID: ", docRef);
+     
+        props.newConversationFnc({
+            id:docRef.id,
+            name: formValues.conversation,
+            users: 1
+        })
         props.handeCancel();
     }
 
     useEffect(() => {
         if(Object.keys(formErrors).length === 0 && isSubmit){
             createPost();
+
         }
     }, [formErrors]); 
 
@@ -38,9 +45,9 @@ const ConversationModal = (props) => {
         e.preventDefault();
         setFormErrors(validate(formValues));
         setIsSubmit(true);
-        console.log(formValues);
     }
 
+    // Validate Input Conversation
     const validate = (values) => {
         const errors = {};
 
@@ -71,6 +78,7 @@ const ConversationModal = (props) => {
                     value={formValues.conversation}
                     onChange={handleChange}
                     error={formErrors.conversation}
+                    autoFocus 
                 />
                 <div className={clsx(styles.footer)}>
                     <Button warning type="Button" handleClick={handleCancel}>Cancel</Button>

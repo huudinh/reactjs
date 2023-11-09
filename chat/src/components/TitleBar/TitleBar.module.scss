@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ececec;
+    padding:5px 10px;
+}
+.title{
+    color: #d9534f;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.logout{
+    font-size: 12px;
+    font-style: italic;
+    cursor: pointer;
+    margin-left: 5px;
+    color: #c00;
+    font-weight: 600;
+    &:hover{
+        text-decoration: underline;
+    }
+}

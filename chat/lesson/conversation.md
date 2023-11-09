@@ -620,4 +620,4 @@ export default Login;
 - Chỉ cần sửa lại các props được truyền vào Button `Login`
 
 
-*Bài tiếp theo [Màn hình Home](/chat/lesson/home.md)*
+*Bài tiếp theo [Màn hình Danh sách hội thoại (Convesation List)](/chat/lesson/conversation-list.md)*

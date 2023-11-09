@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import styles from './Input.module.scss';
 
 function Input(props) {
-    const classes = clsx(styles.input,  {
+    const classes = clsx(styles.input, {
         [styles.default]: props.default,
         [styles.primary]: props.primary,
         [styles.success]: props.success,
@@ -11,11 +11,11 @@ function Input(props) {
         [styles.danger]: props.danger,
         [styles.disabled]: props.disabled,
         // Add Class Error
-        [styles.error]:props.error
+        [styles.error]: props.error
     });
 
     const feedback = clsx(styles.feedback);
-    
+
     return (
         <>
             <label htmlFor={props.name}>{props.label}</label>
@@ -28,6 +28,7 @@ function Input(props) {
                 onChange={props.onChange}
                 onBlur={props.onBlur}
                 className={classes}
+                autoFocus={props.autoFocus}
             />
             {props.error && (
                 <div className={feedback}>{props.error}</div>
