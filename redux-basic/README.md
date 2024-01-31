@@ -7,7 +7,8 @@
 - [3. Setup môi trường](#3)
 - [4. Cách hoạt động của Redux](#4)
 - [5. Tổ chức Redux trong project](#5)
-
+- [6. Khi nào nên dùng Redux](#6)
+- [7. Khi nào không nên dùng Redux](#7)
 
 <a name="1"></a>
 **1. Redux**
@@ -136,3 +137,20 @@ Cùng test kết quả bằng cách hiện giá trị counter cùng 2 nút tăng
 
     export default App;
     ```
+<a name="6"></a>
+**6. Khi nào nên dùng Redux**
+
+- Project càng lớn, giá trị redux càng nhiều, nhất là khi app có nhiều shared state và việc xử lý state phức tạp, được handle ở nhiều nơi. Redux là lựa chọn tốt nhất để quản lý state trong project lớn nếu bạn sử dụng React.
+
+- Phân chia rõ ràng giữa shared state (các state toàn cục, app data) và UI state (thường nằm cục bộ trong 1 component).
+
+<a name="7"></a>
+**7. Khi nào không nên dùng Redux**
+
+- Code rất nhiều để làm được rất ít chức năng
+
+- Nếu bạn chỉ cần xử lý state phức tạp: Sử dụng useReducer hook
+
+- Nếu bạn chỉ cần xử lý state global: React Context
+
+- Việc dò tìm action để dispatch (linear search, O(n)) sẽ ảnh hưởng đến performance so với cách tương tác với state trực tiếp
