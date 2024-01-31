@@ -1,0 +1,59 @@
+.box{
+    flex: 1 1 50px;
+    flex-direction: column;
+    display: flex;
+}
+.list{
+    padding: 10px;
+    flex: 1 1 0px;
+    height: 0%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+}
+.composer{
+    margin: 10px 5px;
+    padding: 0 10px;
+    border-radius: 50px;
+    background-color: #ececec;
+    border-top: 1px solid #ececec;
+}
+
+.message{
+    flex: 1 1 0px;
+    height: 0%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+.messageItem{
+    display: flex;
+}
+.messageMyItem{
+    justify-content: flex-end;
+}
+.messageMe{
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.messageYou{
+    border: 1px solid #4cae4c;
+    background-color: #5cb85c;
+}
+.messageBox{
+    padding: 5px 10px;
+    max-width: 75%;
+    word-wrap: break-word;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: #fff;
+    transition: .3s;
+}
+.messageSender{
+    font-size: 10px;
+    font-style: italic;
+    margin-bottom: 3px;
+}

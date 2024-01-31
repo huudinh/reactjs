@@ -2,46 +2,29 @@
 
 ### Mục Lục
 
-- [1. Sửa file src/screen/Home/index.js](#1)
-- [2. Sửa file src/screen/Home/Home.module.scss](#2)
-- [3. Tạo file src/component/TitleBar/index.js](#3)
-- [4. Tạo file src/component/TitleBar/TitleBar.module.scss](#4)
-- [5. Sửa file src/component/SideBar/index.js](#5)
-- [6. Sửa file src/component/SideBar/SideBar.module.scss](#6)
-- [7. Sửa file src/component/ConversationItem/index.js](#7)
-- [8. Sửa file src/component/ConversationItem/ConversationItem.module.scss](#8)
-- [9. Sửa file src/component/ConversationModal/index.js](#9)
-- [10. Sửa file src/component/ConversationModal/ConversationItem.module.scss](#10)
-- [11. Sửa file src/component/Input/index.js](#11)
+- [1. Tạo file src/component/InfoPanel/index.js](#1)
+- [2. Tạo file src/component/InfoPanel/InfoPanel.module.scss](#2)
+- [3. Tạo file src/component/MessageArea/index.js](#3)
+- [4. Tạo file src/component/MessageArea/MessageArea.module.scss](#4)
+- [5. Sửa file src/screen/Home/index.js](#5)
+- [6. Sửa file src/screen/Home/Home.module.scss](#6)
+- [7. Sửa file src/component/Input/index.js](#7)
+- [8. Sửa file src/component/Input/Input.module.scss](#8)
 
 
 ### Mục Tiêu
 
-- Đọc và hiển thị danh sách các chủ đề từ Firestore
-- Đếm số user tham gia chủ đề
-- Xử lý logic active trang thái chủ đề được chọn theo kỹ thuật Data Down và Event Up
-- Thay đổi tiêu đề hiển thị tương ứng đối với các chủ đề active 
+- Thêm nội dung chat vào Firestore
+- Hiển thị nội dung chat ứng với từng chủ đề
+- Hiển thị tin nhắn theo người gửi
 
-### Kỹ Thuật
-
-- Ý tưởng Component Tree: 
-    + Có nhiều thành phần tạo nên một ứng dụng web. Các component lớn render các component nhỏ hơn, tạo thành một mô hình cây
-    + Component tree giống với HTML DOM tree, được sử dụng để mô hình hoá giao diện ứng dụng.  
-
-![Create-HTML-1](images/data-follow.png)  
-
-- Data Down:
-    + Props chính là công cụ để giao tiếp từ component cha xuống component con
-    + Data luôn di chuyển từ component cha xuống component con.
-
-- Event up:
-    + Props cho phép người dùng có thể truyền các dạng giá trị JS khác nhau từ component cha xuống component con, bao gồm cả các 'functions'. Chúng ta sẽ truyền xuống các function từ phía component cha xuống component con. Và các component con sẽ thực hiện chạy các function đó khi cần thiết.
-    +  Sử dụng props để đưa các function đó xuống các component con
-    +  Khi function được thực thi, state của component cha sẽ được cập nhật, dẫn tới cập nhật toàn bộ các component con.
-- Luồng dữ liệu của React được luôn chuyển theo công thức: Data down - Events up
+### Kỹ thuật
+- Truy vấn các Messages cùng chủ đề hiển thi ra email người gửi + nội dung tin nhắn
+- Lọc ra các Messages của tác giả hiển thị sang bên phải màn hình
+- Tất cả các Message mới sẽ xuất hiện dưới cùng
 
 
-### Giao diện Create Conversation List
+### Giao diện Chat
 
 ![Create-HTML-1](images/conversation-list-1.png)  
 

@@ -10,6 +10,8 @@ function Input(props) {
         [styles.warning]: props.warning,
         [styles.danger]: props.danger,
         [styles.disabled]: props.disabled,
+        [styles.panel]: props.panel,
+        [styles.composer]: props.composer,
         // Add Class Error
         [styles.error]: props.error
     });
@@ -18,12 +20,12 @@ function Input(props) {
 
     return (
         <>
-            <label htmlFor={props.name}>{props.label}</label>
+            {props.label && (<label htmlFor={props.name}>{props.label}</label>)}
             <input
                 id={props.name}
                 name={props.name}
                 type={props.type}
-                placeholder={'Enter your ' + props.label}
+                placeholder={'Enter your ' + props.holder ? props.holder : props.label}
                 value={props.value}
                 onChange={props.onChange}
                 onBlur={props.onBlur}

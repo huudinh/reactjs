@@ -3,7 +3,7 @@ import styles from './SideBar.module.scss';
 import ConversationModal from "../ConversationModal";
 import ConversationItem from '../ConversationItem';
 import { useState, useEffect } from 'react';
-import { collection,where, getDocs, doc, deleteDoc } from "firebase/firestore";
+import { collection, where, getDocs, doc, deleteDoc } from "firebase/firestore";
 import { db, auth } from "../../firebase";
 
 const SideBar = (props) => {
