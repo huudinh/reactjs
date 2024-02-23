@@ -1,4 +1,4 @@
-## React là gì
+# React là gì
 
 ### Giới thiệu về React
 
@@ -26,8 +26,9 @@ React là thư viện, không phải là framework.
 
 Sự khác biệt giữa thư viện và framework là thư viện chỉ hỗ trợ trong một khía cạnh cụ thể. Trong khi đó, framework hỗ trợ trong nhiều khía cạnh. Hãy xem một ví dụ:
 
-React là thư viện vì nó chỉ tập trung vào phần giao diện người dùng.
-Angular, ngược lại, là framework vì nó quản lý các khía cạnh khác của ứng dụng bên cạnh giao diện người dùng (xử lý Dependency Injection, đóng gói CSS, v.v.)
+- React là thư viện vì nó chỉ tập trung vào phần giao diện người dùng.
+
+- Angular, ngược lại, là framework vì nó quản lý các khía cạnh khác của ứng dụng bên cạnh giao diện người dùng (xử lý Dependency Injection, đóng gói CSS, v.v.)
 
 ### React không tập trung vào việc thiết kế giao diện người dùng 
 
