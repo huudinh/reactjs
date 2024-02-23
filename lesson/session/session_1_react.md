@@ -56,4 +56,4 @@ Bạn cũng có thể sử dụng React để bổ sung cho Web Components và n
 - React không phải là framework.
 
 
-*Bài tiếp theo [Cài đặt Rreact](/lesson/session/session_2_react_setup.md)*
+*Bài tiếp theo [Cài đặt React](/lesson/session/session_2_react_setup.md)*

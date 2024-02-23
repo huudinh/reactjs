@@ -1,6 +1,6 @@
-# React Element
+# React DOM
 
-![Create-HTML-1](images/ss4.png) 
+![Create-HTML-1](images/ss3-1.png) 
 
 `document.createElement không được sử dụng trong React.` không được sử dụng trong React.
 
@@ -70,4 +70,4 @@ Phần tử đại diện cho đơn vị nhỏ nhất của giao diện người
 
 - `React.createElement(type, options, children)`
 
-*Bài tiếp theo [React DOM](/lesson/session/session_5_react_dom.md)*
+*Bài tiếp theo [ReactDOM](/lesson/session/session_5_react_dom.md)*
