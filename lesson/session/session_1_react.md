@@ -1,6 +1,6 @@
 # React là gì
 
-![Create-HTML-1](https://aptech.fpt.edu.vn/wp-content/uploads/2022/11/react-js-la-gi.jpg) 
+![Create-HTML-1](images/ss1.webp) 
 
 ### Giới thiệu về React
 
