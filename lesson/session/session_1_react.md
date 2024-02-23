@@ -1,5 +1,7 @@
 # React là gì
 
+![Create-HTML-1](https://aptech.fpt.edu.vn/wp-content/uploads/2022/11/react-js-la-gi.jpg) 
+
 ### Giới thiệu về React
 
 React là một thư viện JavaScript được xây dựng và chủ yếu được duy trì bởi Facebook (Meta).
