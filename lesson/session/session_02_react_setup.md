@@ -57,4 +57,4 @@ Khi thêm vào file, React có kích thước là 6KB.
 
 - Khi thêm vào file, React có kích thước là 6KB.
 
-*Bài tiếp theo [Document Create Element](/lesson/session/session_3_document_create_element.md)*
+*Bài tiếp theo [Document Create Element](/lesson/session/session_03_document_create_element.md)*

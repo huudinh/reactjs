@@ -77,4 +77,4 @@ createRoot(root).render(<h1>Hello World</h1>);
 
 - JSX không phải là một phần của trình duyệt. Bạn cần một công cụ để chuyển đổi code thành JavaScript hợp lệ.
 
-*Bài tiếp theo [JSX Attributes](/lesson/session/session_9_jsx_attributes.md)*
+*Bài tiếp theo [JSX Attributes](/lesson/session/session_09_jsx_attributes.md)*

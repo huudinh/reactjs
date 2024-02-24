@@ -38,4 +38,4 @@ React tạo ra phiên bản ảo của UI trong bộ nhớ, sau đó ReactDOM nh
 
 - Reconciliation là quá trình đồng bộ hóa DOM ảo với DOM thực.
 
-*Bài tiếp theo [Use ReactDOM](/lesson/session/session_6_use_react_dom.md)*
+*Bài tiếp theo [Use ReactDOM](/lesson/session/session_06_use_react_dom.md)*

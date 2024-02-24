@@ -70,4 +70,4 @@ Phần tử đại diện cho đơn vị nhỏ nhất của giao diện người
 
 - `React.createElement(type, options, children)`
 
-*Bài tiếp theo [React DOM](/lesson/session/session_5_react_dom.md)*
+*Bài tiếp theo [React DOM](/lesson/session/session_05_react_dom.md)*
