@@ -87,4 +87,4 @@ export default function () {
 
 - Để sử dụng một Component được định nghĩa trong file khác, bạn cần thêm nó vào file hiện tại.
 
-*Bài tiếp theo [Components Only](/lesson/session/session_19_components_only.md)*
+*Bài tiếp theo [Props](/lesson/session/session_20_props.md)*
