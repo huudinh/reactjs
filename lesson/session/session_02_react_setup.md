@@ -23,11 +23,9 @@ import React from "react";
 
 Đây được gọi là default import vì dạng này tuân theo cú pháp sau: import Something from "package-name".
 
-Named export được thêm vào như sau: import {Something} from "package-name".
+Đây được gọi là bare import vì bạn không thêm vào từ đường dẫn file. 
 
-Để ý đoạn code trên thêm React vào file JavaScript từ `"react"`. 
-
-Đây được gọi là bare import vì bạn không thêm vào từ đường dẫn file. Ví dụ thêm từ đường dẫn file: import Something from "./file". Thêm từ đường dẫn file luôn bắt đầu bằng `./.`
+Ví dụ thêm từ đường dẫn file: import Something from "./file". Thêm từ đường dẫn file luôn bắt đầu bằng `./.`
 
 Bạn có thể sử dụng các trình biên dịch code trực tuyến như CodeSandbox, Codepen và StackBlitz.
 
