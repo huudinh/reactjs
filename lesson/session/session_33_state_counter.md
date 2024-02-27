@@ -1,6 +1,6 @@
 # Tạo Component Counter
 
-![Create-HTML-1](images/ss29.jpg) 
+![Create-HTML-1](images/ss17.jpg) 
 
 ### Phân tích component Counter
 

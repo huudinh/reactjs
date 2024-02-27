@@ -34,3 +34,8 @@
 32. [Update State](session/session_32_update_state.md)
 33. [Component Counter](session/session_33_state_counter.md)
 34. [Closures](session/session_34_closures.md)
+35. [Event](session/session_35_event.md)
+36. [Event Name](session/session_36_event_name.md)
+37. [Event State](session/session_37_event_state.md)
+38. [Event Conditions](session/session_38_state_conditions.md)
+39. [Event Props](session/session_39_state_props.md)
