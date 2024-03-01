@@ -15,7 +15,11 @@ import React from "react";
 import {createRoot} from "react-dom/client";
 
 const root = document.querySelector("#react-root");
-createRoot(root).render(React.createElement("h1", {}, "Hello World"));
+
+createRoot(root)
+    .render(
+        React.createElement("h1", {}, "Hello World")
+    );
 ```
 
 Bạn không nên làm bất cứ điều gì với biến root và `<div id="react-root">...</div>` vì ReactDOM sẽ quản lý nó.
@@ -36,7 +40,7 @@ Toàn bộ ứng dụng được hiển thị bên trong phần tử root đó.
 
 Trang web có thể được xây dựng bằng một công nghệ khác ngoài React và sau đó tích hợp React để làm cho một phần cụ thể của trang web có khả năng tương tác với người dùng.
 
-Ví dụ, bạn có trang web Siêu thị được xây dựng bằng Ruby on Rails hoặc Laravel (framework backend cho Ruby, PHP) và nếu bạn muốn làm cho tính năng giỏ hàng có thể tương tác với người dùng, bạn có thể sử dụng React để làm điều đó.
+Ví dụ, bạn có trang web Siêu thị được xây dựng bằng Ruby on Rails hoặc Laravel và nếu bạn muốn làm cho tính năng giỏ hàng có thể tương tác với người dùng, bạn có thể sử dụng React để làm điều đó.
 
 Trong trường hợp đó, logic của giỏ hàng sẽ nằm trong phần tử root `<div id="react-cart"></div>`.
 

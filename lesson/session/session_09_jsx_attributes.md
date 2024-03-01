@@ -1,4 +1,4 @@
-# Thuộc tính (Attributes)
+# Thuộc tính (Attributes) trong JSX
 
 ![Create-HTML-1](images/ss8.jpg) 
 
