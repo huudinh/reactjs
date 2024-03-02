@@ -68,4 +68,4 @@ function App() {
 - Component có thể truyền hàm cho component con thông qua prop.
 - Quy ước đặt tên: `onSubjectEvent={handleSubjectEvent}`
 
-*Bài tiếp theo [Cải tiến Component Form](/lesson/session/session_61_component_form.md)*
+*Bài tiếp theo [Cải tiến Component Form](/lesson/session/session_62_component_form.md)*

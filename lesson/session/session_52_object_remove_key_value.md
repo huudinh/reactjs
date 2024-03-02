@@ -63,6 +63,4 @@ Chúng ta bắt đầu bằng cách destructure `grades` và `course` và sau đ
 
 - `const {keyToRemove, ...rest} = obj` là một cú pháp đơn giản cho phép xóa `keyToRemove` khỏi đối tượng mà không làm thay đổi đối tượng gốc.
 
-
-
-*Bài tiếp theo [Trạng thái với đối tượng](/lesson/session/session_52_object_state.md)*
+*Bài tiếp theo [State Object](/lesson/session/session_53_form_input_value.md)*

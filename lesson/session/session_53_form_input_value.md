@@ -40,4 +40,4 @@ Thay vào đó, khi bạn muốn cung cấp giá trị mặc định cho ngườ
 - Thiết lập `value` cho trường nhập liệu mà không có trình xử lý `onChange` sẽ tạo ra một trường nhập liệu chỉ đọc.
 - Nếu bạn muốn cung cấp giá trị mặc định, hãy sử dụng thuộc tính `defaultValue`.
 
-*Bài tiếp theo [Form Input onChange](/lesson/session/session_54_form_input_onchange.md)*
+*Bài tiếp theo [Object State](/lesson/session/session_54_object_state.md)*

@@ -51,4 +51,4 @@ Các hàm inline (nội tuyến) thường được sử dụng với biểu m�
 - `onChange` trên trường nhập liệu sẽ được kích hoạt mỗi khi người dùng thay đổi nội dung của trường nhập liệu.
 - Bạn có thể đọc văn bản do người dùng nhập bằng `event.target.value`.
 
-*Bài tiếp theo [Controlled component](/lesson/session/session_55_controlled_component.md)*
+*Bài tiếp theo [Controlled component](/lesson/session/session_56_controlled_component.md)*

@@ -1,4 +1,4 @@
-# Trạng thái với đối tượng
+# State Object
 
 ![Create-HTML-1](images/ss17.jpg) 
 
@@ -85,4 +85,4 @@ JSX kết quả sẽ là:
 - Bạn có thể đảo ngược giá trị boolean bằng cách đặt toán tử logic not trước giá trị.
 - !true cho kết quả false và !false cho kết quả true.
 
-*Bài tiếp theo [Form Input Value](/lesson/session/session_53_form_input_value.md)*
+*Bài tiếp theo [Form Input Value](/lesson/session/session_55_form_input_value.md)*

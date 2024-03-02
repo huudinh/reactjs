@@ -1,4 +1,4 @@
-# React DOM
+# Cài đặt React DOM
 
 ![Create-HTML-1](images/ss6.jpg) 
 

@@ -49,4 +49,4 @@ Vì vậy, đây là biểu mẫu tương tự nhưng được viết bằng JSX
 - `<label />` cần một trường thuộc tính `htmlFor` trỏ tới `id` của phần tử.
 
 
-*Bài tiếp theo [Stateless và Stateful components](/lesson/session/session_59_stateless_stateful_components.md)*
+*Bài tiếp theo [Stateless và Stateful components](/lesson/session/session_60_stateless_stateful_components.md)*

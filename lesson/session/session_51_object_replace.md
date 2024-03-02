@@ -1,4 +1,4 @@
-# Object Thêm và thay thế
+# Làm việc với Object
 
 ![Create-HTML-1](images/ss17.jpg) 
 
@@ -91,4 +91,4 @@ Bạn chỉ cần sửa đổi thành `{...data, age: 20}` và đoạn code sẽ
 - `{...obj, newKey: 'value'}` được dùng để thêm `newKey: 'value'` vào đối tượng obj một cách bất biến.
 - `{...obj, existingKey: 'newValue'}` được dùng để thay đổi `existingKey` thành `newValue` một cách bất biến.
 
-*Bài tiếp theo [Object Loại bỏ key-value](/lesson/session/session_52_object_remove_key_value.md)*
+*Bài tiếp theo [Loại bỏ key-value trong Object](/lesson/session/session_52_object_remove_key_value.md)*
