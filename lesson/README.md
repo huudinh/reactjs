@@ -70,4 +70,4 @@
 68. [useEffect more](session/session_68_effect_more.md)
 69. [useEffect clean](session/session_69_effect_clean.md)
 70. [Dọn dẹp bộ đếm thời gian](session/session_70_effect_clean_time.md)
-71. [Dọn dẹp bộ đếm thời gian](session/session_71_effect_listeners.md)
+71. [Lắng nghe sự kiện](session/session_71_effect_listeners.md)

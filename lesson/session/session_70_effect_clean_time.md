@@ -122,4 +122,4 @@ Tuy nhiên, trong một số tình huống, bạn có thể cần chạy effect 
 - Các hiệu ứng trả về hàm là những hiệu ứng mà React sẽ dọn dẹp sau mỗi lần hiển thị lại.
 - Hàm dọn dẹp chạy sau mỗi lần hiển thị lại. Bạn sẽ có thể ngăn nó chạy sau mỗi lần hiển thị lại.
 
-*Bài tiếp theo [Dọn dẹp bộ đếm thời gian](/lesson/session/session_71_effect_listeners.md)*
+*Bài tiếp theo [Lắng nghe sự kiện](/lesson/session/session_71_effect_listeners.md)*
