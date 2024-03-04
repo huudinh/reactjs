@@ -1,6 +1,14 @@
 # Lifting State Up
 
-![Create-HTML-1](images/ss17.jpg) 
+<!-- ![Create-HTML-1](images/ss17.jpg)  -->
+Demo Code Todo
+
+<iframe src="https://codesandbox.io/embed/wmndql?view=Editor+%2B+Preview&module=%2Fsrc%2Fcomponents%2FTodo.js&hidenavigation=1"
+    style="width:100%; height: 800px; border:0; border-radius: 4px; overflow:hidden;"
+    title="Todo"
+    allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
 
 Trong bài học này, chúng ta sẽ khám phá khái niệm lifting state up (nâng trạng thái của component con lên thành trạng thái của component cha).
 
