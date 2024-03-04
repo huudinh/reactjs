@@ -122,4 +122,4 @@ Hãy nhớ rằng có nhiều cách để giải quyết cùng một bài tập 
 
 - Để chia sẻ một trạng thái giữa hai component, bạn có thể nâng trạng thái chung lên thành trạng thái của component cha chung gần nhất của chúng.
 
-*Bài tiếp theo [Chia sẻ state giữa các component](/lesson/session/session_63_state_components.md)*
+*Bài tiếp theo [Component analysis](/lesson/session/session_64_component_analysis.md)*
