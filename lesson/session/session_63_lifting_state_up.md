@@ -2,13 +2,19 @@
 
 <!-- ![Create-HTML-1](images/ss17.jpg)  -->
 Demo Code Todo
-
+<figure class="video_container">
 <iframe src="https://codesandbox.io/embed/wmndql?view=Editor+%2B+Preview&module=%2Fsrc%2Fcomponents%2FTodo.js&hidenavigation=1"
     style="width:100%; height: 800px; border:0; border-radius: 4px; overflow:hidden;"
     title="Todo"
     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
+</figure>
+
+we will be here:
+<figure class="video_container">
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=6.047544479370118%2C46.23053702499607%2C6.061706542968751%2C46.23821801159735&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+</figure>
 
 Trong bài học này, chúng ta sẽ khám phá khái niệm lifting state up (nâng trạng thái của component con lên thành trạng thái của component cha).
 
