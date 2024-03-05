@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/ss7.jpg) 
 
-# SS7 - Phần tử Root
+# SS7 Phần tử Root
 
 Chúng ta sẽ đào sâu thêm về khái niệm phần tử root, còn được gọi là container.
 

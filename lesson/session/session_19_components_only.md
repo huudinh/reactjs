@@ -1,6 +1,8 @@
-# Quy tắc code: Một file chỉ chứa 1 Component
+![Create-HTML-1](images/components.jpg) 
 
-![Create-HTML-1](images/ss17.jpg) 
+# SS19 Xây dựng Components: 
+
+Một file chỉ chứa 1 Component
 
 Một ứng dụng được xây dựng bằng React sẽ có nhiều component.
 

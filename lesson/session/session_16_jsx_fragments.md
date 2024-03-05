@@ -1,6 +1,6 @@
-# JSX Fragments
+![Create-HTML-1](images/jsx.jpg) 
 
-![Create-HTML-1](images/ss8.jpg) 
+# SS16 JSX Fragments
 
 Khi trả về các phần tử trong JSX, bạn chỉ có thể trả về một phần tử mỗi lần.
 

@@ -1,6 +1,6 @@
-# Cơ chế hoạt động của component
+![Create-HTML-1](images/components.jpg) 
 
-![Create-HTML-1](images/ss17.jpg) 
+# SS18 Cơ chế hoạt động của component
 
 Cách React nhận biết rằng đó là component chứ không phải phần tử:
 

@@ -1,6 +1,6 @@
-# Biểu thức thuộc tính
+![Create-HTML-1](images/jsx.jpg) 
 
-![Create-HTML-1](images/ss8.jpg) 
+# SS14 Biểu thức thuộc tính
 
 Trong những bài học trước, chúng ta chỉ làm việc với các phần tử JSX không có phần tử con, ví dụ như div hoặc h1.
 

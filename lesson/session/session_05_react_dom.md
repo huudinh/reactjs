@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/react-dom.png) 
 
-# SS5 - React DOM
+# SS5 React DOM
 
 ReactDOM là sự kết hợp giữa React và DOM.
 

@@ -1,6 +1,6 @@
-# Biểu thức thuộc tính
+![Create-HTML-1](images/jsx.jpg) 
 
-![Create-HTML-1](images/ss8.jpg) 
+# SS13 Biểu thức thuộc tính
 
 Khi một trong các thuộc tính có một phần giá trị là động (thay đổi theo ngữ cảnh), bạn sẽ phải xem xét toàn bộ thuộc tính đó như là một giá trị hoàn toàn động. Ví dụ:
 
