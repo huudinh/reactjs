@@ -83,4 +83,4 @@ useEffect(() => {
 - Tham số `dependencies` nhận một mảng giá trị mà React sẽ so sánh giữa lần hiển thị trước và lần hiển thị tiếp theo. Chỉ khi những giá trị này thay đổi thì React mới gọi lại hiệu ứng.
 - Nếu bạn truyền một mảng rỗng `[]` làm phụ thuộc thì hiệu ứng sẽ chỉ được gọi một lần.
 
-*Bài tiếp theo [Vòng đời của Component](/lesson/session/session_73_lifecycle.md)*
+*Bài tiếp theo [RS73 Vòng đời của Component](/lesson/session/session_73_lifecycle.md)*

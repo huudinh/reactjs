@@ -15,4 +15,4 @@
 - `setInterval` lên lịch gọi một hàm sau mỗi X mili giây.
 - `clearInterval(intervalId)` cho phép bạn xóa một `interval` được tạo ra bằng `setInterval`.
 
-*Bài tiếp theo [effect Time](/lesson/session/session_76_effect_control.md)*
+*Bài tiếp theo [Effect Control](/lesson/session/session_77_effect_control.md)*

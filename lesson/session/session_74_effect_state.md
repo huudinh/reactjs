@@ -63,4 +63,4 @@ function App() {
 - Nói chung, tốt nhất là bạn nên tránh thiết lập trạng thái bên trong `useEffect`.
 - Gọi `setState` bên trong `useEffect` có thể dẫn đến một vòng lặp vô hạn. Bạn phải truyền một phụ thuộc cho `useEffect`.
 
-*Bài tiếp theo [effect Time](/lesson/session/session_75_effect_time.md)*
+*Bài tiếp theo [RS75 effect Time](/lesson/session/session_75_effect_time.md)*
