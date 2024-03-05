@@ -1,6 +1,6 @@
-# React là gì
+![Create-HTML-1](images/reactjs.webp)
 
-![Create-HTML-1](images/ss1.webp) 
+# SS1 - React là gì
 
 ### Giới thiệu về React
 

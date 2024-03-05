@@ -1,6 +1,6 @@
-# useEffect
+![Create-HTML-1](images/effect.webp) 
 
-![Create-HTML-1](images/ss17.jpg) 
+# useEffect
 
 ### React.StrictMode
 

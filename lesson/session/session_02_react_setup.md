@@ -1,6 +1,6 @@
-# Cài đặt React
+![Create-HTML-1](images/react.jpg) 
 
-![Create-HTML-1](images/ss2.jpg) 
+# SS2 - Cài đặt React
 
 Để cài đặt gói react vào dự án, bạn cần cài đặt bằng trình quản lý gói (npm hoặc yarn).
 

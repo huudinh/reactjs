@@ -1,6 +1,6 @@
-# Làm việc với JSX
+![Create-HTML-1](images/jsx.jpg) 
 
-![Create-HTML-1](images/ss8.jpg) 
+# SS10 - Làm việc với JSX
 
 Vì JSX được chuyển đổi thành `React.createElement(...)` trả về một đối tượng, bạn có thể coi phần tử JSX như một đối tượng.
 

@@ -1,8 +1,8 @@
+![Create-HTML-1](images/effect.webp) 
+
 # Dọn dẹp bộ đếm thời gian
 
-![Create-HTML-1](images/ss17.jpg) 
-
-Trở lại ví dụ trước:
+Xem ví dụ sau:
 
 ```
 import {useEffect} from "react";

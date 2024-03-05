@@ -1,6 +1,6 @@
-# Thuộc tính (Attributes) trong JSX
+![Create-HTML-1](images/jsx.jpg) 
 
-![Create-HTML-1](images/ss8.jpg) 
+# SS9 - Attributes trong JSX
 
 Hãy cùng tìm hiểu cách thiết lập thuộc tính cho các phần tử trong JSX.
 

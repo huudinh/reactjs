@@ -1,6 +1,6 @@
-# Tạo phần tử HTML
+![Create-HTML-1](images/html.png) 
 
-![Create-HTML-1](images/ss3-1.png) 
+# SS3 - Tạo phần tử HTML
 
 `document.createElement(tagName)` là một Web API được các trình duyệt cung cấp để tạo một phần tử HTML.
 

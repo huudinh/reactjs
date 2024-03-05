@@ -1,6 +1,6 @@
-# React Element
+![Create-HTML-1](images/create-element.png) 
 
-![Create-HTML-1](images/ss4.png) 
+# SS4 - React Element
 
 `document.createElement không được sử dụng trong React.` không được sử dụng trong React.
 

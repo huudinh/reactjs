@@ -1,6 +1,6 @@
-# Hiệu ứng yêu cầu dọn dẹp
+![Create-HTML-1](images/effect.webp) 
 
-![Create-HTML-1](images/ss17.jpg) 
+# Hiệu ứng yêu cầu dọn dẹp
 
 ### Dọn dẹp là gì?
 

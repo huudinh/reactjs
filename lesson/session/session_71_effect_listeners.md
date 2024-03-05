@@ -1,6 +1,6 @@
-# Event listeners: Trình lắng nghe sự kiện
+![Create-HTML-1](images/effect.webp) 
 
-![Create-HTML-1](images/ss17.jpg) 
+# Event Listeners
 
 Hook hiệu ứng là một chủ đề nâng cao trong React; do đó, chúng ta sẽ học về chủ đề này trong một số chương. Các ví dụ chúng ta đã thấy cho đến nay không phải là những ví dụ thú vị nhất. Do đó, chúng ta sẽ sớm thấy các ví dụ thú vị hơn. Ví dụ: cập nhật trạng thái bên trong hook hiệu ứng (tuy nhiên bạn chưa nên thử ngay bây giờ vì nó sẽ gây ra vòng lặp vô hạn!).
 

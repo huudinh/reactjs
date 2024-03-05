@@ -1,6 +1,6 @@
-# Biểu thức JSX
+![Create-HTML-1](images/jsx.jpg) 
 
-![Create-HTML-1](images/ss8.jpg) 
+# SS11 - Biểu thức JSX
 
 ### Biểu thức là gì?
 
