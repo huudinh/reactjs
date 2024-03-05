@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/components.jpg) 
 
-# Components
+# RS17 Components
 
 Kể từ chương này, hầu hết các đoạn code JSX mà bạn viết sẽ được đóng gói (encapsulate) trong Component.
 

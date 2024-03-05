@@ -1,6 +1,7 @@
-# Gán nhãn cho form
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS59 Gán nhãn cho form
 
 Dưới đây là cách thêm `label` cho một `input` trong HTML (trong React sẽ khác một chút):
 

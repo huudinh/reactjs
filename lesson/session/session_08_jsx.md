@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/jsx.jpg) 
 
-# SS8 Giới thiệu về JSX
+# RS8 Giới thiệu về JSX
 
 Khi làm việc với React, bạn cần sử dụng `React.createElement` để biểu diễn giao diện người dùng. Tuy nhiên, cú pháp của nó khá dài. Cú pháp sẽ trở nên càng dài và nhàm chán hơn khi bạn bắt đầu phát triển giao diện người dùng phức tạp hơn.
 

@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# Tìm hiểu chi tiết hơn về useEffect
+# RS68 Tìm hiểu chi tiết hơn về useEffect
 
 Quay lại ví dụ trước:
 ```

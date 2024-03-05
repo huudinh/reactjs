@@ -1,6 +1,7 @@
-# Rendering theo điều kiện 2
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS41 Rendering theo điều kiện
 
 Có nhiều cách để kết xuất có điều kiện, chúng chủ yếu là các tính năng của JavaScript mà bạn có thể sử dụng trong React.
 

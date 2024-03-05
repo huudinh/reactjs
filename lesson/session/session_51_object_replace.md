@@ -1,6 +1,7 @@
-# Làm việc với Object
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS51 Làm việc với Object
 
 Bây giờ chúng ta đã biết cách thay đổi mảng một cách bất biến (không làm thay đổi mảng ban đầu), do đó, việc thực hiện thao tác bất biến với đối tượng cũng trở nên dễ dàng hơn vì nó cũng dựa trên toán tử `spread` (`...`).
 

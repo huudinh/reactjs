@@ -1,6 +1,7 @@
-# Đặt tên cho trình xử lý sự kiện
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS36 Đặt tên cho trình xử lý sự kiện
 
 Bài trước, chúng ta đã viết trình xử lý sự kiện ở dạng nội tuyến, tức là trực tiếp gán một hàm (không có tên) cho sự kiện, ví dụ:
 

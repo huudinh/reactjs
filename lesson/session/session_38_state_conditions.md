@@ -1,6 +1,7 @@
-# Thay đổi trạng thái có điều kiện
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS38 Thay đổi trạng thái có điều kiện
 
 Thay đổi trạng thái có điều kiện không phải là một khái niệm đặc thù của React mà thực tế là một yêu cầu cần thiết trong nhiều dự án.
 

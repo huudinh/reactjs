@@ -1,6 +1,7 @@
-# Component analysis
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS64 Component analysis
 
 Khi xây dựng ứng dụng với React, bạn có thể gặp các component lớn chứa hàng trăm dòng code.
 

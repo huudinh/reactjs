@@ -1,6 +1,7 @@
-# Tạo Component Counter
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS33 Tạo Component Counter
 
 ### Phân tích component Counter
 

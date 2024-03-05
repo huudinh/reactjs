@@ -1,6 +1,6 @@
-# Props (Properties)
+![Create-HTML-1](images/components.jpg)
 
-![Create-HTML-1](images/ss17.jpg) 
+# RS20 Props (Properties)
 
 Giả sử chúng ta có một component tên là `<GreetUser>` hiển thị: Welcome Sam hoặc Welcome Alex.
 

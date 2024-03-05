@@ -1,7 +1,6 @@
 ![Create-HTML-1](images/jsx.jpg) 
 
-# SS12 JSX Attribute Expression
-
+# RS12 JSX Attribute Expression
 
 JSX cũng hỗ trợ biểu thức thuộc tính, tức là giá trị của thuộc tính được xác định dựa trên biểu thức (hoặc thường là biến), ví dụ:
 

@@ -1,6 +1,7 @@
-# State Performance
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS65 State Performance
 
 Cập nhật state trong React là hành vi bất đồng bộ, tức là state không nhất thiết phải được cập nhật ngay lập tức.
 

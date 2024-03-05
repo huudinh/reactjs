@@ -1,6 +1,7 @@
-# Form Input Value
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS53 Form Input Value
 
 ### Thuộc tính value trong HTML
 

@@ -1,6 +1,7 @@
-# Thay đổi và loại bỏ phần tử khỏi mảng bất biến
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS48 Thay đổi và loại bỏ phần tử khỏi mảng bất biến
 
 Trong bài học này, chúng ta sẽ tìm hiểu cách cập nhật và xóa các phần tử từ mảng theo cách bất biến.
 

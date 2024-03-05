@@ -1,6 +1,7 @@
-# Destructuring với mảng - Nâng cao
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS28 Destructuring với mảng - Nâng cao
 
 > Array destructuring là một cú pháp rút gọn vì nó giúp chúng ta dễ dàng tạo ra các biến từ các phần tử của mảng.
 

@@ -1,6 +1,7 @@
-# Các nguyên tắc khi làm việc với Hooks
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS43 Các nguyên tắc khi làm việc với Hooks
 
 Để hook hoạt động chính xác, bạn phải tuân theo hai quy tắc sau:
 

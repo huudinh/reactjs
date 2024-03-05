@@ -1,6 +1,7 @@
-# Cải tiến Component Form
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS62 Cải tiến Component Form
 
 Bây giờ chúng ta đã biết cách truyền hàm dưới dạng props trong React, hãy xem xét component React sau:
 

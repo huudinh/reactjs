@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/jsx.jpg) 
 
-# SS15 Thẻ tự đóng
+# RS15 Thẻ tự đóng
 
 HTML có một số thẻ tự đóng, đó là các thẻ HTML không thể chứa phần tử con; do đó, chúng không cần thẻ đóng.
 

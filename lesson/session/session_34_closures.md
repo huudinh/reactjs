@@ -1,6 +1,7 @@
-# Closures trong JavaScript
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS34 Closures trong JavaScript
 
 Closure là một khái niệm trong JavaScript nghe có vẻ phức tạp, nhưng trên thực tế thì nó khá đơn giản. Vậy closures là gì?
 

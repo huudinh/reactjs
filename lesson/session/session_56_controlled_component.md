@@ -1,6 +1,7 @@
-# Controlled component
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS56 Controlled component
 
 ### Controlled component là gì?
 

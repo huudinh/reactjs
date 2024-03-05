@@ -1,6 +1,8 @@
-# Lifting State Up
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS63 Lifting State Up
+
 [Code Todo](https://huudinh.github.io/learn-reactjs/lifting-state-up.html)
 
 Trong bài học này, chúng ta sẽ khám phá khái niệm lifting state up (nâng trạng thái của component con lên thành trạng thái của component cha).

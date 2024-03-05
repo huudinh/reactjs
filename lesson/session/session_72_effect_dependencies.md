@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# Dependencies
+# RS72 Dependencies
 
 Tất cả các cuộc gọi `useEffect` mà chúng ta đã thấy cho đến nay đều chạy sau lần hiển thị đầu tiên của component và sau mỗi lần component hiển thị lại. Nhưng đôi khi bạn không muốn `useEffect` hiển thị lại mỗi lần (đôi khi điều này sẽ tạo ra vòng lặp vô hạn). Đó là lý do tại sao hàm `useEffect` có đối số thứ hai.
 

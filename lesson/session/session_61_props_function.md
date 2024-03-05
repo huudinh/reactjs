@@ -1,6 +1,7 @@
-# Truyền hàm vào props
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS61 Truyền hàm vào props
 
 Chúng ta đã xem ví dụ về props chứa giá trị boolean, chuỗi, số, mảng và đối tượng.
 

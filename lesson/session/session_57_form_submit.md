@@ -1,6 +1,7 @@
-# Form Submit
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS57 Form Submit
 
 Trong các dự án thực tế, `form` có thể có nhiều hơn một trường dữ liệu và chúng ta thường gặp các phần tử `<select />` hoặc `<textarea />`.
 

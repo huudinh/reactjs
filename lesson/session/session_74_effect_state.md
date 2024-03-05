@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# State trong effect
+# RS74 State trong effect
 
 Nhìn chung, bạn được khuyến khích không nên cập nhật state từ bên trong `useEffect`. Tuy nhiên, việc cập nhật này có thể cần thiết trong một số tình huống. Trong trường hợp đó, bạn nên tránh mắc phải những lỗi phổ biến nhất mà các lập trình thường gặp phải. Trong bài học này, chúng ta sẽ thử tạo ra lỗi như vậy để hiểu rõ vấn đề hơn:
 

@@ -1,6 +1,7 @@
-# Stateless và Stateful components
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS60 Stateless và Stateful components
 
 Component React có thể được chia thành hai loại: stateless (không lưu trạng thái) hoặc stateful (lưu trạng thái).
 

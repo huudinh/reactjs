@@ -1,6 +1,7 @@
-# Update State
 
 ![Create-HTML-1](images/ss29.jpg) 
+
+# RS32 Update State
 
 Chúng ta sẽ tìm hiểu cách cập nhật trạng thái và cách React & ReactDOM tự động cập nhật lại Component và hiển thị các cập nhật trên trình duyệt.
 

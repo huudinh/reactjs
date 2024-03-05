@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# Effect Time
+# RS75 Effect Time
 
 Giả sử chúng ta muốn xây dựng component `<Clock />` hiển thị thời gian hiện tại.
 

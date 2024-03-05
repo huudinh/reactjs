@@ -1,6 +1,7 @@
-# Ý nghĩa của tính bất biến
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS46 Ý nghĩa của tính bất biến
 
 Hãy cùng tìm hiểu lý do tại sao React yêu cầu tính bất biến khi làm việc với Mảng và Đối tượng. Giả sử bạn đã viết Component sau:
 

@@ -1,6 +1,7 @@
-# Mảng và đối tượng
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS44 Mảng và đối tượng
 
 Hãy bắt đầu bằng việc so sánh số, chuỗi và boolean:
 

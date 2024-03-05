@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# Dọn dẹp bộ đếm thời gian
+# RS70 Dọn dẹp bộ đếm thời gian
 
 Xem ví dụ sau:
 

@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# Effect Control
+# RS76 Effect Control
 
 
 

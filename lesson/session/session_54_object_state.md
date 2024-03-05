@@ -1,6 +1,7 @@
-# State Object
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS54 State Object
 
 Chúng ta sẽ làm việc với trạng thái đại diện cho đối tượng.
 

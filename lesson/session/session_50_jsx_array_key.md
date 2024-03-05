@@ -1,6 +1,7 @@
-# Key trong mảng
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS50 Key trong mảng
 
 Mỗi khi sử dụng phương thức `map` trong JSX, bạn cần cung cấp một thuộc tính `key` để tránh gặp cảnh báo (vì lý do hiệu suất):
 

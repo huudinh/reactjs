@@ -1,6 +1,6 @@
-# Event
+![Create-HTML-1](images/components.jpg) 
 
-![Create-HTML-1](images/ss17.jpg) 
+# RS35 Event
 
 ### Gắn sự kiện vào phần tử DOM
 

@@ -1,6 +1,6 @@
-# Hàm thuần túy (Pure function)
+![Create-HTML-1](images/components.jpg) 
 
-![Create-HTML-1](images/ss17.jpg) 
+# RS23 Hàm thuần túy (Pure function)
 
 Sau này trong khóa học, khi chúng ta nói thêm về Virtual DOM, bạn sẽ thấy React có thể hình dung cách cập nhật component một cách hiệu quả khi một giá trị thay đổi.
 

@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# Vòng đời của Component
+# RS73 Vòng đời của Component
 
 Với `useEffect` và phụ thuộc của nó, bạn có thể gọi các phương thức tại các vòng đời khác nhau của component. Điều này có nghĩa là bạn có thể gọi các phương thức ở các giai đoạn khác nhau của component. Ví dụ:
 

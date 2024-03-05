@@ -1,6 +1,6 @@
-# Toán tử spread "..."
+![Create-HTML-1](images/components.jpg) 
 
-![Create-HTML-1](images/ss8.jpg) 
+# RS26 Toán tử spread "..."
 
 Chúng ta cùng ôn lại toán tử spread của JavaScript:
 

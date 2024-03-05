@@ -1,6 +1,7 @@
-# Mảng trong JSX
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS49 Mảng trong JSX
 
 Hãy nhớ rằng mảng phải là bất biến trong React.
 

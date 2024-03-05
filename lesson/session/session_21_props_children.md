@@ -1,6 +1,6 @@
-# Props Children
+![Create-HTML-1](images/components.jpg) 
 
-![Create-HTML-1](images/ss17.jpg) 
+# RS21 Props Children
 
 Trong những bài học trước, chúng ta thấy props được sử dụng để đại diện cho các trường thuộc tính trên component.
 

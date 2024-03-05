@@ -1,6 +1,7 @@
-# Update State bằng hàm
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS66 Update State bằng hàm
 
 Vì cập nhật trạng thái là hành vi bất đồng bộ, có một điều mà chúng ta cần phải để ý.
 

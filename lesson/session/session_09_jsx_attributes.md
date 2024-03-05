@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/jsx.jpg) 
 
-# SS9 Attributes trong JSX
+# RS9 Attributes trong JSX
 
 Hãy cùng tìm hiểu cách thiết lập thuộc tính cho các phần tử trong JSX.
 

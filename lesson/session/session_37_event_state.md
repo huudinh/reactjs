@@ -1,6 +1,7 @@
-# Event State & Closures
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS37 Event State & Closures
 
 Sau khi đã hiểu về event và closures, chúng ta có thể tiếp tục làm việc với state bên trong các component.
 

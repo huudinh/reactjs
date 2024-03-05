@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/ss6.jpg) 
 
-# SS6 Cài đặt React DOM
+# RS6 Cài đặt React DOM
 
 Hãy bắt đầu bằng việc cài đặt ReactDOM:
 

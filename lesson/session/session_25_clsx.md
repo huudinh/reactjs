@@ -1,6 +1,6 @@
-# Sử dụng thư viện clsx để viết câu lệnh if
+![Create-HTML-1](images/components.jpg) 
 
-![Create-HTML-1](images/ss8.jpg) 
+# RS25 Sử dụng thư viện clsx để viết câu lệnh if
 
 Trong những bài học trước, việc áp dụng các lớp động trong React hơi phức tạp vì bạn phải xây dựng chuỗi `className` theo cách thủ công.
 

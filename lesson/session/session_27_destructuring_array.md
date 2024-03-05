@@ -1,6 +1,6 @@
-# Destructuring với mảng
+![Create-HTML-1](images/components.jpg) 
 
-![Create-HTML-1](images/ss17.jpg) 
+# RS27 Destructuring với mảng
 
 ### Array destructuring cơ bản
 

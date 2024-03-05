@@ -1,7 +1,6 @@
-# Destructuring
+![Create-HTML-1](images/components.jpg) 
 
-![Create-HTML-1](images/ss17.jpg) 
-
+# RS22 Destructuring
 
 ### Ôn tập destructuring
 

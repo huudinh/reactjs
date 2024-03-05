@@ -1,6 +1,7 @@
-# Thay đổi trạng thái có điều kiện: Props
 
-![Create-HTML-1](images/ss17.jpg) 
+![Create-HTML-1](images/components.jpg) 
+
+# RS39 Thay đổi trạng thái có điều kiện: Props
 
 Điều gì sẽ xảy ra nếu chúng ta kết hợp Props và thay đổi trạng thái có điều kiện?
 
