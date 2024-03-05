@@ -114,4 +114,4 @@ Bạn có thể chạy hiệu ứng:
 - Sau mỗi lần hiển thị lại
 - Trên các lần hiển thị lại cụ thể
 
-*Bài tiếp theo [State trong effect](/lesson/session/session_74_effect_state.md)*
+*Bài tiếp theo [RS74 State trong effect](/lesson/session/session_74_effect_state.md)*
