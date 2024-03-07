@@ -1,5 +1,4 @@
-
-![Create-HTML-1](images/components.jpg) 
+![Create-HTML-1](images/state.png) 
 
 # RS34 Closures trong JavaScript
 

@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/jsx.jpg) 
 
-# RS14 Biểu thức thuộc tính
+# RS14 Các phần tử JSX
 
 Trong những bài học trước, chúng ta chỉ làm việc với các phần tử JSX không có phần tử con, ví dụ như div hoặc h1.
 
@@ -93,4 +93,4 @@ Bằng cách viết dấu ngoặc mở, không có dấu chấm phẩy tự đ�
 
 - Luôn đóng gói các phần tử JSX bằng () khi viết JSX sau một lệnh return.
 
-*Bài tiếp theo [JSX Self-closing Tag](/lesson/session/session_15_jsx_self_closing_tag.md)*
+*Bài tiếp theo [RS15 Cú pháp thẻ tự đóng](/lesson/session/session_15_jsx_self_closing_tag.md)*
