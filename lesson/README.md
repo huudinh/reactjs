@@ -152,3 +152,34 @@
 
 [RS76 Effect Control](session/session_76_effect_control.md)
 
+[RS77 Effect, State & Events](session/session_77_effect_state_events.md)
+
+[RS78 Effect Performance](session/session_78_effect_performance.md)
+
+[RS79 localStorage](session/session_79_localStorage.md)
+
+[RS80 localStorage, Object ](session/session_80_localStorage_object.md)
+
+[RS81 Khôi phục trạng thái từ localStorage](session/session_81_localStorage_more.md)
+
+[RS82 Lazy initial state](session/session_82_localStorage_lazy_state.md)
+
+[RS83 Promises](session/session_83_promises.md)
+
+[RS84 Fetch API](session/session_84_fetch.md)
+
+[RS85 Fetch trong Component](session/session_85_fetch_component.md)
+
+[RS86 Fetch Error](session/session_86_fetch_error.md)
+
+[RS87 Toán tử logic &&](session/session_87_fetch_and.md)
+
+[RS88 Xử lý lỗi Fetch](session/session_88_fetch_error.md)
+
+[RS89 Xử lý tải dữ liệu bằng fetch](session/session_89_fetch_loader.md)
+
+[RS90 Promise finally](session/session_90_fetch_finally.md)
+
+[RS91 Fetch khi click (onClick)](session/session_91_fetch_onclick.md)
+
+[RS92 Fetch khi thay đổi (onChange)](session/session_92_fetch_onchange.md)
