@@ -18,8 +18,6 @@ Vì React coi các component bắt đầu bằng chữ thường như thẻ DOM 
 
 Vậy sự khác biệt giữa phần tử và component trong React là gì?
 
-Câu hỏi sẽ được giải đáp trong một chương sau này sau khi chúng ta đã tìm hiểu một số khái niệm cụ thể. Hiện tại, bạn chỉ cần biết là:
-
 Component React là một hàm trả về phần tử React.
 
 ### Kết hợp các component
@@ -89,4 +87,4 @@ Trong trường hợp này, chúng ta cần muốn trả về `<button></button>
 
 - Component React là một hàm trả về Phần tử React.
 
-*Bài tiếp theo [Components Only](/lesson/session/session_19_components_only.md)*
+*Bài tiếp theo [RS19 Xây dựng Components](/lesson/session/session_19_components_only.md)*

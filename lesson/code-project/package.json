@@ -1,6 +1,7 @@
 {
   "name": "code-project",
   "private": true,
+  "homepage": "https://scigroup.com.vn/app/code-project/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

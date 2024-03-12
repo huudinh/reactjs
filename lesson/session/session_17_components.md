@@ -2,7 +2,7 @@
 
 # RS17 Components
 
-Kể từ chương này, hầu hết các đoạn code JSX mà bạn viết sẽ được đóng gói (encapsulate) trong Component.
+Kể từ bài này, hầu hết các đoạn code JSX mà bạn viết sẽ được đóng gói (encapsulate) trong Component.
 
 Component là gì?
 
@@ -10,9 +10,7 @@ Component là gì?
 
 Component React là một hàm trả về một phần tử React, mô tả cách một phần giao diện người dùng nên được hiển thị.
 
-### Định nghĩa chi tiết 
-
-Component React là một hàm trả về một phần tử React (kết quả của `React.createElement`). Phần tử trả về đó có thể có nhiều phần tử con.
+Là kết quả của `React.createElement`. Phần tử trả về đó có thể có nhiều phần tử con.
 
 Component cho phép chia giao diện người dùng thành các phần độc lập, có thể tái sử dụng. Việc sử dụng component cho phép bạn xem xét từng phần của giao diện người dùng một cách riêng biệt, giúp cho việc gỡ lỗi code dễ dàng hơn.
 
@@ -82,4 +80,4 @@ Hãy luôn viết tên hàm theo kiểu UpperCamelCase; dưới đây là một 
 
 - Sử dụng UpperCamelCase khi đặt tên cho component React.
 
-*Bài tiếp theo [Components Activity](/lesson/session/session_18_components_activity.md)*
+*Bài tiếp theo [RS18 Cơ chế hoạt động của component](/lesson/session/session_18_components_activity.md)*

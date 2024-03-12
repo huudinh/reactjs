@@ -183,3 +183,15 @@
 [RS91 Fetch khi click (onClick)](session/session_91_fetch_onclick.md)
 
 [RS92 Fetch khi thay đổi (onChange)](session/session_92_fetch_onchange.md)
+
+[RS93 Fetch với async/await](session/session_93_fetch_async.md)
+
+[RS94 Fetch, event và async/await](session/session_94_fetch_event.md)
+
+[RS95 Fetch POST](session/session_95_fetch_post.md)
+
+[RS96 Custom Hooks](session/session_96_custom_hooks.md)
+
+[RS97 Custom Hooks useEffect](session/session_97_custom_hooks_use_effect.md)
+
+[RS98 Di chuyển hooks vào file riêng](session/session_98_custom_hooks_file.md)
