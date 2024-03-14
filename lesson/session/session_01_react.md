@@ -6,13 +6,9 @@
 
 React là một thư viện JavaScript được xây dựng và chủ yếu được duy trì bởi Facebook (Meta).
 
-### Định nghĩa ngắn gọn
+Được sử dụng để xây dựng Giao diện người dùng.
 
-React là một thư viện JavaScript được sử dụng để xây dựng Giao diện người dùng.
-
-### Định nghĩa chi tiết 
-
-React là một thư viện JavaScript tập trung vào việc xây dựng lớp giao diện của ứng dụng. Điều này có nghĩa là React chỉ chịu trách nhiệm cho việc hiển thị Giao diện Người dùng (văn bản, hộp văn bản, nút, v.v.) cũng như cập nhật giao diện người dùng mỗi khi có thay đổi.
+Tập trung vào việc xây dựng lớp giao diện của ứng dụng. Điều này có nghĩa là React chỉ chịu trách nhiệm cho việc hiển thị Giao diện Người dùng (văn bản, hộp văn bản, nút, v.v.) cũng như cập nhật giao diện người dùng mỗi khi có thay đổi.
 
 Giả sử bạn đang xây dựng một trang web thương mại điện tử và muốn theo dõi số lượng sản phẩm trong giỏ hàng khi người dùng thêm và xóa sản phẩm. React giúp bạn dễ dàng chỉ định việc hiển thị số lượng sản phẩm trong giỏ hàng: `{items.length}`.
 
@@ -41,6 +37,7 @@ React giúp bạn quản lý giao diện người dùng phức tạp nhưng khô
 Việc làm cho giao diện trở nên đẹp mắt và thân thiện với người dùng là nhiệm vụ của bạn, bạn có thể lựa chọn sử dụng thư viện thiết kế hoặc CSS cho mục đích đó.
 
 ### Vậy còn Web Components thì sao?
+
 Bạn có thể sử dụng Web Components để phát triển Ứng dụng Web; bạn không nhất thiết phải sử dụng React.
 
 Bạn cũng có thể sử dụng React để bổ sung cho Web Components và ngược lại.

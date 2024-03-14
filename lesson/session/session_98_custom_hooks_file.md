@@ -62,4 +62,4 @@ Bạn cũng có thể đặt tên file là useHelloWorld.hook.js để chỉ rõ
 - Nhớ thêm `useEffect` (hoặc các hook React khác) mà bạn định sử dụng vào file định nghĩa hook tùy chỉnh.
 - Bạn cần `export default` hook tùy chỉnh để có thể thêm nó vào các file khác.
 
-*Bài tiếp theo [RS99 Di chuyển hooks vào file riêng](/lesson/session/session_99_custom_hooks_file.md)*
+*Bài tiếp theo [RS99 Custom hooks với tham số](/lesson/session/session_99_custom_hooks_param.md)*
