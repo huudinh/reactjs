@@ -89,4 +89,4 @@ export default function () {
 
 - Để sử dụng một Component được định nghĩa trong file khác, bạn cần thêm nó vào file hiện tại.
 
-*Bài tiếp theo [RS20 Props](/lesson/session/session_20_props.md)*
+*Bài tiếp theo [RS20 Props](/lesson/session/session_020_props.md)*

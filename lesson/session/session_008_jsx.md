@@ -85,4 +85,4 @@ createRoot(root)
 
 - JSX không phải là một phần của trình duyệt. Bạn cần một công cụ để chuyển đổi code thành JavaScript hợp lệ.
 
-*Bài tiếp theo [JSX Attributes](/lesson/session/session_09_jsx_attributes.md)*
+*Bài tiếp theo [RS9 Attributes trong JSX](/lesson/session/session_009_jsx_attributes.md)*

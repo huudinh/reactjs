@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/jsx.jpg) 
 
-# RS11 Biểu thức JSX
+# RS11 Biểu thức trong JSX
 
 ### Biểu thức là gì?
 
@@ -86,4 +86,4 @@ const element = <p className="user-info">Welcome {capitalise(name)}</p>
 
 - `<h1 className="title">You have {2 + 3} notifications</h1>` là một ví dụ về JSX với một biểu thức.
 
-*Bài tiếp theo [JSX Attribute Expression](/lesson/session/session_12_jsx_attribute_expression.md)*
+*Bài tiếp theo [JSX Attribute Expression](/lesson/session/session_012_jsx_attribute_expression.md)*

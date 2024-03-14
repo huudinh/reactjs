@@ -68,4 +68,4 @@ Cú pháp trên trông không trực quan và khá phức tạp. Do đó, chúng
 
 - `React.createElement(type, options, children)`
 
-*Bài tiếp theo [React DOM](/lesson/session/session_05_react_dom.md)*
+*Bài tiếp theo [RS5 React DOM](/lesson/session/session_005_react_dom.md)*

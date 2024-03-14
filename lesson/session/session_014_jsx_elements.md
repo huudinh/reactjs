@@ -93,4 +93,4 @@ Bằng cách viết dấu ngoặc mở, không có dấu chấm phẩy tự đ�
 
 - Luôn đóng gói các phần tử JSX bằng () khi viết JSX sau một lệnh return.
 
-*Bài tiếp theo [RS15 Cú pháp thẻ tự đóng](/lesson/session/session_15_jsx_self_closing_tag.md)*
+*Bài tiếp theo [RS15 Cú pháp thẻ tự đóng](/lesson/session/session_015_jsx_self_closing_tag.md)*

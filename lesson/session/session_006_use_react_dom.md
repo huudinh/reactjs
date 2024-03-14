@@ -96,4 +96,4 @@ createRoot(root).render(React.createElement("p", {}, "Hello World"));
 
 - createRoot(root).render(element);
 
-*Bài tiếp theo [Root](/lesson/session/session_07_root.md)*
+*Bài tiếp theo [RS7 Phần tử Root](/lesson/session/session_007_root.md)*

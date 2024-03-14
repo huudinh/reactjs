@@ -52,4 +52,4 @@ Giá trị của các thuộc tính số và boolean nên được truyền dư�
 
 - Giá trị của các thuộc tính số và boolean nên được truyền dưới dạng biểu thức
 
-*Bài tiếp theo [JSX Attribute Expression More](/lesson/session/session_13_jsx_attribute_expression_more.md)*
+*Bài tiếp theo [JSX Attribute Expression More](/lesson/session/session_013_jsx_attribute_expression_more.md)*

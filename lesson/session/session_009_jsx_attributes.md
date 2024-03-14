@@ -46,4 +46,4 @@ Vì vậy, đừng quên rằng JSX sẽ tự động chuyển đổi code thàn
 
 - Khi thiết lập giá trị cho thuộc tính là chuỗi, chúng ta cần đóng gói giá trị đó trong dấu ngoặc kép.
 
-*Bài tiếp theo [JSX More](/lesson/session/session_10_jsx_more.md)*
+*Bài tiếp theo [RS10 Làm việc với JSX](/lesson/session/session_010_jsx_more.md)*

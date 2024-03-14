@@ -55,4 +55,4 @@ const button = <button className={`${clickable} ${active}`}>Click me</button>;
 
 - Bạn có thể sử dụng template string (với nội suy) hoặc nối chuỗi.
 
-*Bài tiếp theo [JSX Elements](/lesson/session/session_14_jsx_elements.md)*
+*Bài tiếp theo [JSX Elements](/lesson/session/session_014_jsx_elements.md)*

@@ -87,4 +87,4 @@ Trong trường hợp này, chúng ta cần muốn trả về `<button></button>
 
 - Component React là một hàm trả về Phần tử React.
 
-*Bài tiếp theo [RS19 Xây dựng Components](/lesson/session/session_19_components_only.md)*
+*Bài tiếp theo [RS19 Xây dựng Components](/lesson/session/session_019_components_only.md)*

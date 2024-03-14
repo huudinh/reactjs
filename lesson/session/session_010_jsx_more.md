@@ -82,4 +82,4 @@ Bạn có thể nhận thấy có rất nhiều code trùng lặp trong khối `
 
 - Bạn có thể trả về phần tử JSX từ hàm.
 
-*Bài tiếp theo [JSX Expression](/lesson/session/session_11_jsx_expression.md)*
+*Bài tiếp theo [RS11 Biểu thức trong JSX](/lesson/session/session_011_jsx_expression.md)*

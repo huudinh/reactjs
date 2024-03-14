@@ -80,4 +80,4 @@ Hãy luôn viết tên hàm theo kiểu UpperCamelCase; dưới đây là một 
 
 - Sử dụng UpperCamelCase khi đặt tên cho component React.
 
-*Bài tiếp theo [RS18 Cơ chế hoạt động của component](/lesson/session/session_18_components_activity.md)*
+*Bài tiếp theo [RS18 Cơ chế hoạt động của component](/lesson/session/session_018_components_activity.md)*

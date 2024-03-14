@@ -1,46 +1,46 @@
 ## ReactJS - Component
 ### Mục lục
-[RS1 React là gì ?](session/session_01_react.md)
+1. [RS1 React là gì ?](session/session_001_react.md)
 
-[RS2 Cài đặt React](session/session_02_react_setup.md)
+2. [RS2 Cài đặt React](session/session_002_react_setup.md)
 
-[RS3 Tạo phần tử HTML](session/session_03_document_create_element.md)
+3. [RS3 Tạo phần tử HTML](session/session_003_document_create_element.md)
 
-[RS4 React Element](session/session_04_react_create_element.md)
+4. [RS4 React Element](session/session_004_react_create_element.md)
 
-[RS5 React DOM](session/session_05_react_dom.md)
+5. [RS5 React DOM](session/session_005_react_dom.md)
 
-[RS6 Use ReactDOM](session/session_06_use_react_dom.md)
+6. [RS6 Use ReactDOM](session/session_006_use_react_dom.md)
 
-[RS7 Root](session/session_07_root.md)
+7. [RS7 Root](session/session_007_root.md)
 
-[RS8 JSX](session/session_08_jsx.md)
+8. [RS8 JSX](session/session_008_jsx.md)
 
-[RS9 JSX Attributes](session/session_09_jsx_attributes.md)
+9. [RS9 JSX Attributes](session/session_009_jsx_attributes.md)
 
-[RS10 JSX More](session/session_10_jsx_more.md)
+10. [RS10 JSX More](session/session_010_jsx_more.md)
 
-[RS11 JSX Expression](session/session_11_jsx_expression.md)
+11. [RS11 JSX Expression](session/session_011_jsx_expression.md)
 
-[RS12 JSX Attribute Expression](session/session_12_jsx_attribute_expression.md)
+12. [RS12 JSX Attribute Expression](session/session_012_jsx_attribute_expression.md)
 
-[RS13 JSX Attribute Expression More](session/session_13_jsx_attribute_expression_more.md)
+13. [RS13 JSX Attribute Expression More](session/session_013_jsx_attribute_expression_more.md)
 
-[RS14 JSX Elements](session/session_14_jsx_elements.md)
+14. [RS14 JSX Elements](session/session_14_jsx_elements.md)
 
-[RS15 JSX Self-closing Tag](session/session_15_jsx_self_closing_tag.md)
+15. [RS15 JSX Self-closing Tag](session/session_015_jsx_self_closing_tag.md)
 
-[RS16 JSX Fragments](session/session_16_jsx_fragments.md)
+16. [RS16 JSX Fragments](session/session_016_jsx_fragments.md)
 
-[RS17 Components](session/session_17_components.md)
+17. [RS17 Components](session/session_017_components.md)
 
-[RS18 Components Activity](session/session_18_components_activity.md)
+18. [RS18 Components Activity](session/session_018_components_activity.md)
 
-[RS19 Components Only](session/session_19_components_only.md)
+19. [RS19 Components Only](session/session_019_components_only.md)
 
-[RS20 Props](session/session_20_props.md)
+20. [RS20 Props](session/session_020_props.md)
 
-[RS21 Props Children](session/session_21_props_children.md)
+[RS21 Props Children](session/session_021_props_children.md)
 
 [RS22 Props Destructuring](session/session_22_props_destructuring.md)
 

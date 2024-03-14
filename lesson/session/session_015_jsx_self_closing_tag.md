@@ -37,4 +37,4 @@ Thẻ tự đóng rất hữu ích khi chúng ta làm việc với Component sau
 
 - Sử dụng cú pháp thẻ tự đóng cho các phần tử tự đóng trong JSX.
 
-*Bài tiếp theo [JSX Fragments](/lesson/session/session_16_jsx_fragments.md)*
+*Bài tiếp theo [JSX Fragments](/lesson/session/session_016_jsx_fragments.md)*

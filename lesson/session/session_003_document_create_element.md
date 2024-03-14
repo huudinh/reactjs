@@ -74,4 +74,4 @@ Bạn cũng có thể thay đổi lớp bằng cách sử dụng `element.classL
 
 - Tạo nhiều lớp bằng cách phân tách tên lớp bằng khoảng trắng: `element.className = "container center"`
 
-*Bài tiếp theo [RS4 React Element](/lesson/session/session_04_react_create_element.md)*
+*Bài tiếp theo [RS4 React Element](/lesson/session/session_004_react_create_element.md)*

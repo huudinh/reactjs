@@ -74,4 +74,4 @@ Về bản chất, cả hai cú pháp cung cấp chức năng tương tự nhau.
 
 - Cú pháp gốc là: `<React.Fragment>` và `</React.Fragment>`.
 
-*Bài tiếp theo [Components](/lesson/session/session_17_components.md)*
+*Bài tiếp theo [Components](/lesson/session/session_017_components.md)*

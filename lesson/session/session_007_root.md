@@ -57,4 +57,4 @@ Và ứng dụng có thể chứa nhiều hơn một phần tử root trong tư�
 - Ứng dụng có thể tích hợp React để làm cho tính năng tương tác có nhiều hơn một phần tử root.
 
 
-*Bài tiếp theo [JSX](/lesson/session/session_08_jsx.md)*
+*Bài tiếp theo [RS8 Giới thiệu về JSX](/lesson/session/session_008_jsx.md)*
