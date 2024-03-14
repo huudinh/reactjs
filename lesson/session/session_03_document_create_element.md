@@ -4,7 +4,7 @@
 
 `document.createElement(tagName)` là một Web API được các trình duyệt cung cấp để tạo một phần tử HTML.
 
-### Tóm tắt nhanh cú pháp:
+### Cú pháp:
 
 ```
 const element = document.createElement("h2");
@@ -30,7 +30,7 @@ Bạn không cần sử dụng hầu hết các thuộc tính trong ảnh trên.
 
 - className
 
-### Làm thế nào để thay đổi class của phần tử? Và thay đổi style?
+### Thay đổi Class và style
 
 ```
 const element = document.createElement("h2");
@@ -56,7 +56,7 @@ element.className = "container center";
 // <h2 class="container center"></h2>
 ```
 
-### className chứ không phải class
+### Thuộc tính className
 
 Một điều quan trọng cần lưu ý ở đây là việc thay đổi `class` của phần tử diễn ra thông qua thuộc tính `className` chứ không phải `class`.
 
@@ -74,4 +74,4 @@ Bạn cũng có thể thay đổi lớp bằng cách sử dụng `element.classL
 
 - Tạo nhiều lớp bằng cách phân tách tên lớp bằng khoảng trắng: `element.className = "container center"`
 
-*Bài tiếp theo [React Create Element](/lesson/session/session_04_react_create_element.md)*
+*Bài tiếp theo [RS4 React Element](/lesson/session/session_04_react_create_element.md)*

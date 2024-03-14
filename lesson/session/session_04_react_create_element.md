@@ -2,16 +2,19 @@
 
 # RS4 React Element
 
+### React Element là gì?
+
+Trong React, Element (Phần tử) là khối xây dựng nhỏ nhất.
+
+Phần tử đại diện cho đơn vị nhỏ nhất của giao diện người dùng. Ví dụ đơn giản nhất là văn bản Welcome nằm trong một đoạn văn bản (`<p>Welcome</p>`).
+
+*Hãy so sánh `document.createElement` và `React.createElement`.*
+
 `document.createElement không được sử dụng trong React.` không được sử dụng trong React.
 
 Chúng ta đã quan sát hoạt động của phương thức này và thấy một số điểm tương đồng với React.createElement, nhưng hai phương thức này không giống nhau hoàn toàn.
 
-
-### So sánh:
-
-Hãy so sánh `document.createElement` và `React.createElement`.
-
-#### Giá trị trả về
+### Giá trị trả về
 
 `document.createElement` trả về một phần tử DOM (ví dụ: div hoặc h1). Trong khi đó, `React.createElement` trả về một đối tượng đại diện cho phần tử DOM.
 
@@ -32,7 +35,7 @@ Virtual DOM là một phiên bản của giao diện người dùng được lư
 
 Vì vậy, `React.createElement()` trả về một đối tượng thay vì phần tử DOM vì điều này cho phép React tối ưu hóa hiệu suất (như Virtual DOM).
 
-#### Thay đổi class/style
+### Thay đổi class/style
 
 Cú pháp của hai phương thức tương tự nhau khi thiết lập các thuộc tính này:
 
@@ -56,11 +59,6 @@ Lưu ý rằng trong ví dụ trên, chúng ta không muốn thiết lập `clas
 
 Cú pháp trên trông không trực quan và khá phức tạp. Do đó, chúng ta có thể sử dụng JSX, một cú pháp thay thế code trên bằng `<h1>Hello World</h1>`. Tuy nhiên, JSX KHÔNG hoàn toàn giống với HTML, vì vậy bạn nên học React.createElement trước.
 
-### React Element là gì?
-
-Trong React, Element (Phần tử) là khối xây dựng nhỏ nhất.
-
-Phần tử đại diện cho đơn vị nhỏ nhất của giao diện người dùng. Ví dụ đơn giản nhất là văn bản Welcome nằm trong một đoạn văn bản (`<p>Welcome</p>`).
 
 ### Tóm lại
 

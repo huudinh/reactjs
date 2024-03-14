@@ -2,6 +2,8 @@
 
 # RS2 Cài đặt React
 
+### Cài đặt từ gói NPM
+
 Để cài đặt gói react vào dự án, bạn cần cài đặt bằng trình quản lý gói (npm hoặc yarn).
 
 Chúng ta sẽ sử dụng Trình quản lý Gói Node (npm) trong suốt khóa học này.
@@ -41,8 +43,6 @@ React cung cấp phiên bản hiện tại bằng thuộc tính version; sau đ�
 console.log(React.version); //"18.1.0"
 ```
 
-### Kích thước của React
-
 Khi thêm vào file, React có kích thước là 6KB.
 
 ### Tóm lại
@@ -55,4 +55,4 @@ Khi thêm vào file, React có kích thước là 6KB.
 
 - Khi thêm vào file, React có kích thước là 6KB.
 
-*Bài tiếp theo [Document Create Element](/lesson/session/session_03_document_create_element.md)*
+*Bài tiếp theo [RS3 Tạo phần tử HTML](/lesson/session/session_03_document_create_element.md)*
