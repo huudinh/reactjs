@@ -40,158 +40,158 @@
 
 20. [RS20 Props](session/session_020_props.md)
 
-[RS21 Props Children](session/session_021_props_children.md)
+21. [RS21 Props Children](session/session_021_props_children.md)
 
-[RS22 Props Destructuring](session/session_22_props_destructuring.md)
+22. [RS22 Props Destructuring](session/session_22_props_destructuring.md)
 
-[RS23 Pure function](session/session_23_pure_function.md)
+23. [RS23 Pure function](session/session_23_pure_function.md)
 
-[RS24 JSX Comment](session/session_24_jsx_comment.md)
+24. [RS24 JSX Comment](session/session_24_jsx_comment.md)
 
-[RS25 CLSX](session/session_25_clsx.md)
+25. [RS25 CLSX](session/session_25_clsx.md)
 
-[RS26 Spread](session/session_26_spread.md)
+26. [RS26 Spread](session/session_26_spread.md)
 
-[RS27 Destructuring Array](session/session_27_destructuring_array.md)
+27. [RS27 Destructuring Array](session/session_27_destructuring_array.md)
 
-[RS28 Destructuring Array More](session/session_28_destructuring_array_more.md)
+28. [RS28 Destructuring Array More](session/session_28_destructuring_array_more.md)
 
-[RS29 State](session/session_29_state_hooks.md)
+29. [RS29 State](session/session_29_state_hooks.md)
 
-[RS30 useState](session/session_30_useState.md)
+30. [RS30 useState](session/session_30_useState.md)
 
-[RS31 useState More](session/session_31_useState_more.md)
+31. [RS31 useState More](session/session_31_useState_more.md)
 
-[RS32 Update State](session/session_32_update_state.md)
+32. [RS32 Update State](session/session_32_update_state.md)
 
-[RS33 Component Counter](session/session_33_state_counter.md)
+33. [RS33 Component Counter](session/session_33_state_counter.md)
 
-[RS34 Closures](session/session_34_closures.md)
+34. [RS34 Closures](session/session_34_closures.md)
 
-[RS35 Event](session/session_35_event.md)
+35. [RS35 Event](session/session_35_event.md)
 
-[RS36 Event Name](session/session_36_event_name.md)
+36. [RS36 Event Name](session/session_36_event_name.md)
 
-[RS37 Event State](session/session_37_event_state.md)
+37. [RS37 Event State](session/session_37_event_state.md)
 
-[RS38 Event Conditions](session/session_38_state_conditions.md)
+38. [RS38 Event Conditions](session/session_38_state_conditions.md)
 
-[RS39 Event Props](session/session_39_state_props.md)
+39. [RS39 Event Props](session/session_39_state_props.md)
 
-[RS40 Rendering](session/session_40_rendering.md)
+40. [RS40 Rendering](session/session_40_rendering.md)
 
-[RS41 Rendering more](session/session_41_rendering_more.md)
+41. [RS41 Rendering more](session/session_41_rendering_more.md)
 
-[RS42 Toán tử &&](session/session_42_logical_operators.md)
+42. [RS42 Toán tử &&](session/session_42_logical_operators.md)
 
-[RS43 Hooks](session/session_43_hooks.md)
+43. [RS43 Hooks](session/session_43_hooks.md)
 
-[RS44 React Array Object](session/session_44_react_array_object.md)
+44. [RS44 React Array Object](session/session_44_react_array_object.md)
 
-[RS45 Tính thay đổi](session/session_44_variability.md)
+45. [RS45 Tính thay đổi](session/session_44_variability.md)
 
-[RS46 Ý nghĩa của tính bất biến](session/session_46_variability_more.md)
+46. [RS46 Ý nghĩa của tính bất biến](session/session_46_variability_more.md)
 
-[RS47 Mảng bất biến](session/session_47_immutable_array.md)
+47. [RS47 Mảng bất biến](session/session_47_immutable_array.md)
 
-[RS48 Mảng bất biến tiếp](session/session_48_immutable_array_more.md)
+48. [RS48 Mảng bất biến tiếp](session/session_48_immutable_array_more.md)
 
-[RS49 Mảng trong JSX](session/session_49_jsx_array.md)
+49. [RS49 Mảng trong JSX](session/session_49_jsx_array.md)
 
-[RS50 Key trong mảng](session/session_50_jsx_array_key.md)
+50. [RS50 Key trong mảng](session/session_50_jsx_array_key.md)
 
-[RS51 Làm việc với Object](session/session_51_object_replace.md)
+51. [RS51 Làm việc với Object](session/session_51_object_replace.md)
 
-[RS52 Loại bỏ key-value trong Object](session/session_52_object_remove_key_value.md)
+52. [RS52 Loại bỏ key-value trong Object](session/session_52_object_remove_key_value.md)
 
-[RS53 Form Input Value](session/session_53_form_input_value.md)
+53. [RS53 Form Input Value](session/session_53_form_input_value.md)
 
-[RS54 Object State](session/session_54_object_state.md)
+54. [RS54 Object State](session/session_54_object_state.md)
 
-[RS55 Form Input onChange](session/session_55_form_input_onchange.md)
+55. [RS55 Form Input onChange](session/session_55_form_input_onchange.md)
 
-[RS56 Controlled component](session/session_55_controlled_component.md)
+56. [RS56 Controlled component](session/session_55_controlled_component.md)
 
-[RS57 Form Submit](session/session_57_form_submit.md)
+57. [RS57 Form Submit](session/session_57_form_submit.md)
 
-[RS58 Accessibility](session/session_58_accessibility.md)
+58. [RS58 Accessibility](session/session_58_accessibility.md)
 
-[RS59 Form label](session/session_59_form_label.md)
+59. [RS59 Form label](session/session_59_form_label.md)
 
-[RS60 Stateless và Stateful components](session/session_60_stateless_stateful_components.md)
+60. [RS60 Stateless và Stateful components](session/session_60_stateless_stateful_components.md)
 
-[RS61 Truyền hàm vào props](session/session_61_props_function.md)
+61. [RS61 Truyền hàm vào props](session/session_61_props_function.md)
 
-[RS62 Cải tiến Component Form](session/session_62_component_form.md)
+62. [RS62 Cải tiến Component Form](session/session_62_component_form.md)
 
-[RS63 Chia sẻ state giữa các component](session/session_63_state_components.md)
+63. [RS63 Chia sẻ state giữa các component](session/session_63_state_components.md)
 
-[RS64 Component analysis](session/session_64_component_analysis.md)
+64. [RS64 Component analysis](session/session_64_component_analysis.md)
 
-[RS65 State Performance](session/session_65_state_performance.md)
+65. [RS65 State Performance](session/session_65_state_performance.md)
 
-[RS66 Update State bằng hàm](session/session_66_update_state_function.md)
+66. [RS66 Update State bằng hàm](session/session_66_update_state_function.md)
 
-[RS67 useEffect](session/session_67_effect.md)
+67. [RS67 useEffect](session/session_67_effect.md)
 
-[RS68 useEffect more](session/session_68_effect_more.md)
+68. [RS68 useEffect more](session/session_68_effect_more.md)
 
-[RS69 useEffect clean](session/session_69_effect_clean.md)
+69. [RS69 useEffect clean](session/session_69_effect_clean.md)
 
-[RS70 Dọn dẹp bộ đếm thời gian](session/session_70_effect_clean_time.md)
+70. [RS70 Dọn dẹp bộ đếm thời gian](session/session_70_effect_clean_time.md)
 
-[RS71 Lắng nghe sự kiện](session/session_71_effect_listeners.md)
+71. [RS71 Lắng nghe sự kiện](session/session_71_effect_listeners.md)
 
-[RS72 Dependencies](session/session_72_effect_dependencies.md)
+72. [RS72 Dependencies](session/session_72_effect_dependencies.md)
 
-[RS73 Vòng đời của Component](session/session_73_lifecycle.md)
+73. [RS73 Vòng đời của Component](session/session_73_lifecycle.md)
 
-[RS74 State trong effect](session/session_74_effect_state.md)
+74. [RS74 State trong effect](session/session_74_effect_state.md)
 
-[RS75 effect Time](session/session_75_effect_time.md)
+75. [RS75 effect Time](session/session_75_effect_time.md)
 
-[RS76 Effect Control](session/session_76_effect_control.md)
+76. [RS76 Effect Control](session/session_76_effect_control.md)
 
-[RS77 Effect, State & Events](session/session_77_effect_state_events.md)
+77. [RS77 Effect, State & Events](session/session_77_effect_state_events.md)
 
-[RS78 Effect Performance](session/session_78_effect_performance.md)
+78. [RS78 Effect Performance](session/session_78_effect_performance.md)
 
-[RS79 localStorage](session/session_79_localStorage.md)
+79. [RS79 localStorage](session/session_79_localStorage.md)
 
-[RS80 localStorage, Object ](session/session_80_localStorage_object.md)
+80. [RS80 localStorage, Object ](session/session_80_localStorage_object.md)
 
-[RS81 Khôi phục trạng thái từ localStorage](session/session_81_localStorage_more.md)
+81. [RS81 Khôi phục trạng thái từ localStorage](session/session_81_localStorage_more.md)
 
-[RS82 Lazy initial state](session/session_82_localStorage_lazy_state.md)
+82. [RS82 Lazy initial state](session/session_82_localStorage_lazy_state.md)
 
-[RS83 Promises](session/session_83_promises.md)
+83. [RS83 Promises](session/session_83_promises.md)
 
-[RS84 Fetch API](session/session_84_fetch.md)
+84. [RS84 Fetch API](session/session_84_fetch.md)
 
-[RS85 Fetch trong Component](session/session_85_fetch_component.md)
+85. [RS85 Fetch trong Component](session/session_85_fetch_component.md)
 
-[RS86 Fetch Error](session/session_86_fetch_error.md)
+86. [RS86 Fetch Error](session/session_86_fetch_error.md)
 
-[RS87 Toán tử logic &&](session/session_87_fetch_and.md)
+87. [RS87 Toán tử logic &&](session/session_87_fetch_and.md)
 
-[RS88 Xử lý lỗi Fetch](session/session_88_fetch_error.md)
+88. [RS88 Xử lý lỗi Fetch](session/session_88_fetch_error.md)
 
-[RS89 Xử lý tải dữ liệu bằng fetch](session/session_89_fetch_loader.md)
+89. [RS89 Xử lý tải dữ liệu bằng fetch](session/session_89_fetch_loader.md)
 
-[RS90 Promise finally](session/session_90_fetch_finally.md)
+90. [RS90 Promise finally](session/session_90_fetch_finally.md)
 
-[RS91 Fetch khi click (onClick)](session/session_91_fetch_onclick.md)
+91. [RS91 Fetch khi click (onClick)](session/session_91_fetch_onclick.md)
 
-[RS92 Fetch khi thay đổi (onChange)](session/session_92_fetch_onchange.md)
+92. [RS92 Fetch khi thay đổi (onChange)](session/session_92_fetch_onchange.md)
 
-[RS93 Fetch với async/await](session/session_93_fetch_async.md)
+93. [RS93 Fetch với async/await](session/session_93_fetch_async.md)
 
-[RS94 Fetch, event và async/await](session/session_94_fetch_event.md)
+94. [RS94 Fetch, event và async/await](session/session_94_fetch_event.md)
 
-[RS95 Fetch POST](session/session_95_fetch_post.md)
+95. [RS95 Fetch POST](session/session_95_fetch_post.md)
 
-[RS96 Custom Hooks](session/session_96_custom_hooks.md)
+96. [RS96 Custom Hooks](session/session_96_custom_hooks.md)
 
-[RS97 Custom Hooks useEffect](session/session_97_custom_hooks_use_effect.md)
+97. [RS97 Custom Hooks useEffect](session/session_97_custom_hooks_use_effect.md)
 
-[RS98 Di chuyển hooks vào file riêng](session/session_98_custom_hooks_file.md)
+98. [RS98 Di chuyển hooks vào file riêng](session/session_98_custom_hooks_file.md)
