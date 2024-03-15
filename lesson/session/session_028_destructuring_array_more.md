@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS28 Destructuring với mảng - Nâng cao
+# RS28 Destructuring với Function
 
 > Array destructuring là một cú pháp rút gọn vì nó giúp chúng ta dễ dàng tạo ra các biến từ các phần tử của mảng.
 
@@ -84,4 +84,4 @@ Vậy tại sao chúng ta lại làm như vậy? Đó sẽ được giải thíc
 
 - Bạn có thể destructure từ hàm, miễn là hàm đó trả về một mảng phần tử.
 
-*Bài tiếp theo [State](/lesson/session/session_029_state_hooks.md)*
+*Bài tiếp theo [RS29 State](/lesson/session/session_029_state_hooks.md)*

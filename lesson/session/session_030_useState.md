@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/state.png) 
 
-# RS30 Import useState
+# RS30 Import State
 
 Hãy bắt đầu bằng cách tạo biến trạng thái đầu tiên.
 
@@ -41,4 +41,4 @@ Thoạt nhìn cú pháp có thể trông hơi lạ mắt, nhưng bạn hãy nh�
 - Bạn thêm `useState` và `React` vào file JavaScript bằng lệnh: `import React, {useState} from "react";`
 - `useState` là một React hook.
 
-*Bài tiếp theo [useState More](/lesson/session/session_031_useState_more.md)*
+*Bài tiếp theo [RS31 Khởi tạo State](/lesson/session/session_031_useState_more.md)*

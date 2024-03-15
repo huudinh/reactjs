@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/state.png) 
 
-# RS33 Tạo Component Counter
+# RS33 Áp dụng State vào Counter
 
 ### Phân tích component Counter
 
@@ -72,4 +72,4 @@ Thông thường, với Vanilla JavaScript (JavaScript không sử dụng bất 
 - useState là một Hook trong React kết nối vào nội bộ của React và thông báo rằng một biến trạng thái đã thay đổi.
 
 
-*Bài tiếp theo [Closures](/lesson/session/session_034_closures.md)*
+*Bài tiếp theo [RS34 Closures trong JavaScript](/lesson/session/session_034_closures.md)*

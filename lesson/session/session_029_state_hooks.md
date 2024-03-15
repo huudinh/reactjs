@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/state.png) 
 
-# RS29 Trạng thái với hook
+# RS29 State
 
 ### State là gì?
 
@@ -50,4 +50,4 @@ Vì vậy, `0 item(s)` sẽ hiển thị thành `1 item(s)` khi người dùng n
 - Biến trạng thái có thể được cập nhật từ bên trong component.
 - Khi một biến trạng thái được cập nhật, component sẽ tự động hiển thị lại.
 
-*Bài tiếp theo [useState](/lesson/session/session_030_useState.md)*
+*Bài tiếp theo [RS30 Import State](/lesson/session/session_030_useState.md)*

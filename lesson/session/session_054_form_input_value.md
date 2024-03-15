@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS53 Form Input Value
+# RS54 Thiết lập value cho Input
 
 ### Thuộc tính value trong HTML
 
@@ -41,4 +41,4 @@ Thay vào đó, khi bạn muốn cung cấp giá trị mặc định cho ngườ
 - Thiết lập `value` cho trường nhập liệu mà không có trình xử lý `onChange` sẽ tạo ra một trường nhập liệu chỉ đọc.
 - Nếu bạn muốn cung cấp giá trị mặc định, hãy sử dụng thuộc tính `defaultValue`.
 
-*Bài tiếp theo [Object State](/lesson/session/session_054_object_state.md)*
+*Bài tiếp theo [RS55 Thay đổi nội dung Input](/lesson/session/session_055_form_input_onchange.md)*

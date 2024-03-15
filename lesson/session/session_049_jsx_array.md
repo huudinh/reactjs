@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS49 Mảng trong JSX
+# RS49 Array trong JSX
 
 Hãy nhớ rằng mảng phải là bất biến trong React.
 
@@ -55,4 +55,4 @@ Bạn cũng có thể lưu kết quả của `map` vào biến, sau đó tham ch
 
 - `.map` có thể được sử dụng trong JSX để lặp qua mảng.
 
-*Bài tiếp theo [Key trong mảng](/lesson/session/session_050_jsx_array_key.md)*
+*Bài tiếp theo [RS50 Key trong React](/lesson/session/session_050_jsx_array_key.md)*

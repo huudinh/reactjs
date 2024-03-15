@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS65 State Performance
+# RS65 Cải thiện hiệu suất của ứng dụng
 
 Cập nhật state trong React là hành vi bất đồng bộ, tức là state không nhất thiết phải được cập nhật ngay lập tức.
 
@@ -48,4 +48,4 @@ Kể từ React 18, React hiện gom nhóm các cập nhật trạng thái ngay 
 - Cập nhật trạng thái trong React là hành vi bất đồng bộ.
 - Một số thay đổi trạng thái xảy ra liên tiếp có thể được gom nhóm nhằm cải thiện hiệu suất.
 
-*Bài tiếp theo [Update State bằng hàm](/lesson/session/session_066_update_state_function.md)*
+*Bài tiếp theo [RS66 Update State bằng Function](/lesson/session/session_066_update_state_function.md)*

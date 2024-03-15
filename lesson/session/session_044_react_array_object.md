@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS44 Mảng và đối tượng
+# RS44 Array và Object trong React
 
 Hãy bắt đầu bằng việc so sánh số, chuỗi và boolean:
 
@@ -104,4 +104,4 @@ Vì vậy, bất cứ khi nào bạn thay đổi giá trị, `firstArray` và `s
 - Khi bạn gán một biến cho đối tượng hoặc mảng, biến đó sẽ KHÔNG sao chép giá trị mà tham chiếu đến giá trị của đối tượng hoặc mảng.
 
 
-*Bài tiếp theo [Tính thay đổi](/lesson/session/session_045_variability.md)*
+*Bài tiếp theo [RS45 Tính bất biến](/lesson/session/session_045_variability.md)*

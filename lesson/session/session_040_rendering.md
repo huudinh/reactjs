@@ -39,4 +39,4 @@ Giả sử chúng ta có hai component khác nhau (`DarkTheme` và `LightTheme`)
 
 
 
-*Bài tiếp theo [Rendering more](/lesson/session/session_041_rendering_more.md)*
+*Bài tiếp theo [RS41 Toán tử 3 ngôi](/lesson/session/session_041_rendering_more.md)*

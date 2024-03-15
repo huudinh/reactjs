@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS59 Gán nhãn cho form
+# RS59 Label trong React
 
 Dưới đây là cách thêm `label` cho một `input` trong HTML (trong React sẽ khác một chút):
 
@@ -50,4 +50,4 @@ Vì vậy, đây là biểu mẫu tương tự nhưng được viết bằng JSX
 - `<label />` cần một trường thuộc tính `htmlFor` trỏ tới `id` của phần tử.
 
 
-*Bài tiếp theo [Stateless và Stateful components](/lesson/session/session_060_stateless_stateful_components.md)*
+*Bài tiếp theo [RS60 Stateless và Stateful components](/lesson/session/session_060_stateless_stateful_components.md)*

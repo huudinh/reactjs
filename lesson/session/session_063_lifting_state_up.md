@@ -124,4 +124,4 @@ Hãy nhớ rằng có nhiều cách để giải quyết cùng một bài tập 
 
 - Để chia sẻ một trạng thái giữa hai component, bạn có thể nâng trạng thái chung lên thành trạng thái của component cha chung gần nhất của chúng.
 
-*Bài tiếp theo [Component analysis](/lesson/session/session_064_component_analysis.md)*
+*Bài tiếp theo [RS64 Phân chia component](/lesson/session/session_064_component_analysis.md)*

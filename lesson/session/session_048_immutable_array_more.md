@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS48 Thay đổi và loại bỏ phần tử khỏi mảng bất biến
+# RS48 Thao tác với mảng bất biến
 
 Trong bài học này, chúng ta sẽ tìm hiểu cách cập nhật và xóa các phần tử từ mảng theo cách bất biến.
 
@@ -86,4 +86,4 @@ console.log(subset); // [10, 9, 4, 16];
 - `.slice` được sử dụng để xóa các phần tử khỏi mảng theo cách bất biến.
 - `.filter` được sử dụng để xóa các phần tử khỏi mảng theo cách bất biến.
 
-*Bài tiếp theo [Mảng trong JSX](/lesson/session/session_049_jsx_array.md)*
+*Bài tiếp theo [RS49 Array trong JSX](/lesson/session/session_049_jsx_array.md)*

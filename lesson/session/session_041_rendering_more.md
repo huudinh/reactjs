@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS41 Rendering theo điều kiện
+# RS41 Toán tử 3 ngôi
 
 Có nhiều cách để kết xuất có điều kiện, chúng chủ yếu là các tính năng của JavaScript mà bạn có thể sử dụng trong React.
 
@@ -66,4 +66,4 @@ Vì vậy, bạn không nên lạm dụng những kỹ thuật này, viết code
 
 - Hãy cố gắng viết code dễ đọc thay vì viết code ngắn nhất có thể.
 
-*Bài tiếp theo [Toán tử &&](/lesson/session/session_042_logical_operators.md)*
+*Bài tiếp theo [RS42 Toán tử &&](/lesson/session/session_042_logical_operators.md)*

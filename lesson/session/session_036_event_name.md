@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS36 Đặt tên cho trình xử lý sự kiện
+# RS36 Đặt tên cho Event
 
 Bài trước, chúng ta đã viết trình xử lý sự kiện ở dạng nội tuyến, tức là trực tiếp gán một hàm (không có tên) cho sự kiện, ví dụ:
 
@@ -70,4 +70,4 @@ Bạn có thể thấy `handleClick` hoặc `handleSubmit` đều hoạt động
 - `<button onClick={handleLoginClick}>Đăng nhập</button>` gọi `handleLoginClick` khi nút được nhấp.
 - Sử dụng quy ước đặt tên `handleSubjectEvent` cho các trình xử lý sự kiện
 
-*Bài tiếp theo [Event State](/lesson/session/session_037_event_state.md)*
+*Bài tiếp theo [RS37 Event & Component](/lesson/session/session_037_event_state.md)*

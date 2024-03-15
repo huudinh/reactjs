@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS64 Component analysis
+# RS64 Phân chia component
 
 Khi xây dựng ứng dụng với React, bạn có thể gặp các component lớn chứa hàng trăm dòng code.
 
@@ -130,4 +130,4 @@ Hãy dành thời gian để tái cấu trúc component khi dự án đưa ra nh
 - Hãy định hình cấu trúc component dựa trên nhu cầu hiện tại của dự án.
 - Hãy nhớ rằng cấu trúc component sẽ thay đổi trong tương lai. Dành thời gian để tái cấu trúc component khi cần thiết.
 
-*Bài tiếp theo [State Performance](/lesson/session/session_065_state_performance.md)*
+*Bài tiếp theo [RS65 Cải thiện hiệu suất của ứng dụng](/lesson/session/session_065_state_performance.md)*

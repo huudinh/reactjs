@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS66 Update State bằng hàm
+# RS66 Update State bằng Function
 
 Vì cập nhật trạng thái là hành vi bất đồng bộ, có một điều mà chúng ta cần phải để ý.
 
@@ -93,4 +93,4 @@ Vì vậy, khi bạn cần tăng giá trị của bộ đếm thì nên sử d�
 - Hàm được truyền cho `setState` nhận trạng thái trước đó làm đối số để tính toán trạng thái tiếp theo.
 - Khi trạng thái mới được tính toán bằng cách sử dụng trạng thái trước đó, bạn nên sử dụng cập nhật trạng thái bằng hàm để đảm bảo tính nhất quán và ngăn ngừa lỗi không mong muốn.
 
-*Bài tiếp theo [useEffect](/lesson/session/session_067_effect.md)*
+*Bài tiếp theo [RS67 useEffect](/lesson/session/session_067_effect.md)*

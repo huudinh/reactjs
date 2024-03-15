@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/components.jpg) 
 
-# RS27 Destructuring với mảng
+# RS27 Destructuring với Array
 
 ### Array destructuring cơ bản
 
@@ -77,4 +77,4 @@ Cú pháp cũng hoạt động với mảng chứa hàm hoặc giá trị `boole
 
 - Array destructuring luôn hoạt động bất kể mảng chứa kiểu dữ liệu gì.
 
-*Bài tiếp theo [Destructuring Array More](/lesson/session/session_028_destructuring_array_more.md)*
+*Bài tiếp theo [RS28 Destructuring với Function](/lesson/session/session_028_destructuring_array_more.md)*

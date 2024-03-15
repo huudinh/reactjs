@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS39 Thay đổi trạng thái có điều kiện: Props
+# RS39 Thay đổi State với Props
 
 Điều gì sẽ xảy ra nếu chúng ta kết hợp Props và thay đổi trạng thái có điều kiện?
 
@@ -43,4 +43,4 @@ if (props.enabled) {
 - Props có thể được sử dụng để thay đổi trạng thái theo điều kiện.
 
 
-*Bài tiếp theo [Rendering](/lesson/session/session_040_rendering.md)*
+*Bài tiếp theo [RS40 Rendering theo điều kiện](/lesson/session/session_040_rendering.md)*

@@ -77,4 +77,4 @@ Lưu ý rằng React sử dụng toán tử `===` thay vì so sánh sâu vì so 
 - React tự động hiển thị lại Component khi `state === newState` trả về false.
 - Mỗi khi bạn có một trạng thái của mảng hoặc đối tượng, chúng phải là bất biến.
 
-*Bài tiếp theo [Mảng bất biến](/lesson/session/session_047_immutable_array.md)*
+*Bài tiếp theo [RS47 Mảng bất biến](/lesson/session/session_047_immutable_array.md)*

@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS38 Thay đổi trạng thái có điều kiện
+# RS38 Thay đổi State có điều kiện
 
 Thay đổi trạng thái có điều kiện không phải là một khái niệm đặc thù của React mà thực tế là một yêu cầu cần thiết trong nhiều dự án.
 
@@ -63,4 +63,4 @@ Nguyên nhân là do hai lý do sau:
 - Thay đổi trạng thái có điều kiện là khi bạn đóng gói hàm setState bằng một điều kiện if để đáp ứng một số logic của dự án.
 - KHÔNG đóng gói `useState` bằng điều kiện if.
 
-*Bài tiếp theo [State Props](/lesson/session/session_039_state_props.md)*
+*Bài tiếp theo [RS39 Thay đổi State với Props](/lesson/session/session_039_state_props.md)*

@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# RS68 Tìm hiểu chi tiết hơn về useEffect
+# RS68 Các nguyên tắc khi làm việc với hooks
 
 Quay lại ví dụ trước:
 ```
@@ -101,4 +101,4 @@ Còn một lý do quan trọng khác liên quan đến các hiệu ứng yêu c�
 - Quy tắc #1: Chỉ gọi Hook từ các hàm React
 - Quy tắc #2: Chỉ gọi Hook ở Cấp độ trên cùng và không bao giờ gọi hook bên trong vòng lặp, điều kiện hoặc các hàm lồng nhau.
 
-*Bài tiếp theo [useEffect clean](/lesson/session/session_069_effect_clean.md)*
+*Bài tiếp theo [RS69 Clean Effect](/lesson/session/session_069_effect_clean.md)*

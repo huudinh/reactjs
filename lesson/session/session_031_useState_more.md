@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/state.png) 
 
-# RS31 useState
+# RS31 Khởi tạo State
 
 Bây giờ bạn đã biết cách thêm hàm useState, hãy tạo biến trạng thái đầu tiên.
 
@@ -76,4 +76,4 @@ seconds sẽ bằng 0 vì đó là giá trị khởi tạo mà ta đã truyền 
 - Luôn destructure `useState` thành `state` và `setState`, trong đó `state` là tên của trạng thái
 - Giá trị mặc định của biến trạng thái được trả về bởi `useState` sẽ giống với `initial_value` truyền vào `useState()`.
 
-*Bài tiếp theo [Update State](/lesson/session/session_032_update_state.md)*
+*Bài tiếp theo [RS32 Update State](/lesson/session/session_032_update_state.md)*

@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS45 Tính thay đổi
+# RS45 Tính bất biến
 
 Xem ví dụ sau:
 
@@ -33,4 +33,4 @@ Tuy nhiên, JavaScript KHÔNG có một phương thức tích hợp sẵn cho so
 - .push là phương thức biến đổi mảng.
 - Đối tượng bất biến là một đối tượng không thể thay đổi. Mỗi lần cập nhật tạo ra một giá trị mới, không làm thay đổi giá trị cũ.
 
-*Bài tiếp theo [Ý nghĩa của tính bất biến](/lesson/session/session_046_variability_more.md)*
+*Bài tiếp theo [RS46 Ý nghĩa của tính bất biến](/lesson/session/session_046_variability_more.md)*

@@ -39,4 +39,4 @@ Thuộc tính `placeholder` không thay thế được `label` vì giá trị c�
 - Bạn mong đợi người dùng gửi một biểu mẫu? Hãy triển khai onSubmit trên biểu mẫu thay vì sự kiện click trên nút.
 - Thêm label cho mỗi trường nhập liệu/vùng văn bản/lựa chọn.
 
-*Bài tiếp theo [Form label](/lesson/session/session_059_form_label.md)*
+*Bài tiếp theo [RS59 Label trong React](/lesson/session/session_059_form_label.md)*

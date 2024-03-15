@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/components.jpg) 
 
-# RS25 Sử dụng thư viện clsx để viết câu lệnh if
+# RS25 Thư viện clsx 
 
 Trong những bài học trước, việc áp dụng các lớp động trong React hơi phức tạp vì bạn phải xây dựng chuỗi `className` theo cách thủ công.
 
@@ -125,4 +125,4 @@ const example2 = <MyComponent loggedIn={false} />; // className="text"
 
 - `clsx({"your-class-name": booleanValue})` là cú pháp chung cho clsx.
 
-*Bài tiếp theo [Spread](/lesson/session/session_026_spread.md)*
+*Bài tiếp theo [RS26 Toán tử spread "..."](/lesson/session/session_026_spread.md)*

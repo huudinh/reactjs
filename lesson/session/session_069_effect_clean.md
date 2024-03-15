@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# RS69 Hiệu ứng yêu cầu dọn dẹp
+# RS69 Clean Effect
 
 ### Dọn dẹp là gì?
 

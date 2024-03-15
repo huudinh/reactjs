@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS42 Toán tử logic &&
+# RS42 Toán tử &&
 
 Toán tử logic `&&` là cú pháp trong JavaScript cho phép bạn liên kết hai biểu thức với nhau.
 
@@ -79,4 +79,4 @@ Khi count là 0, 0 sẽ hiển thị trên màn hình. Điều đó là do props
 
 - Sử dụng toán tử logic && trong JSX cho phép dễ dàng hiển thị các phần tử hoặc component theo điều kiện.
 
-*Bài tiếp theo [Hooks](/lesson/session/session_043_hooks.md)*
+*Bài tiếp theo [RS43 Các nguyên tắc khi làm việc với Hooks](/lesson/session/session_043_hooks.md)*

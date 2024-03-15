@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS54 State Object
+# RS53 Khai báo State với Object
 
 Chúng ta sẽ làm việc với trạng thái đại diện cho đối tượng.
 
@@ -86,4 +86,4 @@ JSX kết quả sẽ là:
 - Bạn có thể đảo ngược giá trị boolean bằng cách đặt toán tử logic not trước giá trị.
 - !true cho kết quả false và !false cho kết quả true.
 
-*Bài tiếp theo [Form Input Value](/lesson/session/session_055_form_input_value.md)*
+*Bài tiếp theo [RS54 Thiết lập value cho Input](/lesson/session/session_054_form_input_value.md)*

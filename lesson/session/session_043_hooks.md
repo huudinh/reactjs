@@ -77,4 +77,4 @@ function App(props) {
 - React phụ thuộc vào thứ tự các hook được gọi để hoạt động một cách chính xác.
 
 
-*Bài tiếp theo [React Array Object](/lesson/session/session_044_react_array_object.md)*
+*Bài tiếp theo [RS44 Array và Object trong React](/lesson/session/session_044_react_array_object.md)*

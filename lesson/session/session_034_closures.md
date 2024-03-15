@@ -153,4 +153,4 @@ Khi một hàm chứa hàm khác, hàm bên trong có quyền truy cập vào c�
 - Closures là điều bạn nhận được khi định nghĩa một hàm; không phải là điều mà bạn phải "kích hoạt" hoặc quyết định sử dụng.
 - Các hàm được định nghĩa bên trong một hàm khác có thể sử dụng các biến được định nghĩa trong hàm bên ngoài.
 
-*Bài tiếp theo [Event](/lesson/session/session_035_event.md)*
+*Bài tiếp theo [RS35 Event](/lesson/session/session_035_event.md)*

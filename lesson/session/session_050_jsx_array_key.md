@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS50 Key trong mảng
+# RS50 Key trong React
 
 Mỗi khi sử dụng phương thức `map` trong JSX, bạn cần cung cấp một thuộc tính `key` để tránh gặp cảnh báo (vì lý do hiệu suất):
 
@@ -75,4 +75,4 @@ Nếu không có `key` này, React sẽ phải xóa tất cả các `li` và sau
 - `key` nên là duy nhất. Với phương án cuối cùng, bạn có thể sử dụng index của lần lặp trong map (đó là đối số thứ hai).
 - `key` cho phép React cập nhật DOM một cách hiệu quả với ít thao tác nhất.
 
-*Bài tiếp theo [Làm việc với Object](/lesson/session/session_051_object_replace.md)*
+*Bài tiếp theo [RS51 Thao tác bất biến với Object](/lesson/session/session_051_object_replace.md)*

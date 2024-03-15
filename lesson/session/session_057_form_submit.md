@@ -84,4 +84,4 @@ function App() {
 - Mỗi `input` cần một biến `state` riêng của nó.
 - Bạn có thể ngăn chặn việc gửi biểu mẫu bằng cách sử dụng trình xử lý `onSubmit` trên `<form />`, sau đó gọi `event.preventDefault()`.
 
-*Bài tiếp theo [Accessibility](/lesson/session/session_058_accessibility.md)*
+*Bài tiếp theo [RS58 Accessibility (Khả năng tiếp cận)](/lesson/session/session_058_accessibility.md)*

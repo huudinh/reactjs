@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS61 Truyền hàm vào props
+# RS61 Truyền function vào props
 
 Chúng ta đã xem ví dụ về props chứa giá trị boolean, chuỗi, số, mảng và đối tượng.
 
@@ -69,4 +69,4 @@ function App() {
 - Component có thể truyền hàm cho component con thông qua prop.
 - Quy ước đặt tên: `onSubjectEvent={handleSubjectEvent}`
 
-*Bài tiếp theo [Cải tiến Component Form](/lesson/session/session_062_component_form.md)*
+*Bài tiếp theo [RS62 Tái cấu trúc component](/lesson/session/session_062_component_form.md)*

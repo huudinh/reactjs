@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS51 Làm việc với Object
+# RS51 Thao tác bất biến với Object
 
 Bây giờ chúng ta đã biết cách thay đổi mảng một cách bất biến (không làm thay đổi mảng ban đầu), do đó, việc thực hiện thao tác bất biến với đối tượng cũng trở nên dễ dàng hơn vì nó cũng dựa trên toán tử `spread` (`...`).
 
@@ -92,4 +92,4 @@ Bạn chỉ cần sửa đổi thành `{...data, age: 20}` và đoạn code sẽ
 - `{...obj, newKey: 'value'}` được dùng để thêm `newKey: 'value'` vào đối tượng obj một cách bất biến.
 - `{...obj, existingKey: 'newValue'}` được dùng để thay đổi `existingKey` thành `newValue` một cách bất biến.
 
-*Bài tiếp theo [Loại bỏ key-value trong Object](/lesson/session/session_052_object_remove_key_value.md)*
+*Bài tiếp theo [RS52 Loại bỏ key-value khỏi Object](/lesson/session/session_052_object_remove_key_value.md)*

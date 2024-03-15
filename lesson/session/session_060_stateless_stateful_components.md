@@ -28,4 +28,4 @@ Ví dụ, một stateless component có thể chứa một form cùng với mộ
 - Tuy nhiên, stateless component có thể tương tác với người dùng. Tuy nhiên, trạng thái sẽ được quản lý bởi một component cha.
 
 
-*Bài tiếp theo [Truyền hàm vào props](/lesson/session/session_061_props_function.md)*
+*Bài tiếp theo [RS61 Truyền function vào props](/lesson/session/session_061_props_function.md)*

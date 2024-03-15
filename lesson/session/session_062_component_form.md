@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS62 Cải tiến Component Form
+# RS62 Tái cấu trúc component
 
 Bây giờ chúng ta đã biết cách truyền hàm dưới dạng props trong React, hãy xem xét component React sau:
 
@@ -122,4 +122,4 @@ Vì vậy, trạng thái chỉ được quản lý trong component cha App.
 - Khi tái cấu trúc một biểu mẫu thành component con, biểu mẫu có thể trở thành stateless component và trạng thái sẽ được quản lý bởi component cha.
 - Để làm được điều đó, bạn phải truyền `value` và `onChange` từ component cha xuống component con và sau đó sử dụng chúng như `props.value` và `props.onChange`.
 
-*Bài tiếp theo [Chia sẻ state giữa các component](/lesson/session/session_063_lifting_state_up.md)*
+*Bài tiếp theo [RS63 Lifting State Up](/lesson/session/session_063_lifting_state_up.md)*

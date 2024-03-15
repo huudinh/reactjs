@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS55 Form Input onChange
+# RS55 Thay đổi nội dung Input
 
 ```
 function handleAddressChange(event) {
@@ -52,4 +52,4 @@ Các hàm inline (nội tuyến) thường được sử dụng với biểu m�
 - `onChange` trên trường nhập liệu sẽ được kích hoạt mỗi khi người dùng thay đổi nội dung của trường nhập liệu.
 - Bạn có thể đọc văn bản do người dùng nhập bằng `event.target.value`.
 
-*Bài tiếp theo [Controlled component](/lesson/session/session_056_controlled_component.md)*
+*Bài tiếp theo [RS56 Controlled component](/lesson/session/session_056_controlled_component.md)*

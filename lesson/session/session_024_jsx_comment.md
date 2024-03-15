@@ -47,4 +47,4 @@ const element2 = <Navbar loggedIn={false} />
 
 - Kết xuất có điều kiện cho phép trả về các component khác nhau dựa trên props (hoặc điều kiện khác).
 
-*Bài tiếp theo [CLSX](/lesson/session/session_025_clsx.md)*
+*Bài tiếp theo [RS25 Thư viện clsx](/lesson/session/session_025_clsx.md)*

@@ -96,4 +96,4 @@ Trường hợp sử dụng phổ biến nhất của Spread Attributes là xây
 
 - Truyền thuộc tính theo cú pháp spread thường được sử dụng khi xây dựng UI.
 
-*Bài tiếp theo [Destructuring Array](/lesson/session/session_027_destructuring_array.md)*
+*Bài tiếp theo [RS27 Destructuring với Array](/lesson/session/session_027_destructuring_array.md)*

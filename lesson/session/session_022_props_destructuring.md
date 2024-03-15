@@ -80,4 +80,4 @@ Bạn không nên lạm dụng kỹ thuật này vì nó có thể làm cho code
 
 - Bạn có thể destructure props trong đối số.
 
-*Bài tiếp theo [Pure function](/lesson/session/session_023_pure_function.md)*
+*Bài tiếp theo [RS23 Pure function (Hàm thuần túy)](/lesson/session/session_023_pure_function.md)*

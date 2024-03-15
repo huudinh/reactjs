@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS52 Object Loại bỏ key-value
+# RS52 Loại bỏ key-value khỏi Object
 
 Để xóa cặp `key/value` khỏi đối tượng mà không làm thay đổi đối tượng gốc, chúng ta cũng cần sử dụng toán tử `spread` nhưng với một cách tiếp cận khác.
 
@@ -64,4 +64,4 @@ Chúng ta bắt đầu bằng cách destructure `grades` và `course` và sau đ
 
 - `const {keyToRemove, ...rest} = obj` là một cú pháp đơn giản cho phép xóa `keyToRemove` khỏi đối tượng mà không làm thay đổi đối tượng gốc.
 
-*Bài tiếp theo [State Object](/lesson/session/session_053_form_input_value.md)*
+*Bài tiếp theo [RS53 Khai báo State với Object](/lesson/session/session_053_object_state.md)*

@@ -61,4 +61,4 @@ Bạn không cần sử dụng thuộc tính `defaultValue` nữa vì đây là 
 - Để kiểm soát một trường nhập liệu, bạn cần gán giá trị của nó cho một biến `state` và cập nhật biến `state` đó mỗi khi trường nhập liệu thay đổi.
 - Controlled component là sự kết hợp của `value={state}` và `onChange={event => setState(event.target.value)}`
 
-*Bài tiếp theo [Form Submit](/lesson/session/session_057_form_submit.md)*
+*Bài tiếp theo [RS57 Form Submit](/lesson/session/session_057_form_submit.md)*
