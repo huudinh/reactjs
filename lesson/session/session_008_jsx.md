@@ -2,6 +2,8 @@
 
 # RS8 Giới thiệu về JSX
 
+### JSX là gì?
+
 Khi làm việc với React, bạn cần sử dụng `React.createElement` để biểu diễn giao diện người dùng. Tuy nhiên, cú pháp của nó khá dài. Cú pháp sẽ trở nên càng dài và nhàm chán hơn khi bạn bắt đầu phát triển giao diện người dùng phức tạp hơn.
 
 React sử dụng một cú pháp đặc biệt được gọi là JSX để giải quyết vấn đề đó. Cú pháp JSX trông có vẻ giống HTML, nhưng nó KHÔNG PHẢI LÀ HTML.

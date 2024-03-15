@@ -1,8 +1,12 @@
 ![Create-HTML-1](images/jsx.jpg) 
 
-# RS12 JSX Attribute Expression
+# RS12 Biểu thức thuộc tính
 
-JSX cũng hỗ trợ biểu thức thuộc tính, tức là giá trị của thuộc tính được xác định dựa trên biểu thức (hoặc thường là biến), ví dụ:
+### Biểu thức thuộc tính là gì?
+
+Là giá trị của thuộc tính được xác định dựa trên biểu thức (hoặc thường là biến)
+
+ví dụ:
 
 ```
 const limit = 5;
@@ -52,4 +56,4 @@ Giá trị của các thuộc tính số và boolean nên được truyền dư�
 
 - Giá trị của các thuộc tính số và boolean nên được truyền dưới dạng biểu thức
 
-*Bài tiếp theo [JSX Attribute Expression More](/lesson/session/session_013_jsx_attribute_expression_more.md)*
+*Bài tiếp theo [RS13 Biểu thức thuộc tính với giá trị động](/lesson/session/session_013_jsx_attribute_expression_more.md)*

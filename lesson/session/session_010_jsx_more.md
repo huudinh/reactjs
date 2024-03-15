@@ -2,6 +2,8 @@
 
 # RS10 Làm việc với JSX
 
+### JSX là một đối tượng
+
 Vì JSX được chuyển đổi thành `React.createElement(...)` trả về một đối tượng, bạn có thể coi phần tử JSX như một đối tượng.
 
 Vì vậy, bạn có thể coi `<h1 className="title">Supermarket</h1>` như một đối tượng với các thuộc tính sau (được đơn giản hóa):
@@ -22,15 +24,13 @@ Vì vậy, bạn có thể coi `<h1 className="title">Supermarket</h1>` như m�
 
 Vì `<h1 className="title">Supermarket</h1>` là một đối tượng, bạn có thể xem nó như một đối tượng thông thường.
 
-Vì vậy, bạn có thể:
-
-1. Gán đối tượng cho biến:
+### Gán đối tượng cho biến
 
 ```
 const title = <h1 className="title">Supermarket</h1>;
 ```
 
-2. Trả về đối tượng từ hàm
+### Trả về đối tượng từ hàm
 
 ```
 function getTitle() {
@@ -38,7 +38,7 @@ function getTitle() {
 }
 ```
 
-3. Trả về các phần tử khác nhau theo điều kiện:
+### Trả về các phần tử khác nhau theo điều kiện
 
 ```
 function getTitle(is_open) {
@@ -50,7 +50,9 @@ function getTitle(is_open) {
 }
 ```
 
-4. Thực hiện các thao tác thông thường khác trên đối tượng. Khi bạn sử dụng JSX, nó sẽ được chuyển đổi thành một cuộc gọi đến `React.createElement(...)`.
+### Thực hiện các thao tác thông thường khác trên đối tượng
+
+Khi bạn sử dụng JSX, nó sẽ được chuyển đổi thành một cuộc gọi đến `React.createElement(...)`.
 
 Điều này có thể dễ hiểu đối với một số người, nhưng bạn nên dành một chút thời gian để tìm hiểu vì bạn cần làm quen với cú pháp JSX trước.
 

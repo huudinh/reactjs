@@ -2,6 +2,8 @@
 
 # RS5 React DOM
 
+### ReactDOM là gì
+
 ReactDOM là sự kết hợp giữa React và DOM.
 
 React tạo ra phiên bản ảo (Virtual DOM) của Giao diện người dùng (User Interface - UI). ReactDOM là thư viện giúp cập nhật DOM một cách hiệu quả dựa trên Virtual DOM.

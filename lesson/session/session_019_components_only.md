@@ -2,6 +2,8 @@
 
 # RS19 Xây dựng Components: 
 
+### Quy ước
+
 Một file chỉ chứa 1 Component
 
 Một ứng dụng được xây dựng bằng React sẽ có nhiều component.
@@ -20,7 +22,7 @@ Tên file phải khớp với tên Component, ví dụ:
 
 Vì vậy, bạn sẽ định nghĩa các component trong những file khác và sau đó sử dụng chúng trong index.js.
 
-### Ví dụ
+### Xây dựng component Footer
 
 Hãy xem một ví dụ bằng cách sử dụng hai file: `Footer.js` và `index.js`:
 
@@ -65,9 +67,9 @@ createRoot(root).render(<App />);
 
 Ngoài ra, đoạn code hiển thị `Footer` hai lần bằng cách sử dụng component hai lần trong component App.
 
-### Luôn đặt tên cho các thành phần được xuất
+### Luôn đặt tên cho các component
 
-Mặc dù bạn có thể xuất một component function mà không cần đặt tên (hàm ẩn danh), bạn vẫn nên đặt tên các thành phần được xuất. Điều này sẽ giúp dễ dàng gỡ lỗi code vì bạn sẽ thấy tên component khi có lỗi xảy ra bên trong nó, thay vì chỉ thấy lỗi trong hàm ẩn danh.
+Mặc dù bạn có thể xuất một function component mà không cần đặt tên (hàm ẩn danh), bạn vẫn nên đặt tên các thành phần được xuất. Điều này sẽ giúp dễ dàng gỡ lỗi code vì bạn sẽ thấy tên component khi có lỗi xảy ra bên trong nó, thay vì chỉ thấy lỗi trong hàm ẩn danh.
 
 ```
 //Footer.js
@@ -89,4 +91,4 @@ export default function () {
 
 - Để sử dụng một Component được định nghĩa trong file khác, bạn cần thêm nó vào file hiện tại.
 
-*Bài tiếp theo [RS20 Props](/lesson/session/session_020_props.md)*
+*Bài tiếp theo [RS20 Props (Properties)](/lesson/session/session_020_props.md)*

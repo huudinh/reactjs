@@ -2,13 +2,15 @@
 
 # RS16 JSX Fragments
 
+### Phần tử trả về của JSX
+
 Khi trả về các phần tử trong JSX, bạn chỉ có thể trả về một phần tử mỗi lần.
 
 Phần tử đó có thể có phần tử con, nhưng bạn cần đảm bảo chỉ trả về một phần tử mỗi lần, nếu không, bạn sẽ gặp lỗi cú pháp.
 
 Điều đó bởi vì mỗi Phần tử là một đối tượng và bạn không thể trả về hai hoặc nhiều đối tượng liền kề nhau.
 
-### React.Fragment
+### Fragment là gì?
 
 React giúp giải quyết vấn đề này bằng cách yêu cầu trả về một Fragment đóng gói các phần tử cần trả về.
 
@@ -44,7 +46,7 @@ Giả sử bạn có 100 component React. Khi đó, việc đóng gói mỗi com
 
 Vì vậy, bạn nên sử dụng `<>` khi cần thiết.
 
-### React.Fragment (cú pháp gốc)
+### Cú pháp gốc
 
 Cú pháp ngắn gọn cho React.Fragment (`<>` và `</>`) vừa được đề cập ở trên.
 
@@ -74,4 +76,4 @@ Về bản chất, cả hai cú pháp cung cấp chức năng tương tự nhau.
 
 - Cú pháp gốc là: `<React.Fragment>` và `</React.Fragment>`.
 
-*Bài tiếp theo [Components](/lesson/session/session_017_components.md)*
+*Bài tiếp theo [RS17 Components](/lesson/session/session_017_components.md)*

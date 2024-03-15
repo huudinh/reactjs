@@ -1,6 +1,8 @@
 ![Create-HTML-1](images/jsx.jpg) 
 
-# RS13 Biểu thức thuộc tính
+# RS13 Biểu thức thuộc tính với giá trị động
+
+### Giá trị động
 
 Khi một trong các thuộc tính có một phần giá trị là động (thay đổi theo ngữ cảnh), bạn sẽ phải xem xét toàn bộ thuộc tính đó như là một giá trị hoàn toàn động. Ví dụ:
 
@@ -18,13 +20,13 @@ Tuy nhiên, bạn phải xử lý thuộc tính id như một giá trị hoàn t
 
 Có nhiều cách để tạo phần tử bằng JSX (giả sử có một biến tên là `count`):
 
-1. Sử dụng nối chuỗi:
+### Sử dụng nối chuỗi
 
 ```
 <li id={"item-" + count}></li>
 ```
 
-2. hoặc cách tốt hơn là sử dụng template strings:
+### Sử dụng template strings
 
 ```
 <li id={`item-${count}`}></li>
@@ -55,4 +57,4 @@ const button = <button className={`${clickable} ${active}`}>Click me</button>;
 
 - Bạn có thể sử dụng template string (với nội suy) hoặc nối chuỗi.
 
-*Bài tiếp theo [JSX Elements](/lesson/session/session_014_jsx_elements.md)*
+*Bài tiếp theo [RS14 Children trong JSX](/lesson/session/session_014_jsx_elements.md)*

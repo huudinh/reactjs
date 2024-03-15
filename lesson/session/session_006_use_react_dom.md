@@ -2,6 +2,8 @@
 
 # RS6 Cài đặt React DOM
 
+### Cài đặt từ gói NPM
+
 Hãy bắt đầu bằng việc cài đặt ReactDOM:
 
 ```
@@ -15,8 +17,6 @@ Nếu bạn mới bắt đầu từ đầu thì cần phải cài đặt cả ha
 ```
 npm install react react-dom
 ```
-
-### Kích thước của ReactDOM
 
 Kích thước của ReactDOM khi thêm vào dự án là 130KB.
 
@@ -69,11 +69,11 @@ Hãy cùng phân tích code:
     
 3. Từ kết quả của `createRoot(root)`, chúng ta gọi `.render()` và truyền cho nó phần tử React.
 
-### Bạn cảm thấy mọi thứ dần trở nên quá phức tạp?
+*Bạn cảm thấy mọi thứ dần trở nên quá phức tạp?*
 
 Bạn có thể tự hỏi liệu tất cả sự phức tạp này có đáng để tìm hiểu hay không. Điều đó thường xảy ra với người mới và hãy nhớ rằng React (và các thư viện khác) chỉ phát huy vai trò hữu ích khi chúng ta bắt đầu làm việc với các ví dụ lớn hơn (và thực tế hơn).
 
-### React 16
+*React 16*
 
 Trước đây có một phương thức kết xuất được xuất từ `react-dom`. Phương thức này đã bị loại bỏ trong React 18 để nhường chỗ cho các tính năng xử lý đồng thời của React 18. Nếu bạn thấy đoạn code như dưới đây, đó chính là code đã lỗi thời (nhưng vẫn hoạt động trong React 18):
 

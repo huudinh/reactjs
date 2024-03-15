@@ -2,7 +2,7 @@
 
 # RS9 Attributes trong JSX
 
-Hãy cùng tìm hiểu cách thiết lập thuộc tính cho các phần tử trong JSX.
+### Thiết lập thuộc tính cho các phần tử trong JSX.
 
 ```
 const title = <h1 id="brand-title">Supermarket</h1>;
@@ -31,8 +31,6 @@ const title = <h1 id="brand-title" className="primary-color">Supermarket</h1>;
 Trong HTML, chúng ta viết: `<h1 id="brand-title" class="primary-color">Supermarket</h1>` nhưng đây không phải là code JSX hợp lệ.
 
 Vì vậy, đừng quên rằng JSX sẽ tự động chuyển đổi code thành `React.createElement(...)`.
-
-### Đóng gói chuỗi trong dấu ngoặc kép
 
 Đừng quên đóng gói chuỗi trong dấu ngoặc kép.
 

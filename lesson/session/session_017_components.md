@@ -2,11 +2,9 @@
 
 # RS17 Components
 
+### Component là gì?
+
 Kể từ bài này, hầu hết các đoạn code JSX mà bạn viết sẽ được đóng gói (encapsulate) trong Component.
-
-Component là gì?
-
-### Định nghĩa ngắn gọn
 
 Component React là một hàm trả về một phần tử React, mô tả cách một phần giao diện người dùng nên được hiển thị.
 

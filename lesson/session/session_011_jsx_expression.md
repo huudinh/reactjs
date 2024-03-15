@@ -32,11 +32,9 @@ Mỗi biểu thức trả về một giá trị, ví dụ:
 
 - `name` trả về giá trị của biến name, thường là một chuỗi.
 
-### Biểu thức trong JSX
-
 Bạn có thể sử dụng các biểu thức trên trong JSX bằng cách đóng gói trong dấu ngoặc nhọn {}.
 
-#### Ví dụ cơ bản
+### Ví dụ cơ bản
 
 ```
 const title = <h1>You have {2 + 3} notifications</h1>;
@@ -48,7 +46,7 @@ Hãy xem cách biểu thức `(2 + 3)` được thực thi và trả về `5`, s
 
 Để có thể hoạt động, biểu thức phải nằm trong dấu ngoặc nhọn.
 
-#### Biến
+### Biến
 
 Việc sử dụng biến trong biểu thức thường có nhiều ứng dụng hữu ích, ví dụ: hiển thị tên người dùng trong thanh điều hướng:
 
@@ -63,7 +61,7 @@ const element = <p className="user-info">Welcome {user.name}!</p>
 
 Đoạn code này sẽ tạo một phần tử p chứa văn bản: Welcome Sam!.
 
-#### Gọi hàm
+### Gọi hàm
 
 Bạn cũng có thể gọi hàm trong biểu thức, ví dụ:
 
@@ -86,4 +84,4 @@ const element = <p className="user-info">Welcome {capitalise(name)}</p>
 
 - `<h1 className="title">You have {2 + 3} notifications</h1>` là một ví dụ về JSX với một biểu thức.
 
-*Bài tiếp theo [JSX Attribute Expression](/lesson/session/session_012_jsx_attribute_expression.md)*
+*Bài tiếp theo [RS12 Biểu thức thuộc tính](/lesson/session/session_012_jsx_attribute_expression.md)*

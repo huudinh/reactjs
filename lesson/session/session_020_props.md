@@ -2,6 +2,8 @@
 
 # RS20 Props (Properties)
 
+### Xây dựng component GreetUser
+
 Giả sử chúng ta có một component tên là `<GreetUser>` hiển thị: Welcome Sam hoặc Welcome Alex.
 
 Chúng ta cần làm cho component hiển thị Welcome và sau đó là tên người dùng.
@@ -78,4 +80,4 @@ React.createElement(GreetUser, {user: "Sam", id: "2"});
 
 - Props làm cho component linh hoạt hơn và dễ dàng tái sử dụng.
 
-*Bài tiếp theo [Props Children](/lesson/session/session_21_props_children.md)*
+*Bài tiếp theo [RS21 Props Children](/lesson/session/session_021_props_children.md)*

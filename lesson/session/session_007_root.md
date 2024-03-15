@@ -2,7 +2,9 @@
 
 # RS7 Phần tử Root
 
-Chúng ta sẽ đào sâu thêm về khái niệm phần tử root, còn được gọi là container.
+### Phần tử Root là gì?
+
+Phần tử root, còn được gọi là container.
 
 Phần tử root mà bạn truyền cho ReactDOM sẽ được React quản lý hoàn toàn. Vì vậy, bạn không nên viết bất kỳ code JavaScript nào để thay đổi nội dung của nó.
 
@@ -26,7 +28,7 @@ Bạn không nên làm bất cứ điều gì với biến root và `<div id="re
 
 Chúng được quản lý bởi ReactDOM vì sau này bạn sẽ hiển thị những thứ phức tạp hơn phần tử có thể được cập nhật trong tương lai. Và ReactDOM sẽ chịu trách nhiệm cho việc cập nhật này.
 
-### Những ứng dụng của React
+*Những ứng dụng của React*
 
 React có hai ứng dụng chính; sau đây là cách chúng ảnh hưởng đến phần tử root:
 
@@ -36,7 +38,7 @@ React có hai ứng dụng chính; sau đây là cách chúng ảnh hưởng đ�
 
 Toàn bộ ứng dụng được hiển thị bên trong phần tử root đó.
 
-#### Tích hợp React vào Ứng dụng hiện có
+#### Tích hợp React vào Ứng dụng
 
 Trang web có thể được xây dựng bằng một công nghệ khác ngoài React và sau đó tích hợp React để làm cho một phần cụ thể của trang web có khả năng tương tác với người dùng.
 

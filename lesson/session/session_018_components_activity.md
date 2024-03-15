@@ -2,6 +2,8 @@
 
 # RS18 Cơ chế hoạt động của component
 
+### Cách nhận biết Component
+
 Cách React nhận biết rằng đó là component chứ không phải phần tử:
 
 1. React kiểm tra ký tự đầu tiên của component, `F` (từ `Footer`).
@@ -64,7 +66,7 @@ Câu lệnh này truyền một tham chiếu đến hàm Footer, `React.createEl
 
 Để ý câu lệnh chỉ truyền tên hàm Footer (không có dấu ngoặc đơn) mà không gọi hàm (với dấu ngoặc đơn); lý do là để cho React biết chúng ta đang tham chiếu đến hàm nào. Và sau đó React sẽ tự động gọi hàm khi cần thiết.
 
-### Cẩn thận với vòng lặp vô hạn
+### Vòng lặp vô hạn
 
 Khi bạn mới bắt đầu học React, bạn rất dễ gặp phải vòng lặp vô hạn; ví dụ, đoạn code sau sẽ tạo ra một vòng lặp vô hạn làm cho trình duyệt bị treo. Trong hầu hết các trường hợp, React sẽ cảnh báo cho bạn nếu bạn sắp tạo ra một vòng lặp vô hạn.
 
