@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/fetch.webp) 
 
-# RS91 Fetch khi click (onClick)
+# RS91 Fetch API khi người dùng nhấp chuột vào nút
 
 Một trường hợp sử dụng phổ biến của `fetch` là tải dữ liệu khi người dùng nhấp chuột vào nút.
 

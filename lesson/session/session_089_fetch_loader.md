@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/fetch.webp) 
 
-# RS89 Xử lý tải dữ liệu bằng fetch
+# RS89 Xử lý Loading khi Fetch API
 
 Khi tải dữ liệu từ mạng bằng Fetch API, việc hiển thị trình tải (loader) là một phần quan trọng trong giao diện người dùng, đó là một chỉ báo hình ảnh cho người dùng biết rằng dữ liệu đang được tìm nạp từ mạng và họ nên đợi một chút.
 

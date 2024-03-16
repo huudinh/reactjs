@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/fetch.webp) 
 
-# RS88 Xử lý lỗi Fetch
+# RS88 Các loại lỗi khi Fetch API
 
 ### Xử lý lỗi HTTP
 
@@ -93,4 +93,4 @@ Sau đó, bạn có thể hiển thị một thông báo cho người dùng bi�
 - `.catch` cho phép bạn xử lý lỗi mạng trong các yêu cầu `fetch`.
 
 
-*Bài tiếp theo [RS89 Xử lý tải dữ liệu bằng fetch](/lesson/session/session_089_fetch_loader.md)*
+*Bài tiếp theo [RS89 Xử lý Loading khi Fetch API](/lesson/session/session_089_fetch_loader.md)*

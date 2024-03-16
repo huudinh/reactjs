@@ -14,6 +14,7 @@ const App = () => {
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [isPlay, setPlay] = useState(false);
+  const [content, setContent] = useState(false);
 
   const handleLoadedData = () => {
     setDuration(audioRef.current.duration);
@@ -38,6 +39,13 @@ const App = () => {
       audioRef.current.play();
     }
   };
+
+  const handleRandomClick = () => {
+    let random = Math.floor(Math.random() * audios.length - 1) + 1;
+    setAudioIndex(
+       random
+    )
+  }
 
   return (
     <div className="App">
@@ -92,6 +100,20 @@ const App = () => {
         onTimeUpdate={() => setCurrentTime(audioRef.current.currentTime)}
         onEnded={() => setPlay(false)}
       />
+
+      <div className="content">
+        <button className={content && 'active'} onClick={handleRandomClick}>Nghe gì?</button>
+        {
+          audios[audioIndex].lyrics.length > 0 && (
+            <>
+              <button className={content && 'active'} onClick={() => setContent(!content)}>Xem lời</button>
+              {content && <div className="lyrics">{audios[audioIndex].lyrics.map((item) => <p>{item}</p>)}</div>}
+            </>
+          )
+        }
+      </div>
+
+
     </div>
   );
 };

@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/fetch.webp) 
 
-# RS87 Toán tử logic &&
+# RS87 Tránh gây lỗi cho component khi Fetch API với &&
 
 Đôi khi bạn không muốn hiển thị một JSX mới hoàn toàn mà chỉ muốn bỏ qua việc hiển thị một phần của JSX phụ thuộc vào data từ API. Ví dụ:
 
@@ -105,4 +105,4 @@ Vì vậy sau khi `users` được tải, component App sẽ hiển thị:
 - Toán tử này giúp tránh gây lỗi cho component trước khi state được thiết lập sau khi fetch đã được xử lý.
 
 
-*Bài tiếp theo [RS88 Xử lý lỗi Fetch](/lesson/session/session_088_fetch_error.md)*
+*Bài tiếp theo [RS88 Các loại lỗi khi Fetch API](/lesson/session/session_088_fetch_error.md)*

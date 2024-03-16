@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# RS74 State trong effect
+# RS74 Update State trong effect
 
 Nhìn chung, bạn được khuyến khích không nên cập nhật state từ bên trong `useEffect`. Tuy nhiên, việc cập nhật này có thể cần thiết trong một số tình huống. Trong trường hợp đó, bạn nên tránh mắc phải những lỗi phổ biến nhất mà các lập trình thường gặp phải. Trong bài học này, chúng ta sẽ thử tạo ra lỗi như vậy để hiểu rõ vấn đề hơn:
 
@@ -63,4 +63,4 @@ function App() {
 - Nói chung, tốt nhất là bạn nên tránh thiết lập trạng thái bên trong `useEffect`.
 - Gọi `setState` bên trong `useEffect` có thể dẫn đến một vòng lặp vô hạn. Bạn phải truyền một phụ thuộc cho `useEffect`.
 
-*Bài tiếp theo [RS75 effect Time](/lesson/session/session_075_effect_time.md)*
+*Bài tiếp theo [RS75 Hiển thị thời gian](/lesson/session/session_075_effect_time.md)*

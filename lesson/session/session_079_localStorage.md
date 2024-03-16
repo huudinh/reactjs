@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/localStorage.png) 
 
-# RS79 localStorage
+# RS79 LocalStorage trong React
 
 LocalStorage là một API Web cho phép chúng ta lưu trữ các cặp khóa-giá trị trong trình duyệt. Dữ liệu bị giới hạn khoảng 5MB. API `localStorage` là đồng bộ, điều này có thể làm chậm ứng dụng. Do đó, chúng ta nên sử dụng `localStorage` một cách cẩn thận và chỉ sử dụng bên trong `useEffect`.
 
@@ -87,4 +87,4 @@ Mỗi khi trạng thái `random` thay đổi, hiệu ứng sẽ chạy, từ đ�
 - `localStorage.setItem("key", "value")` là cú pháp lưu một cặp khóa/giá trị vào localStorage.
 
 
-*Bài tiếp theo [RS80 localStorage, Object ](/lesson/session/session_080_localStorage_object.md)*
+*Bài tiếp theo [RS80 Lưu trữ Array, Object trong LocalStorage](/lesson/session/session_080_localStorage_object.md)*

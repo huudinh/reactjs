@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# RS78 Effect Performance
+# RS78 Effect & Performance
 
 Chúng ta đã sử dụng `useEffect` khá nhiều nhưng chưa thực sự tìm hiểu về ảnh hưởng của nó đến hiệu suất.
 
@@ -90,4 +90,4 @@ Bây giờ chúng ta đã biết rằng `localStorage` chỉ nên được sử 
 - Hiệu ứng mà bạn lên lịch với `useEffect` sẽ chạy sau khi component được hiển thị trên DOM.
 
 
-*Bài tiếp theo [RS79 localStorage](/lesson/session/session_079_localStorage.md)*
+*Bài tiếp theo [RS79 localStorage trong React](/lesson/session/session_079_localStorage.md)*

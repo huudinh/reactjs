@@ -146,4 +146,4 @@ Bạn không cần phải vội vàng tái cấu trúc logic chung ngay từ đ�
 - `Hook` tùy chỉnh có thể trả về một đối tượng dữ liệu
 - Bạn nên trả về một đối tượng thay vì mảng khi có nhiều hơn hai mục được trả về.
 
-*Bài tiếp theo [RS101 Custom useFetch hook](/lesson/session/session_101_custom_hooks_fetch.md)*
+*Bài tiếp theo [RS101 Custom useFetch hooks](/lesson/session/session_101_custom_hooks_fetch.md)*

@@ -75,4 +75,4 @@ function App() {
 - Để tránh gặp lỗi này, bạn có thể thêm một điều kiện if và trả về JSX khác (kết xuất có điều kiện).
 
 
-*Bài tiếp theo [RS87 Toán tử logic &&](/lesson/session/session_087_fetch_and.md)*
+*Bài tiếp theo [RS87 Tránh gây lỗi cho component khi Fetch API với &&](/lesson/session/session_087_fetch_and.md)*

@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/fetch.webp) 
 
-# Fetch khi thay đổi (onChange)
+# RS92 Fetch khi thay đổi (onChange)
 
 Một trường hợp sử dụng phổ biến khác của `fetch` là tải dữ liệu khi người dùng chọn một giá trị từ danh sách thả xuống.
 

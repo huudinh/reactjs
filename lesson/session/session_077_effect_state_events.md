@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# RS77 Effect, State & Events
+# RS77 Kết hợp Effect, State & Events
 
 Khi sử dụng hiệu ứng, trạng thái và sự kiện cùng lúc, chúng ta có thể bị nhầm lẫn hoặc gặp khó khăn trong việc quản lý các tương tác giữa chúng.
 
@@ -90,4 +90,4 @@ useEffect(() => {
 - Việc cập nhật trạng thái của React được thực hiện không đồng bộ.
 - Nếu bạn cần giá trị cập nhật mới nhất của một trạng thái sau khi nó thay đổi trong một sự kiện, bạn cần di chuyển logic vào hiệu ứng.
 
-*Bài tiếp theo [RS78 Effect Performance](/lesson/session/session_078_effect_performance.md)*
+*Bài tiếp theo [RS78 Effect & Performance](/lesson/session/session_078_effect_performance.md)*

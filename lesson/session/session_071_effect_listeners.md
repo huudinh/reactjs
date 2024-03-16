@@ -90,4 +90,4 @@ Lưu ý rằng nếu bạn muốn thêm sự kiện vào một phần tử đư�
 - Khi thêm một trình lắng nghe sự kiện bên ngoài React, hãy nhớ dọn dẹp nó.
 - Bạn có thể dọn dẹp một trình lắng nghe sự kiện bằng cách sử dụng removeEventListener với hai đối số: loại sự kiện và tên của hàm xử lý sự kiện.
 
-*Bài tiếp theo [RS72 Dependencies](/lesson/session/session_072_effect_dependencies.md)*
+*Bài tiếp theo [RS72 Dependencies trong useEffect](/lesson/session/session_072_effect_dependencies.md)*

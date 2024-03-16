@@ -79,4 +79,4 @@ Chúng ta cần đặt giá trị mặc định cho mảng nếu mong đợi loc
 - Đối với giá trị `boolean`, chúng ta cần so sánh với chuỗi `"true"` để  chuyển đổi thành giá trị boolean tương ứng.
 
 
-*Bài tiếp theo [RS82 Lazy initial state](/lesson/session/session_082_localStorage_lazy_state.md)*
+*Bài tiếp theo [RS82 Tối ưu hiệu suất khi sử dụng LocalStorage](/lesson/session/session_082_localStorage_lazy_state.md)*

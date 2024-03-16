@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/localStorage.png) 
 
-# RS82 Lazy initial state
+# RS82 Tối ưu hiệu suất khi sử dụng LocalStorage
 
 Về mặt lý thuyết, việc khôi phục dữ liệu từ localStorage cũng đơn giản như việc thay thế giá trị khởi tạo trong useState bằng một cuộc gọi đến localStorage, ví dụ:
 

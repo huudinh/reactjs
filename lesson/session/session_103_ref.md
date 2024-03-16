@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/ref.png) 
 
-# RS103 Giới thiệu về refs
+# RS103 Giới thiệu về Refs
 
 Hãy giả sử bạn có component sau và bạn muốn đặt trọng tâm vào trường nhập liệu khi component được hiển thị lần đầu tiên.
 

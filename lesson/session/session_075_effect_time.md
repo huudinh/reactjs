@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# RS75 Effect Time
+# RS75 Hiển thị thời gian
 
 Giả sử chúng ta muốn xây dựng component `<Clock />` hiển thị thời gian hiện tại.
 
@@ -91,4 +91,4 @@ clearInterval(intervalId);
 - `setInterval` lên lịch gọi một hàm sau mỗi X mili giây.
 - `clearInterval(intervalId)` cho phép bạn xóa một `interval` được tạo ra bằng `setInterval`.
 
-*Bài tiếp theo [RS76 Effect Control](/lesson/session/session_076_effect_control.md)*
+*Bài tiếp theo [RS76 Sử dụng Effect với điều kiện](/lesson/session/session_076_effect_control.md)*

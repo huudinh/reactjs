@@ -95,4 +95,4 @@ Khi bạn chạy code trong môi trường sản xuất (sử dụng React sản
 - React sẽ gọi hàm đó mỗi khi component được kích hoạt lại hoặc bị xóa khỏi DOM.
 - Nếu bạn quên dọn dẹp hiệu ứng, bạn sẽ thấy một số hành vi bất thường trong ứng dụng (chỉ khi chạy ở chế độ nghiêm ngặt trên máy cục bộ).
 
-*Bài tiếp theo [Dọn dẹp bộ đếm thời gian](/lesson/session/session_070_effect_clean_time.md)*
+*Bài tiếp theo [RS70 Dọn dẹp bộ đếm thời gian](/lesson/session/session_070_effect_clean_time.md)*

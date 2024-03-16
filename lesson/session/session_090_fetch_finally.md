@@ -121,4 +121,4 @@ Bạn cũng có thể vô hiệu hóa nút trong quá trình tải dữ liệu n
 - Bất kỳ phương pháp kết xuất có điều kiện nào cũng sẽ cho phép bạn hiển thị thông báo đang tải khi `isLoading` là `true`.
 - Bạn có thể vô hiệu hóa nút khi đang tải như sau: `<button disabled={isLoading}>Click me</button>`.
 
-*Bài tiếp theo [RS91 Fetch khi click (onClick)](/lesson/session/session_091_fetch_onclick.md)*
+*Bài tiếp theo [RS91 Fetch API khi người dùng nhấp chuột vào nút](/lesson/session/session_091_fetch_onclick.md)*

@@ -50,4 +50,4 @@ Lưu ý rằng:
 - Hook tùy chỉnh `useFetch` nhận `baseUrl` làm tham số duy nhất.
 - Hàm `get` sẽ nhận `url` mà bạn muốn gửi yêu cầu `fetch` và `url` này sẽ được thêm vào `baseUrl`.
 
-*Bài tiếp theo [RS102 UseFetch hook: phương thức post](/lesson/session/session_102_custom_hooks_fetch_post.md)*
+*Bài tiếp theo [RS102 Custom useFetch hooks với post](/lesson/session/session_102_custom_hooks_fetch_post.md)*
