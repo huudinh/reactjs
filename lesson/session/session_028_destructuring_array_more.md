@@ -3,11 +3,9 @@
 
 # RS28 Destructuring với Function
 
-> Array destructuring là một cú pháp rút gọn vì nó giúp chúng ta dễ dàng tạo ra các biến từ các phần tử của mảng.
+### Trả về một mảng từ hàm
 
-> Bạn có thể nhận thấy rằng việc trả về một mảng từ hàm cũng cho phép trả về nhiều biến (có thể có cùng hoặc khác kiểu dữ liệu).
-
-> Khái niệm này được hỗ trợ trong nhiều ngôn ngữ lập trình. Và đây cũng là một khái niệm quan trọng cần biết trước khi học React Hook.
+Bạn có thể nhận thấy rằng việc trả về một mảng từ hàm cũng cho phép trả về nhiều biến (có thể có cùng hoặc khác kiểu dữ liệu).
 
 Giả sử bạn có hàm getUser sau:
 
@@ -22,14 +20,14 @@ function getUser() {
 }
 ```
 
-Hàm trả về cái gì?
+### Hàm trả về cái gì?
 
 - `getUser()` nên trả về một mảng.
 - Mảng này chứa hai phần tử.
 - Phần tử đầu tiên là `number`.
 - Phần tử thứ hai là `function`.
 
-`sayHello` là một tham chiếu của hàm mà chúng ta có thể gọi sau đó (chúng ta sẽ tìm hiểu sau).
+`sayHello` là một tham chiếu của hàm 
 
 Nhưng câu hỏi là: Chúng ta có thể sử dụng destructuring sau khi gọi getUser() không?
 
@@ -59,7 +57,7 @@ const [id, sayHello] = getUser();
 
 Vì vậy, ở đây chúng ta đang destructure `id` và `sayHello`, tương ứng với chỉ số 0 và 1, của dữ liệu được trả về từ `getUser()`.
 
-### Làm thế nào để gọi sayHello?
+### Làm thế nào để gọi hàm
 
 Vì `sayHello` là một hàm, bạn có thể gọi nó bằng cách thêm `()`. Sau đây là ví dụ đầy đủ:
 
@@ -77,8 +75,6 @@ const [id, sayHelloFunction] = getUser();
 console.log(id); //15
 console.log(sayHelloFunction()); //Welcome!
 ```
-
-Vậy tại sao chúng ta lại làm như vậy? Đó sẽ được giải thích trong chương tiếp theo! Hãy tiếp tục theo dõi!
 
 ### Tóm lại
 

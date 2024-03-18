@@ -2,7 +2,7 @@
 
 # RS30 Import State
 
-Hãy bắt đầu bằng cách tạo biến trạng thái đầu tiên.
+### Tạo biến trạng thái
 
 Để làm điều đó, chúng ta cần thêm hàm useState từ gói "react".
 
@@ -25,14 +25,11 @@ import {useState} from "react";
 import React, {useState} from "react";
 ```
 
-Thoạt nhìn cú pháp có thể trông hơi lạ mắt, nhưng bạn hãy nhớ rằng:
+### Lưu ý 
 
-1. `React` là default export (không có dấu ngoặc nhọn)
-2. `useState` là named export (được đóng gói trong dấu ngoặc nhọn)
-
-### useState là React Hook
-
-`useState` là một trong nhiều hook được cung cấp bởi React.
+- `React` là default export (không có dấu ngoặc nhọn)
+- `useState` là named export (được đóng gói trong dấu ngoặc nhọn)
+- `useState` là một trong nhiều hook được cung cấp bởi React.
 
 ### Tóm lại
 

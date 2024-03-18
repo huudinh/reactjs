@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# RS76 Effect Control
+# RS76 Sử dụng Effect với điều kiện
 
 Một trường hợp sử dụng phổ biến khác là chạy hiệu ứng khi một biến cụ thể được bật hoặc tắt. Để làm điều đó, chúng ta tạo một biến trạng thái boolean và sử dụng nó như điều kiện if bên trong hiệu ứng.
 

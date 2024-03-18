@@ -2,10 +2,11 @@
 
 # RS25 Thư viện clsx 
 
+### CLSX là gì
+
 Trong những bài học trước, việc áp dụng các lớp động trong React hơi phức tạp vì bạn phải xây dựng chuỗi `className` theo cách thủ công.
 
 Có một số thư viện nhỏ giúp công việc này trở nên dễ dàng hơn; 2 thư viện phổ biến nhất là:
-
 
 - `classnames`
 
@@ -20,8 +21,6 @@ Cả hai thư viện đều rất nhỏ gọn; bạn có thể sử dụng bất
 ```
 npm install clsx
 ```
-
-### Kích thước gói
 
 Gói `clsx` có kích thước khoảng 300 byte (nhỏ hơn 1KB), vì vậy bạn không cần lo lắng về kích thước của gói khi thêm vào dự án.
 

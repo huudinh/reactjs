@@ -2,7 +2,7 @@
 
 # RS23 Pure function (Hàm thuần túy)
 
-Sau này trong khóa học, khi chúng ta nói thêm về Virtual DOM, bạn sẽ thấy React có thể hình dung cách cập nhật component một cách hiệu quả khi một giá trị thay đổi.
+### Props là thuộc tính chỉ đọc
 
 Để giúp React đạt được hiệu suất tối ưu, điều quan trọng là tuân theo một trong những quy tắc quan trọng nhất của React, đó là:
 
@@ -75,4 +75,4 @@ React không cho phép các component thay đổi props vì khi các hàm là th
 
 - React yêu cầu các component là thuần túy để có thể cập nhật DOM một cách hiệu quả chỉ khi cần thiết.
 
-*Bài tiếp theo [RS24 Comment trong JSX](/lesson/session/session_024_jsx_comment.md)*
+*Bài tiếp theo [RS24 Comment và kết xuất có điều kiện](/lesson/session/session_024_jsx_comment.md)*

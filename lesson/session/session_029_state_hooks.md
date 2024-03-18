@@ -26,11 +26,9 @@ Theme không thể được thay đổi từ bên trong component Stopwatch; nó
 
 Trong khi đó, số giây đã trôi qua là một trạng thái vì chúng ta có ý định bắt đầu/ngừng đếm thời gian từ bên trong component `<Stopwatch />`.
 
-### Điều gì xảy ra khi trạng thái thay đổi?
+### Điều gì xảy ra khi State thay đổi?
 
 Khi state được cập nhật, ReactDOM sẽ tự động hiển thị lại Component một cách hiệu quả trên DOM. 
-
-### Ví dụ khác
 
 Hãy xem một ví dụ khác.
 

@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/localStorage.png) 
 
-# RS80 localStorage, Object
+# RS80 Lưu trữ Array, Object trong LocalStorage
 
 API localStorage chỉ hỗ trợ lưu trữ chuỗi dưới dạng khóa và giá trị, vì vậy, nếu bạn muốn lưu trữ `arrays` hoặc `objects`, bạn cần chuyển đổi chúng thành chuỗi trước tiên.
 

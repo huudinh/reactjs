@@ -41,7 +41,7 @@ console.log(elevation); //10
 
 Cú pháp này còn được gọi là sugar syntax (cú pháp rút gọn) giúp code dễ đọc hơn (khi bạn làm quen dần, code sẽ trở nên dễ đọc hơn).
 
-### Mảng chứa các kiểu dữ liệu khác nhau
+### Array chứa các kiểu dữ liệu khác nhau
 
 Array destructuring vẫn hoạt động ngay cả khi mảng chứa các kiểu dữ liệu khác nhau, ví dụ như số nguyên, chuỗi, đối tượng, hàm, v.v.. Ví dụ:
 

@@ -1,6 +1,8 @@
 ![Create-HTML-1](images/components.jpg) 
 
-# RS24 Comment trong JSX
+# RS24 Comment và kết xuất có điều kiện
+
+### Cú pháp Comment
 
 Để viết comment trong JSX, bạn phải đóng gói nó trong một biểu thức và sau đó sử dụng cú pháp comment nhiều dòng trong JavaScript.
 

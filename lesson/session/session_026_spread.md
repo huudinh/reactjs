@@ -2,7 +2,7 @@
 
 # RS26 Toán tử spread "..."
 
-Chúng ta cùng ôn lại toán tử spread của JavaScript:
+### Toán tử spread của JavaScript
 
 ```
 const person = {
