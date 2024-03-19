@@ -214,6 +214,28 @@
 
 107. [RS107 Sử dụng Context](session/session_107_context_use.md)
 
+108. [RS108 Giá trị Context](session/session_108_context_value.md)
+
+109. [RS109 Cập nhật giá trị Context](session/session_109_context_update.md)
+
+110. [RS110 Ký hiệu dấu chấm](session/session_110_dot.md)
+
+111. [RS111 dangerouslySetInnerHTML](session/session_111_dangerouslySetInnerHTML.md)
+
+112. [RS112 Xuất nhiều component](session/session_112_export_more.md)
+
+113. [RS113 React Router](session/session_113_router.md)
+
+114. [RS114 Điều hướng cơ bản](session/session_114_router_basic.md)
+
+115. [RS115 Liên kết điều hướng (Route link)](session/session_115_router_link.md)
+
+116. [RS116 Tham số URL](session/session_116_router_url_param.md)
+
+117. [RS117 Hook UseParams](session/session_117_router_useparams.md)
+
+
+
 
 
 
