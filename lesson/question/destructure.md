@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/destructure.png)
 
-# QS1 Làm thế nào để Destructure Props trong Reactjs
+# Làm thế nào để Destructure Props trong Reactjs
 
 Trong ReactJS, việc destructuring props giúp làm mã nguồn dễ đọc hơn và truy cập các thuộc tính của props một cách thuận tiện. Dưới đây là cách sử dụng destructuring props
 

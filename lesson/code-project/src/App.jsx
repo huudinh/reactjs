@@ -1,10 +1,10 @@
 import './App.css'
-import FetchGet from './components/FetchGet'
+import Navbar from './components/Rest'
 
 function App() {
   return (
     <>
-      <FetchGet />
+      <Navbar tabIndex="2" className="navbar" />
     </>
   )
 }

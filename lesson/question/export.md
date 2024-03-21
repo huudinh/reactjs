@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/export.png)
 
-# QS1 Làm thế nào để Export Component trong Reactjs
+# Làm thế nào để Export Component trong Reactjs
 
 Để export một component trong ReactJS, bạn có thể sử dụng các cách sau:
 
