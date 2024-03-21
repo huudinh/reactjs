@@ -1,10 +1,14 @@
 import './App.css'
-import Navbar from './components/Spread'
+import DestrArray from './components/DestrArray'
 
 function App() {
+  const data = ["Sam", 23, {
+      id: 1,
+      created_at: "Jan 19"
+  }];
   return (
     <>
-      <Navbar tabIndex="2" className="navbar" />
+      <DestrArray info={data} />
     </>
   )
 }

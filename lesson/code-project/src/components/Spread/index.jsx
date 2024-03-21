@@ -3,3 +3,4 @@ export default function Navbar(props) {
     console.log({ ...rest });
 }
 
+{/* <Navbar tabIndex="2" className="navbar" /> */}
