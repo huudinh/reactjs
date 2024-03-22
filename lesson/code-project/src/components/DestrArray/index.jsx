@@ -1,7 +1,7 @@
-export const DestrArray = (props) => {
-    console.log(props)
+export default function DestrArray(props){
+    const [name, age, details] = props.info;
+    console.log(name, age, details);
 }
-export default DestrArray;
 
 // const data = ["Sam", 23, {
 //     id: 1,
