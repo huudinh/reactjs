@@ -1,4 +1,4 @@
-![Create-HTML-1](images/destructuring-array.png) 
+![Create-HTML-1](images/components.jpg) 
 
 # RS27 Destructuring với Array
 

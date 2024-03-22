@@ -1,4 +1,4 @@
-![Create-HTML-1](images/spread.png) 
+![Create-HTML-1](images/components.jpg) 
 
 # RS26 Toán tử spread "..."
 
