@@ -1,4 +1,4 @@
-![Create-HTML-1](images/react-router.png) 
+![Create-HTML-1](images/redux.jpg) 
 
 # RS123 Giới thiệu về redux
 
