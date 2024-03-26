@@ -142,7 +142,7 @@ import { createStore } from "redux";
 const store = createStore(counterReducer);
 ```
 
-### Chương trình hoàn chỉnh
+Chương trình hoàn chỉnh
 
 ```
 import { createStore } from "redux";
