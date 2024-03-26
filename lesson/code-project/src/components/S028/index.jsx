@@ -1,3 +1,4 @@
+// Process
 export default function DestrFunc(props){
     function sayHello() {
         return props.message;
@@ -11,3 +12,9 @@ export default function DestrFunc(props){
 
     console.log(sayHelloFunction(), name); 
 }
+
+// Input
+// <DestrFunc name="DinhTrieu" message="Welcome" />
+
+// Output
+// Welcome DinhTrieu

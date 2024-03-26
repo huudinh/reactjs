@@ -1,10 +1,10 @@
 import './App.css'
-import Counter from './components/State';
+import Stopwatch from './components/S032';
 
 function App() {
   return (
     <>
-      <Counter theme="dark" />
+      <Stopwatch theme="dark" />
     </>
   )
 }

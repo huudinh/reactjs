@@ -74,4 +74,4 @@ Code trong hook useEffect sẽ chạy mỗi khi đối tượng location thay đ
 
 - Bằng cách kết hợp useLocation() với useEffect(), bạn có thể chạy một đoạn code mỗi khi người dùng điều hướng đến một route mới.
 
-*Bài tiếp theo [RS123 useLocation](/lesson/session/session_123_useLocation.md)*
+*Bài tiếp theo [RS123 Giới thiệu về redux](/lesson/session/session_123_redux.md)*
