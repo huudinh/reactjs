@@ -1,5 +1,7 @@
 ## ReactJS - Component
+
 ### Mục lục
+
 1. [RS1 React là gì ?](session/session_001_react.md)
 
 2. [RS2 Cài đặt React](session/session_002_react_setup.md)
@@ -243,6 +245,12 @@
 121. [RS121 useNavigate](session/session_121_useNavigate.md)
 
 122. [RS122 useLocation](session/session_122_useLocation.md)
+
+123. [RS123 Giới thiệu về redux](/lesson/session/session_123_redux.md)
+
+124. [RS124 Thực hiện dispatch một action](/lesson/session/session_124_dispatch.md)
+
+125. [RS125 Giới thiệu về React Redux](/lesson/session/session_125_redux_react.md)
 
 
 
