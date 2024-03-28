@@ -46,7 +46,7 @@ const [seconds, setSeconds] = useState(0);
 
 Điều này quan trọng vì khi các component trở nên phức tạp hơn, chúng ta cần biết rằng `seconds` là trạng thái và `setSeconds` là hàm cập nhật trạng thái của seconds.
 
-### Ví dụ đầy đủ
+### Tạo một ví dụ về khởi tạo State
 
 Hãy xem một ví dụ sử dụng trạng thái đầy đủ:
 
@@ -71,7 +71,7 @@ Lưu ý, vì trạng thái `seconds` là một biến, bạn có thể sử dụ
 
 seconds sẽ bằng 0 vì đó là giá trị khởi tạo mà ta đã truyền vào.
 
-### Tóm lại
+### Tổng kết kiến thức
 
 - Hàm `useState()` nhận `initial_value` là đối số duy nhất.
 - Hàm `useState()` trả về một mảng gồm 2 phần tử
