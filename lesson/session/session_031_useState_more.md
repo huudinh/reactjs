@@ -76,6 +76,6 @@ seconds sẽ bằng 0 vì đó là giá trị khởi tạo mà ta đã truyền 
 - Hàm `useState()` nhận `initial_value` là đối số duy nhất.
 - Hàm `useState()` trả về một mảng gồm 2 phần tử
 - Luôn destructure `useState` thành `state` và `setState`, trong đó `state` là tên của trạng thái
-- Giá trị mặc định của biến trạng thái được trả về bởi `useState` sẽ giống với `initial_value` truyền vào `useState()`.
+- Giá trị mặc định của State được trả về bởi `useState` sẽ giống với `initial_value` truyền vào `useState()`.
 
 *Bài tiếp theo [RS32 Update State](/lesson/session/session_032_update_state.md)*
