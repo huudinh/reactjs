@@ -2,6 +2,8 @@
 
 # RS31 Khởi tạo State
 
+### Khởi tạo giá trị ban đầu cho State
+
 Bây giờ bạn đã biết cách thêm hàm useState, hãy tạo biến trạng thái đầu tiên.
 
 Để làm điều đó, chúng ta cần gọi hàm `useState` với cú pháp `useState(initial_value)`.
@@ -18,8 +20,8 @@ Vì vậy, bạn tạo trạng thái bằng cú pháp sau: `useState(0)`.
 
 `useState` trả về một mảng gồm 2 phần tử:
 
-1. phần tử đầu tiên là giá trị hiện tại của trạng thái
-2. phần tử thứ hai là một hàm cập nhật trạng thái 
+1. Phần tử đầu tiên là giá trị hiện tại của trạng thái
+2. Phần tử thứ hai là một hàm cập nhật trạng thái 
 
 Vì vậy, thay vì viết:
 
