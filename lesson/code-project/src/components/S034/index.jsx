@@ -1,23 +1,27 @@
 // Process
 
-import { useState } from "react";
+import React, { useState, useEffect } from 'react';
 
-export default function Counter() {
-    const [count, setCount] = useState(0);
+const TimerComponent = () => {
+  const [time, setTime] = useState(0);
 
-    function handleIncrementClick() {
-        setCount(count + 1);
-    }
-    
-    return (<>
-        <div>{count} times clicked!</div>
-        <button onClick={handleIncrementClick}>Add 1</button>
-    </>);
-}
+  useEffect(() => {
+    const timerId = setInterval(() => {
+      // Closure ở đây cho phép truy cập biến `time` từ scope bên ngoài
+      setTime(prevTime => prevTime + 1);
+    }, 1000);
+
+    // Cleanup function
+    return () => clearInterval(timerId);
+  }, []); // Mảng rỗng đảm bảo useEffect chỉ chạy một lần
+
+  return <div>Thời gian: {time} giây</div>;
+};
+
+export default TimerComponent;
 
 // Input
 
-<Counter />
 
 // Output
 {

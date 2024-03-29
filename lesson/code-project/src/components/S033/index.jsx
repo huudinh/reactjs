@@ -5,14 +5,17 @@ import { useState } from "react";
 export default function Counter() {
     const [count, setCount] = useState(0);
 
-    return (
-        <>
-            <div>{count} times clicked!</div>
-            <button onClick={
-                () => setCount(count + 1)
-            }>Add 1</button>
-        </>
-    );
+    function handleIncrementClick() {
+        setCount(count + 1);
+    }
+    
+    return (<>
+        <div>{count} times clicked!</div>
+        <button 
+            onClick={handleIncrementClick}>
+            Add 1
+        </button>
+    </>);
 }
 
 // Input

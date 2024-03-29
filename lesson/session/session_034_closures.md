@@ -2,7 +2,7 @@
 
 # RS34 Closures trong JavaScript
 
-### Vậy closures là gì?
+### Closures là gì?
 
 Closure là một khái niệm trong JavaScript nghe có vẻ phức tạp, nhưng trên thực tế thì nó khá đơn giản. 
 
@@ -111,43 +111,42 @@ function doSomething() {
 doSomething(); // 2
 ```
 
-### Note
+### Ví dụ thực tế
 
-- Chúng ta cần tìm hiểu về closures vì khi làm việc với event và state, chúng ta cần có các trình xử lý sự kiện có thể truy cập vào trạng thái.
+Chúng ta cần tìm hiểu về closures vì khi làm việc với event và state, chúng ta cần có các trình xử lý sự kiện có thể truy cập vào trạng thái.
 
-Nói một cách ngắn gọn, chúng ta cần có khả năng viết code như sau:
+Trong ReactJS, Closures là một khái niệm quan trọng đến từ JavaScript. Closures cho phép một hàm truy cập vào các biến từ scope bên ngoài của nó, ngay cả sau khi hàm bên ngoài đã thực thi xong. Đây là một ví dụ về cách sử dụng closures trong một function component của React:
 
 ```
-import {useState} from "react";
+import React, { useState, useEffect } from 'react';
 
-function Counter() {
-    const [count, setCount] = useState(0);
+const TimerComponent = () => {
+  const [time, setTime] = useState(0);
 
-    function handleIncrementClick() {
-        setCount(count + 1);
-    }
-    
-    return (<>
-        <div>{count} times clicked</div>
-        <button onClick={handleIncrementClick}>Add 1</button>
-    </>);
-}
+  useEffect(() => {
+    const timerId = setInterval(() => {
+      // Closure ở đây cho phép truy cập biến `time` từ scope bên ngoài
+      setTime(prevTime => prevTime + 1);
+    }, 1000);
+
+    // Cleanup function
+    return () => clearInterval(timerId);
+  }, []); // Mảng rỗng đảm bảo useEffect chỉ chạy một lần
+
+  return <div>Thời gian: {time} giây</div>;
+};
+
+export default TimerComponent;
 ```
 
-handleIncrementClick là một hàm được định nghĩa bên trong hàm Counter.
+Trong ví dụ trên, hàm setInterval tạo ra một closure bằng cách truy cập vào hàm setTime từ scope bên ngoài của nó. 
 
-Và hàm handleIncrementClick có quyền truy cập vào biến count của state vì nó được định nghĩa bên trong Counter.
-
-Đó là lý do tại sao chúng ta cần biết về closures.
-
-Tóm gọn khái niệm Closures trong một câu:
-
-Khi một hàm chứa hàm khác, hàm bên trong có quyền truy cập vào các biến của hàm bên ngoài.
+Mặc dù useEffect chỉ chạy một lần, nhưng nhờ vào closure, mỗi lần callback của setInterval được gọi, nó vẫn có thể truy cập và cập nhật state time1.
 
 ### Tóm lại
 
 - Closures là khi một hàm bên trong có quyền truy cập vào các biến của hàm bên ngoài.
-- Hàm trong JavaScript có quyền truy cập vào ngữ cảnh bên ngoài của chúng. Đây được gọi là closures.
+- Hàm trong JavaScript có quyền truy cập vào ngữ cảnh bên ngoài của chúng. Đây được gọi là Closures.
 - Closures là điều bạn nhận được khi định nghĩa một hàm; không phải là điều mà bạn phải "kích hoạt" hoặc quyết định sử dụng.
 - Các hàm được định nghĩa bên trong một hàm khác có thể sử dụng các biến được định nghĩa trong hàm bên ngoài.
 

@@ -1,10 +1,10 @@
 import './App.css'
-import ProductPhoto from './components/ProductPhoto';
+import TimerComponent from './components/S034';
 
 function App() {
   return (
     <>
-      <ProductPhoto />
+      <TimerComponent />
     </>
   )
 }
