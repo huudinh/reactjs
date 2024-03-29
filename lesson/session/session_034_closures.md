@@ -2,7 +2,9 @@
 
 # RS34 Closures trong JavaScript
 
-Closure là một khái niệm trong JavaScript nghe có vẻ phức tạp, nhưng trên thực tế thì nó khá đơn giản. Vậy closures là gì?
+### Vậy closures là gì?
+
+Closure là một khái niệm trong JavaScript nghe có vẻ phức tạp, nhưng trên thực tế thì nó khá đơn giản. 
 
 Closure là khi hàm bên trong có quyền truy cập vào các biến của hàm bên ngoài. Hãy xem ví dụ dưới đây:
 
@@ -35,10 +37,6 @@ Như bạn thấy, biến name có thể được truy cập bởi hàm `getWelc
 
 Vì vậy, vì `name` được định nghĩa trong `getUser`, nó có thể được truy cập bởi bất kỳ hàm nào được định nghĩa bên trong `getUser`, trong ví dụ này là `getWelcomeMessage`.
 
-![Create-HTML-2](images/closures.png) 
-
-Nhìn vào ảnh trên, hãy xem cách `getUser` định nghĩa biến `name`, sau đó biến này có thể được truy cập bởi bất kỳ hàm nào được định nghĩa bên trong `getUser`.
-
 Vì `getWelcomeMessage` được định nghĩa trong `getUser`, bạn có thể sử dụng biến `name`.
 
 Và đó chính là khái niệm `closure`!
@@ -55,9 +53,9 @@ function getUser() {
 
 Tuy nhiên đoạn code trên không nên được sử dụng trong các dự án thực tế trong react.
 
-### Closure áp dụng cho arrow function
+### Closure áp dụng cho Arrow Function
 
-Closure cũng có thể áp dụng cho arrow function, vì vậy nếu bạn viết lại code với arrow function:
+Closure cũng có thể áp dụng cho Arrow Function, vì vậy nếu bạn viết lại code:
 
 ```
 const getUser = () => {
