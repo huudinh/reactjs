@@ -1,10 +1,10 @@
 import './App.css'
-import Stopwatch from './components/S032';
+import ProductPhoto from './components/ProductPhoto';
 
 function App() {
   return (
     <>
-      <Stopwatch theme="dark" />
+      <ProductPhoto />
     </>
   )
 }
