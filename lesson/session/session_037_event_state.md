@@ -1,11 +1,13 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS37 Event & Component
+# RS37 Event & State
 
 Sau khi đã hiểu về event và closures, chúng ta có thể tiếp tục làm việc với state bên trong các component.
 
 Hãy chuyển từ trình xử lý sự kiện trực tiếp sang trình xử lý sự kiện có tên:
+
+### Xử lý sự kiện trực tiếp
 
 ```
 import {useState} from "react";
@@ -20,7 +22,7 @@ function Stopwatch() {
 }
 ```
 
-Thành:
+### Xử lý sự kiện có tên
 
 ```
 import {useState} from "react";
