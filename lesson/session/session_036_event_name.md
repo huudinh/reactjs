@@ -70,4 +70,4 @@ Bạn có thể thấy `handleClick` hoặc `handleSubmit` đều hoạt động
 - `<button onClick={handleLoginClick}>Đăng nhập</button>` gọi `handleLoginClick` khi nút được nhấp.
 - Sử dụng quy ước đặt tên `handleSubjectEvent` cho các trình xử lý sự kiện
 
-*Bài tiếp theo [RS37 Event & Component](/lesson/session/session_037_event_state.md)*
+*Bài tiếp theo [RS37 Event & State](/lesson/session/session_037_event_state.md)*

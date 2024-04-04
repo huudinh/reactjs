@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS38 Thay đổi State có điều kiện
+# RS38 Update State theo điều kiện
 
 Thay đổi trạng thái có điều kiện không phải là một khái niệm đặc thù của React mà thực tế là một yêu cầu cần thiết trong nhiều dự án.
 

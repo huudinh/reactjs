@@ -29,3 +29,4 @@ function Stopwatch() {
         >Click to add 1</button>
     </>);
 }
+

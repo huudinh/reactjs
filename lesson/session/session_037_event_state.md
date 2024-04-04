@@ -7,7 +7,7 @@ Sau khi đã hiểu về event và closures, chúng ta có thể tiếp tục l�
 
 Hãy chuyển từ trình xử lý sự kiện trực tiếp sang trình xử lý sự kiện có tên:
 
-### Xử lý sự kiện trực tiếp
+### Update State trực tiếp
 
 ```
 import {useState} from "react";
@@ -22,7 +22,7 @@ function Stopwatch() {
 }
 ```
 
-### Xử lý sự kiện có tên
+### Update State qua Function
 
 ```
 import {useState} from "react";
