@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS42 Toán tử &&
+# RS42 Toán tử AND
 
 Toán tử logic `&&` là cú pháp trong JavaScript cho phép bạn liên kết hai biểu thức với nhau.
 
