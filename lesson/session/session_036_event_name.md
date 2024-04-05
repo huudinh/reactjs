@@ -1,9 +1,11 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS36 Đặt tên cho Event
+# RS36 Quy ước đặt tên cho Event
 
-Bài trước, chúng ta đã viết trình xử lý sự kiện ở dạng nội tuyến, tức là trực tiếp gán một hàm (không có tên) cho sự kiện, ví dụ:
+Bài trước, chúng ta đã viết trình xử lý sự kiện ở dạng nội tuyến, tức là trực tiếp gán một hàm (không có tên) cho sự kiện, 
+
+### Ví dụ:
 
 ```
 <button onClick={() => console.log("Logging in..")}>Login</button>
@@ -52,7 +54,7 @@ Hãy nhớ rằng React không bắt buộc tuân thủ các quy ước đặt t
 
 Vì vậy chúng ta có `handleLoginClick`.
 
-Hãy xem các ví dụ khác:
+### Ví dụ khác
 
 - `handleFormSubmit` cho sự kiện submit biểu mẫu
 - `handleNameChange` cho sự kiện change trên trường nhập tên
