@@ -30,7 +30,7 @@ const element1 = <Counter enabled={true} />;
 const element2 = <Counter enabled={false} />;
 ```
 
-Chúng ta có thể kiểm tra giá trị của Prop và dựa trên đó thay đổi trạng thái như sau:
+### Kiểm tra giá trị của Prop và thay đổi State
 
 ```
 if (props.enabled) {

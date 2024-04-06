@@ -60,16 +60,7 @@ function Counter(props) {
 
 Bây giờ, thẻ `<p>That is a lot of items.</p>` chỉ được hiển thị khi `props.count > 99` trả về true!
 
-Lưu ý rằng đoạn code dưới đây sẽ không hoạt động như mong đợi khi `count` là 0:
-
-```
-function Counter(props) {
-    return <>
-        <h1>You have {props.count} items</h1>
-        {props.count && <p>You have some items.</p>}
-    </>;
-}
-```
+Lưu ý rằng đoạn code sẽ không hoạt động như mong đợi khi `count` là 0:
 
 Khi count là 0, 0 sẽ hiển thị trên màn hình. Điều đó là do props.count trả về 0, đó là một số, và React sẽ hiển thị nó vì nó là một số. Để code hoạt động như mong đợi, bạn cần cung cấp một biểu thức trả về một giá trị boolean (ví dụ: count > 0). React sẽ không hiển thị các giá trị boolean.
 
