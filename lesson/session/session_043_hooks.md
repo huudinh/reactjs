@@ -72,8 +72,6 @@ function App(props) {
 ### Tóm lại
 
 - Để hook hoạt động chính xác, bạn phải tuân theo hai quy tắc bên trên.
-    - Quy tắc số 1: Chỉ gọi Hook từ các hàm React
-    - Quy tắc số 2: Chỉ gọi Hook ở Cấp độ trên cùng và không bao giờ gọi hook trong vòng lặp, điều kiện if hoặc các hàm lồng nhau.
 - React phụ thuộc vào thứ tự các hook được gọi để hoạt động một cách chính xác.
 
 
