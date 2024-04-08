@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS43 Các nguyên tắc khi làm việc với Hooks
+# RS43 Quy tắc gọi Hooks
 
 Để hook hoạt động chính xác, bạn phải tuân theo hai quy tắc sau:
 
