@@ -3,34 +3,60 @@
 
 # RS45 Tính bất biến
 
-Xem ví dụ sau:
+### Tính bất biến là một khái niệm quan trọng trong ReactJS
 
-```
-const firstArray = [];
-const secondArray = firstArray; // secondArray now points to firstArray
-console.log(firstArray === secondArray); //true and expected
+- Tính bất biến đề cập đến việc không thay đổi giá trị của dữ liệu sau khi đã được khởi tạo.
 
-firstArray.push(10);
-console.log(firstArray === secondArray); //true but unexpected
-```
+- Tính bất biến giúp tránh các vấn đề liên quan đến thay đổi trạng thái và quản lý dữ liệu hiệu quả hơn trong ứng dụng ReactJS. Bằng cách áp dụng tính bất biến, bạn có thể tối ưu hóa hiệu suất và tránh các lỗi liên quan đến thay đổi dữ liệu không mong muốn
 
-Chúng ta nói rằng .push là một phương thức biến đổi mảng, điều đó có nghĩa là nó là phương thức thay đổi mảng.
+- Cách thức đảm bảo tính bất biến bao gồm việc sử dụng hàm sao chép (copy functions) hoặc thư viện hỗ trợ 
 
-### Tính bất biến (Immutability) là gì?
+### Sử dụng hàm sao chép (copy functions) cho mảng:
 
-Đối tượng bất biến là một đối tượng không thể thay đổi. Mỗi lần cập nhật tạo ra một giá trị mới, không làm thay đổi giá trị cũ.
+const originalArray = [1, 2, 3];
 
-### Tại sao không "so sánh sâu"?
+const copiedArray = [...originalArray]; // Sao chép mảng
 
-So sánh sâu (deep equal) là khi bạn so sánh hai đối tượng dựa trên giá trị của chúng.
+copiedArray.push(4); // Thêm phần tử vào mảng sao chép
 
-Với so sánh sâu, `[]` sẽ bằng `[]`. Tương tự với` {key: "something"}` và `{key: "something"}`.
+console.log(originalArray); // [1, 2, 3] (không thay đổi)
 
-Tuy nhiên, JavaScript KHÔNG có một phương thức tích hợp sẵn cho so sánh sâu. Gần đây, các trình duyệt đã cung cấp phương thức `structuredClone` cho phép bạn tạo bản sao sâu của đối tượng. Tuy nhiên, việc sử dụng phương thức này trong React sẽ không hiệu quả, như bạn sẽ thấy trong bài học tiếp theo, React cần thực hiện so sánh rất thường xuyên như một phần của DOM ảo để biết các component nào cần được hiển thị lại.
+console.log(copiedArray); // [1, 2, 3, 4]
 
-### Tóm lại
+### Sử dụng hàm sao chép (copy functions) cho object:
 
-- .push là phương thức biến đổi mảng.
-- Đối tượng bất biến là một đối tượng không thể thay đổi. Mỗi lần cập nhật tạo ra một giá trị mới, không làm thay đổi giá trị cũ.
+const originalObject = { name: 'John', age: 30 };
+
+const copiedObject = { ...originalObject }; 
+// Sao chép object
+
+copiedObject.age = 31; 
+// Thay đổi thuộc tính của object sao chép
+
+console.log(originalObject); 
+// { name: 'John', age: 30 } (không thay đổi)
+
+console.log(copiedObject); 
+// { name: 'John', age: 31 }
+
+### Sử dụng hàm Object.assign() cho object:
+
+const originalPerson = { 
+    name: 'Alice', 
+    address: { city: 'New York' } 
+};
+
+const copiedPerson = Object.assign({}, originalPerson); 
+// Sao chép object
+
+copiedPerson.address.city = 'Los Angeles'; 
+// Thay đổi thuộc tính của object sao chép
+
+console.log(originalPerson.address.city); 
+// 'New York' (không thay đổi)
+
+console.log(copiedPerson.address.city); 
+// 'Los Angeles'
+
 
 *Bài tiếp theo [RS46 Ý nghĩa của tính bất biến](/lesson/session/session_046_variability_more.md)*
