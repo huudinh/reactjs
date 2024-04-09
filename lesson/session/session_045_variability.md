@@ -15,13 +15,17 @@
 
 const originalArray = [1, 2, 3];
 
-const copiedArray = [...originalArray]; // Sao chép mảng
+const copiedArray = [...originalArray]; 
+// Sao chép mảng
 
-copiedArray.push(4); // Thêm phần tử vào mảng sao chép
+copiedArray.push(4); 
+// Thêm phần tử vào mảng sao chép
 
-console.log(originalArray); // [1, 2, 3] (không thay đổi)
+console.log(originalArray); 
+// [1, 2, 3] (không thay đổi)
 
-console.log(copiedArray); // [1, 2, 3, 4]
+console.log(copiedArray); 
+// [1, 2, 3, 4]
 
 ### Sử dụng hàm sao chép (copy functions) cho object:
 
