@@ -5,11 +5,11 @@
 
 ### Tính bất biến là một khái niệm quan trọng trong ReactJS
 
-- Tính bất biến đề cập đến việc không thay đổi giá trị của dữ liệu sau khi đã được khởi tạo.
+Tính bất biến đề cập đến việc không thay đổi giá trị của dữ liệu sau khi đã được khởi tạo.
 
-- Tính bất biến giúp tránh các vấn đề liên quan đến thay đổi trạng thái và quản lý dữ liệu hiệu quả hơn trong ứng dụng ReactJS. Bằng cách áp dụng tính bất biến, bạn có thể tối ưu hóa hiệu suất và tránh các lỗi liên quan đến thay đổi dữ liệu không mong muốn
+Tính bất biến giúp tránh các vấn đề liên quan đến thay đổi trạng thái và quản lý dữ liệu hiệu quả hơn trong ứng dụng ReactJS. Bằng cách áp dụng tính bất biến, bạn có thể tối ưu hóa hiệu suất và tránh các lỗi liên quan đến thay đổi dữ liệu không mong muốn
 
-- Cách thức đảm bảo tính bất biến bao gồm việc sử dụng hàm sao chép (copy functions) hoặc thư viện hỗ trợ 
+Cách thức đảm bảo tính bất biến bao gồm việc sử dụng hàm sao chép (copy functions) hoặc thư viện hỗ trợ 
 
 ### Sử dụng hàm sao chép (copy functions) cho mảng:
 
