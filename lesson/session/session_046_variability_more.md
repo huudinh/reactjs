@@ -37,7 +37,9 @@ Nhưng khi state === newState là false, điều đó có nghĩa là trạng th�
 ### Điều gì xảy ra khi không sử dụng tính bất biến?
 
 let state = []; 
+
 let newState = state;
+
 state.push(10);
 
 state === newState; 
