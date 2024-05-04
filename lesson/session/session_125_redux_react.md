@@ -157,3 +157,5 @@ import {increment} from "./store.js";
 - Hook useDispatch trả về một tham chiếu đến hàm dispatch từ store của Redux. Khi bạn sử dụng useDispatch, bạn có thể gọi hàm dispatch() để gửi một hành động đến store.
 
 - Nhớ rằng hook useDispatch không cho phép bạn gửi đi một hành động. Tuy nhiên, nó trả về hàm dispatch mà bạn có thể gọi sau này khi cần.
+
+*Bài tiếp theo [RS126 Formik](/lesson/session/session_125_formik.md)*

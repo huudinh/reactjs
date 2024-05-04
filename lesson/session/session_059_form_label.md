@@ -3,7 +3,7 @@
 
 # RS59 Label trong React
 
-Dưới đây là cách thêm `label` cho một `input` trong HTML (trong React sẽ khác một chút):
+### Label trong HTML
 
 ```
 <form>
@@ -23,7 +23,7 @@ Phần tử `<label>` cần một thuộc tính `for` trỏ tới `id` của tr�
 
 Đảm bảo rằng `id` là duy nhất vì `id` đó chỉ nên được sử dụng một lần trên mỗi trang HTML.
 
-### Nhãn trong React
+### Label trong React
 
 Trong React, cách sử dụng thẻ `label` có một số khác biệt nhỏ so với cách sử dụng thông thường, tương tự như việc sử dụng thuộc tính class trong React khác với cách sử dụng trong HTML thông thường.
 

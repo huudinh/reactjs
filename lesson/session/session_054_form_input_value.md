@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS54 Thiết lập value cho Input
+# RS54 Default Value
 
 ### Thuộc tính value trong HTML
 
