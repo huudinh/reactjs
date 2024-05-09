@@ -158,4 +158,4 @@ import {increment} from "./store.js";
 
 - Nhớ rằng hook useDispatch không cho phép bạn gửi đi một hành động. Tuy nhiên, nó trả về hàm dispatch mà bạn có thể gọi sau này khi cần.
 
-*Bài tiếp theo [RS126 Formik](/lesson/session/session_125_formik.md)*
+*Bài tiếp theo [RS126 Formik](/lesson/session/session_126_formik.md)*

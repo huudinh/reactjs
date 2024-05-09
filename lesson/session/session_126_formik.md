@@ -104,4 +104,4 @@ Bạn có thể tùy chỉnh và mở rộng biểu mẫu theo nhu cầu của �
 
 Với cách sử dụng cơ bản này, bạn có thể bắt đầu tích hợp React Formik vào ứng dụng React của mình và quản lý các biểu mẫu một cách hiệu quả và linh hoạt.
 
-
+*Bài tiếp theo [RS127 Vite](/lesson/session/session_127_vite.md)*
