@@ -2,7 +2,7 @@
 
 ### NVM là gì
 
-NVM, viết tắt của Node Version Manager, là một công cụ giúp quản lý các phiên bản của Node.js trên máy tính của bạn. Nó cho phép bạn dễ dàng cài đặt, chuyển đổi và quản lý các phiên bản khác nhau của Node.js trên cùng một hệ thống12. Điều này rất hữu ích khi bạn làm việc trên các dự án khác nhau yêu cầu các phiên bản Node.js khác nhau.
+NVM, viết tắt của Node Version Manager, là một công cụ giúp quản lý các phiên bản của Node.js trên máy tính của bạn. Nó cho phép bạn dễ dàng cài đặt, chuyển đổi và quản lý các phiên bản khác nhau của Node.js trên cùng một hệ thống. Điều này rất hữu ích khi bạn làm việc trên các dự án khác nhau yêu cầu các phiên bản Node.js khác nhau.
 
 Ví dụ, nếu bạn đang làm việc trên một dự án yêu cầu Node.js phiên bản 8, nhưng máy của bạn đang chạy Node.js phiên bản 14, bạn có thể sử dụng NVM để chuyển đổi giữa hai phiên bản này một cách dễ dàng.
 

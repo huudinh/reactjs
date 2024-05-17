@@ -1,0 +1,123 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  padding: 20px;
+}
+
+.progressBar {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.progress {
+  background: #f3f3f4;
+  border-radius: 10px;
+}
+
+.percent {
+  background: #1c69e8;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.progressBarTitle {
+  display: block;
+  padding: 5px 0;
+  font-size: 12px;
+  color: #999999;
+}
+
+.progressBarButton {
+  margin: 10px 0;
+  width: 160px;
+  height: 44px;
+  font-size: 15px;
+  border: none;
+  background: #4f46e5;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.progressBarButton.disable{
+  background:#999;
+}
+.progressBarButton:hover {
+  opacity: 0.9;
+}
+
+.progressContentBox {
+  display: flex;
+  width: 80%;
+  margin: 25px auto 0;
+}
+
+.progressContentCol {
+  width: 50%;
+}
+
+.progressContentTitle {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.progressContentColButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.progressContentSelect {
+  list-style: none;
+}
+
+.progressContentSelect li {
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid #999999;
+  margin: 15px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.progressContentSelect li.active {
+  border: 1px solid #1c69e8;
+  box-shadow:  0px 0px 9px 3px rgba(0, 0, 0, .1)
+}
+
+.progressContentForm {
+  padding-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.progressContentForm input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #999999;
+  border-radius: 12px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.progressContentThank {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.feedback{
+  color:#c00;
+  font-size:12px;
+  margin:-5px 10px 5px;
+  width:100%;
+}
+.progressContentForm input.error{
+  border:1px solid #c00;
+}
