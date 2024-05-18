@@ -121,3 +121,18 @@ body {
 .progressContentForm input.error{
   border:1px solid #c00;
 }
+@media (max-width:700px){
+  .progressContentBox{
+    width:100%;
+    flex-direction: column;
+  }
+  .progressContentCol{
+    width:100%;
+  }
+  .progressContentSelect{
+    padding-left: 0;
+  }
+  .progressContentForm{
+    padding-left: 0;
+  }
+}
