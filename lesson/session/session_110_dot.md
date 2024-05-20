@@ -1,6 +1,6 @@
 ![Create-HTML-1](images/context.jpg) 
 
-# RS110 Ký hiệu dấu chấm
+# RS110 Thuộc tính Component
 
 ### Một đối tượng có thể chứa nhiều component
 

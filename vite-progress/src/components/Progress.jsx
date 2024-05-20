@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import ProgressBar from './ProgressBar';
 import ProgressContent from "./ProgressContent";
 

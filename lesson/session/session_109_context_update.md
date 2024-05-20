@@ -75,4 +75,4 @@ Sau đó, chúng ta gọi hàm context.toggleTheme() khi nút được nhấp (o
 
 - Việc cập nhật trạng thái thông qua context.toggleTheme() sẽ kích hoạt thông báo (hiển thị lại) tất cả các component sử dụng ThemeContext này, đó là lý do tại sao bạn sẽ thấy theme mới được áp dụng ngay lập tức.
 
-*Bài tiếp theo [RS110 Ký hiệu dấu chấm](/lesson/session/session_110_dot.md)*
+*Bài tiếp theo [RS110 Thuộc tính component](/lesson/session/session_110_dot.md)*
