@@ -52,8 +52,6 @@ Bên trong đối tượng này, bạn phải đặt khóa `__html` (hai dấu g
 
 Nguyên tắc vàng là không bao giờ tin tưởng dữ liệu được cung cấp bởi người dùng. Nếu biểu thức mà bạn nhúng đến từ người dùng cuối (ví dụ: bình luận, tên, họ, email, v.v.), bạn không bao giờ nên sử dụng `dangerouslySetInnerHTML`.
 
-Sau đây là một ví dụ mà chúng ta có thể sử dụng `dangerouslySetInnerHTML`:
-
 ### Tóm lại
 
 - Cross-Site Scripting (XSS) là một lỗ hổng bảo mật trong đó người dùng có thể chèn code của họ (HTML, CSS hoặc JavaScript) vào trang web của bạn.
