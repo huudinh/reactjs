@@ -4,11 +4,7 @@
 
 ### React Router là gì
 
-Trong quá trình phát triển ứng dụng mua sắm, chúng ta nhận thấy cần phải thêm nhiều trang vào ứng dụng.
-
-Chúng ta có thể hiển thị các component dựa trên trạng thái đăng nhập của người dùng.
-
-Tuy nhiên, cách tiếp cận này có một số nhược điểm:
+Chúng ta có thể hiển thị các component dựa trên trạng thái đăng nhập của người dùng. Tuy nhiên, cách tiếp cận này có một số nhược điểm:
 
 - Việc quản lý code sẽ nhanh chóng trở nên phức tạp nếu chúng ta muốn thêm nhiều trang.
 - URL của trang không bao giờ thay đổi. Vì vậy, nếu người dùng duyệt ứng dụng web và sau đó muốn lưu liên kết hoặc chia sẻ với bạn bè, URL đó sẽ không thay đổi.

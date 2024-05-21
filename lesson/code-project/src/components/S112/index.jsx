@@ -17,6 +17,8 @@ function ButtonSecondary(props) {
 
 export { ButtonPrimary, ButtonSecondary };
 
-import {ButtonPrimary, ButtonSecondary} from "./Button.js";
+import {
+  ButtonPrimary, ButtonSecondary
+} from "./Button.js";
 
 

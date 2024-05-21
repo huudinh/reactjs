@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { sendAPI } from "../api/sendForm";
 
 const ProgressContentForm = (props) => {
     const { title, note } = props.data;
@@ -24,8 +25,13 @@ const ProgressContentForm = (props) => {
         if ((Object.keys(formErrors).length === 0) && isSubmit) {
             buttonRef.current.disabled = true;
             buttonRef.current.classList.add('disable');
-            console.log(formValues);
-            console.log(props.question);
+            // console.log(formValues);
+            // console.log(props.question);
+
+            // Send GoodleDoc
+            sendAPI({
+                ...formValues, qa : [...props.question]
+            })
 
             setTimeout(() => {
                 // Chuyển đến màn hình Thanks
