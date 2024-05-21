@@ -15,6 +15,10 @@ React Router là một thư viện giúp tạo các route trong React dễ dàng
 
 ### Cài đặt React Router
 
+```
+npm install react-router-dom@6
+```
+
 Tên gói là `react-router-dom` và kích thước của gói sau khi tối ưu hóa là 52kb.
 
 Gói `react-router-dom `sử dụng named export để xuất chức năng của nó. Điều này có nghĩa là bạn sẽ sử dụng cú pháp sau để nhập các component được cung cấp bởi gói này:
