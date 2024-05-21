@@ -1,8 +1,13 @@
 import { useState } from "react";
+import { useSearchParams } from 'react-router-dom'
 
 const ProgressContentSelect = (props) => {
     const { title, note, anser } = props.data;
     const [active, setActive] = useState(undefined);
+
+    // Kiểm tra ngôn ngữ
+    const [searchParams] = useSearchParams();
+    const lang = searchParams.get("lang");
     
     const handleActive = (e) => {
         setActive(e.target.innerHTML);
@@ -21,7 +26,7 @@ const ProgressContentSelect = (props) => {
             setActive(undefined);
         } 
         else {
-            alert('Please select one!');
+            lang === 'en' ? alert('Please select one!') : alert('Xin hãy lựa chọn câu hỏi!');
         } 
     }
 
@@ -45,7 +50,7 @@ const ProgressContentSelect = (props) => {
                 </ul>
                 <div className="progressContentColButton">
                     <button className="progressBarButton" onClick={handleClick}>
-                        Next
+                        {lang === 'en' ? 'Next' : 'Tiếp'}
                     </button>
                 </div>
             </div>

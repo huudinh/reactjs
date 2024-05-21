@@ -2,34 +2,10 @@ import { useState } from 'react';
 import ProgressBar from './ProgressBar';
 import ProgressContent from "./ProgressContent";
 
-const data = [
-    {
-        type: "select",
-        title: "Are you an existing customer?",
-        note: "Please select one.",
-        anser: ["No, I want to open a new shop", "Yes I already have a shop"],
-    },
-    {
-        type: "select",
-        title: "Which do you want to start with us?",
-        note: "Please select one.",
-        anser: ["ETFPOS for now", "POS and ETFPOS"],
-    },
-    {
-        type: "form",
-        title: "Please provide your details",
-        note: "",
-        anser: [],
-    },
-    {
-        type: "thanks",
-        title: "Thank you",
-        note: "We will contact you shortly",
-        anser: [],
-    },
-];
 
-const Progress = () => {
+const Progress = (props) => {
+    const {data} = props;
+
     const [formValue, setFormValue] = useState([]);
 
     // Khai báo số bước nhảy

@@ -1,9 +1,14 @@
 import { useState, useEffect, useRef } from "react";
 import { sendAPI } from "../api/sendForm";
+import { useSearchParams } from 'react-router-dom'
 
 const ProgressContentForm = (props) => {
     const { title, note } = props.data;
     const buttonRef = useRef();
+
+    // Kiểm tra ngôn ngữ
+    const [searchParams] = useSearchParams();
+    const lang = searchParams.get("lang");
 
     const [formValues, setFormValues] = useState({});
     const [formErrors, setFormErrors] = useState({});
@@ -110,7 +115,7 @@ const ProgressContentForm = (props) => {
                         type="submit"
                         ref={buttonRef} 
                     >
-                        Finish
+                        {lang === 'en' ? 'Finish' : 'Hoàn Thành'}
                     </button>
                 </form>
             </div>
