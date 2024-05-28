@@ -1,20 +1,12 @@
-const initialState = { value: 0 };
+import {useDispatch} from "react-redux";
+import {increment} from "./store.js";
 
-const counterReducer = (state = initialState, action) => {
-    if (action.type === "counter/increment") {
-        return {
-            value: state.value + 1 // important: do NOT mutate the state.
-        };
-    }
+export default function Counter() {
+    const dispatch = useDispatch();
 
-    return state; // return the state as is (in all other cases)
-};
-
-const store = createStore(counterReducer);
-
-const addButton = document.querySelector("#add-button");
-
-addButton.addEventListener("click", () => {
-    store.dispatch({ type: "counter/increment" });
-});
+    return <button 
+        onClick={
+            () => dispatch(increment())
+        }>Add 1</button>;
+}
 

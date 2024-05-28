@@ -32,3 +32,5 @@ Ví dụ, nếu bạn đang làm việc trên một dự án yêu cầu Node.js 
 - nvm use `<version>`: Chọn phiên bản Node.js để sử dụng.
 
 - nvm list: Liệt kê các phiên bản Node.js đã được cài và phiên bản Node.js đang được sử dụng.
+
+*Bài tiếp theo [RS129 SCSS modules](/lesson/session/session_129_modules.md)*
