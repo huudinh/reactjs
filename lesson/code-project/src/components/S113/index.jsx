@@ -1,23 +1,20 @@
-import { 
-  BrowserRouter, Routes, Route, Link 
-} from "react-router-dom";
+const initialState = { value: 0 };
 
-function App() {
-  return (
-    <BrowserRouter>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav>
+const counterReducer = (state = initialState, action) => {
+    if (action.type === "counter/increment") {
+        return {
+            value: state.value + 1 // important: do NOT mutate the state.
+        };
+    }
 
-      {/* Routes and Route goes here*/}
-    </BrowserRouter>
-  );
-}
+    return state; // return the state as is (in all other cases)
+};
+
+const store = createStore(counterReducer);
+
+const addButton = document.querySelector("#add-button");
+
+addButton.addEventListener("click", () => {
+    store.dispatch({ type: "counter/increment" });
+});
 
