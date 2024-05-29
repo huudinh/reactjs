@@ -72,6 +72,39 @@ Trong ví dụ này, mỗi khi a thay đổi, một hàm callback mới sẽ đ�
 
 - useCallback có thể làm cho mã nguồn của bạn trở nên phức tạp hơn. Điều này giống như bạn mua một cái laptop cấu hình thật khủng chỉ để gõ văn bản.
 
+### Ví dụ
+
+```
+import React, { useState, useCallback } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  const [countOther, setCountOther] = useState(0);
+
+  const increase = useCallback(() => setCount(count + 1), [count]);
+  const decrease = useCallback(() => setCount(count - 1), [count]);
+
+  const increaseOther = useCallback(() => setCountOther(countOther + 1), [countOther]);
+  const decreaseOther = useCallback(() => setCountOther(countOther - 1), [countOther]);
+
+  return (
+    <>
+      <div>Count: {count}</div>
+      <button onClick={increase}>+</button>
+      <button onClick={decrease}>-</button>
+
+      <div>Count other: {countOther}</div>
+      <button onClick={increaseOther}>+</button>
+      <button onClick={decreaseOther}>-</button>
+    </>
+  );
+}
+
+export default Counter;
+```
+
+Trong ví dụ trên, chúng ta có hai biến state để giữ số đếm và bốn hàm để thay đổi giá trị của hai state trên. Tuy nhiên, mỗi lần component Counter này re-render, tất cả bốn hàm increase, decrease, increaseOther, decreaseOther sẽ bị khởi tạo lại. Để giải quyết vấn đề này, chúng ta sử dụng useCallback để lưu trữ các hàm trong cache.
+
 ### So sánh useCallback() vs useMemo()
 
 useCallback và useMemo đều là các Hook trong React giúp tối ưu hiệu suất bằng cách ghi nhớ (memoize) các giá trị hoặc hàm. Tuy nhiên, chúng có một số khác biệt quan trọng:
