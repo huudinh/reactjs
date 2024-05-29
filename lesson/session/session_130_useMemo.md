@@ -84,5 +84,4 @@ function MyComponent({ list }) {
 
 Bây giờ, list.sort() chỉ được gọi khi list thay đổi, giúp cải thiện hiệu suất của component.
 
-
-
+*Bài tiếp theo [RS131 useCallback](/lesson/session/session_131_useCallback.md)*
