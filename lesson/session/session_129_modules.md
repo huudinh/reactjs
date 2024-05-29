@@ -86,3 +86,5 @@ Sử dụng SCSS modules trong ReactJS là một cách hiệu quả để quản
 - Scoped styles: Mỗi module SCSS được scoped cục bộ cho component tương ứng, tránh xung đột tên class
 - Modularization: Giúp tổ chức và quản lý style tốt hơn trong các dự án lớn.
 - Sử dụng SCSS: Tận dụng sức mạnh của SCSS như biến, mixin, nested styles
+
+*Bài tiếp theo [RS130 useMemo](/lesson/session/session_130_useMemo.md)*
