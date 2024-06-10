@@ -1,4 +1,4 @@
-# RS130 useCallback
+# RS131 useCallback
 
 useCallback là một hook mạnh mẽ giúp tối ưu hiệu suất của các component function phức tạp bằng cách memoize các hàm giữa các lần render. Trước khi sử dụng useCallback, hãy xem xét các yếu tố sau: Tốc độ tăng có đảm bảo độ phức tạp vẫn ở mức cần thiết? Sử dụng useCallback có thực sự tăng tốc độ cho component của bạn?
 
