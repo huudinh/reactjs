@@ -28,7 +28,7 @@
 
 13. [RS13 JSX Attribute Expression More](session/session_013_jsx_attribute_expression_more.md)
 
-14. [RS14 JSX Elements](session/session_14_jsx_elements.md)
+14. [RS14 Children trong JSX](session/session_014_jsx_elements.md)
 
 15. [RS15 JSX Self-closing Tag](session/session_015_jsx_self_closing_tag.md)
 
