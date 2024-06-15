@@ -13,6 +13,7 @@ Cách thức đảm bảo tính bất biến bao gồm việc sử dụng hàm s
 
 ### Sử dụng hàm sao chép (copy functions) cho mảng:
 
+```
 const originalArray = [1, 2, 3];
 
 const copiedArray = [...originalArray]; 
@@ -26,9 +27,11 @@ console.log(originalArray);
 
 console.log(copiedArray); 
 // [1, 2, 3, 4]
+```
 
 ### Sử dụng hàm sao chép (copy functions) cho object:
 
+```
 const originalObject = { name: 'John', age: 30 };
 
 const copiedObject = { ...originalObject }; 
@@ -42,6 +45,7 @@ console.log(originalObject);
 
 console.log(copiedObject); 
 // { name: 'John', age: 31 }
+```
 
 ### Sử dụng hàm Object.assign() cho object:
 
@@ -68,22 +72,22 @@ Trong ví dụ trên, chúng ta tạo một bản sao mới của đối tượn
 ### Sử dụng Object.assign() cho Nested Object
 
 ```
-    const originalPerson = { 
-        name: 'Alice', 
-        address: { city: 'New York' } 
-    };
+const originalPerson = { 
+    name: 'Alice', 
+    address: { city: 'New York' } 
+};
 
-    const copiedPerson = Object.assign({}, originalPerson); 
-    // Sao chép object
+const copiedPerson = Object.assign({}, originalPerson); 
+// Sao chép object
 
-    copiedPerson.address.city = 'Los Angeles'; 
-    // Thay đổi thuộc tính của object sao chép
+copiedPerson.address.city = 'Los Angeles'; 
+// Thay đổi thuộc tính của object sao chép
 
-    console.log(originalPerson.address.city); 
-    // 'Los Angeles' (đã thay đổi)
+console.log(originalPerson.address.city); 
+// 'Los Angeles' (đã thay đổi)
 
-    console.log(copiedPerson.address.city); 
-    // 'Los Angeles'
+console.log(copiedPerson.address.city); 
+// 'Los Angeles'
 ```
 
 Khi bạn sử dụng Object.assign({}, originalPerson), bạn chỉ tạo ra một bản sao nông (shallow copy) của originalPerson. Điều này có nghĩa là, nếu originalPerson có các thuộc tính là các đối tượng hoặc mảng, thì chỉ có tham chiếu đến các đối tượng hoặc mảng đó được sao chép, chứ không phải là các đối tượng hoặc mảng đó.
