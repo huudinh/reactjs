@@ -90,7 +90,7 @@
 
 44. [RS44 React Array Object](session/session_044_react_array_object.md)
 
-45. [RS45 Tính thay đổi](session/session_044_variability.md)
+45. [RS45 Tính thay đổi](session/session_045_variability.md)
 
 46. [RS46 Ý nghĩa của tính bất biến](session/session_046_variability_more.md)
 
@@ -246,11 +246,23 @@
 
 122. [RS122 useLocation](session/session_122_useLocation.md)
 
-123. [RS123 Giới thiệu về redux](/lesson/session/session_123_redux.md)
+123. [RS123 Giới thiệu về redux](session/session_123_redux.md)
 
-124. [RS124 Thực hiện dispatch một action](/lesson/session/session_124_dispatch.md)
+124. [RS124 Thực hiện dispatch một action](session/session_124_dispatch.md)
 
-125. [RS125 Giới thiệu về React Redux](/lesson/session/session_125_redux_react.md)
+125. [RS125 Giới thiệu về React Redux](session/session_125_redux_react.md)
+
+126. [RS126 Formik](session/session_126_formik.md)
+
+127. [RS127 Vite](session/session_127_vite.md)
+
+128. [RS128 Quản lý phiên bản Nodejs](session/session_128_nvm.md)
+
+129. [RS129 SCSS modules](session/session_129_modules.md)
+
+130. [RS130 useMemo](session/session_130_useMemo.md)
+
+131. [RS131 useCallback](session/session_131_useCallback.md)
 
 
 

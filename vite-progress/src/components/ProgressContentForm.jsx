@@ -61,15 +61,15 @@ const ProgressContentForm = (props) => {
             errors.mobile = "This is not a valid phone format!";
         }
 
-        if (!values.email) {
-            errors.email = "Email is required!";
-        } else if (!regex.test(values.email)) {
-            errors.email = "This is not a valid email format!";
-        }
+        // if (!values.email) {
+        //     errors.email = "Email is required!";
+        // } else if (!regex.test(values.email)) {
+        //     errors.email = "This is not a valid email format!";
+        // }
 
-        if (!values.industry) {
-            errors.industry = "Industry is required!";
-        }
+        // if (!values.industry) {
+        //     errors.industry = "Industry is required!";
+        // }
 
         return errors;
     };
@@ -83,28 +83,28 @@ const ProgressContentForm = (props) => {
             <div className="progressContentCol">
                 <form className="progressContentForm" onSubmit={handleSubmit}>
                     <Input
-                        placeholder="Your name"
+                        placeholder="Your name (must)"
                         name="name"
                         value={formValues.name}
                         onChange={handleChange}
                         error={formErrors.name}
                     />
                     <Input
-                        placeholder="Mobile number"
+                        placeholder="Mobile number (must)"
                         name="mobile"
                         value={formValues.mobile}
                         onChange={handleChange}
                         error={formErrors.mobile}
                     />
                     <Input
-                        placeholder="Email"
+                        placeholder="Email (optional)"
                         name="email"
                         value={formValues.email}
                         onChange={handleChange}
                         error={formErrors.email}
                     />
                     <Input
-                        placeholder="Industry"
+                        placeholder="Your Shop name (optional)"
                         name="industry"
                         value={formValues.industry}
                         onChange={handleChange}

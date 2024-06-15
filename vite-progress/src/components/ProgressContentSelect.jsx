@@ -10,8 +10,7 @@ const ProgressContentSelect = (props) => {
     const lang = searchParams.get("lang");
     
     const handleActive = (e) => {
-        setActive(e.target.innerHTML);
-        // console.log(event.target.innerHTML);
+        setActive(e.target.innerText);
     };
 
     const handleClick = () => {
@@ -38,7 +37,7 @@ const ProgressContentSelect = (props) => {
             </div>
             <div className="progressContentCol">
                 <ul className="progressContentSelect">
-                    {anser.map((item, index) => (
+                    {anser.map((item) => (
                         <li 
                             key={item}
                             className={active === item ? 'active' : undefined}
