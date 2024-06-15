@@ -45,22 +45,27 @@ console.log(copiedObject);
 
 ### Sử dụng hàm Object.assign() cho object:
 
-const originalPerson = { 
-    name: 'Alice', 
-    address: { city: 'New York' } 
-};
+```
+    const originalPerson = { 
+        name: 'Alice', 
+        address: { city: 'New York' } 
+    };
 
-const copiedPerson = Object.assign({}, originalPerson); 
-// Sao chép object
+    const copiedPerson = Object.assign({}, originalPerson); 
+    // Sao chép object
 
-copiedPerson.address.city = 'Los Angeles'; 
-// Thay đổi thuộc tính của object sao chép
+    copiedPerson.address.city = 'Los Angeles'; 
+    // Thay đổi thuộc tính của object sao chép
 
-console.log(originalPerson.address.city); 
-// 'New York' (không thay đổi)
+    console.log(originalPerson.address.city); 
+    // 'Los Angeles' (đã thay đổi)
 
-console.log(copiedPerson.address.city); 
-// 'Los Angeles'
+    console.log(copiedPerson.address.city); 
+    // 'Los Angeles'
+```
 
+Khi bạn sử dụng Object.assign({}, originalPerson), bạn chỉ tạo ra một bản sao nông (shallow copy) của originalPerson. Điều này có nghĩa là, nếu originalPerson có các thuộc tính là các đối tượng hoặc mảng, thì chỉ có tham chiếu đến các đối tượng hoặc mảng đó được sao chép, chứ không phải là các đối tượng hoặc mảng đó.
+
+Nếu bạn muốn tạo một bản sao sâu (deep copy) của originalPerson, bạn có thể sử dụng JSON.parse(JSON.stringify(originalPerson)). Tuy nhiên, hãy lưu ý rằng phương pháp này chỉ hoạt động với các đối tượng JSON tương thích và không hoạt động với các giá trị như undefined, các hàm, Symbol, hoặc với các đối tượng có các thuộc tính không thể liệt kê (non-enumerable properties).
 
 *Bài tiếp theo [RS46 Ý nghĩa của tính bất biến](/lesson/session/session_046_variability_more.md)*
