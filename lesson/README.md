@@ -106,13 +106,13 @@
 
 52. [RS52 Loại bỏ key-value trong Object](session/session_052_object_remove_key_value.md)
 
-53. [RS53 Form Input Value](session/session_053_form_input_value.md)
+53. [RS53 Khai báo State với Object](/lesson/session/session_053_object_state.md)
 
-54. [RS54 Object State](session/session_054_object_state.md)
+54. [RS54 Thiết lập value cho Input](/lesson/session/session_054_form_input_value.md)
 
 55. [RS55 Form Input onChange](session/session_055_form_input_onchange.md)
 
-56. [RS56 Controlled component](session/session_055_controlled_component.md)
+56. [RS56 Controlled component](/lesson/session/session_056_controlled_component.md)
 
 57. [RS57 Form Submit](session/session_057_form_submit.md)
 
@@ -126,7 +126,7 @@
 
 62. [RS62 Cải tiến Component Form](session/session_062_component_form.md)
 
-63. [RS63 Chia sẻ state giữa các component](session/session_063_state_components.md)
+63. [RS63 Lifting State Up](/lesson/session/session_063_lifting_state_up.md)
 
 64. [RS64 Component analysis](session/session_064_component_analysis.md)
 
