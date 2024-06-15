@@ -45,6 +45,28 @@ console.log(copiedObject);
 
 ### Sử dụng hàm Object.assign() cho object:
 
+Object.assign() có thể được sử dụng để giúp đảm bảo tính bắt biên khi làm việc với các đối tượng.
+
+```
+const person = {
+  name: 'Alice',
+  age: 25
+};
+
+// Tạo một bản sao mới của đối tượng 'person'
+const newPerson = Object.assign({}, person);
+
+// Thay đổi thuộc tính 'age' của 'newPerson'
+newPerson.age = 26;
+
+console.log(person.age); // 25
+console.log(newPerson.age); // 26
+```
+
+Trong ví dụ trên, chúng ta tạo một bản sao mới của đối tượng person bằng cách sử dụng Object.assign(). Sau đó, chúng ta thay đổi thuộc tính age của newPerson. Tuy nhiên, đối tượng person gốc không bị thay đổi, cho thấy tính bắt biên đã được đảm bảo.
+
+### Sử dụng Object.assign() cho Nested Object
+
 ```
     const originalPerson = { 
         name: 'Alice', 
