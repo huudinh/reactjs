@@ -58,5 +58,8 @@ Và ứng dụng có thể chứa nhiều hơn một phần tử root trong tư�
 
 - Ứng dụng có thể tích hợp React để làm cho tính năng tương tác có nhiều hơn một phần tử root.
 
+### Bài tập
+
+Câu 1: Những khó khăn và thuận lợi khi bạn tích hợp ReactJS vào trang web
 
 *Bài tiếp theo [RS8 Giới thiệu về JSX](/lesson/session/session_008_jsx.md)*

@@ -96,4 +96,10 @@ createRoot(root).render(React.createElement("p", {}, "Hello World"));
 
 - createRoot(root).render(element);
 
+### Bài tập
+
+Câu 1 : Để lấy tham chiếu đến phần tử root từ trang bạn sẽ sử dụng querySelector hay getElementById? Tại sao?
+
+Câu 2 : Create React App (CRA) là gì? Nếu bạn đã tạo ứng dụng bằng CRA bạn có cần cài đặt cài đặt ReactDOM không?
+
 *Bài tiếp theo [RS7 Phần tử Root](/lesson/session/session_007_root.md)*

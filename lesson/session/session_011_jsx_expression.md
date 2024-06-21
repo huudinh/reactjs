@@ -84,4 +84,10 @@ const element = <p className="user-info">Welcome {capitalise(name)}</p>
 
 - `<h1 className="title">You have {2 + 3} notifications</h1>` là một ví dụ về JSX với một biểu thức.
 
+### Bài tập
+
+Câu 1: Biểu thức là gì?
+
+Câu 2: Biểu thức trong JSX khác gì với JS thông thường.
+
 *Bài tiếp theo [RS12 Biểu thức thuộc tính](/lesson/session/session_012_jsx_attribute_expression.md)*

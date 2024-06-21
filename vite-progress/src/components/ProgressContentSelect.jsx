@@ -9,24 +9,26 @@ const ProgressContentSelect = (props) => {
     const [searchParams] = useSearchParams();
     const lang = searchParams.get("lang");
     
-    const handleActive = (e) => {
-        setActive(e.target.innerText);
-    };
+    // const handleActive = (e) => {
+    //     setActive(e.target.innerText);
+    // };
 
-    const handleClick = () => {
-        if (active !== undefined) {
+    const handleClick = (e) => {
+        setActive(e.target.innerText);
+
+        // if (active !== undefined) {
 
             // Gửi lại thông tin câu hỏi và lựa chọn
             props.onClick({
                 question: title,
-                anser: active
+                anser: e.target.innerText
             });
             
             setActive(undefined);
-        } 
-        else {
-            lang === 'en' ? alert('Please select one!') : alert('Xin hãy lựa chọn câu hỏi!');
-        } 
+        // } 
+        // else {
+        //     lang === 'en' ? alert('Please select one!') : alert('Xin hãy lựa chọn câu hỏi!');
+        // } 
     }
 
     return (
@@ -41,17 +43,17 @@ const ProgressContentSelect = (props) => {
                         <li 
                             key={item}
                             className={active === item ? 'active' : undefined}
-                            onClick={handleActive}
+                            onClick={handleClick}
                         >
                             {item}
                         </li>
                     ))}
                 </ul>
-                <div className="progressContentColButton">
+                {/* <div className="progressContentColButton">
                     <button className="progressBarButton" onClick={handleClick}>
                         {lang === 'en' ? 'Next' : 'Tiếp'}
                     </button>
-                </div>
+                </div> */}
             </div>
         </div>
     );

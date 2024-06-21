@@ -55,4 +55,10 @@ Khi thêm vào file, React có kích thước là 6KB.
 
 - Khi thêm vào file, React có kích thước là 6KB.
 
+### Bài tập
+
+Câu 1: Có mấy cách để cài đặt React? 
+
+Câu 2: Chúng ta có thể nhúng React vào website được không?
+
 *Bài tiếp theo [RS3 Tạo phần tử HTML](/lesson/session/session_003_document_create_element.md)*
