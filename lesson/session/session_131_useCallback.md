@@ -129,4 +129,4 @@ Trước khi sử dụng useCallback, hãy xem xét các yếu tố sau:
 Luôn luôn cân nhắc trước khi tối ưu hoá và đảm bảo rằng việc này đúng đắn với nhu cầu thực tế của dự án.
 
 
-<!-- *Bài tiếp theo [RS131 useCallback](/lesson/session/session_131_useCallback.md)* -->
+*Bài tiếp theo [RS132 React Query là gì](/lesson/session/session_132_reactQuery.md)*
