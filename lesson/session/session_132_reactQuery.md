@@ -71,7 +71,7 @@ const MyComponent = () => {
 export default MyComponent;
 ```
 
-useQuery hook: Hook useQuery là hook chính của React Query. Nó nhận hai tham số:
+useQuery hook: Hook useQuery là hook chính của React Query. Nó nhận hai tham số (queryKey, queryFn)
 
 queryKey: Một khóa duy nhất để xác định truy vấn.
 
