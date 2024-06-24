@@ -264,6 +264,8 @@
 
 131. [RS131 useCallback](session/session_131_useCallback.md)
 
+132. [RS132 React Query là gì](/session/session_132_reactQuery.md)
+
 
 
 
