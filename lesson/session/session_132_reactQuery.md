@@ -90,4 +90,4 @@ fetchPosts: Hàm này giả lập việc lấy dữ liệu từ API. Bạn có t
 React Query là một thư viện quản lý trạng thái mạnh mẽ và dễ sử dụng, giúp bạn giải quyết các vấn đề về dữ liệu một cách hiệu quả trong ứng dụng React. Nếu bạn đang tìm kiếm một thư viện quản lý trạng thái cho ứng dụng React của mình, React Query là một lựa chọn tuyệt vời
 
 
-<!-- *Bài tiếp theo [RS132 reactQuery](/lesson/session/session_131_reactQuery.md)* -->
+*Bài tiếp theo [RS133 Cài đặt GA4 cho Reactjs](/lesson/session/session_133_ga4.md)*
