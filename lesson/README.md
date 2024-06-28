@@ -264,7 +264,9 @@
 
 131. [RS131 useCallback](session/session_131_useCallback.md)
 
-132. [RS132 React Query là gì](/session/session_132_reactQuery.md)
+132. [RS132 React Query là gì](session/session_132_reactQuery.md)
+
+133. [RS133 Cài đặt GA4 cho Reactjs](/lesson/session/session_133_ga4.md)
 
 
 
