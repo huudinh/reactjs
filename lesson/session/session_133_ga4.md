@@ -57,4 +57,4 @@ ReactGA.event({
 });
 ```
 
-*Bài tiếp theo [RS135 Thư viện Axios](/lesson/session/session_135_axios.md)*
+*Bài tiếp theo [RS134 Thư viện Axios](/lesson/session/session_134_axios.md)*

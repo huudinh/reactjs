@@ -1,4 +1,4 @@
-# RS135 Thư viện Axios
+# RS134 Thư viện Axios
 
 ### Axios là gì
 
@@ -101,4 +101,4 @@ axios.delete('https://your-api-endpoint/posts/' + postId) // Thay thế bằng e
 });
 ```
 
-<!-- *Bài tiếp theo [RS134 Thư viện Axios](/lesson/session/session_133_axios.md)* -->
+*Bài tiếp theo [RS135 Json-Server](/lesson/session/session_135_jsonserver.md)*
