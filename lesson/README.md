@@ -266,7 +266,9 @@
 
 132. [RS132 React Query là gì](session/session_132_reactQuery.md)
 
-133. [RS133 Cài đặt GA4 cho Reactjs](/lesson/session/session_133_ga4.md)
+133. [RS133 Cài đặt GA4 cho Reactjs](session/session_133_ga4.md)
+
+134. [RS135 Thư viện Axios](session/session_135_axios.md)
 
 
 
