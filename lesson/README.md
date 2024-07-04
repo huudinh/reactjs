@@ -268,7 +268,9 @@
 
 133. [RS133 Cài đặt GA4 cho Reactjs](session/session_133_ga4.md)
 
-134. [RS135 Thư viện Axios](session/session_135_axios.md)
+134. [RS134 Thư viện Axios](session/session_134_axios.md)
+
+135. [RS135 Json-Server](session/session_135_jsonserver.md)
 
 
 
