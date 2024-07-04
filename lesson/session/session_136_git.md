@@ -73,7 +73,7 @@ Your site is ready to be published at https://huudinh.github.io/addbook/
 
 Chờ 5 phút để hệ thống update 
 
-### Các lệnh git cơ bản
+### Lệnh tạo nhánh
 
 Tạo nhánh
 
