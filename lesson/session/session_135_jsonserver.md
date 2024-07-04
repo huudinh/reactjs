@@ -67,4 +67,4 @@ export default MyComponent;
 
 ```
 
-<!-- *Bài tiếp theo [RS136 Json-Server](/lesson/session/session_136_jsonserver.md)* -->
+*Bài tiếp theo [RS136 Git](/lesson/session/session_136_git.md)*
