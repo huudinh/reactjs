@@ -18,7 +18,7 @@ Tiến hành cài đặt npm và chạy ứng dụng
 cd vite-carausel
 npm install     
 npm run dev 
-``
+```
 
 ### Tạo file api/data.jsx
 
