@@ -305,3 +305,19 @@ function App() {
 export default App
 ```
 
+### Làm sao để slide có thể chuyển động được
+
+Slide chuyển động được là do code sau
+
+```
+<div 
+    className='carausel__slide'
+    style={{
+        transform: `translateX(${moveSlide}px)`,
+        transition: 'transform 0.5s ease-in-out'
+    }}
+>
+```
+Với việc sử dụng thuộc tính css transform đặt ở `div` cha của slide sẽ giúp cho anh được chạy sang trái hay sang phải phụ thuộc vào giá trị bên trong thuộc tính `translateX`
+
+Sử dụng `transition` giúp chuyển động của slide có hiệu ứng mượt mà hơn
