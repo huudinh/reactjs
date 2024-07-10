@@ -340,3 +340,21 @@ Slide chuyển động được là do code sau
 Với việc sử dụng thuộc tính css transform đặt ở `div` cha của slide sẽ giúp cho anh được chạy sang trái hay sang phải phụ thuộc vào giá trị bên trong thuộc tính `translateX`
 
 Sử dụng `transition` giúp chuyển động của slide có hiệu ứng mượt mà hơn
+
+#### Làm sao để biết khi nào click hết ảnh
+
+Biểu thức `slideIndex < totalSlides - itemsToShow` trả về giá trị `false` thì ảnh đã được duyệt hết
+
+Trong đó 
+
+- slideIndex là state lưu trữ index của ảnh, khi ứng dụng được load thì giá trị của slideIndex là 0, mỗi lần click vào mũi tên thì ta tăng slideIndex lên 1
+
+- totalSlides là state lưu trữ số lượng ảnh trong slide
+
+- itemsToshow là biến lưu trữ số lượng ảnh trên màn hình 
+
+```
+const itemsToShow = window.innerWidth >= 600 ? 3 : 1;
+```
+
+Nếu màn hình lớn hơn hoặc bằng 600px thì hiển thị 3 ảnh, nếu màn hình nhỏ hơn 600 thì hiển thị 1 ảnh
