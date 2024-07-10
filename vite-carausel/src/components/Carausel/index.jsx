@@ -44,9 +44,13 @@ const Carausel = () => {
     const screenCheck = () => {
         setImgSize(imgRef.current.clientWidth + 10);
         setMobileWidth(slideRef.current.clientWidth);
+
+        // Reset slideIndex, moveSlide về 0 khi resize trình duyệt hoặc load lại ứng dụng
         setMoveSlide(0);
         setSlideIndex(0);
         setNextBtnDisable(false);
+
+        // Kiểm tra trạng thái mobile
         if(window.innerWidth < 600){
             setCheckMobile(true);
         } else {
