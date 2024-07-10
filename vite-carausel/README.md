@@ -12,6 +12,14 @@ Xây dựng file data lưu trữ dữ liệu các ảnh
 
 Xây dựng components Carausel hoàn thành dự án
 
+### Cấu trúc Project
+
+Dựa vào cấu trúc có sãn của Vite ta sẽ xây dựng thêm 2 thư mục
+
+- Thư mục api: chứa file data lưu trữ dữ liệu các hình ảnh của carausel
+
+- Thư mục components: chứa 2 components GlobalStye và Carausel
+
 ### Ý tưởng tiến hành component Carausel
 
 Gồm có 2 mũi tên trái phải, và có 3 ảnh ở giữa 2 mũi tên
