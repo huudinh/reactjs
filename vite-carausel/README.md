@@ -1,6 +1,34 @@
 # React Carausel Basic
 
-### Tạo dự án với Vite
+### Các bước thực hiện
+
+Lên cấu trúc dự án sử dụng Vite để tối ưu tốc độ
+
+Cài đặt thư viện SASS để dễ dàng style ứng dụng
+
+Xây dựng Component GlobalStyle để nhúng các css thư viện hỗ trợ việc css
+
+Xây dựng file data lưu trữ dữ liệu các ảnh
+
+Xây dựng components Carausel hoàn thành dự án
+
+### Ý tưởng tiến hành component Carausel
+
+Gồm có 2 mũi tên trái phải, và có 3 ảnh ở giữa 2 mũi tên
+
+Sự kiện cho mũi tên phải:
+
+- Khi click vào mũi tên phải thì ảnh chuyển động sang trái
+
+- Khi click đến ảnh cuối cùng thì hiển thị thông báo, đồng thời thay đổi màu cho mũi tên để người dùng dễ nhận biết đã hết ảnh chạy
+
+Sự kiện cho mũi tên trái:
+
+- Khi click vào mũi tên trái thì ảnh chuyển động sang phải
+
+- Khi click đến ảnh cuối cùng thì hiển thị thông báo, đồng thời thay đổi màu cho mũi tên để người dùng dễ nhận biết đã đến ảnh đầu tiên và không còn ảnh nữa
+
+### Tiến hành dự án và tạo dự án với Vite
 
 Để bắt đầu với Vite, bạn cần đảm bảo rằng NodeJS đã được cài đặt trên máy tính.
 
@@ -69,6 +97,13 @@ export default GlobalStyle;
 ```
 
 ### Tạo component Carausel
+
+Để làm component Carausel bạn cần 
+
+- CSS UI giao diện
+- Đọc dữ liệu từ file data hiển thị lên UI
+- Tạo Function xử lý Next, Back slide
+- Gán sự kiện xử lý Next, Back vào 2 nút mũi tên
 
 Tạo file /components/Carausel/Carausel.scss
 
@@ -250,6 +285,8 @@ const Carausel = () => {
 export default Carausel;
 ```
 
+
+
 ### Sửa Component App
 
 ```
@@ -267,3 +304,4 @@ function App() {
 
 export default App
 ```
+
