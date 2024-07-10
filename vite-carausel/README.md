@@ -34,3 +34,36 @@ export const data = [
     { author: "Valeria Boltneva", tag: "Animals", src: "https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/8.jpg?raw=true" }
 ]
 ```
+
+### Tạo Components GlobalStyle
+
+Cài đặt thư viện sass
+
+```
+npm install sass
+```
+
+Tao file /components/GlobalStyle/GlobalStyle.scss
+
+```
+@import url('https://huudinh.github.io/assets/sass/lib.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300&display=swap');
+@import url('https://huudinh.github.io/assets/sass/icon.min.css');
+@font-face {
+    font-family: 'fontello';
+    src: url(https://huudinh.github.io/assets/fonts/fontello.woff2) format("woff2"),
+    url(https://huudinh.github.io/assets/fonts/fontello.woff) format("woff");
+}
+```
+
+Tao file /components/GlobalStyle/index.jsx
+
+```
+import './GlobalStyle.scss';
+
+function GlobalStyle({children}) {
+    return children;
+}
+
+export default GlobalStyle;
+```

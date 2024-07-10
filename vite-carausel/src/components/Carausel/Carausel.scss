@@ -1,0 +1,72 @@
+.carausel {
+    margin: 40px 0;
+    position: relative;
+    max-width: 800px;
+
+    &__title {
+        color: #166734;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    &__boxSlide {
+        position: relative;
+        overflow: hidden;
+        margin: 10px 10px 10px 30px;
+    }
+
+    &__slide {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+        scroll-snap-type: x mandatory;
+        width: 100%;
+    }
+
+    &__pic {
+        img {
+            width: 245px;
+            height: auto;
+            border-radius: 5px;
+        }
+    }
+
+    &__controls {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        width: 100%;
+        position: absolute;
+        top: 32%;
+    }
+
+    &__prev,
+    &__next {
+        cursor: pointer;
+        font-size: 25px;
+        color: #18b452;
+        -moz-user-select: none !important;
+        -webkit-touch-callout: none!important;
+        -webkit-user-select: none!important;
+        -khtml-user-select: none!important;
+        -moz-user-select: none!important;
+        -ms-user-select: none!important;
+        user-select: none!important;
+        &.disable{
+            color:gray;
+            cursor:auto;
+        }
+    }
+    &__next{
+        margin-right: -12px;
+    }
+    @media (max-width:600px) {
+        &__boxSlide {
+            margin: 10px 30px;
+        }
+        &__next{
+            margin-right: 10px;
+        }
+    }
+}
