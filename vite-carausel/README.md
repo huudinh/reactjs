@@ -96,6 +96,31 @@ function GlobalStyle({children}) {
 export default GlobalStyle;
 ```
 
+### Sửa Component App
+
+```
+import Carausel from "./components/Carausel";
+import GlobalStyle from "./components/GlobalStyles"
+
+function App() {
+
+  return (
+    <GlobalStyle>
+        <Carausel/>
+    </GlobalStyle>
+  )
+}
+
+export default App
+```
+Chú ý code trên sẽ chưa chạy luôn khi bạn gõ lệnh
+
+```
+npm run dev
+```
+Vì ta chưa xây dụng component Carausel
+
+
 ### Tạo component Carausel
 
 Để làm component Carausel bạn cần 
@@ -285,27 +310,13 @@ const Carausel = () => {
 export default Carausel;
 ```
 
+### Câu hỏi cuối bài
 
+Chúc mừng bạn đã hoàn thành code slide cơ bản siêu dễ, bạn có thể chạy ứng dụng `npm run dev` để trải nghiệm sản phẩm của mình. 
 
-### Sửa Component App
+Sau đây là các câu hỏi liên quan lến phần kỹ thuật xây dựng component Carausel.
 
-```
-import Carausel from "./components/Carausel";
-import GlobalStyle from "./components/GlobalStyles"
-
-function App() {
-
-  return (
-    <GlobalStyle>
-        <Carausel/>
-    </GlobalStyle>
-  )
-}
-
-export default App
-```
-
-### Làm sao để slide có thể chuyển động được
+#### Làm sao để slide có thể chuyển động được
 
 Slide chuyển động được là do code sau
 
