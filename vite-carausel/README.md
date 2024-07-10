@@ -324,7 +324,7 @@ Chúc mừng bạn đã hoàn thành code slide cơ bản siêu dễ, bạn có 
 
 Sau đây là các câu hỏi liên quan lến phần kỹ thuật xây dựng component Carausel.
 
-#### Làm sao để slide có thể chuyển động được
+#### Làm sao để slide có thể chuyển động được ?
 
 Slide chuyển động được là do code sau
 
@@ -341,7 +341,7 @@ Với việc sử dụng thuộc tính css transform đặt ở `div` cha của 
 
 Sử dụng `transition` giúp chuyển động của slide có hiệu ứng mượt mà hơn
 
-#### Làm sao để biết khi nào click hết ảnh
+#### Làm sao để biết khi nào click hết ảnh ?
 
 Biểu thức `slideIndex < totalSlides - itemsToShow` trả về giá trị `false` thì ảnh đã được duyệt hết
 
@@ -358,3 +358,43 @@ const itemsToShow = window.innerWidth >= 600 ? 3 : 1;
 ```
 
 Nếu màn hình lớn hơn hoặc bằng 600px thì hiển thị 3 ảnh, nếu màn hình nhỏ hơn 600 thì hiển thị 1 ảnh
+
+#### Làm sao để thay đổi màu của mũi tên khi click hết ảnh ?
+
+Ta cần khai báo state `const [nextBtnDisable, setNextBtnDisable] = useState(false);` để lưu trữ trạng thái hết ảnh, khi ứng dụng được khởi tạo thì `nextBtnDisable` có giá trị là `false`
+
+```
+ <div 
+    className={nextBtnDisable ? 'carausel__next disable' : 'carausel__next'} 
+    onClick={nextSlide}                        
+>
+    ❯
+</div>
+```
+
+Kiểm tra trạng thái của state `nextBtnDisable` nếu có giá trị `true` thì gắn thêm class `disable` class này sẽ thay đổi màu sắc của button ngược lại thì không cho hiển thị 
+
+Khi click đến ảnh cuối cùng thì ta update state nextBtnDisable `setNextBtnDisable(true);` trong sự kiện xử lý nextSlide  
+
+Để có thể cho màu sắc trở lại button Next thì ta update state nextBtnDisable `setNextBtnDisable(false);` trong sự kiện xử lý prevSlide 
+
+#### Làm sao để vào mobile chỉ hiển thị duy nhất 1 ảnh ?
+
+Để vào Mobile chỉ hiển thị duy nhất 1 ảnh ta lấy kích thước của ảnh gán bằng kích thước hiển thị của slide
+
+```
+<img 
+    ref={imgRef} 
+    src={item.src} 
+    alt={item.tag} 
+    style={{width: checkMobile && mobileWidth}}
+    width="223" 
+    height="150" 
+/>
+```
+
+Biểu thức `width: checkMobile && mobileWidth` sẽ check nếu `checkMoblie` mang giá trị `true` thì sẽ trả về giá trị `mobileWidth`
+
+Trong đó `mobileWidth` là state sẽ nhận giá trị của `slide` qua biểu thức `setMobileWidth(slideRef.current.clientWidth);`
+
+Trong đó `slideRef.current.clientWidth` là độ rộng của slide
