@@ -67,4 +67,43 @@ export default MyComponent;
 
 ```
 
+### Đọc API
+
+```
+const fetchApi = async () => {
+    const response = await axios.get('http://localhost:3100/posts')
+    return response.data
+  }
+```  
+
+###  Thêm mới post
+
+```
+const fetchCreateApi = async () => {
+  const response = await axios.post(`http://localhost:3100/posts`, {
+    "title": "json-server",
+    "author": "typicode"
+  });
+  return response.data;
+}
+```
+
+### Xóa post
+
+```
+const fetchDeleteApi = async () => {
+    const response = await axios.delete(`http://localhost:3100/posts/${postId}`);
+    return response.data;
+  }
+```  
+
+### Update post
+
+```
+const fetchUpdateApi = async () => {
+  const response = await axios.put(`http://localhost:3100/posts/${post.id}`, post);
+  return response.data;
+}
+```
+
 *Bài tiếp theo [RS136 Git](/lesson/session/session_136_git.md)*
