@@ -36,7 +36,7 @@ Cài đặt thư viện react-ga4 https://www.npmjs.com/package/react-ga4
 npm i react-ga4
 ```
 
-Thêm thư viện vào component
+### Thêm thư viện vào component
 
 ```
 // Thêm GA4
@@ -46,7 +46,7 @@ import ReactGA from "react-ga4";
 ReactGA.initialize('G-xxx');  
 ```
 
-Gọi Event
+### Gọi Event
 
 ```
 //Call Gtag
