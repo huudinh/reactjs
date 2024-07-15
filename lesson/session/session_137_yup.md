@@ -38,25 +38,25 @@ const userSchema = yup.object().shape({
 
 ### Kết hợp Yup với Formik:
 
-1. Cài đặt Formik và Yup vào dự án React của bạn
+**1. Cài đặt Formik và Yup vào dự án React của bạn**
 
 ```
 npm install formik yup
 ```
 
-2. Tạo Schema Validation với Yup
+**2. Tạo Schema Validation với Yup**
 
 Sử dụng Yup để tạo schema validation cho các trường dữ liệu trong form.
 
 Định nghĩa các quy tắc kiểm tra, ví dụ: kiểm tra email, số điện thoại, độ dài mật khẩu, v.v.
 
-3. Sử dụng Formik để Quản lý Form:
+**3. Sử dụng Formik để Quản lý Form**
 
 Tạo form sử dụng Formik. Định nghĩa các trường và giá trị ban đầu (initialValues).
 
 Sử dụng Formik’s useFormik hook để quản lý trạng thái của form và xử lý sự kiện.
 
-4. Tự động kiểm tra dữ liệu nhập vào form dựa trên schema validation của Yup
+**4. Tự động kiểm tra dữ liệu nhập vào form dựa trên schema validation của Yup**
 
 Thêm schema validation (validationSchema) vào useFormik hook.
 
