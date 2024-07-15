@@ -1,4 +1,4 @@
-# RS135 Git cơ bản
+# RS136 Git cơ bản
 
 ### Git là gì?
 
@@ -133,4 +133,4 @@ git pull origin dev-dinh
 git restore .
 ```
 
-<!-- *Bài tiếp theo [RS136 Git](/lesson/session/session_136_git.md)* -->
+*Bài tiếp theo [RS137 Yup](/lesson/session/session_137_yup.md)*
