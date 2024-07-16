@@ -133,4 +133,30 @@ git pull origin dev-dinh
 git restore .
 ```
 
+### Xóa nhánh local & server
+
+Hiển thị danh sách cách nhánh
+
+```
+git branch
+```
+
+Nếu bạn muốn xóa một nhánh, đầu tiên cần checkout sang nhánh khác nhánh cần xóa
+
+```
+git checkout main
+```
+
+Cú pháp xóa nhánh ở local (giả sử bạn muốn xóa nhánh dev-dinh)
+
+```
+git branch -D dev-dinh
+```
+
+Cú pháp xóa nhánh ở server
+
+```
+git push origin --delete dev-dinh
+```
+
 *Bài tiếp theo [RS137 Yup](/lesson/session/session_137_yup.md)*
