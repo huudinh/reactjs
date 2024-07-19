@@ -26,9 +26,17 @@ Lệnh này sẽ mở một câu hỏi tương tác yêu cầu bạn chọn reac
 
 ### npm run build
 
-Khi bạn đã sẵn sàng triển khai dự án, hãy chạy lệnh npm run build, lệnh này sẽ tạo ra phiên bản tối ưu hóa của ứng dụng.
+Khi bạn đã sẵn sàng triển khai dự án, hãy chạy lệnh `npm run build`, lệnh này sẽ tạo ra phiên bản tối ưu hóa của ứng dụng.
 
 Lệnh này sẽ thu gọn tất cả các tập lệnh và thực hiện một số tối ưu hóa trước khi triển khai ứng dụng. Các file tối ưu hóa sẽ được đặt trong một thư mục mới có tên là dist.
+
+Để đấy code lên web site bạn chú ý fix lại file pageket.json trước khi gõ lệnh build
+
+```
+"build": "vite build --base=/app/question/",
+```
+
+Trong đó /app/question/ là đường dẫn đến ứng dụng của bạn
 
 ### npm run preview
 
