@@ -30,7 +30,7 @@ Khi bạn đã sẵn sàng triển khai dự án, hãy chạy lệnh `npm run bu
 
 Lệnh này sẽ thu gọn tất cả các tập lệnh và thực hiện một số tối ưu hóa trước khi triển khai ứng dụng. Các file tối ưu hóa sẽ được đặt trong một thư mục mới có tên là dist.
 
-Để đấy code lên web site bạn chú ý fix lại file pageket.json trước khi gõ lệnh build
+Để đấy code lên web site bạn chú ý fix lại file package.json trước khi gõ lệnh build
 
 ```
 "build": "vite build --base=/app/question/",
