@@ -93,8 +93,8 @@ export default function () {
 
 ### Bài tập
 
-Câu 1: Tại sao mình cần export component?
+**Câu 1:** Tại sao mình cần export component?
 
-Câu 2: Bạn được cấp trên yêu cầu làm 1 dự án thống kê số form thu được của khách hàng trong tháng. Bạn sẽ xây dựng component cho ứng dụng này thế nào?
+**Câu 2:** Bạn được cấp trên yêu cầu làm 1 dự án thống kê số form thu được của khách hàng trong tháng. Bạn sẽ xây dựng component cho ứng dụng này thế nào?
 
 *Bài tiếp theo [RS20 Props (Properties)](/lesson/session/session_020_props.md)*

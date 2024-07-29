@@ -80,4 +80,10 @@ React.createElement(GreetUser, {user: "Sam", id: "2"});
 
 - Props làm cho component linh hoạt hơn và dễ dàng tái sử dụng.
 
+### Bài tập
+
+**Câu 1:** Props là gì?
+
+**Câu 2:** Props và đối số trong function giống và khác nhau thế nào?
+
 *Bài tiếp theo [RS21 Props Children](/lesson/session/session_021_props_children.md)*

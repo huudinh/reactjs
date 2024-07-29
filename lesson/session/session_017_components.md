@@ -80,8 +80,8 @@ Hãy luôn viết tên hàm theo kiểu UpperCamelCase; dưới đây là một 
 
 ### Bài tập
 
-Câu 1: Tại sao nên đặt tên các Components trong react theo kiểu UpperCamelCase ?
+**Câu 1:** Tại sao nên đặt tên các Components trong react theo kiểu UpperCamelCase ?
 
-Câu 2: Tại sao lại cần xây dựng giao diện theo cấu trúc component
+**Câu 2:** Tại sao lại cần xây dựng giao diện theo cấu trúc component
 
 *Bài tiếp theo [RS18 Cơ chế hoạt động của component](/lesson/session/session_018_components_activity.md)*
