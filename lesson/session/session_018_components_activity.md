@@ -89,4 +89,12 @@ Trong trường hợp này, chúng ta cần muốn trả về `<button></button>
 
 - Component React là một hàm trả về Phần tử React.
 
+### Bài tập
+
+Câu 1: Theo bạn React có giới hạn số lượng Component không?
+
+Câu 2: Tại sao nên để các component trong 1 file
+
+Câu 3: Có component con, component cha không? Tại sao
+
 *Bài tiếp theo [RS19 Xây dựng Components](/lesson/session/session_019_components_only.md)*
