@@ -1,4 +1,4 @@
-# RS137 Ant Design
+# RS138 Ant Design
 
 ### Ant Design là gì
 
@@ -75,4 +75,4 @@ const App = () => (
 export default App;
 ```
 
-<!-- *Bài tiếp theo [RS138 Ant Design](/lesson/session/session_138_antd.md)* -->
+*Bài tiếp theo [RS139 CRA To Vite](/lesson/session/session_139_CRA_to_Vite.md)*
