@@ -75,4 +75,10 @@ React không cho phép các component thay đổi props vì khi các hàm là th
 
 - React yêu cầu các component là thuần túy để có thể cập nhật DOM một cách hiệu quả chỉ khi cần thiết.
 
+### Bài tập
+
+**Câu 1:** Hàm thuần túy là gì 
+
+**Câu 2:** Tại sao ta không nên thay đổi giá trị của Props trong Components?
+
 *Bài tiếp theo [RS24 Comment và kết xuất có điều kiện](/lesson/session/session_024_jsx_comment.md)*

@@ -58,8 +58,8 @@ Giá trị của các thuộc tính số và boolean nên được truyền dư�
 
 ### Bài tập
 
-Câu 1: Biểu thức thuộc tính là gì?
+**Câu 1:** Biểu thức thuộc tính là gì?
 
-Cấu 2: Biểu thức thuộc tính giống và khác gì so với biểu thức?
+**Cấu 2:** Biểu thức thuộc tính giống và khác gì so với biểu thức?
 
 *Bài tiếp theo [RS13 Biểu thức thuộc tính với giá trị động](/lesson/session/session_013_jsx_attribute_expression_more.md)*

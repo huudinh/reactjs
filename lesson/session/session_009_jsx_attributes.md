@@ -46,7 +46,7 @@ Vì vậy, đừng quên rằng JSX sẽ tự động chuyển đổi code thàn
 
 ### Bài tập
 
-Câu 1: Các thuộc tính Attributes trong JSX và HTML giống và khác nhau thế nào? Hãy giải thích.
+**Câu 1:** Các thuộc tính Attributes trong JSX và HTML giống và khác nhau thế nào? Hãy giải thích.
 
 
 *Bài tiếp theo [RS10 Làm việc với JSX](/lesson/session/session_010_jsx_more.md)*

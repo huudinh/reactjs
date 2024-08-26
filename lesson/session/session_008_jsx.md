@@ -89,8 +89,8 @@ createRoot(root)
 
 ### Bài tập
 
-Câu 1: Với phiên bản React tại thời điểm hiện tại bạn cần thêm câu lệnh dưới đây không? Tại sao: import React from "react";
+**Câu 1:** Với phiên bản React tại thời điểm hiện tại bạn cần thêm câu lệnh dưới đây không? Tại sao: import React from "react";
 
-Câu 2: Kiểu dữ liệu JSX trả về là gì? Tại sao?
+**Câu 2:** Kiểu dữ liệu JSX trả về là gì? Tại sao?
 
 *Bài tiếp theo [RS9 Attributes trong JSX](/lesson/session/session_009_jsx_attributes.md)*

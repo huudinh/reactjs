@@ -49,4 +49,10 @@ const element2 = <Navbar loggedIn={false} />
 
 - Kết xuất có điều kiện cho phép trả về các component khác nhau dựa trên props (hoặc điều kiện khác).
 
+### Bài tập
+
+**Câu 1:** Tại sao cần comment?
+
+**Cầu 2:** Kết xuất có điều kiện là gì?
+
 *Bài tiếp theo [RS25 Thư viện clsx](/lesson/session/session_025_clsx.md)*

@@ -86,8 +86,8 @@ const element = <p className="user-info">Welcome {capitalise(name)}</p>
 
 ### Bài tập
 
-Câu 1: Biểu thức là gì?
+**Câu 1:** Biểu thức là gì?
 
-Câu 2: Biểu thức trong JSX khác gì với JS thông thường.
+**Câu 2:** Biểu thức trong JSX khác gì với JS thông thường.
 
 *Bài tiếp theo [RS12 Biểu thức thuộc tính](/lesson/session/session_012_jsx_attribute_expression.md)*

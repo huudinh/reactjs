@@ -54,8 +54,8 @@ Bạn cũng có thể sử dụng React để bổ sung cho Web Components và n
 
 ### Bài tập
 
-Câu 1: Tại sao chúng ta nên code ứng dụng bằng React? 
+**Câu 1:** Tại sao chúng ta nên code ứng dụng bằng React? 
 
-Câu 2: Hãy kể tên nhưng tiên lợi mà React mang lại.
+**Câu 2:** Hãy kể tên nhưng tiên lợi mà React mang lại.
 
 *Bài tiếp theo [RS2 Cài đặt React](/lesson/session/session_002_react_setup.md)*

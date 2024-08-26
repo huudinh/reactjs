@@ -70,10 +70,10 @@ Cú pháp trên trông không trực quan và khá phức tạp. Do đó, chúng
 
 ### Bài tập
 
-Câu 1: JSX có phải là HTML không? 
+**Câu 1:** JSX có phải là HTML không? 
 
-Câu 2: Cơ chế hoạt động của JSX?
+**Câu 2:** Cơ chế hoạt động của JSX?
 
-Câu 3: Lợi ích mà JSX đem lại?
+**Câu 3:** Lợi ích mà JSX đem lại?
 
 *Bài tiếp theo [RS5 React DOM](/lesson/session/session_005_react_dom.md)*

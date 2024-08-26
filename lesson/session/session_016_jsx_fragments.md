@@ -76,4 +76,12 @@ Về bản chất, cả hai cú pháp cung cấp chức năng tương tự nhau.
 
 - Cú pháp gốc là: `<React.Fragment>` và `</React.Fragment>`.
 
+### Bài tập
+
+**Câu 1:** Tại sao JSX không cho phép trả về nhiều phần tử
+
+**Câu 2:** Theo bạn trong HTML có Fragment không ?
+
+**Câu 3:** Tại sao React lại tạo ra thẻ Fragment?
+
 *Bài tiếp theo [RS17 Components](/lesson/session/session_017_components.md)*

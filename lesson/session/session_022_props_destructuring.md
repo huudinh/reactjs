@@ -80,4 +80,12 @@ Bạn không nên lạm dụng kỹ thuật này vì nó có thể làm cho code
 
 - Bạn có thể destructure props trong đối số.
 
+### Bài tập
+
+**Câu 1:** Destructuring là gì 
+
+**Câu 2:** Destructuring trong js và react có khác biệt gì? Tại sao các nhà phát triển hay sử dụng Destructuring trong React 
+
+**Câu 3:** Hạn chế khi sử dụng destructuring
+
 *Bài tiếp theo [RS23 Pure function (Hàm thuần túy)](/lesson/session/session_023_pure_function.md)*

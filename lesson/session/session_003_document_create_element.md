@@ -76,8 +76,8 @@ Bạn cũng có thể thay đổi lớp bằng cách sử dụng `element.classL
 
 ### Bài tập
 
-Câu 1: Tại sao phải tạo phần tử HTML bằng JS?
+**Câu 1:** Tại sao phải tạo phần tử HTML bằng JS?
 
-Câu 2: JS có thể thay đổi được các thuộc tính của HTML không? Cho ví dụ
+**Câu 2:** JS có thể thay đổi được các thuộc tính của HTML không? Cho ví dụ
 
 *Bài tiếp theo [RS4 React Element](/lesson/session/session_004_react_create_element.md)*

@@ -97,8 +97,8 @@ Bằng cách viết dấu ngoặc mở, không có dấu chấm phẩy tự đ�
 
 ### Bài tập
 
-Câu 1: Phần tử con trong JSX là gì? Chúng ta có thường làm việc với nó trong các dự án React hay không?
+**Câu 1:** Phần tử con trong JSX là gì? Chúng ta có thường làm việc với nó trong các dự án React hay không?
 
-Câu 2: Tại sao khi trả về phần tử JSX chúng ta nên để các phần tử trong dấu ()
+**Câu 2:** Tại sao khi trả về phần tử JSX chúng ta nên để các phần tử trong dấu ()
 
 *Bài tiếp theo [RS15 Cú pháp thẻ tự đóng](/lesson/session/session_015_jsx_self_closing_tag.md)*

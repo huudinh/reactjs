@@ -1,0 +1,232 @@
+.chart_1_0_0{
+    font-family: Roboto,system-ui,-apple-system,"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    @font-face {
+        font-family: 'fontello';
+        src: url(https://huudinh.github.io/assets/fonts/fontello.woff2) format("woff2"), url(https://huudinh.github.io/assets/fonts/fontello.woff) format("woff");
+    }
+    display: flex;
+    &__col{
+        width: 50%;
+    }
+    &__list{
+        max-width: 300px;
+        margin-top: 20%;
+    }
+    &__item{
+        display: flex;
+        border:1px solid #afafaf;
+        color:#333;
+        align-items: center;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+    .active{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        .chart_1_0_0__icon{
+            width: 50px;
+        }
+    }
+    &__icon{
+        color:#fff;
+        padding:10px;
+        border-radius: 20px 0 0 20px;
+        text-align: center;
+        transition: .3s;
+        width: 10%;
+    }
+    &__text{
+        padding-left: 10px;
+    }
+}
+.circle-menu {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sector {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+    transition: .3s;
+}
+.sector.active{
+    background-color: #42464b;
+}
+
+.sector1 { transform: rotate(0deg) translate(-100%, 0);}
+.sector2 { transform: rotate(45deg) translate(-100%, 0);}
+.sector3 { transform: rotate(90deg) translate(-100%, 0);}
+.sector4 { transform: rotate(135deg) translate(-100%, 0);  }
+.sector5 { transform: rotate(180deg) translate(-100%, 0);  }
+.sector6 { transform: rotate(225deg) translate(-100%, 0); }
+.sector7 { transform: rotate(270deg) translate(-100%, 0);  }
+.sector8 { transform: rotate(315deg) translate(-100%, 0);  }
+
+.color4{
+    background-color: #316c75;
+}
+.color2{
+    background-color: #54595f;
+}
+.color3{
+    background-color: #b49c86;
+}
+.color1{
+    background-color: #ff735a;
+}
+.color5{
+    background-color: #314475;
+}
+.color6{
+    background-color: #55545f;
+}
+.color7{
+    background-color: #b1b486;
+}
+.color8{
+    background-color: #fec935;
+}
+
+.title {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 50%;
+    right: 20px;
+    text-align: center;
+    transform: rotate(37.5deg);
+    font-size:16px;
+    .icon{
+        display: block;
+        font-size:20px;
+        margin-bottom: 5px;
+    }
+}
+.sector1 .title{
+    transform: rotate(3.5deg);
+    top:60%;
+    right:10%;
+}
+.sector2 .title{
+    transform: rotate(-46.5deg);
+    top: 60%;
+}
+.sector3 .title{
+    transform: rotate(-90.5deg);
+    top: 60%;
+}
+.sector4 .title{
+    transform: rotate(-138.5deg);
+    top: 60%;
+}
+.sector5 .title{
+    transform: rotate(-179.5deg);
+    top: 60%;
+}
+.sector6 .title{
+    transform: rotate(-225.5deg);
+    top: 60%;
+}
+.sector7 .title{
+    transform: rotate(-270.5deg);
+    top: 60%;
+}
+.sector8 .title{
+    transform: rotate(40.5deg);
+    top: 60%;
+}
+
+.center-circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 16px;
+    color: #000;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:912px){
+    .chart_1_0_0{
+        flex-direction: column;
+    }
+    .chart_1_0_0__list{
+        margin-top:-60px;
+        max-width: 100%;
+    }
+    .chart_1_0_0__col{
+        width: 100%;
+    }
+    .circle-menu{
+        width: 300px;
+        height: 300px;
+    }
+    .center-circle{
+        width: 150px;
+        height: 150px;
+        font-size:12px;
+    }
+    .title{
+        font-size:12px;
+    }
+    .sector1 .title {
+        top: 54%;
+        right: -4%;
+    }
+    .sector2 .title{
+        top: 54%;
+        right: -4%;
+    }
+    .sector3 .title{
+        top: 60%;
+        right: -4%;
+    }
+    .sector4 .title{
+        top: 54%;
+        right: 0%;
+    }
+    .sector5 .title{
+        top: 58%;
+        right: -4%;
+    }
+    .sector6 .title{
+        top: 57%;
+        right: -2%;
+    }
+    .sector7 .title{
+        top: 52%;
+        right: -8%;
+    }
+    .sector8 .title{
+        top: 51%;
+        right: -4%;
+    }
+    
+}

@@ -60,6 +60,6 @@ Và ứng dụng có thể chứa nhiều hơn một phần tử root trong tư�
 
 ### Bài tập
 
-Câu 1: Những khó khăn và thuận lợi khi bạn tích hợp ReactJS vào trang web
+**Câu 1:** Những khó khăn và thuận lợi khi bạn tích hợp ReactJS vào trang web
 
 *Bài tiếp theo [RS8 Giới thiệu về JSX](/lesson/session/session_008_jsx.md)*

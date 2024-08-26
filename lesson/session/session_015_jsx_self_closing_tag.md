@@ -41,4 +41,10 @@ const image = <img src="image.png" />
 
 - Sử dụng cú pháp thẻ tự đóng cho các phần tử tự đóng trong JSX.
 
+### Bài tập
+
+**Câu 1:** Ý nghĩa của thẻ tự đóng
+
+**Câu 2:** Sự khac biệt giữa thẻ tự đóng trong JSX và HTML
+
 *Bài tiếp theo [RS16 JSX Fragments](/lesson/session/session_016_jsx_fragments.md)*

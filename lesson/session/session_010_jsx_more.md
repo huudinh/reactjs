@@ -86,8 +86,8 @@ Bạn có thể nhận thấy có rất nhiều code trùng lặp trong khối `
 
 ### Bài tập
 
-Câu 1: Kiểu dữ liệu JSX trả về là gì? Giải thích tại sao.
+**Câu 1:** Kiểu dữ liệu JSX trả về là gì? Giải thích tại sao.
 
-Câu 2: React có thể sử dụng được tất cả các kỹ thuật của Javascript không? Tại sao?
+**Câu 2:** React có thể sử dụng được tất cả các kỹ thuật của Javascript không? Tại sao?
 
 *Bài tiếp theo [RS11 Biểu thức trong JSX](/lesson/session/session_011_jsx_expression.md)*

@@ -71,4 +71,10 @@ Như bạn thấy, thanh điều hướng bao gồm tất cả các trường th
 
 - `props.children` có thể chứa văn bản và/hoặc các phần tử React và/hoặc các component React.
 
+### Bài tập
+
+**Câu 1:** Props children khác gì Props 
+
+**Câu 2:** Theo bạn kiểu dữ liệu của Props Children là gì? Tại sao?
+
 *Bài tiếp theo [RS22 Destructuring](/lesson/session/session_022_props_destructuring.md)*

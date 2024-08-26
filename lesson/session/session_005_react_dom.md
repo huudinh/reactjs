@@ -42,8 +42,8 @@ React tạo ra phiên bản ảo của UI trong bộ nhớ, sau đó ReactDOM nh
 
 ### Bài tập
 
-Câu 1: Khi làm việc với các ứng dụng mobile bằng reactNative có phải chúng ta đang sử dụng các phần tử HTML không? Hãy giải thích tại sao.
+**Câu 1:** Khi làm việc với các ứng dụng mobile bằng reactNative có phải chúng ta đang sử dụng các phần tử HTML không? Hãy giải thích tại sao.
 
-Câu 2: Reconciliation là gì? Chúng ta có phải thao tác với nó khi code trong React không?
+**Câu 2:** Reconciliation là gì? Chúng ta có phải thao tác với nó khi code trong React không?
 
 *Bài tiếp theo [RS6 Cài đặt React DOM](/lesson/session/session_006_use_react_dom.md)*

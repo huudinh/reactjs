@@ -59,6 +59,6 @@ const button = <button className={`${clickable} ${active}`}>Click me</button>;
 
 ### Bài tập
 
-Câu 1: Biểu thức với giá trị động được sử dụng trong trường hợp nào?
+**Câu 1:** Biểu thức với giá trị động được sử dụng trong trường hợp nào?
 
 *Bài tiếp theo [RS14 Children trong JSX](/lesson/session/session_014_jsx_elements.md)*
