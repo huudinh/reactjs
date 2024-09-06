@@ -126,8 +126,10 @@ const example2 = <MyComponent loggedIn={false} />; // className="text"
 
 ### Bài tập
 
-**Câu 1:** CLSX là gì? 
+**Câu 1:** CLSX là gì?
+
 **Câu 2:** Tại sao lại cần dùng thư viện này cho các dự án react
+
 **Câu 3:** Theo bạn sử dụng CLSX có giúp code gọn gàng hơn không
 
 *Bài tiếp theo [RS26 Toán tử spread "..."](/lesson/session/session_026_spread.md)*
