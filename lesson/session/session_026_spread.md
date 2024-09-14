@@ -96,4 +96,12 @@ Trường hợp sử dụng phổ biến nhất của Spread Attributes là xây
 
 - Truyền thuộc tính theo cú pháp spread thường được sử dụng khi xây dựng UI.
 
+### Bài tập
+
+**Câu 1:** Toán tử Spread là gì?
+
+**Câu 2:** Toán tử Spread trong js và react khác gì nhau?
+
+**Câu 3:** Trong React, khi nào nên sử dụng Spread?
+
 *Bài tiếp theo [RS27 Destructuring với Array](/lesson/session/session_027_destructuring_array.md)*
