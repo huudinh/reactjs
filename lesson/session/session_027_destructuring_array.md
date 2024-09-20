@@ -77,4 +77,14 @@ Cú pháp cũng hoạt động với mảng chứa hàm hoặc giá trị `boole
 
 - Array destructuring luôn hoạt động bất kể mảng chứa kiểu dữ liệu gì.
 
+### Bài tập
+
+**Câu 1:** Array Destructuring là gì?
+
+**Câu 2:** Destructuring có sử dụng được với object không?
+
+**Câu 3:** Kiểu dữ liệu trả về của Array Destructuring là gì?
+
+**Câu 4:** Tại sao khi viết code trong React nên sử dụng Destructuring Array. Lấy Ví dụ ?
+
 *Bài tiếp theo [RS28 Destructuring với Function](/lesson/session/session_028_destructuring_array_more.md)*
