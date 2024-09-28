@@ -80,4 +80,10 @@ console.log(sayHelloFunction()); //Welcome!
 
 - Bạn có thể destructure từ hàm, miễn là hàm đó trả về một mảng phần tử.
 
+### Bài tập
+
+**Câu 1:** Theo bạn Destructuring với Function là gì?
+
+**Câu 2:** Khi nào ta nên sử dụng Destructuring với Function?
+
 *Bài tiếp theo [RS29 State](/lesson/session/session_029_state_hooks.md)*
