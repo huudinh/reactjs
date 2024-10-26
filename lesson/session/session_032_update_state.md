@@ -62,4 +62,10 @@ Có một cách hiệu quả hơn để cập nhật trạng thái đó là cậ
 - Sự kiện `onClick={() => console.log("Hello World")}` Khi người dùng click vào `<button>` sẽ in ra `"Hello World"`
 - Để Update State, bạn luôn phải sử dụng hàm `'setState'` nhận được từ `useState` (ví dụ: `setSeconds`, `setCount`)
 
+### Bài tập
+
+**Câu 1:** Tại sao cần Update State
+
+**Câu 2:** Có những cách update State nào
+
 *Bài tiếp theo [RS33 Áp dụng State vào Counter](/lesson/session/session_033_state_counter.md)*

@@ -1,10 +1,10 @@
 import './App.css'
-import Form from './components/S057';
+import CheckBoxList from './components/CheckBoxList';
 
 function App() {
   return (
     <>
-      <Form />
+      <CheckBoxList />
     </>
   )
 }

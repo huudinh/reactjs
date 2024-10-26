@@ -38,4 +38,10 @@ import React, {useState} from "react";
 - Bạn thêm `useState` và `React` vào file JavaScript bằng lệnh: `import React, {useState} from "react";`
 - `useState` là một React hook.
 
+### Bài tập
+
+**Câu 1:** Chúng ta nên Import State ở đâu 
+
+**Câu 2:** Có mấy cách để import State
+
 *Bài tiếp theo [RS31 Khởi tạo State](/lesson/session/session_031_useState_more.md)*
