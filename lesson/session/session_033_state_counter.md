@@ -71,4 +71,10 @@ Thông thường, với Vanilla JavaScript (JavaScript không sử dụng bất 
 - Giá trị khởi tạo được truyền vào `useState(initialValue)` chỉ được sử dụng vào lần đầu tiên mà Component hiển thị.
 - useState là một Hook trong React kết nối vào nội bộ của React và thông báo rằng một biến trạng thái đã thay đổi.
 
+### Bài tập
+
+**Câu 1:** Nguyên tắc hoạt động của component Counter
+
+**Câu 2:** Lợi ích khi áp dụng state trong reactjs so với js
+
 *Bài tiếp theo [RS34 Closures trong JavaScript](/lesson/session/session_034_closures.md)*
