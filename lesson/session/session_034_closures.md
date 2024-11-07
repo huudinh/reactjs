@@ -150,4 +150,9 @@ Mặc dù useEffect chỉ chạy một lần, nhưng nhờ vào closure, mỗi l
 - Closures là điều bạn nhận được khi định nghĩa một hàm; không phải là điều mà bạn phải "kích hoạt" hoặc quyết định sử dụng.
 - Các hàm được định nghĩa bên trong một hàm khác có thể sử dụng các biến được định nghĩa trong hàm bên ngoài.
 
+
+### Bài tập
+
+**Câu 1:** Tính chất của Closures là hiển nhiên khi ta khai báo các hàm, vậy tại sao lại cần định nghĩa nó để tạo thành tên gọi Closures đặc biệt trong reactjs
+
 *Bài tiếp theo [RS35 Event](/lesson/session/session_035_event.md)*
