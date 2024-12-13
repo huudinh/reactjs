@@ -56,4 +56,12 @@ Lưu ý rằng tên sự kiện bắt đầu bằng `on` và viết ở dạng l
 - `onEventName` là cú pháp chung để thêm sự kiện vào một phần tử.
 - `onKeyDown` gắn sự kiện `keydown` vào một phần tử.
 
+### Bài tập
+
+**Câu 1:** Event là gì
+
+**Câu 2:** Có những loại Event nào
+
+**Câu 3:** Sự khác nhau giữa event trong react và js thông thường
+
 *Bài tiếp theo [RS36 Đặt tên cho Event](/lesson/session/session_036_event_name.md)*

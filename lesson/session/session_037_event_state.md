@@ -51,4 +51,8 @@ Bởi vì chúng ta có một `closure` ở đây nên `handleIncrementClick` c�
 
 - Khi trình xử lý sự kiện được định nghĩa bên trong component, chúng có thể sử dụng các state nhờ có `closures`.
 
+### Bài tập
+
+**Câu 1:** Mỗi quan hệ giữa Closures, Event và State
+
 *Bài tiếp theo [RS38 Thay đổi State có điều kiện](/lesson/session/session_038_state_conditions.md)*
