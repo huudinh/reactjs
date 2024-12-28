@@ -67,4 +67,9 @@ Chúng ta đóng gói `setSeconds` bằng điều kiện `if`, nhưng hook `useS
 
 - KHÔNG đóng gói `useState` bằng điều kiện if.
 
+### Bài tập
+
+**Câu 1:** Tại sao cần thay đổi State theo điều kiện
+**Câu 2:** Tại sao KHÔNG đóng gói useState bằng điều kiện if
+
 *Bài tiếp theo [RS39 Thay đổi State với Props](/lesson/session/session_039_state_props.md)*

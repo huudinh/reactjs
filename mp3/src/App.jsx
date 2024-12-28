@@ -46,6 +46,8 @@ const App = () => {
        random
     )
   }
+  console.log(audios);
+  
 
   return (
     <div className="App">
@@ -112,8 +114,6 @@ const App = () => {
           )
         }
       </div>
-
-
     </div>
   );
 };
