@@ -3,7 +3,7 @@
 
 # RS49 Array trong JSX
 
-Hãy nhớ rằng mảng phải là bất biến trong React.
+### Mảng phải là bất biến trong React
 
 Khi làm việc với mảng, bạn thường sẽ cần lặp qua các phần tử, chúng ta lựa chọn hiển thị chúng theo chỉ số. Tuy nhiên, cách làm này không thực sự hiệu quả!
 
@@ -32,7 +32,11 @@ Component trên sẽ hiển thị:
 </ul>
 ```
 
-Cú pháp trên hoạt động vì chúng ta sử dụng trả về ngầm định bên trong `callback` của `map`. Nếu bạn muốn viết nhiều dòng code trong hàm `callback` thì bắt buộc phải sử dụng từ khóa `return`:
+Cú pháp trên hoạt động vì chúng ta sử dụng trả về ngầm định bên trong `callback` của `map`. 
+
+### Viết nhiều dòng code trong hàm `callback`
+
+Nếu bạn muốn viết nhiều dòng code trong hàm `callback` thì bắt buộc phải sử dụng từ khóa `return`:
 
 ```
 function Grades(){
