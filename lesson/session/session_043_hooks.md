@@ -74,5 +74,8 @@ function App(props) {
 - Để hook hoạt động chính xác, bạn phải tuân theo hai quy tắc bên trên.
 - React phụ thuộc vào thứ tự các hook được gọi để hoạt động một cách chính xác.
 
+### Bài tập
+
+**Câu 1:** Tại sao cần áp dụng quy tắc 1, 2 khi làm việc với Hooks
 
 *Bài tiếp theo [RS44 Array và Object trong React](/lesson/session/session_044_react_array_object.md)*

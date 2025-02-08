@@ -70,4 +70,9 @@ Khi count là 0, 0 sẽ hiển thị trên màn hình. Điều đó là do props
 
 - Sử dụng toán tử logic && trong JSX cho phép dễ dàng hiển thị các phần tử hoặc component theo điều kiện.
 
+### Bài tập
+
+**Câu 1:** Khi nào thì nên sử dụng toán tử &&
+**Câu 2:** Ưu nhược điểm khi sử dụng toán tử &&
+
 *Bài tiếp theo [RS43 Các nguyên tắc khi làm việc với Hooks](/lesson/session/session_043_hooks.md)*

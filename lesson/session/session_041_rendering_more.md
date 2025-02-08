@@ -66,4 +66,9 @@ Vì vậy, bạn không nên lạm dụng những kỹ thuật này, viết code
 
 - Hãy cố gắng viết code dễ đọc thay vì viết code ngắn nhất có thể.
 
+### Bài tập
+
+**Câu 1:** Tại sao cần lưu trữ JSX trong biến
+**Câu 2:** Trường hợp nào nên sử dụng toán tử 3 ngôi
+
 *Bài tiếp theo [RS42 Toán tử &&](/lesson/session/session_042_logical_operators.md)*

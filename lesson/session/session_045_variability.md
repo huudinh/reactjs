@@ -94,4 +94,8 @@ Khi bạn sử dụng Object.assign({}, originalPerson), bạn chỉ tạo ra m�
 
 Nếu bạn muốn tạo một bản sao sâu (deep copy) của originalPerson, bạn có thể sử dụng JSON.parse(JSON.stringify(originalPerson)). Tuy nhiên, hãy lưu ý rằng phương pháp này chỉ hoạt động với các đối tượng JSON tương thích và không hoạt động với các giá trị như undefined, các hàm, Symbol, hoặc với các đối tượng có các thuộc tính không thể liệt kê (non-enumerable properties).
 
+### Bài tập
+
+**Câu 1:** Cho biết điểm giống và khác nhau của các kỹ thuật sao chép
+
 *Bài tiếp theo [RS46 Ý nghĩa của tính bất biến](/lesson/session/session_046_variability_more.md)*
