@@ -3,6 +3,8 @@
 
 # RS50 Key trong React
 
+### Key là gì
+
 Mỗi khi sử dụng phương thức `map` trong JSX, bạn cần cung cấp một thuộc tính `key` để tránh gặp cảnh báo (vì lý do hiệu suất):
 
 ```
@@ -18,6 +20,8 @@ function Grades() {
 `key` nên là giá trị đại diện duy nhất cho từng phần tử trong danh sách. Tuy nhiên, trong trường hợp các phần tử không phải là duy nhất, chúng ta có thể sử dụng `index` được cung cấp bởi phương thức `.map` làm `key`.
 
 Chỉ số bắt đầu từ 0 và tăng lên 1 sau mỗi lần lặp.
+
+### Key có thể là giá trị của mảng
 
 Nếu mảng chứa các mục duy nhất thì các giá trị của mục sẽ là `key`:
 
