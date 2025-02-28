@@ -65,6 +65,7 @@ Lưu ý rằng React sử dụng toán tử === thay vì so sánh sâu vì so s�
 ### Bài tập
 
 **Câu 1:** State hoạt động như thế nào
+
 **Câu 2:** Tính bất biến ảnh hưởng đến cách state hoạt động như thế nào
 
 *Bài tiếp theo [RS47 Mảng bất biến](/lesson/session/session_047_immutable_array.md)*

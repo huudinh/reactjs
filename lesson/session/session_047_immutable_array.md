@@ -63,6 +63,7 @@ Chúng ta sao chép các giá trị của mảng numbers và sau đó thêm `4`.
 ### Bài tập
 
 **Câu 1:** Spread, Rest, Detructuring, khác và giống nhau thế nào khi sử dụng
+
 **Câu 2:** Thêm một phần tử vào mảng bất biến như thế nào?
 
 *Bài tiếp theo [RS48 Thao tác với mảng bất biến](/lesson/session/session_048_immutable_array_more.md)*
