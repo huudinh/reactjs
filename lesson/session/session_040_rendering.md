@@ -42,6 +42,7 @@ function App(props) {
 ### Bài tập
 
 **Câu 1:** Ý nghĩa của việc Render theo điều kiện
+
 **Câu 2:** Bạn thường áp dụng kỹ thuật này trong các trường hợp nào
 
 *Bài tiếp theo [RS41 Toán tử 3 ngôi](/lesson/session/session_041_rendering_more.md)*

@@ -106,6 +106,7 @@ Vì vậy, bất cứ khi nào bạn thay đổi giá trị, `firstArray` và `s
 ### Bài tập
 
 **Câu 1:** Tại sao 2 mảng, object rỗng lại không bằng nhau?
+
 **Câu 2:** Tại sao trong React lại cần chúng ta tìm hiểu 2 kiến thức này
 
 *Bài tiếp theo [RS45 Tính bất biến](/lesson/session/session_045_variability.md)*

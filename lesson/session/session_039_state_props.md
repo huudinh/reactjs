@@ -45,6 +45,7 @@ if (props.enabled) {
 ### Bài tập
 
 **Câu 1:** Mối quan hệ giữa Props và State
+
 **Câu 2:** Ý nghĩa của việc Props có thể được sử dụng để thay đổi trạng thái theo điều kiện
 
 
