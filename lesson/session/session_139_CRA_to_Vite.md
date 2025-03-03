@@ -105,4 +105,4 @@ CRA => const imageHappy = require('../../assets/happy-react.svg').default;
 Vite => import imageHappy from '../../assets/happy-react.svg';
 
 
-<!-- *Bài tiếp theo [RS139 CRA To Vite](/lesson/session/session_139_CRA_to_Vite.md)* -->
+*Bài tiếp theo [RS139 React Plugin](/lesson/session/session_140_react_plugin.md)*
