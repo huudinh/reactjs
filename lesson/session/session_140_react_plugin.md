@@ -27,9 +27,16 @@ function vite_react_plugin_render() {
 }
 
 function vite_react_plugin_enqueue_scripts() {
+    // Enqueue the CSS file
+    wp_enqueue_style(
+        'vite-react-plugin-style',
+        plugins_url('/style.css', __FILE__)
+    );
+
+    // Enqueue the JavaScript file
     wp_enqueue_script(
         'vite-react-plugin-script',
-        plugins_url('/dist/assets/index.js', __FILE__),
+        plugins_url('/dist/assets/index.acbcc5ea.js', __FILE__),
         array(),
         '1.0',
         true
