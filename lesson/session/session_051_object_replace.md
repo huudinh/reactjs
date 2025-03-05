@@ -66,7 +66,7 @@ console.log(data); // original object did not change {id: 1, age: 19}
 
 Đoạn code này hoạt động vì `age: 20` trong `{...data, age: 20}` sẽ ghi đè lên `age` hiện tại.
 
-#### Để ý thứ tự
+#### Trường hợp không hoạt động
 
 Lưu ý rằng khi bạn muốn thay thế giá trị, các giá trị mới nên đứng sau bản sao của đối tượng cũ.
 
