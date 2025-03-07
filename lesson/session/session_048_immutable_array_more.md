@@ -86,4 +86,10 @@ console.log(subset); // [10, 9, 4, 16];
 - `.slice` được sử dụng để xóa các phần tử khỏi mảng theo cách bất biến.
 - `.filter` được sử dụng để xóa các phần tử khỏi mảng theo cách bất biến.
 
+### Bài tập
+
+**Câu 1:** Chúng ta sử dụng phương thức nào để cập nhật phần tử cho mảng bất biến. Tại sao?
+
+**Câu 2:** Chúng ta sử dụng phương thức nào xóa phần tử cho mảng bất biến. Tại sao?
+
 *Bài tiếp theo [RS49 Array trong JSX](/lesson/session/session_049_jsx_array.md)*
