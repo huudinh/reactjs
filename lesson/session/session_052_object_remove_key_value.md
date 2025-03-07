@@ -5,7 +5,7 @@
 
 Để xóa cặp `key/value` khỏi đối tượng mà không làm thay đổi đối tượng gốc, chúng ta cũng cần sử dụng toán tử `spread` nhưng với một cách tiếp cận khác.
 
-Trước tiên, hãy bắt đầu với phương thức làm thay đổi đối tượng:
+### Phương thức làm thay đổi đối tượng
 
 ```
 const obj = {
@@ -19,6 +19,8 @@ const obj = {
 delete obj.year;
 console.log(obj); // { id: 1, title: "Harry potter", rating: 4.5}
 ```
+
+### Xóa mà không thay đổi đối tượng
 
 Để xóa `year` mà không làm thay đổi đối tượng, chúng ta sẽ phải sử dụng 2 tính năng của JavaScript: `destructuring` đối tượng và toán tử `spread`:
 
@@ -43,7 +45,8 @@ Tuy nhiên, chúng ta cũng yêu cầu JavaScript destructure phần còn lại 
 
 Vì vậy, chúng ta có `rest` là một bản sao bất biến của `obj` nhưng không có khóa `year`!
 
-Hãy xem ví dụ khác:
+
+### Ví dụ
 
 ```
 const data = {
