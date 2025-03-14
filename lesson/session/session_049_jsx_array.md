@@ -59,4 +59,10 @@ Bạn cũng có thể lưu kết quả của `map` vào biến, sau đó tham ch
 
 - `.map` có thể được sử dụng trong JSX để lặp qua mảng.
 
+### Bài tập
+
+**Câu 1:** Tại sao mảng phải là bất biến trong React?
+
+**Câu 2:** Callback trong js là gì?
+
 *Bài tiếp theo [RS50 Key trong React](/lesson/session/session_050_jsx_array_key.md)*
