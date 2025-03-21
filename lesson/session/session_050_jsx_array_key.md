@@ -79,4 +79,10 @@ Nếu không có `key` này, React sẽ phải xóa tất cả các `li` và sau
 - `key` nên là duy nhất. Với phương án cuối cùng, bạn có thể sử dụng index của lần lặp trong map (đó là đối số thứ hai).
 - `key` cho phép React cập nhật DOM một cách hiệu quả với ít thao tác nhất.
 
+### Bài tập
+
+**Câu 1:** Tại sao trong React lại cần có Key?
+
+**Câu 2:** Các Key có nhất thiết phải khác nhau?
+
 *Bài tiếp theo [RS51 Thao tác bất biến với Object](/lesson/session/session_051_object_replace.md)*
