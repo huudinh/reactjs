@@ -14,3 +14,7 @@ Bầu trời đen kịt chốc chốc lại lóe ra những tia sáng loằng ng
 
 Héraclès đến, chàng dùng sức mạnh phi thường của mình xô đẩy thần Gigantos. Thế là đổ sập tất cả. Lũ Gigantos rơi từ trên cao xuống. Cùng lúc đó Zeus và các vị thần giáng sấm sét, phóng lao, ném đá, tung lửa ra đánh tới tấp xuống bọn chúng. Héraclès với cây cung thần của mình bắn cho chúng những trận mưa tên đau buốt. Lũ Gigantos, kẻ chết, đứa bị thương, bọn sống sót bỏ chạy tán loạn. Dấu vết các trận đánh và cuộc tháo chạy hoảng loạn của chúng còn in lại ở những vùng đất quanh Địa Trung Hải. Sườn núi lửa Etna còn in dấu chân của tên Gigantos Encelade. Có người bảo tên này bị đánh chết ở đảo Sicile. Có người nói hắn bị Zeus bắt sống và đày xuống địa ngục Tartare. Những dãy núi đá ở vùng Thrace trong bán đảo Pallene ở Hy Lạp, ở vùng Solfatare de Pouzzoles ở Ý đã bị lửa của cuộc giao chiến đốt cháy đến cằn cỗi.
 
+Chuyện về cuộc giao tranh với các quỷ thần Gigantos thật ra còn dài lắm. Nào Héraclès và nữ thần Athéna đã đánh bại tên Alcyonée ra sao, nào cuộc giao đấu giữa Héraclès, Héra với tên Porphyrion sau được Zeus đến giúp sức, quật ngã địch thủ như thế nào, rồi thần Apollon hạ Éphialtès, Dionysos đánh bại Eurytos... nhiều chuyện lắm, thật không thể nào kể hết được. Tuy nhiên ta không thể bỏ qua một vị thần đã có những đóng góp hết sức quan trọng cho chiến thắng của Zeus. Đó là Titan Prométhée, vị thần đã từ bỏ hàng ngũ các vị thần già, đứng về phe các vị thần trẻ mà Zeus là người cầm đầu.
+
+Như vậy các vị thần Olympe đã một lần nữa, lần thứ hai chiến thắng các thế lực cũ.
+

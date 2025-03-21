@@ -9,5 +9,6 @@ export const songs = [
     { id: 4, title: "Zeus lật đổ Cronos (cuộc giao tranh với các Titan)", src: url + "TTHL004.mp3", cover: url + "TTHL002.jpg" },
     { id: 5, title: "Nguồn gốc của loài người (5 thời đại)", src: url + "TTHL005.mp3", cover: url + "TTHL001.jpg" },
     { id: 6, title: "Cuộc giao tranh với các Gigantos", src: url + "TTHL006.mp3", cover: url + "TTHL002.jpg" },
+    { id: 7, title: "Cuộc giao tranh với Typhon", src: url + "TTHL007.mp3", cover: url + "TTHL001.jpg" },
 ];
 // https://truyenfull.vision/than-thoai-hy-lap/quyen-1-chuong-8/
