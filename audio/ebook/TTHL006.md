@@ -1,0 +1,16 @@
+# Thần Thoại Hy Lạp
+
+### Cuộc giao tranh với các Gigantos
+
+Tuy nhiên trật tự mới do thần Zeus tạo lập chưa phải đã ổn định vững vàng, chưa phải đã loại trừ được hết nguy cơ đảo ngược. Nữ thần Đất mẹ-Gaia không hài lòng trước việc Zeus đối xử với các Titan tàn nhẫn như vậy. Bà nhớ thương lớp những đứa con khổng lồ đầu tiên của mình bị giam giữ trong ngục tối. Bà nuôi ý định một ngày nào đấy phải giải thoát cho chúng. Và Gaia đã tìm đến những đứa con Gigantos-Đại khổng lồ của mình. Đây là những đứa con sinh ra từ giọt máu của Ouranos lúc bị tử thương. 
+
+Gigantos là những quỷ thần, hình thù vô cùng quái đản. Nửa người nửa rắn, cao lênh khênh như núi, lông lá, râu tóc rậm rạp như rừng, mỗi bước chân là những con mãng xà dữ tợn. Bọn chúng được võ trang khiên giáp sáng ngời, lao dài nhọn hoắt. Nhưng những quỷ thần này thiệt phận hơn các đàn anh ở chỗ chúng không bất tử, nghĩa là chúng có thể chết như người trần, song chỉ chết với một điều kiện nhất định phải cùng một lúc bị một vị thần và một người trần đánh. Phải cả hai, thần và người, cùng đánh thì mới hạ nổi các gã Gigantos-Đại khổng lồ. 
+
+Có một thứ cỏ lạ, nếu tìm được uống vào thì có thể làm cho các quỷ thần Gigantos trở thành bất tử, thân thể sẽ cứng như đồng như sắt, gươm đâm chẳng thủng, lao phóng chẳng xuyên. Nữ thần Gaia biết thứ cỏ thần tiên đó. Nàng báo cho lũ con Gigantos biết và hy vọng chúng sẽ mau chóng tìm được. Tiếc thay, thần Zeus cũng biết điều bí mật này. Thần lập tức ra lệnh cấm không cho thần Hélios-Mặt trời, Séléné-Mặt trăng và Éos-Rạng đông có những ngón tay hồng, được tỏa chiếu ánh sáng xuống mặt đất. Như thế Trời và Đất sẽ tối như bưng, chẳng ai biết lối mà đi tìm. Cỏ thần tiên không thể lọt vào tay ai ngoài tay thần Zeus. 
+
+Cuộc giao tranh lần này diễn ra ác liệt hơn trước nhiều. Các quỷ thần Gigantos bê những hòn núi đá ném vào đỉnh Olympe. Nhưng vô hiệu. Chúng lại đem lửa đốt cháy từ đất cho đến tận trời há vọng thiêu ra tro cả ngọn Olympe. Nhưng lửa không sao bén mảng được đến chỗ ở của các vị thần trẻ. Giáng trả lại lũ Đại khổng lồ-Gigantos là những đòn sét nổ, sấm rền kinh thiên động địa. 
+
+Bầu trời đen kịt chốc chốc lại lóe ra những tia sáng loằng ngoằng như những ánh mắt hằn học dữ tợn. Các quỷ thần Gigantos quyết một phen tử chiến với các vị thần Olympe. Chúng bê những hòn đá, xếp chồng lên nhau để leo lên hòng đánh tràn vào đỉnh Olympe cao ngất. Tình hình thật nguy ngập. Các vị thần Olympe phải cầu cứu đến một người trần tên gọi là Héraclès. Đây là một người trần có sức khỏe không thua kém gì các vị thần. 
+
+Héraclès đến, chàng dùng sức mạnh phi thường của mình xô đẩy thần Gigantos. Thế là đổ sập tất cả. Lũ Gigantos rơi từ trên cao xuống. Cùng lúc đó Zeus và các vị thần giáng sấm sét, phóng lao, ném đá, tung lửa ra đánh tới tấp xuống bọn chúng. Héraclès với cây cung thần của mình bắn cho chúng những trận mưa tên đau buốt. Lũ Gigantos, kẻ chết, đứa bị thương, bọn sống sót bỏ chạy tán loạn. Dấu vết các trận đánh và cuộc tháo chạy hoảng loạn của chúng còn in lại ở những vùng đất quanh Địa Trung Hải. Sườn núi lửa Etna còn in dấu chân của tên Gigantos Encelade. Có người bảo tên này bị đánh chết ở đảo Sicile. Có người nói hắn bị Zeus bắt sống và đày xuống địa ngục Tartare. Những dãy núi đá ở vùng Thrace trong bán đảo Pallene ở Hy Lạp, ở vùng Solfatare de Pouzzoles ở Ý đã bị lửa của cuộc giao chiến đốt cháy đến cằn cỗi.
+

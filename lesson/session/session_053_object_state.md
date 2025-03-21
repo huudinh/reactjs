@@ -7,7 +7,7 @@ Chúng ta sẽ làm việc với trạng thái đại diện cho đối tượng
 
 Đừng quên rằng khi bạn muốn thay đổi một đối tượng trong JavaScript, bạn cần thực hiện sao cho không làm thay đổi đối tượng ban đầu!
 
-### Giá trị mặc định
+### Khởi tạo một trạng thái mới
 
 Khi khởi tạo một trạng thái mới, chúng ta cần cung cấp một giá trị mặc định. 
 
@@ -29,7 +29,7 @@ Bạn cũng có thể đặt giá trị mặc định là bất kỳ đối tư�
 }
 ```
 
-### Mẹo bổ sung: đảo ngược giá trị boolean
+### Đảo ngược giá trị boolean
 
 Đây là một mẹo nhanh khá hữu ích. Nếu bạn muốn đảo ngược giá trị `boolean` (từ `false` thành `true` và từ `true` thành `false`), bạn có thể sử dụng toán tử logic `not: !` (còn được gọi là toán tử Phủ định).
 
