@@ -87,12 +87,7 @@ function App() {
           controls
           onTimeUpdate={updateTime}
         ></audio>
-        <div className="progress-bar">
-          <progress value={currentTime} max={duration}></progress>
-          <p>
-            {Math.floor(currentTime)} / {Math.floor(duration)} giây
-          </p>
-        </div>
+       
         <div className="controls">
           <button onClick={handlePlayPause}>
             {isPlaying ? "Pause" : "Play"}

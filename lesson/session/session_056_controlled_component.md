@@ -9,7 +9,7 @@ Controlled component là khi bạn theo dõi giá trị của một `input` dư�
 
 Việc sử dụng controlled component là rất hữu ích trong các trường hợp có thẻ `<input />` (hoặc các thẻ `<select />` hoặc `<textarea />`) vì nó cho phép bạn lấy giá trị do người dùng viết và tự động thay đổi giá trị khi trạng thái thay đổi.
 
-Cách tạo một controlled component:
+### Cách tạo một controlled component
 
 1. Bắt đầu bằng việc tạo biến state để lưu trữ giá trị
 2. Biến sẽ có giá trị mặc định là một chuỗi rỗng ""
