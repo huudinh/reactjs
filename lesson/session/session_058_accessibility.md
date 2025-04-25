@@ -3,7 +3,7 @@
 
 # RS58 Accessibility (Khả năng tiếp cận)
 
-Khả năng tiếp cận là gì và tại sao bạn nên quan tâm đến nó?
+### Khả năng tiếp cận là gì?
 
 Accessibility (Khả năng tiếp cận) là quá trình thiết kế và tạo ra các ứng dụng web có thể được sử dụng bởi mọi người.
 
@@ -15,20 +15,18 @@ Chúng ta đã thấy một ví dụ về Khả năng tiếp cận khi bạn đ�
 
 Khả năng tiếp cận chủ yếu liên quan đến HTML và vì các component React cuối cùng sẽ hiển thị HTML lên DOM, bạn cần áp dụng những thực hành tốt nhất về Khả năng tiếp cận trong React.
 
-### Khả năng tiếp cận của Form
-
-#### onSubmit
+### Sự kiện onSubmit
 
 Sự kiện `onSubmit` được kích hoạt trên một phần tử `form`. Nếu bạn mong đợi người dùng điền và gửi biểu mẫu thì việc triển khai phương thức `onSubmit` quan trọng hơn sự kiện `click` trên nút vì sự kiện `submit` cho phép người dùng điều khiển biểu mẫu bằng bàn phím (bằng cách nhấn Enter khi hoàn thành).
 
-#### Gán nhãn dữ liệu đầu vào
+### Gán nhãn dữ liệu đầu vào
 
 Việc gán label cho mỗi trường nhập liệu (ngoại trừ nút), vùng văn bản và hộp chọn trong biểu mẫu là rất quan trọng vì nhãn làm cho biểu mẫu có khả năng tiếp cận tốt hơn, với hai lý do sau:
 
 1. Người dùng sử dụng chuột và người khuyết tật vận động có thể nhấp chuột vào nhãn để truy cập vào phần tử điều khiển biểu mẫu liên quan. Điều này có nghĩa là tạo khu vực nhấp chuột lớn hơn cho trường nhập liệu/vùng văn bản/hộp chọn vì nhấp chuột vào nhãn hoặc phần tử điều khiển sẽ kích hoạt phần tử đó.
 2. Người khuyết tật thị giác sử dụng trình đọc màn hình để đọc nhãn liên kết với một phần tử biểu mẫu khi di chuyển tới phần tử đó. Trình đọc sẽ đọc nội dung của nhãn mô tả trường nhập liệu/vùng văn bản/hộp chọn.
 
-#### Còn về thuộc tính placeholder?
+### Thuộc tính placeholder?
 
 Thuộc tính `placeholder` không thay thế được `label` vì giá trị của nó bị ẩn khi người dùng bắt đầu gõ vào trong phần tử.
 
