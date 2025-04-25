@@ -67,4 +67,8 @@ Chúng ta bắt đầu bằng cách destructure `grades` và `course` và sau đ
 
 - `const {keyToRemove, ...rest} = obj` là một cú pháp đơn giản cho phép xóa `keyToRemove` khỏi đối tượng mà không làm thay đổi đối tượng gốc.
 
+### Bài tập
+
+**Câu 1:** Sự khác biệt giữa Destructuring, Spread, Rest
+
 *Bài tiếp theo [RS53 Khai báo State với Object](/lesson/session/session_053_object_state.md)*
