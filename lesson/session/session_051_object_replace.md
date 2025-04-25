@@ -92,4 +92,11 @@ Bạn chỉ cần sửa đổi thành `{...data, age: 20}` và đoạn code sẽ
 - `{...obj, newKey: 'value'}` được dùng để thêm `newKey: 'value'` vào đối tượng obj một cách bất biến.
 - `{...obj, existingKey: 'newValue'}` được dùng để thay đổi `existingKey` thành `newValue` một cách bất biến.
 
+### Bài tập
+
+**Câu 1:** Tại sao cần thao tác bất biến với Object
+
+**Câu 2:** Có những phương thức nào để cho Object là bất biến
+
 *Bài tiếp theo [RS52 Loại bỏ key-value khỏi Object](/lesson/session/session_052_object_remove_key_value.md)*
+

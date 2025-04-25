@@ -86,4 +86,10 @@ JSX kết quả sẽ là:
 - Bạn có thể đảo ngược giá trị boolean bằng cách đặt toán tử logic not trước giá trị.
 - !true cho kết quả false và !false cho kết quả true.
 
+### Bài tập
+
+**Câu 1:** Tại sao ta cần chuyển đổi Object thành mảng trong react
+
+**Câu 2:** Tại sao trong React thường sử dụng phương pháp đảo ngược giá trị
+
 *Bài tiếp theo [RS54 Thiết lập value cho Input](/lesson/session/session_054_form_input_value.md)*

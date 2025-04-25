@@ -41,4 +41,11 @@ Thay vào đó, khi bạn muốn cung cấp giá trị mặc định cho ngườ
 - Thiết lập `value` cho trường nhập liệu mà không có trình xử lý `onChange` sẽ tạo ra một trường nhập liệu chỉ đọc.
 - Nếu bạn muốn cung cấp giá trị mặc định, hãy sử dụng thuộc tính `defaultValue`.
 
+
+### Bài tập
+
+**Câu 1:** Tại sao trong react không cho sửa đổi trực tiếp giá trị value
+
+**Câu 2:** defaultValue và placehoder trong html có giống nhau không
+
 *Bài tiếp theo [RS55 Thay đổi nội dung Input](/lesson/session/session_055_form_input_onchange.md)*
