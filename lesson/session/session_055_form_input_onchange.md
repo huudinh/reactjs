@@ -52,4 +52,10 @@ Các hàm inline (nội tuyến) thường được sử dụng với biểu m�
 - `onChange` trên trường nhập liệu sẽ được kích hoạt mỗi khi người dùng thay đổi nội dung của trường nhập liệu.
 - Bạn có thể đọc văn bản do người dùng nhập bằng `event.target.value`.
 
+### Bài tập
+
+**Câu 1:** Cách thức thay đổi nội dung của ô Input trong React
+
+**Câu 2:** Target là gì
+
 *Bài tiếp theo [RS56 Controlled component](/lesson/session/session_056_controlled_component.md)*
