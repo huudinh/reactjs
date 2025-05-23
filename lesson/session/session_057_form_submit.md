@@ -84,4 +84,12 @@ function App() {
 - Mỗi `input` cần một biến `state` riêng của nó.
 - Bạn có thể ngăn chặn việc gửi biểu mẫu bằng cách sử dụng trình xử lý `onSubmit` trên `<form />`, sau đó gọi `event.preventDefault()`.
 
+### Bài tập
+
+**Câu 1:** Mô tả cách Select lấy dữ liệu từ người dùng
+
+**Câu 2:**  Khi có nhiều Input trong form để quản lý sự thay đổi của UI chúng ta cần làm gì
+
+**Câu 3:**  Submit form là gì, đua ra cách hoạt động của nó
+
 *Bài tiếp theo [RS58 Accessibility (Khả năng tiếp cận)](/lesson/session/session_058_accessibility.md)*
