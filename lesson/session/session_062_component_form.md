@@ -53,7 +53,7 @@ function App() {
 
 Lưu ý rằng đoạn code này sẽ không hoạt động vì chúng ta cần truyền các sự kiện `name` và `onChange` cho component `NameForm`. 
 
-### 2. Thiết lập các props cho component vừa tách
+### Thiết lập các props cho component vừa tách
 
 Component `NameForm` cần hiển thị một hộp văn bản và cập nhật giá trị của nó mỗi khi có thay đổi; do đó, nó cần thiết lập các prop `value` và `onChange`.
 
@@ -77,7 +77,7 @@ function App() {
 }
 ```
 
-### 3. Một số điều cần lưu ý
+### Một số điều cần lưu ý
 
 - `name={name}` truyền biến trạng thái `name` xuống
 - `onNameChange={handleNameChange}` truyền hàm `handleNameChange` 
@@ -85,7 +85,7 @@ function App() {
 - Để ý trạng thái được tạo và duy trì trong component cha.
 - Component `App` là stateful component vì nó quản lý trạng thái.
 
-### 4. Cấu trúc componnent con
+### Cấu trúc componnent con
 
 Trong component NameForm, chúng ta có thể sử dụng 2 prop "value" và "onChange":
 
