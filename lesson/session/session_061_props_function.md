@@ -3,6 +3,8 @@
 
 # RS61 Truyền function vào props
 
+### Props có thể chứa hàm
+
 Chúng ta đã xem ví dụ về props chứa giá trị boolean, chuỗi, số, mảng và đối tượng.
 
 Ngoài ra, props cũng có thể chứa hàm. Dưới đây là một ví dụ (để thuận tiện, cả hai component được định nghĩa trong cùng một file):
@@ -42,7 +44,7 @@ Khi truyền hàm, bạn cần tuân theo quy ước đặt tên sau:
 
 2. Đối với `props` là hàm, bắt đầu chúng với `onSubjectEvent`. Điều này giúp phân biệt dễ dàng giữ các phần tử `props` là hàm.
 
-Thêm một ví dụ:
+### Ví dụ:
 
 ```
 function App() {

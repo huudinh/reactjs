@@ -3,6 +3,8 @@
 
 # RS62 Tái cấu trúc component
 
+### Xác định component muốn tách
+
 Bây giờ chúng ta đã biết cách truyền hàm dưới dạng props trong React, hãy xem xét component React sau:
 
 ```
@@ -51,9 +53,9 @@ function App() {
 
 Lưu ý rằng đoạn code này sẽ không hoạt động vì chúng ta cần truyền các sự kiện `name` và `onChange` cho component `NameForm`. 
 
-### 1. Truyền "value" và "onChange"
+### 2. Thiết lập các props cho component vừa tách
 
-Component `NameForm` cần hiển thị một hộp văn bản và cập nhật giá trị của nó mỗi khi có thay đổi; do đó, nó cần thiết lập các `prop` value và `onChange`.
+Component `NameForm` cần hiển thị một hộp văn bản và cập nhật giá trị của nó mỗi khi có thay đổi; do đó, nó cần thiết lập các prop `value` và `onChange`.
 
 Để làm điều đó, chúng ta bắt đầu bằng cách truyền chúng từ component `App` xuống:
 
@@ -75,17 +77,17 @@ function App() {
 }
 ```
 
-Một số điều cần lưu ý:
+### 3. Một số điều cần lưu ý
 
 - `name={name}` truyền biến trạng thái `name` xuống
-- `onNameChange={handleNameChange}` truyền hàm `handleNameChange` (như chúng ta đã thấy trong chương trước)
+- `onNameChange={handleNameChange}` truyền hàm `handleNameChange` 
 - `onNameChange` tuân theo quy ước đặt tên 
 - Để ý trạng thái được tạo và duy trì trong component cha.
 - Component `App` là stateful component vì nó quản lý trạng thái.
 
-### 2. Sử dụng "value" và "onChange"
+### 4. Cấu trúc componnent con
 
-Bây giờ trong component NameForm, chúng ta có thể sử dụng 2 prop này:
+Trong component NameForm, chúng ta có thể sử dụng 2 prop "value" và "onChange":
 
 ```
 //NameForm.js
@@ -101,21 +103,18 @@ export default function NameForm(props) {
     </form>
 }
 ```
-
-Một số điều cần lưu ý:
-
-- Component là `stateless` vì nó KHÔNG quản lý trạng thái. Mặc dù có một hộp văn bản, component này có một trình xử lý onChange gọi `props.onNameChange` thuộc về component cha của nó.
+- Component này là `stateless` vì nó KHÔNG quản lý trạng thái. Mặc dù có một hộp văn bản, component này có một trình xử lý onChange gọi `props.onNameChange` thuộc về component cha của nó.
 - Component cha xử lý trạng thái.
 - `value={name}` đã thay đổi thành `value={props.name}` vì name không còn là trạng thái nội bộ nữa mà là một prop nhận được từ component cha.
 - Cách làm tương tự áp dụng cho `onChange`.
 
-### Bạn có nhận thấy rằng 
+### Lifting state up
 
 App là stateful component và NameForm là stateless component không?
 
 Vì vậy, trạng thái chỉ được quản lý trong component cha App.
 
-Đây là ví dụ cơ bản nhất về lifting state up (nâng trạng thái của component con lên thành trạng thái của component cha), hiện nay chưa có bài giải thích chi tiết về cái tên này, nhưng bạn không cần lo lắng về điều đó.
+Đây là ví dụ cơ bản nhất về lifting state up (nâng trạng thái của component con lên thành trạng thái của component cha)
 
 ### Tóm lại
 

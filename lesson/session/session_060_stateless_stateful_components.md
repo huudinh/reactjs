@@ -3,6 +3,8 @@
 
 # RS60 Stateless và Stateful components
 
+### Stateful components
+
 Component React có thể được chia thành hai loại: stateless (không lưu trạng thái) hoặc stateful (lưu trạng thái).
 
 Sự khác biệt nằm ở việc component có xử lý state hay không.
@@ -13,7 +15,9 @@ Khi ứng dụng ngày càng phát triển, bạn sẽ chia một stateful compo
 
 Điều này sẽ làm cho việc tái cấu trúc và tối giản hóa chương trình dễ dàng hơn khi ứng dụng ngày càng mở rộng.
 
-### Stateless component có tính tương tác
+### Stateless components
+
+Stateless component có tính tương tác
 
 Mặc dù stateless component không quản lý trạng thái bên trong, chúng vẫn có thể tương tác với người dùng.
 
