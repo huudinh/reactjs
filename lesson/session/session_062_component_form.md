@@ -121,4 +121,8 @@ Vì vậy, trạng thái chỉ được quản lý trong component cha App.
 - Khi tái cấu trúc một biểu mẫu thành component con, biểu mẫu có thể trở thành stateless component và trạng thái sẽ được quản lý bởi component cha.
 - Để làm được điều đó, bạn phải truyền `value` và `onChange` từ component cha xuống component con và sau đó sử dụng chúng như `props.value` và `props.onChange`.
 
+### Bài tập
+
+**Câu 1:** Tại sao cần Tái cấu trúc component?
+
 *Bài tiếp theo [RS63 Lifting State Up](/lesson/session/session_063_lifting_state_up.md)*

@@ -49,5 +49,9 @@ Vì vậy, đây là biểu mẫu tương tự nhưng được viết bằng JSX
 
 - `<label />` cần một trường thuộc tính `htmlFor` trỏ tới `id` của phần tử.
 
+### Bài tập
+
+**Câu 1:** Theo bạn Label có cần thiết không? tại sao?
+
 
 *Bài tiếp theo [RS60 Stateless và Stateful components](/lesson/session/session_060_stateless_stateful_components.md)*

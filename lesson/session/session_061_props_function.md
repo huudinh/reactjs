@@ -71,4 +71,10 @@ function App() {
 - Component có thể truyền hàm cho component con thông qua prop.
 - Quy ước đặt tên: `onSubjectEvent={handleSubjectEvent}`
 
+### Bài tập
+
+**Câu 1:** Props có thể chứa hàm không tại sao?
+
+**Câu 2:** Tại sao cần quy tắc đặt tên khi truyền hàm trong Props, có mấy loại quy tắc?
+
 *Bài tiếp theo [RS62 Tái cấu trúc component](/lesson/session/session_062_component_form.md)*

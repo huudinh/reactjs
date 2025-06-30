@@ -31,5 +31,9 @@ Ví dụ, một stateless component có thể chứa một form cùng với mộ
 - Stateful component quản lý trạng thái bên trong (Có ít nhất một lệnh gọi useState bên trong component).
 - Tuy nhiên, stateless component có thể tương tác với người dùng. Tuy nhiên, trạng thái sẽ được quản lý bởi một component cha.
 
+### Bài tập
+
+**Câu 1:** Stateful, Stateless components là gì?
+
 
 *Bài tiếp theo [RS61 Truyền function vào props](/lesson/session/session_061_props_function.md)*
