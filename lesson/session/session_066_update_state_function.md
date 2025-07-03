@@ -95,4 +95,9 @@ Vì vậy, khi bạn cần tăng giá trị của bộ đếm thì nên sử d�
 - Hàm được truyền cho `setState` nhận trạng thái trước đó làm đối số để tính toán trạng thái tiếp theo.
 - Khi trạng thái mới được tính toán bằng cách sử dụng trạng thái trước đó, bạn nên sử dụng cập nhật trạng thái bằng hàm để đảm bảo tính nhất quán và ngăn ngừa lỗi không mong muốn.
 
+### Bài tập
+
+**Câu 1:** Tại sao cần update State bằng hàm
+
+
 *Bài tiếp theo [RS67 useEffect](/lesson/session/session_067_effect.md)*

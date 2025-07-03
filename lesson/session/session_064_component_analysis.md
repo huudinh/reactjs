@@ -130,4 +130,10 @@ Hãy dành thời gian để tái cấu trúc component khi dự án đưa ra nh
 - Hãy định hình cấu trúc component dựa trên nhu cầu hiện tại của dự án.
 - Hãy nhớ rằng cấu trúc component sẽ thay đổi trong tương lai. Dành thời gian để tái cấu trúc component khi cần thiết.
 
+### Bài tập
+
+**Câu 1:** Tại sao cần phân chia Components
+
+**Câu 2:** Khi nào nên phân chia Components
+
 *Bài tiếp theo [RS65 Cải thiện hiệu suất của ứng dụng](/lesson/session/session_065_state_performance.md)*

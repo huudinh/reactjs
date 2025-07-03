@@ -53,4 +53,9 @@ Kể từ React 18, React hiện gom nhóm các cập nhật trạng thái ngay 
 - Cập nhật trạng thái trong React là hành vi bất đồng bộ.
 - Một số thay đổi trạng thái xảy ra liên tiếp có thể được gom nhóm nhằm cải thiện hiệu suất.
 
+
+### Bài tập
+
+**Câu 1:** Tại sao cơ chế update State giúp tăng hiệu suất ứng dụng
+
 *Bài tiếp theo [RS66 Update State bằng Function](/lesson/session/session_066_update_state_function.md)*
