@@ -3,11 +3,15 @@
 
 # RS65 Cải thiện hiệu suất của ứng dụng
 
+### Hiệu suất khi sử dụng React
+
 Cập nhật state trong React là hành vi bất đồng bộ, tức là state không nhất thiết phải được cập nhật ngay lập tức.
 
 Hành vi này được thiết kế như vậy nhằm giúp cải thiện hiệu suất của ứng dụng React.
 
 Khi bạn cập nhật trạng thái trong React, điều này yêu cầu phải hiển thị lại component (và có thể cả các component khác), đó có thể là một hoạt động tốn kém. Đó là lý do tại sao React gom nhóm nhiều cập nhật trạng thái lại với nhau và kết hợp chúng thành một lần render để làm cho ứng dụng phản hồi nhanh hơn và giảm công việc mà trình duyệt phải thực hiện.
+
+### Gom nhóm các cập nhật trạng thái
 
 ```
 import React, {useState} from "react";
