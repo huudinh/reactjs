@@ -33,11 +33,12 @@ function App() {
 
 Hàm `setDate()` thiết lập ngày hiện tại bằng cách gọi `new Date()`.
 
-Bây giờ hãy trả lời những câu hỏi sau:
+**Bây giờ hãy trả lời những câu hỏi sau:**
+
 1. Có bao nhiêu cập nhật trạng thái xảy ra khi nhấp vào nút?
 2. Component này sẽ được hiển thị lại bao nhiêu lần khi nhấp vào nút?
 
-Câu trả lời:
+**Câu trả lời:**
 
 Câu trả lời cho câu hỏi đầu tiên là: có hai cập nhật trạng thái. Tuy nhiên, component chỉ hiển thị lại một lần.
 
