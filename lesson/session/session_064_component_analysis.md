@@ -63,7 +63,7 @@ Trong viễn cảnh lý tưởng, bạn sẽ có một bản đồ (hoặc cây)
 
 Điều quan trọng là bạn hiểu rằng việc tái cấu trúc sẽ trở nên cần thiết vào một số thời điểm và dành thời gian để làm điều đó.
 
-### Những yếu tố bạn cần xem xét nếu muốn phân chia component:
+### Những yếu tố bạn cần xem xét
 
 #### 1. Cần tái sử dụng code
 
@@ -99,7 +99,7 @@ Các yếu tố cần xem xét khi muốn phân chia component thành các compo
 
 2 Component trở nên "quá phức tạp"
 
-### Hãy xem một ví dụ về Ứng dụng đặt phòng với các yêu cầu sau đây:
+### Ví dụ về Ứng dụng đặt phòng
 
 - Liệt kê các phòng
 - Bạn nhấp vào một phòng để chọn phòng và sau đó đặt phòng bằng cách nhấp vào nút Book
