@@ -3,6 +3,8 @@
 
 # RS66 Update State bằng Function
 
+### Cập nhật State được gộp chung
+
 Vì cập nhật trạng thái là hành vi bất đồng bộ, có một điều mà chúng ta cần phải để ý.
 
 Để cho đơn giản, chúng ta sẽ xem xét component sau:
@@ -40,7 +42,7 @@ Khi gọi lần thứ hai `setCounter(counter + 1)`, giá trị của counter v�
 
 Lưu ý rằng điều này xảy ra do các lần cập nhật trạng thái được gộp chung.
 
-### Cập nhật trạng thái bằng hàm
+### Cập nhật State bằng hàm
 
 Để giải quyết vấn đề này, React cung cấp khái niệm cập nhật state bằng hàm (functional state updates), đó là truyền một hàm vào hàm cập nhật trạng thái, dưới đây là một ví dụ:
 
