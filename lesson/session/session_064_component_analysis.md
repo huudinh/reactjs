@@ -3,6 +3,8 @@
 
 # RS64 Phân chia component
 
+### Lợi ích
+
 Khi xây dựng ứng dụng với React, bạn có thể gặp các component lớn chứa hàng trăm dòng code.
 
 Khi đó, các component cần được tái cấu trúc và chia nhỏ thành các component nhỏ hơn.
@@ -36,7 +38,7 @@ function App() {
 }
 ```
 
-Chúng ta đã trừu tượng hóa form, tầm khoảng 10 dòng code, thành component <AddProductForm>. Chúng ta cũng trừu tượng hóa danh sách sản phẩm trong <ul>, khoảng 5 dòng code, thành component <ProductsList />.
+Chúng ta đã trừu tượng hóa form, tầm khoảng 10 dòng code, thành component `<AddProductForm>`. Chúng ta cũng trừu tượng hóa danh sách sản phẩm trong `<ul>`, khoảng 5 dòng code, thành component `<ProductsList />`.
 
 Điều này giúp ta hiểu rõ hoạt động của ứng dụng vì tên component mô tả chức năng của component.
 
@@ -44,7 +46,7 @@ Ngoài ra, chúng ta cũng có thể tái sử dụng các component này ở n�
 
 Bạn có thể hiểu trừu tượng như quá trình tạo ra một component từ một số phần của ứng dụng.
 
-Dù vậy, bạn không nên vội vàng tạo component từ mọi thứ. Dưới đây là những trường hợp mà bạn nên phân chia component.
+Dù vậy, bạn không nên vội vàng tạo component từ mọi thứ. 
 
 ### Khi nào nên phân chia component?
 
@@ -91,13 +93,11 @@ Khi tái cấu trúc, bạn có thể tạo các stateless component cho một p
 
 Ví dụ, nếu bạn có phần chân trang tĩnh, bạn vẫn nên tạo một component cho chân trang.
 
-Bạn cũng sẽ sử dụng kiến thức về lifting state up, như đã học trong chương trước. Chúng ta sẽ tiếp tục thực hành trong vài bài tập tiếp theo.
-
-### Các yếu tố cần xem xét khi muốn phân chia component thành các component nhỏ hơn:
+Các yếu tố cần xem xét khi muốn phân chia component thành các component nhỏ hơn:
 
 1 Cần tái sử dụng code
+
 2 Component trở nên "quá phức tạp"
-3 Component trở nên "quá phức tạp"
 
 ### Hãy xem một ví dụ về Ứng dụng đặt phòng với các yêu cầu sau đây:
 
