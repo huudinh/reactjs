@@ -1,9 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# RS66 Update State bằng Function
-
-### Giải đáp câu hỏi `RS65 Cải thiện hiệu suất của ứng dụng`
+# Giải đáp câu hỏi `RS65 Cải thiện hiệu suất của ứng dụng`
 
 ![Create-HTML-1](images/s65-1.png) 
 
@@ -41,6 +39,7 @@ setCounter(prevCount => prevCount + 1);
 ```
 Cách này lấy giá trị mới nhất của counter, bất kể cập nhật trước đó đã xong hay chưa.
 
+# RS66 Update State bằng Function
 
 ### Cập nhật State được gộp chung
 
