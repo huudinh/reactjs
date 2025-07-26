@@ -1,7 +1,7 @@
 
 ![Create-HTML-1](images/components.jpg) 
 
-# Giải đáp câu hỏi `RS65 Cải thiện hiệu suất của ứng dụng`
+## Giải đáp câu hỏi `RS65 Cải thiện hiệu suất của ứng dụng`
 
 ![Create-HTML-1](images/s65-1.png) 
 
