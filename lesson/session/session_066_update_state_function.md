@@ -135,7 +135,9 @@ Vì vậy, khi bạn cần tăng giá trị của bộ đếm thì nên sử d�
 
 ### Bài tập
 
-**Câu 1:** Tại sao cần update State bằng hàm
+**Câu 1:** Tại sao giá trị của `counter` trong ví dụ ban đầu chỉ tăng lên 1 thay vì 2 sau khi nhấp vào nút?
+
+**Câu 2:** Khi nào bạn nên sử dụng cập nhật trạng thái bằng hàm trong React?
 
 
 *Bài tiếp theo [RS67 useEffect](/lesson/session/session_067_effect.md)*
