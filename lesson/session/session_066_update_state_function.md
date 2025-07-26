@@ -3,13 +3,52 @@
 
 # RS66 Update State bằng Function
 
+### Giải đáp câu hỏi `RS65 Cải thiện hiệu suất của ứng dụng`
+
+![Create-HTML-1](images/s65-1.png) 
+
+`state cập nhật async nhưng ở dưới laii viết setCount(count + 1). Điều gì dám chắc rằng count thay đổi sau click... ?`
+
+Câu hỏi cực kỳ tinh tế của bạn `LongminhDo`  React đúng là "async" trong cách cập nhật state, nhưng có một điểm thú vị ở đây: count trong setCount(count + 1) là giá trị hiện tại tại thời điểm render, chứ không phải giá trị "mới nhất" sau khi state được cập nhật.
+
+#### Điều gì đang xảy ra ở setCount(count + 1)?
+
+count + 1 được tính ngay khi hàm handleButtonClick chạy.
+
+Giá trị count lúc này là giá trị hiện tại của state trước khi click.
+
+React lên lịch (schedule) việc cập nhật state, nhưng không cập nhật tức thì.
+
+Vì state cập nhật bất đồng bộ, bạn không thể chắc rằng count đã thay đổi sau khi gọi setCount() — bạn chỉ chắc chắn rằng lần render kế tiếp sẽ phản ánh giá trị mới.
+
+#### Nếu có nhiều cập nhật liên tiếp thì sao?
+
+Giả sử bạn viết như sau:
+
+```jsx
+setCounter(counter + 1);
+setCounter(counter + 1);
+```
+Bạn kỳ vọng counter tăng 2 đơn vị. Nhưng do counter vẫn là giá trị cũ (chưa cập nhật kịp), React sẽ thực hiện hai lần setCounter(1) (ví dụ ban đầu là 0), dẫn đến kết quả chỉ tăng 1.
+
+#### Giải pháp: dùng hàm callback
+
+Để chắc chắn rằng bạn luôn cập nhật dựa trên giá trị mới nhất, hãy dùng dạng sau:
+
+```jsx
+setCounter(prevCount => prevCount + 1);
+
+```
+Cách này lấy giá trị mới nhất của counter, bất kể cập nhật trước đó đã xong hay chưa.
+
+
 ### Cập nhật State được gộp chung
 
 Vì cập nhật trạng thái là hành vi bất đồng bộ, có một điều mà chúng ta cần phải để ý.
 
 Để cho đơn giản, chúng ta sẽ xem xét component sau:
 
-```
+```jsx
 import {useState} from "react";
 
 function App() {
@@ -30,7 +69,7 @@ Với đoạn code trên, bạn dự đoán giá trị của `counter` sẽ là 
 
 Giá trị sẽ là 1, không phải 2, lý do là:
 
-```
+```jsx
 //assuming: counter is 0
 setCounter(counter + 1);
 setCounter(counter + 1);
@@ -46,7 +85,7 @@ Lưu ý rằng điều này xảy ra do các lần cập nhật trạng thái đ
 
 Để giải quyết vấn đề này, React cung cấp khái niệm cập nhật state bằng hàm (functional state updates), đó là truyền một hàm vào hàm cập nhật trạng thái, dưới đây là một ví dụ:
 
-```
+```jsx
 setCounter((previousCounter) => {
     return previousCounter + 1;
 });
@@ -54,7 +93,7 @@ setCounter((previousCounter) => {
 
 Phiên bản ngắn gọn hơn:
 
-```
+```jsx
 setCounter(previousCounter => previousCounter + 1);
 ```
 
@@ -62,7 +101,7 @@ Chúng ta định nghĩa một hàm nhận giá trị trạng thái trước đ�
 
 Dưới đây là cách bạn có thể sửa ví dụ trên để cộng vào trạng thái hai lần:
 
-```
+```jsx
 import {useState} from "react";
 
 function App() {
