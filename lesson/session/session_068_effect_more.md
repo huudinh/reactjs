@@ -82,11 +82,27 @@ function App() {
 
 Hãy đảm bảo đặt tất cả các cuộc gọi hook ở đầu hàm để tránh gặp lỗi không mong đợi.
 
-### Vòng lặp vô hạn
+### Tránh vòng lặp vô hạn
 
-Chúng ta rất dễ tạo ra vòng lặp vô hạn khi sử dụng hook hiệu ứng, tuy nhiên, bạn đừng lo lắng vì tính năng được tích hợp vào khóa học này sẽ phát hiện hầu hết các vòng lặp vô hạn và dừng chúng ngay lập tức.
+Một lỗi phổ biến:
 
-### Note
+```jsx
+useEffect(() => {
+  setCounter(counter + 1);
+});
+```
+
+Gây vòng lặp render không dứt vì setCounter làm thay đổi state → render lại → chạy lại useEffect.
+
+**Cách sửa:**
+
+```jsx
+useEffect(() => {
+  document.title = `Counter is ${counter}`;
+}, [counter]); // Chỉ chạy khi counter thay đổi
+```
+
+### Tại sao chúng ta cần sử dụng hook useEffect
 
 Bạn có thể đang tự hỏi, tại sao chúng ta cần sử dụng hook `useEffect`? Tại sao chúng ta không gọi document.title = "..." ở bất kỳ chỗ nào trong câu lệnh component trước câu lệnh return?
 
