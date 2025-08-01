@@ -2,7 +2,8 @@
 
 # RS68 Các nguyên tắc khi làm việc với hooks
 
-Quay lại ví dụ trước:
+### Cách useEffect hoạt động
+
 ```
 import {useState, useEffect} from "react";
 
@@ -35,17 +36,17 @@ Lưu ý rằng vì `useEffect` được gọi bên trong hàm `Counter`, bạn c
 
 Và mỗi khi `useEffect` được gọi, chúng ta có thể đảm bảo rằng chúng ta có giá trị mới nhất của trạng thái đó. Trong ví dụ này là `counter`.
 
-#### Các nguyên tắc khi làm việc với Hook
+### Các nguyên tắc khi làm việc với Hook
 
 Hãy luôn ghi nhớ Các nguyên tắc khi làm việc với hook.
 
-##### Quy tắc #1: Chỉ gọi Hook từ các hàm React
+**Quy tắc #1: Chỉ gọi Hook từ các hàm React**
 
 Bạn chỉ có thể sử dụng `useEffect` bên trong một hàm React.
 
-##### Quy tắc #2: Chỉ gọi Hook ở Cấp độ trên cùng 
+**Quy tắc #2: Chỉ gọi Hook ở Cấp độ trên cùng**
 
-và không bao giờ gọi hook bên trong vòng lặp, điều kiện hoặc các hàm lồng nhau.
+Không bao giờ gọi hook bên trong vòng lặp, điều kiện hoặc các hàm lồng nhau.
 
 Đây là quy tắc quan trọng nhất và việc vi phạm quy tắc này có thể gây ra các lỗi không mong muốn.
 
