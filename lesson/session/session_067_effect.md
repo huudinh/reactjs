@@ -137,13 +137,19 @@ Vì vậy, sau mỗi lần component Counter hiển thị (hoặc hiển thị l
 <details>
     <summary>1. React.StrictMode là gì và nó được sử dụng để làm gì?</summary>
 
-> React.StrictMode là một component được cung cấp bởi React giúp nhà phát triển tìm ra các lỗi không mong muốn trong ứng dụng khi chạy ở chế độ phát triển (development mode). Nó không có tác động đến hiệu suất hoặc hành vi của ứng dụng khi chạy ở chế độ sản xuất (production mode), do đó có thể giữ lại StrictMode trong mã nguồn khi triển khai. Đặc biệt, StrictMode rất hữu ích trong việc phát hiện các lỗi vô tình được tạo ra khi sử dụng hook useEffect.
+    > React.StrictMode là một component được cung cấp bởi React giúp nhà phát triển tìm ra các lỗi không mong muốn trong ứng dụng khi chạy ở chế độ phát triển (development mode). Nó không có tác động đến hiệu suất hoặc hành vi của ứng dụng khi chạy ở chế độ sản xuất (production mode), do đó có thể giữ lại StrictMode trong mã nguồn khi triển khai. Đặc biệt, StrictMode rất hữu ích trong việc phát hiện các lỗi vô tình được tạo ra khi sử dụng hook useEffect.
 </details>
 
 <details>
     <summary>2. Hook useEffect trong React là gì?</summary>
 
-> Hook useEffect được sử dụng để triển khai các "hiệu ứng" (effects) trong một component React. Các hiệu ứng này là những hành động chạy bên ngoài component hoặc là kết quả của component, thường liên quan đến việc đồng bộ hóa React với các API bên ngoài. Các ví dụ về hiệu ứng bao gồm gửi yêu cầu đến dịch vụ phân tích, khởi tạo plugin DOM bên ngoài React (như vẽ bản đồ), thay đổi tiêu đề trang hoặc đăng ký người dùng vào dịch vụ trò chuyện trực tiếp.
+    > Hook useEffect được sử dụng để triển khai các "hiệu ứng" (effects) trong một component React. Các hiệu ứng này là những hành động chạy bên ngoài component hoặc là kết quả của component, thường liên quan đến việc đồng bộ hóa React với các API bên ngoài. Các ví dụ về hiệu ứng bao gồm gửi yêu cầu đến dịch vụ phân tích, khởi tạo plugin DOM bên ngoài React (như vẽ bản đồ), thay đổi tiêu đề trang hoặc đăng ký người dùng vào dịch vụ trò chuyện trực tiếp.
+</details>
+
+<details>
+    <summary>3. Có bao nhiêu loại hiệu ứng và cần lưu ý gì khi sử dụng chúng?</summary>
+
+    > Có hai loại hiệu ứng chính: hiệu ứng không yêu cầu dọn dẹp (cleanup) và hiệu ứng cần được dọn dẹp. Nguồn tài liệu không đi sâu vào loại thứ hai nhưng chỉ ra rằng cần sử dụng hiệu ứng một cách cẩn thận và hạn chế. Điều này ngụ ý rằng việc lạm dụng hiệu ứng có thể dẫn đến các vấn đề về hiệu suất hoặc lỗi khó gỡ.
 </details>
 
 *Bài tiếp theo [RS68 Các nguyên tắc khi làm việc với hooks](/lesson/session/session_068_effect_more.md)*
