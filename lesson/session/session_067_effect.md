@@ -161,9 +161,9 @@ Nên sử dụng hiệu ứng một cách cẩn thận và hạn chế, việc l
 
 React.StrictMode và hook useEffect phục vụ hai mục đích khác nhau nhưng có mối liên hệ nhất định. 
 
-React.StrictMode là một công cụ phát triển giúp tìm kiếm các vấn đề tiềm ẩn, đặc biệt là những lỗi liên quan đến việc sử dụng useEffect không đúng cách. 
+React.StrictMode là một công cụ phát triển giúp tìm kiếm các vấn đề tiềm ẩn, đặc biệt là những lỗi liên quan đến việc sử dụng useEffect không đúng cách. Nó không phải là một tính năng của ứng dụng mà là một cơ chế kiểm tra.
 
-Nó không phải là một tính năng của ứng dụng mà là một cơ chế kiểm tra. Ngược lại, useEffect là một hook cho phép bạn thực hiện các tác vụ phụ (side effects) trong các functional component, giúp đồng bộ hóa ứng dụng React với môi trường bên ngoài. 
+useEffect là một hook cho phép bạn thực hiện các tác vụ phụ (side effects) trong các functional component, giúp đồng bộ hóa ứng dụng React với môi trường bên ngoài. 
 
 StrictMode giúp bạn sử dụng useEffect một cách an toàn và hiệu quả hơn bằng cách cảnh báo về các lỗi tiềm ẩn.
 
