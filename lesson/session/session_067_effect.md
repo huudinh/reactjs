@@ -26,7 +26,7 @@ createRoot(root).render(<React.StrictMode><App /></React.StrictMode>);
 
 Hoặc bạn có thể sử dụng cú pháp import để chỉ định rõ tên của component StrictMode khi bạn thêm nó vào file JavaScript:
 
-```
+```jsx
 import {StrictMode} from "react";
 import {createRoot} from "react-dom/client";
 
@@ -73,7 +73,7 @@ Nếu bạn nhìn vào tiêu đề trang hiện tại trong trình duyệt, nó 
 
 Bây giờ, giả sử chúng ta có một component React và chúng ta muốn đồng bộ tiêu đề với trạng thái hiện tại; ví dụ, chúng ta có biến trạng thái counter và chúng ta muốn hiển thị giá trị của bộ đếm đó trong tiêu đề; cách thực hiện như sau:
 
-```
+```jsx
 import {useState, useEffect} from "react";
 
 function Counter() {
