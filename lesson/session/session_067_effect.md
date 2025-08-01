@@ -132,4 +132,15 @@ Vì vậy, sau mỗi lần component Counter hiển thị (hoặc hiển thị l
 - useEffect là một named export từ gói react.
 - useEffect nhận định nghĩa hàm làm đối số đầu tiên, sẽ được chạy sau mỗi lần hiển thị lại của component đó.
 
+### Các Câu Hỏi Thường Gặp (FAQ) 
+
+<details>
+  <summary>1 React.StrictMode là gì và nó được sử dụng để làm gì?</summary>
+
+React.StrictMode là một component được cung cấp bởi React giúp nhà phát triển tìm ra các lỗi không mong muốn trong ứng dụng khi chạy ở chế độ phát triển (development mode). Nó không có tác động đến hiệu suất hoặc hành vi của ứng dụng khi chạy ở chế độ sản xuất (production mode), do đó có thể giữ lại StrictMode trong mã nguồn khi triển khai. Đặc biệt, StrictMode rất hữu ích trong việc phát hiện các lỗi vô tình được tạo ra khi sử dụng hook useEffect.
+
+
+
+</details>
+
 *Bài tiếp theo [RS68 Các nguyên tắc khi làm việc với hooks](/lesson/session/session_068_effect_more.md)*
