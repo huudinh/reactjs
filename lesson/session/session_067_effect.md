@@ -59,7 +59,7 @@ Bạn nên sử dụng hiệu ứng một cách cẩn thận và hạn chế.
 
 Có hai loại hiệu ứng: hiệu ứng không yêu cầu dọn dẹp và hiệu ứng cần được dọn dẹp. 
 
-### Tiêu đề trang
+### Áp dụng UseEffect cho thay đổi tiêu đề trang
 
 Hãy bắt đầu với ví dụ đơn giản và phổ biến nhất về hiệu ứng cập nhật tiêu đề trang.
 
