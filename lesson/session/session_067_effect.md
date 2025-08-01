@@ -132,7 +132,7 @@ Vì vậy, sau mỗi lần component Counter hiển thị (hoặc hiển thị l
 - useEffect là một named export từ gói react.
 - useEffect nhận định nghĩa hàm làm đối số đầu tiên, sẽ được chạy sau mỗi lần hiển thị lại của component đó.
 
-# Các Câu Hỏi Thường Gặp Khi Phỏng Vấn (FAQ) 
+## Các Câu Hỏi Thường Gặp Khi Phỏng Vấn (FAQ) 
 
 **1. React.StrictMode là gì và nó được sử dụng để làm gì?**
 
