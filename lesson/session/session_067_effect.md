@@ -149,13 +149,19 @@ Vì vậy, sau mỗi lần component Counter hiển thị (hoặc hiển thị l
 <details>
     <summary>3. Có bao nhiêu loại hiệu ứng và cần lưu ý gì khi sử dụng chúng?</summary>
 
-> Có hai loại hiệu ứng chính: hiệu ứng không yêu cầu dọn dẹp (cleanup) và hiệu ứng cần được dọn dẹp. Nguồn tài liệu không đi sâu vào loại thứ hai nhưng chỉ ra rằng cần sử dụng hiệu ứng một cách cẩn thận và hạn chế. Điều này ngụ ý rằng việc lạm dụng hiệu ứng có thể dẫn đến các vấn đề về hiệu suất hoặc lỗi khó gỡ.
+> Có hai loại hiệu ứng chính: hiệu ứng không yêu cầu dọn dẹp (cleanup) và hiệu ứng cần được dọn dẹp. Nên sử dụng hiệu ứng một cách cẩn thận và hạn chế. Điều này ngụ ý rằng việc lạm dụng hiệu ứng có thể dẫn đến các vấn đề về hiệu suất hoặc lỗi khó gỡ.
 </details>
 
 <details>
     <summary>4. Sự khác biệt giữa React.StrictMode và hook useEffect là gì?</summary>
 
-> React.StrictMode và hook useEffect phục vụ hai mục đích khác nhau nhưng có mối liên hệ nhất định. React.StrictMode là một công cụ phát triển giúp tìm kiếm các vấn đề tiềm ẩn, đặc biệt là những lỗi liên quan đến việc sử dụng useEffect không đúng cách. Nó không phải là một tính năng của ứng dụng mà là một cơ chế kiểm tra. Ngược lại, useEffect là một hook cho phép bạn thực hiện các tác vụ phụ (side effects) trong các functional component, giúp đồng bộ hóa ứng dụng React với môi trường bên ngoài. Nói cách khác, StrictMode giúp bạn sử dụng useEffect một cách an toàn và hiệu quả hơn bằng cách cảnh báo về các lỗi tiềm ẩn.
+> React.StrictMode và hook useEffect phục vụ hai mục đích khác nhau nhưng có mối liên hệ nhất định. 
+
+> React.StrictMode là một công cụ phát triển giúp tìm kiếm các vấn đề tiềm ẩn, đặc biệt là những lỗi liên quan đến việc sử dụng useEffect không đúng cách. 
+
+> Nó không phải là một tính năng của ứng dụng mà là một cơ chế kiểm tra. Ngược lại, useEffect là một hook cho phép bạn thực hiện các tác vụ phụ (side effects) trong các functional component, giúp đồng bộ hóa ứng dụng React với môi trường bên ngoài. 
+
+>StrictMode giúp bạn sử dụng useEffect một cách an toàn và hiệu quả hơn bằng cách cảnh báo về các lỗi tiềm ẩn.
 </details>
 
 *Bài tiếp theo [RS68 Các nguyên tắc khi làm việc với hooks](/lesson/session/session_068_effect_more.md)*
