@@ -12,7 +12,7 @@ Thông qua đối tượng React, bạn có thể truy cập vào component `Str
 
 Dưới đây là một ví dụ:
 
-```
+```jsx
 import React from "react";
 import {createRoot} from "react-dom/client";
 
