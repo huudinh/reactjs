@@ -2,7 +2,7 @@
 
 # RS69 Clean Effect
 
-### Dọn dẹp là gì?
+### Tại sao cần dọn dẹp?
 
 Một số phương thức trong JavaScript yêu cầu việc dọn dẹp. Hãy cùng tìm hiểu lý do tại sao.
 
@@ -38,7 +38,7 @@ Mỗi khi component App được hiển thị lại, nó sẽ lên lịch cho vi
 
 Ví dụ này chỉ hiển thị một `setTimeout` nhưng hãy nghĩ đến trường hợp mà bạn đang thiết lập một kết nối tới API trò chuyện bằng cách sử dụng `WebSockets` mà không đóng kết nối trước đó. Đó là một ví dụ khác về rò rỉ bộ nhớ và cũng là một ví dụ về hiệu ứng yêu cầu dọn dẹp.
 
-### Cách dọn dẹp hiệu ứng 
+### Cách dọn dẹp useEffect
 
 Để dọn dẹp một hiệu ứng, bạn phải trả về một hàm (dọn dẹp) từ bên trong cuộc gọi useEffect. Chúng ta sẽ bắt đầu với ví dụ đơn giản nhất:
 
