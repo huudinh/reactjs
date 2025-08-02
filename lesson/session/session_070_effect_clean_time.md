@@ -2,6 +2,8 @@
 
 # RS70 Dọn dẹp bộ đếm thời gian
 
+### cleanupTimer
+
 Xem ví dụ sau:
 
 ```
