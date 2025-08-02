@@ -124,4 +124,24 @@ Tuy nhiên, trong một số tình huống, bạn có thể cần chạy effect 
 - Các hiệu ứng trả về hàm là những hiệu ứng mà React sẽ dọn dẹp sau mỗi lần hiển thị lại.
 - Hàm dọn dẹp chạy sau mỗi lần hiển thị lại. Bạn sẽ có thể ngăn nó chạy sau mỗi lần hiển thị lại.
 
+## Các Câu Hỏi Thường Gặp Khi Phỏng Vấn (FAQ)
+
+#### Câu 1: Tại sao cần dọn dẹp bộ đếm thời gian trong React useEffect?
+
+Khi sử dụng setTimeout trong useEffect mà không dọn dẹp, bộ đếm thời gian có thể tiếp tục chạy ngay cả khi component đã bị hủy gắn kết (unmounted) hoặc hiển thị lại. Điều này có thể dẫn đến rò rỉ bộ nhớ, lỗi không mong muốn hoặc các hành vi khó dự đoán, đặc biệt khi component được cập nhật liên tục. Việc dọn dẹp đảm bảo rằng các tài nguyên như bộ đếm thời gian được giải phóng đúng cách khi không còn cần thiết, giúp duy trì hiệu suất và sự ổn định của ứng dụng.
+
+#### Cầu 2: Làm cách nào để dọn dẹp bộ đếm thời gian được tạo bằng setTimeout trong JavaScript thông thường?
+
+Trong JavaScript thuần túy, hàm setTimeout trả về một timerId duy nhất. Bạn có thể lưu trữ timerId này vào một biến. Để hủy bỏ bộ đếm thời gian trước khi nó thực thi, bạn chỉ cần gọi hàm clearTimeout() và truyền timerId đó làm đối số. Ví dụ:
+
+```js
+const timerId = setTimeout(() => {
+
+  console.log("Đây là thông báo không bao giờ xuất hiện");
+
+}, 1000);
+```
+
+clearTimeout(timerId); // Điều này sẽ hủy bỏ bộ đếm thời gian
+
 *Bài tiếp theo [Lắng nghe sự kiện](/lesson/session/session_071_effect_listeners.md)*
