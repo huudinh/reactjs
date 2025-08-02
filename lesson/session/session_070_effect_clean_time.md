@@ -1,8 +1,8 @@
 ![Create-HTML-1](images/effect.webp) 
 
-# RS70 Dọn dẹp bộ đếm thời gian
+# RS70 Cleanup Timer
 
-### cleanupTimer
+### Dọn dẹp bộ đếm thời gian
 
 Xem ví dụ sau:
 
@@ -140,8 +140,19 @@ const timerId = setTimeout(() => {
   console.log("Đây là thông báo không bao giờ xuất hiện");
 
 }, 1000);
-```
 
 clearTimeout(timerId); // Điều này sẽ hủy bỏ bộ đếm thời gian
+```
+
+#### Câu 3: Tại sao React lại dọn dẹp hiệu ứng sau mỗi lần hiển thị lại (re-render)?
+
+React được thiết kế để tự động dọn dẹp các hiệu ứng sau mỗi lần hiển thị lại (và khi component bị xóa khỏi DOM). Mặc dù thoạt nghe có vẻ không hiệu quả, nhưng kỹ thuật này giúp tránh rò rỉ bộ nhớ và các lỗi nhỏ khó phát hiện. Bằng cách luôn dọn dẹp và thiết lập lại các hiệu ứng, React đảm bảo rằng hiệu ứng luôn hoạt động với các props và state mới nhất, từ đó giảm thiểu các vấn đề về đồng bộ hóa và cạnh tranh dữ liệu.
+
+#### Cầu 4: Sự khác biệt giữa hiệu ứng được dọn dẹp và không được dọn dẹp trong useEffect là gì?
+
+Hiệu ứng không được dọn dẹp: Là những hiệu ứng mà callback của useEffect không trả về bất kỳ hàm nào. React sẽ không thực hiện bất kỳ hành động dọn dẹp tự động nào cho các hiệu ứng này.
+
+Hiệu ứng được dọn dẹp: Là những hiệu ứng mà callback của useEffect trả về một hàm. React sẽ lưu trữ hàm này và gọi nó khi component sắp hiển thị lại hoặc bị hủy gắn kết, cho phép bạn thực hiện các tác vụ dọn dẹp cần thiết.
+
 
 *Bài tiếp theo [Lắng nghe sự kiện](/lesson/session/session_071_effect_listeners.md)*
