@@ -120,7 +120,7 @@ Còn một lý do quan trọng khác liên quan đến các hiệu ứng yêu c�
 
 ## Các Câu Hỏi Thường Gặp Khi Phỏng Vấn (FAQ) 
 
-**1. Tại sao chúng ta cần sử dụng useEffect thay vì đặt code trực tiếp trong component?**
+#### Câu 1: Tại sao chúng ta cần sử dụng useEffect thay vì đặt code trực tiếp trong component?
 
 Mặc dù có thể đặt code thay đổi hiệu ứng phụ (ví dụ: document.title = "...") trực tiếp trong component trước câu lệnh return, nhưng điều này không được khuyến khích vì nhiều lý do. 
 
@@ -128,21 +128,16 @@ Thứ nhất là về hiệu suất: các component nên được hiển thị r
 
 Thứ hai, useEffect cung cấp cơ chế để xử lý các hiệu ứng yêu cầu dọn dẹp (cleanup), điều này rất quan trọng để tránh rò rỉ bộ nhớ hoặc các lỗi khác.
 
-**2. useEffect có thể truy cập các biến trạng thái (state variables) trong component cha không?**
+#### Câu 2: useEffect có thể truy cập các biến trạng thái (state variables) trong component cha không?
 
 Có, useEffect được đặt bên trong component có chủ ý để bạn có thể dễ dàng sử dụng các biến hiện có trong đó, đặc biệt là các biến trạng thái. 
 
 Nhờ việc sử dụng closures, useEffect có thể truy cập tất cả các biến trong hàm cha (component). Điều này đảm bảo rằng mỗi khi useEffect được gọi, nó sẽ truy cập được giá trị mới nhất của trạng thái đó.
 
-**3. useEffect liên quan đến closures như thế nào?**
+#### Câu 3: useEffect liên quan đến closures như thế nào?
 
 useEffect được gọi bên trong component, cho phép nó truy cập tất cả các biến (bao gồm cả biến trạng thái và props) trong phạm vi của component đó thông qua cơ chế closure. 
 
 Điều này có nghĩa là khi hàm trong useEffect được thực thi, nó sẽ có quyền truy cập vào các giá trị của biến tại thời điểm hàm đó được tạo, và mỗi khi useEffect được gọi, bạn có thể đảm bảo rằng bạn có giá trị mới nhất của trạng thái đó.
-
-
-
-
-
 
 *Bài tiếp theo [RS69 Clean Effect](/lesson/session/session_069_effect_clean.md)*
