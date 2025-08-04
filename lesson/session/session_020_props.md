@@ -101,5 +101,16 @@ Chúng cho phép component:
 | **Giống nhau** | - Đều là **dữ liệu được truyền vào** hàm. <br> - Có thể được sử dụng bên trong hàm để điều khiển kết quả đầu ra.                                              | - Tương tự: nhận giá trị và xử lý trong hàm.                                                                                                               |
 | **Khác nhau**  | - Được truyền từ component cha dưới dạng thuộc tính của JSX. <br> - Tự động được gói thành một **đối tượng** (object). <br> - Dành riêng cho React Component. | - Do người lập trình **truyền trực tiếp** khi gọi hàm. <br> - Không gói thành object trừ khi tự làm. <br> - Dùng trong mọi loại hàm, không riêng gì React. |
 
+#### Câu 3: Truyền dữ liệu biến và functions giống và khác nhau như thế nào?
+
+| Tiêu chí                                  | Truyền **biến (data)**                                                | Truyền **function (hàm)**                                   |
+| ----------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **Cách truyền**                           | Qua `props`                                                           | Qua `props`                                                 |
+| **Dữ liệu truyền xuống**                  | Giá trị tĩnh hoặc thay đổi như string, number, object, array, boolean | Một hàm được định nghĩa ở cha                               |
+| **Mục đích**                              | Để **con nhận dữ liệu** từ cha và hiển thị                            | Để **con thông báo ngược lại** cho cha (thường qua sự kiện) |
+| **Con có thể thay đổi dữ liệu đó không?** | ❌ Không. Props là **bất biến (immutable)**                            | ✅ Có thể gọi hàm để cha thay đổi state                      |
+| **Ví dụ sử dụng**                         | Truyền tên người dùng, danh sách sản phẩm                             | Gọi hàm khi nhấn nút, thay đổi dữ liệu cha                  |
+| **Vai trò của cha**                       | Là **nguồn cung dữ liệu**                                             | Là **nơi xử lý logic**                                      |
+| **Vai trò của con**                       | Chỉ **hiển thị dữ liệu**                                              | **Gọi hàm để kích hoạt hành động** ở cha                    |
 
 *Bài tiếp theo [RS21 Props Children](/lesson/session/session_021_props_children.md)*
