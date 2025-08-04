@@ -70,6 +70,35 @@ React.createElement(GreetUser, {user: "Sam", id: "2"});
 
 Để ý các thuộc tính JSX trên Component được chuyển đổi thành props là đối số thứ hai của `React.createElement`.
 
+### Truyền hàm qua props trong React
+
+Truyền hàm qua props là cách bạn gửi một hàm (function) từ component cha xuống component con thông qua props, để con gọi lại hàm đó khi cần, thường dùng trong các tương tác như click, thay đổi, submit, v.v.
+
+Component con không nên tự thay đổi state – thay vào đó, nó gọi hàm từ cha, để cha quyết định thay đổi gì.
+
+```jsx
+// ✅ Component Con
+function ClickButton({ onClick }) {
+  return <button onClick={onClick}>Click me</button>;
+}
+
+// ✅ Component Cha
+function App() {
+  const handleClick = () => {
+    alert("Con đã gọi Cha!");
+  };
+
+  return <ClickButton onClick={handleClick} />;
+}
+```
+
+| Thành phần                              | Vai trò                                     |
+| --------------------------------------- | ------------------------------------------- |
+| `handleClick`                           | Là một hàm định nghĩa trong **cha** (`App`) |
+| `<ClickButton onClick={handleClick} />` | Truyền hàm xuống con qua prop `onClick`     |
+| `onClick={onClick}` trong con           | Khi click, hàm cha được gọi                 |
+
+
 ### Tóm lại
 
 - Props là viết tắt của properties - thuộc tính.
