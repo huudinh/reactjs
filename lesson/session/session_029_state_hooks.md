@@ -50,11 +50,11 @@ Vì vậy, `0 item(s)` sẽ hiển thị thành `1 item(s)` khi người dùng n
 
 ## Các Câu Hỏi Thường Gặp Khi Phỏng Vấn (FAQ)
 
-#### Câu 1: State là gì?
+### Câu 1: State là gì?
 
 State là các biến đặc biệt được React quản lý bên trong một component, cho phép component đó lưu trữ dữ liệu động và tự động cập nhật giao diện khi giá trị thay đổi.
 
-#### Câu 2: State khác gì với các biến trong JavaScript
+### Câu 2: State khác gì với các biến trong JavaScript
 
 | Tiêu chí                           | **State trong React**                                | **Biến trong JavaScript**                     |
 | ---------------------------------- | ---------------------------------------------------- | --------------------------------------------- |
@@ -66,7 +66,7 @@ State là các biến đặc biệt được React quản lý bên trong một c
 | **Nằm ở đâu?**                     | Trong component, được quản lý bằng hook (`useState`) | Trong function / block JS bình thường         |
 
 
-#### Câu 3: Mối quan hệ giữa Props và State
+### Câu 3: Mối quan hệ giữa Props và State
 
 | Tiêu chí                        | **Props**                                           | **State**                                            |
 | ------------------------------- | --------------------------------------------------- | ---------------------------------------------------- |
