@@ -111,7 +111,7 @@ function App() {
 
 ## Các Câu Hỏi Thường Gặp Khi Phỏng Vấn (FAQ)
 
-#### Câu 1: Props là gì??
+### Câu 1: Props là gì??
 
 Props (viết tắt của properties) là các thuộc tính được truyền vào một component React từ bên ngoài, dưới dạng một đối tượng.
 
@@ -123,14 +123,14 @@ Chúng cho phép component:
 
     Trở nên linh hoạt và tái sử dụng được với nhiều loại dữ liệu khác nhau.
 
-#### Câu 2: Props và đối số trong function giống và khác nhau thế nào?
+### Câu 2: Props và đối số trong function giống và khác nhau thế nào?
 
 | Tiêu chí       | Props trong React                                                                                                                                             | Đối số trong function thông thường                                                                                                                         |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Giống nhau** | - Đều là **dữ liệu được truyền vào** hàm. <br> - Có thể được sử dụng bên trong hàm để điều khiển kết quả đầu ra.                                              | - Tương tự: nhận giá trị và xử lý trong hàm.                                                                                                               |
 | **Khác nhau**  | - Được truyền từ component cha dưới dạng thuộc tính của JSX. <br> - Tự động được gói thành một **đối tượng** (object). <br> - Dành riêng cho React Component. | - Do người lập trình **truyền trực tiếp** khi gọi hàm. <br> - Không gói thành object trừ khi tự làm. <br> - Dùng trong mọi loại hàm, không riêng gì React. |
 
-#### Câu 3: Truyền dữ liệu biến và functions giống và khác nhau như thế nào?
+### Câu 3: Truyền dữ liệu biến và functions giống và khác nhau như thế nào?
 
 | Tiêu chí                                  | Truyền **biến (data)**                                                | Truyền **function (hàm)**                                   |
 | ----------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------- |

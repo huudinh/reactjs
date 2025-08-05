@@ -134,7 +134,7 @@ Vì vậy, sau mỗi lần component Counter hiển thị (hoặc hiển thị l
 
 ## Các Câu Hỏi Thường Gặp Khi Phỏng Vấn (FAQ) 
 
-#### Câu 1: React.StrictMode là gì và nó được sử dụng để làm gì?
+### Câu 1: React.StrictMode là gì và nó được sử dụng để làm gì?
 
 React.StrictMode là một component được cung cấp bởi React giúp nhà phát triển tìm ra các lỗi không mong muốn trong ứng dụng khi chạy ở chế độ phát triển (development mode). 
 
@@ -142,7 +142,7 @@ Nó không có tác động đến hiệu suất hoặc hành vi của ứng d�
 
 StrictMode rất hữu ích trong việc phát hiện các lỗi vô tình được tạo ra khi sử dụng hook useEffect.
 
-#### Câu 2: Hook useEffect trong React là gì?
+### Câu 2: Hook useEffect trong React là gì?
 
 Hook useEffect được sử dụng để triển khai các "hiệu ứng" (effects) trong một component React. 
 
@@ -150,14 +150,14 @@ Các hiệu ứng này là những hành động chạy bên ngoài component ho
 
 Các ví dụ về hiệu ứng bao gồm gửi yêu cầu đến dịch vụ phân tích, khởi tạo plugin DOM bên ngoài React (như vẽ bản đồ), thay đổi tiêu đề trang hoặc đăng ký người dùng vào dịch vụ trò chuyện trực tiếp.
 
-#### Câu 3: Có bao nhiêu loại hiệu ứng và cần lưu ý gì khi sử dụng chúng?
+### Câu 3: Có bao nhiêu loại hiệu ứng và cần lưu ý gì khi sử dụng chúng?
 
 Có hai loại hiệu ứng chính: hiệu ứng không yêu cầu dọn dẹp (cleanup) và hiệu ứng cần được dọn dẹp. 
 
 Nên sử dụng hiệu ứng một cách cẩn thận và hạn chế, việc lạm dụng hiệu ứng có thể dẫn đến các vấn đề về hiệu suất hoặc lỗi khó gỡ.
 
 
-#### Câu 4: Sự khác biệt giữa React.StrictMode và hook useEffect là gì?
+### Câu 4: Sự khác biệt giữa React.StrictMode và hook useEffect là gì?
 
 React.StrictMode và hook useEffect phục vụ hai mục đích khác nhau nhưng có mối liên hệ nhất định. 
 

@@ -126,11 +126,11 @@ Tuy nhiên, trong một số tình huống, bạn có thể cần chạy effect 
 
 ## Các Câu Hỏi Thường Gặp Khi Phỏng Vấn (FAQ)
 
-#### Câu 1: Tại sao cần dọn dẹp bộ đếm thời gian trong React useEffect?
+### Câu 1: Tại sao cần dọn dẹp bộ đếm thời gian trong React useEffect?
 
 Khi sử dụng setTimeout trong useEffect mà không dọn dẹp, bộ đếm thời gian có thể tiếp tục chạy ngay cả khi component đã bị hủy gắn kết (unmounted) hoặc hiển thị lại. Điều này có thể dẫn đến rò rỉ bộ nhớ, lỗi không mong muốn hoặc các hành vi khó dự đoán, đặc biệt khi component được cập nhật liên tục. Việc dọn dẹp đảm bảo rằng các tài nguyên như bộ đếm thời gian được giải phóng đúng cách khi không còn cần thiết, giúp duy trì hiệu suất và sự ổn định của ứng dụng.
 
-#### Câu 2: Làm cách nào để dọn dẹp bộ đếm thời gian được tạo bằng setTimeout trong JavaScript thông thường?
+### Câu 2: Làm cách nào để dọn dẹp bộ đếm thời gian được tạo bằng setTimeout trong JavaScript thông thường?
 
 Trong JavaScript thuần túy, hàm setTimeout trả về một timerId duy nhất. Bạn có thể lưu trữ timerId này vào một biến. Để hủy bỏ bộ đếm thời gian trước khi nó thực thi, bạn chỉ cần gọi hàm clearTimeout() và truyền timerId đó làm đối số. Ví dụ:
 
@@ -144,11 +144,11 @@ const timerId = setTimeout(() => {
 clearTimeout(timerId); // Điều này sẽ hủy bỏ bộ đếm thời gian
 ```
 
-#### Câu 3: Tại sao React lại dọn dẹp hiệu ứng sau mỗi lần hiển thị lại (re-render)?
+### Câu 3: Tại sao React lại dọn dẹp hiệu ứng sau mỗi lần hiển thị lại (re-render)?
 
 React được thiết kế để tự động dọn dẹp các hiệu ứng sau mỗi lần hiển thị lại (và khi component bị xóa khỏi DOM). Mặc dù thoạt nghe có vẻ không hiệu quả, nhưng kỹ thuật này giúp tránh rò rỉ bộ nhớ và các lỗi nhỏ khó phát hiện. Bằng cách luôn dọn dẹp và thiết lập lại các hiệu ứng, React đảm bảo rằng hiệu ứng luôn hoạt động với các props và state mới nhất, từ đó giảm thiểu các vấn đề về đồng bộ hóa và cạnh tranh dữ liệu.
 
-#### Cầu 4: Sự khác biệt giữa hiệu ứng được dọn dẹp và không được dọn dẹp trong useEffect là gì?
+### Cầu 4: Sự khác biệt giữa hiệu ứng được dọn dẹp và không được dọn dẹp trong useEffect là gì?
 
 Hiệu ứng không được dọn dẹp: Là những hiệu ứng mà callback của useEffect không trả về bất kỳ hàm nào. React sẽ không thực hiện bất kỳ hành động dọn dẹp tự động nào cho các hiệu ứng này.
 
