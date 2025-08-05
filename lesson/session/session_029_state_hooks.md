@@ -48,12 +48,34 @@ Vì vậy, `0 item(s)` sẽ hiển thị thành `1 item(s)` khi người dùng n
 - Biến trạng thái có thể được cập nhật từ bên trong component.
 - Khi một biến trạng thái được cập nhật, component sẽ tự động hiển thị lại.
 
-### Bài tập
+## Các Câu Hỏi Thường Gặp Khi Phỏng Vấn (FAQ)
 
-**Câu 1:** State là gì?
+#### Câu 1: State là gì?
 
-**Câu 2:** State khác gì với các biến trong js
+State là các biến đặc biệt được React quản lý bên trong một component, cho phép component đó lưu trữ dữ liệu động và tự động cập nhật giao diện khi giá trị thay đổi.
 
-**Câu 3:** Mối quan hệ giữa Props và State
+#### Câu 2: State khác gì với các biến trong JavaScript
+
+| Tiêu chí                           | **State trong React**                                | **Biến trong JavaScript**                     |
+| ---------------------------------- | ---------------------------------------------------- | --------------------------------------------- |
+| **Quản lý bởi React?**             | ✅ Có                                                 | ❌ Không                                       |
+| **Lưu lại giữa các lần render?**   | ✅ Có                                                 | ❌ Không (biến thường bị reset mỗi lần render) |
+| **Làm component tự render lại?**   | ✅ Có                                                 | ❌ Không                                       |
+| **Dùng để hiển thị dữ liệu động?** | ✅ Rất phù hợp                                        | ❌ Không nên                                   |
+| **Cập nhật qua đâu?**              | `useState`, `setState`                               | Gán trực tiếp (`=`, `++`, v.v.)               |
+| **Nằm ở đâu?**                     | Trong component, được quản lý bằng hook (`useState`) | Trong function / block JS bình thường         |
+
+
+#### Câu 3: Mối quan hệ giữa Props và State
+
+| Tiêu chí                        | **Props**                                           | **State**                                            |
+| ------------------------------- | --------------------------------------------------- | ---------------------------------------------------- |
+| **Nguồn dữ liệu**               | Được truyền **từ component cha**                    | Được **khởi tạo bên trong component**                |
+| **Thay đổi ở đâu?**             | ✅ **Từ bên ngoài** (cha truyền vào)                 | ✅ **Từ bên trong** (component tự cập nhật)           |
+| **Component có thể chỉnh sửa?** | ❌ Không được phép sửa props                         | ✅ Có thể sửa state qua `setState` / `setX`           |
+| **Kích hoạt render lại?**       | ✅ Có, khi props thay đổi                            | ✅ Có, khi state thay đổi                             |
+| **Mục đích**                    | Dùng để **truyền dữ liệu và cấu hình từ ngoài vào** | Dùng để **quản lý dữ liệu động bên trong** component |
+| **Ví dụ**                       | `<Counter theme="dark" />`                          | `const [count, setCount] = useState(0)`              |
+
 
 *Bài tiếp theo [RS30 Import State](/lesson/session/session_030_useState.md)*
