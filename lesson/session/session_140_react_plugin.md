@@ -132,4 +132,4 @@ Kích hoạt plugin từ bảng điều khiển WordPress của bạn. Sau đó,
 
 Nếu bạn gặp khó khăn hoặc có câu hỏi, hãy cho mình biết để hỗ trợ thêm!
 
-<!-- *Bài tiếp theo [RS139 CRA To Vite](/lesson/session/session_139_CRA_to_Vite.md)* -->
+*Bài tiếp theo [RS141 SeO và Performance](/lesson/session/session_141_Performance.md)*
