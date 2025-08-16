@@ -2,19 +2,21 @@
 
 # RS72 Dependencies trong useEffect
 
+### Dependencies
+
 Tất cả các cuộc gọi `useEffect` mà chúng ta đã thấy cho đến nay đều chạy sau lần hiển thị đầu tiên của component và sau mỗi lần component hiển thị lại. Nhưng đôi khi bạn không muốn `useEffect` hiển thị lại mỗi lần (đôi khi điều này sẽ tạo ra vòng lặp vô hạn). Đó là lý do tại sao hàm `useEffect` có đối số thứ hai.
 
 ```
 useEffect(effectCallback, dependencies)
 ```
 
-Hàm `effectCallback` là hàm được truyền vào làm đối số đầu tiên và đối số `dependencies` sẽ được giải thích trong chương này. Giá trị mặc định của nó là null. Vì vậy trong các chương trước, chúng ta không bao giờ truyền tham số đó; do đó, nó mặc định là null.
+Hàm `effectCallback` là hàm được truyền vào làm đối số đầu tiên và đối số `dependencies`. Giá trị mặc định của `dependencies` là null. Vì vậy trong các bài trước, chúng ta không bao giờ truyền tham số đó, do đó nó mặc định là null.
 
-### Dependencies trong useEffect
+### Cách hoạt động của Dependencies
 
 `dependencies` trong `useEffect` là một mảng quyết định khi nào hiệu ứng sẽ được chạy lại. Dưới đây là cách nó hoạt động:
 
-```
+```jsx
 import {useState, useEffect} from "react";
 
 function App() {
@@ -40,7 +42,7 @@ Dependency là một mảng vì bạn có thể cung cấp nhiều giá trị tr
 
 Điều này cho phép bạn tối ưu hóa code và chỉ chạy khi cần thiết.
 
-### Hiệu ứng chỉ chạy một lần
+### Chạy 1 lần duy nhất
 
 Ta cũng có thể truyền mảng rỗng làm phụ thuộc: `[]` và trên thực tế, thực hành này khá phổ biến trong lập trình React.
 
@@ -82,5 +84,9 @@ useEffect(() => {
 - Theo mặc định, đối số `dependencies` có giá trị là `null`, điều này có nghĩa là nó sẽ chạy lại trên mỗi cập nhật.
 - Tham số `dependencies` nhận một mảng giá trị mà React sẽ so sánh giữa lần hiển thị trước và lần hiển thị tiếp theo. Chỉ khi những giá trị này thay đổi thì React mới gọi lại hiệu ứng.
 - Nếu bạn truyền một mảng rỗng `[]` làm phụ thuộc thì hiệu ứng sẽ chỉ được gọi một lần.
+
+## Các Câu Hỏi Thường Gặp Khi Phỏng Vấn (FAQ)
+
+### Câu 1: React Effect Hooks là gì và chúng hoạt động như thế nào?
 
 *Bài tiếp theo [RS73 Vòng đời của Component](/lesson/session/session_073_lifecycle.md)*
