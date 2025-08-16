@@ -86,7 +86,7 @@ effect running
 
 Hành vi này cho phép giải thuật `reconciliation` của React dừng quá trình hiển thị ngay giữa chừng mà không làm hỏng giao diện người dùng. Điều này là nền tảng để triển khai các tính năng xử lý đồng thời trong React 18 (một trong số đó vẫn đang được phát triển).
 
-Khi bạn chạy code trong môi trường sản xuất (sử dụng React sản xuất), các hiệu ứng chỉ chạy một lần và bạn sẽ không gặp phải hành vi này. Vì vậy, đây chỉ là một hành vi cục bộ nhằm giúp bạn tìm ra các lỗi. Tiếp theo chúng ta sẽ làm một bài tập trực quan để hiểu rõ hơn về điều này.
+Khi bạn chạy code trong môi trường sản xuất (sử dụng React sản xuất), các hiệu ứng chỉ chạy một lần và bạn sẽ không gặp phải hành vi này. Vì vậy, đây chỉ là một hành vi cục bộ nhằm giúp bạn tìm ra các lỗi.
 
 ### Tóm lại
 
@@ -122,8 +122,6 @@ Hành vi "unmount" và "re-mount" component trong Chế độ nghiêm ngặt c�
 Có, hành vi dọn dẹp khác nhau giữa môi trường phát triển và môi trường sản xuất. Trong môi trường sản xuất (khi sử dụng React bản build sản xuất), các hiệu ứng chỉ chạy một lần và bạn sẽ không gặp phải hành vi "unmount" và "re-mount" component như trong Chế độ nghiêm ngặt của môi trường phát triển. Chế độ nghiêm ngặt chỉ là một công cụ cục bộ để giúp phát hiện lỗi rò rỉ bộ nhớ trong quá trình phát triển.
 
 ### Câu 7: Những loại phương thức JavaScript nào thường yêu cầu dọn dẹp trong useEffect để tránh rò rỉ bộ nhớ?
-
-Những loại phương thức JavaScript nào thường yêu cầu dọn dẹp trong useEffect để tránh rò rỉ bộ nhớ?
 
 Bộ đếm thời gian: setTimeout và setInterval.
 
