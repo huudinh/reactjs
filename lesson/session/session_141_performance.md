@@ -141,11 +141,4 @@ React DevTools: Tab Profiler trong React DevTools cho phép bạn theo dõi hi�
 
 Lighthouse (trong Chrome DevTools): Lighthouse cung cấp một phân tích toàn diện về hiệu suất, SEO, khả năng truy cập (accessibility) và các yếu tố khác của ứng dụng web. Nó đưa ra các điểm số và khuyến nghị cụ thể để cải thiện các chỉ số này.
 
-
-
-
-
-
-
-
-<!-- *Bài tiếp theo [RS141 SeO và Performance](/lesson/session/session_141_Performance.md)* -->
+*Bài tiếp theo [RS142 Hook use() trong React 19](/lesson/session/session_142_use.md)*
