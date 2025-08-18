@@ -121,4 +121,4 @@ Không truyền dependencies (mặc định là null): Hiệu ứng sẽ chạy 
 Truyền mảng rỗng []: Hiệu ứng chỉ chạy một lần duy nhất sau lần hiển thị đầu tiên của component.
 
 
-*Bài tiếp theo [RS73 Vòng đời của Component](/lesson/session/session_073_lifecycle.md)*
+*Bài tiếp theo [RS73 Hiểu rõ vòng đời Component qua useEffect](/lesson/session/session_073_lifecycle.md)*
