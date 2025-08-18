@@ -2,9 +2,26 @@
 
 # RS71 Quản Lý Sự Kiện Window với React useEffect
 
-### Trình lắng nghe sự kiện bên ngoài React
-
 Chúng ta đã học cách thêm trình lắng nghe sự kiện vào phần tử bằng thuộc tính JSX `onClick` (hoặc tương tự). Tuy nhiên, nếu bạn muốn thêm một trình lắng nghe sự kiện vào đối tượng window thì phải làm thế nào?
+
+### Dọn dẹp sự kiện trong Javascript
+
+Để dọn dẹp sự kiện, chúng ta cần đặt tên cho hàm lắng nghe sự kiện
+
+``` js
+// we need to give a name to the event so that we can remove it later on
+function handleWindowScroll(event) {
+    console.log("page scrolled");
+}
+
+// call the handleWindowScroll function when the page is scrolled
+window.addEventListener("scroll", handleWindowScroll, {passive: true});
+
+// remove the event
+window.removeEventListener("scroll", handleWindowScroll, {passive: true});
+```
+
+### Dọn dẹp sự kiện trong React
 
 Khi thực hiện hành động trên, ta đang tương tác với môi trường bên ngoài và điều này được coi là một hiệu ứng trong React. Điều đó là bởi vì khi component hiển thị, nó gây ra hiệu ứng phụ đến phần tử bên ngoài, đó là đối tượng window. Hiệu ứng phụ là thêm một trình lắng nghe sự kiện mới.
 
@@ -12,7 +29,7 @@ Khi thực hiện hành động trên, ta đang tương tác với môi trườn
 
 Dưới đây là cách triển khai:
 
-```
+```jsx
 import {useEffect} from "react";
 
 function App() {
@@ -35,51 +52,38 @@ Cách này hoạt động nhưng có một vấn đề lớn. Nó có thể dẫ
 
 Đây là lý do tại sao mỗi khi bạn gọi addEventListener bên trong useEffect, bạn cần dọn dẹp sau đó bằng cách gọi removeEventListener.
 
-### Dọn dẹp sự kiện
 
-Để dọn dẹp sự kiện, chúng ta cần đặt tên cho hàm lắng nghe sự kiện. Trong JavaScript thuần túy (không có React), để thêm và sau đó xóa một sự kiện, bạn làm như sau:
+### Lắng nghe sự kiện cuộn (scroll)
 
-```
-// we need to give a name to the event so that we can remove it later on
-function handleWindowScroll(event) {
-    console.log("page scrolled");
-}
+Chúng ta cần trả về một hàm từ useEffect để dọn dẹp trình lắng nghe sự kiện này:
 
-// call the handleWindowScroll function when the page is scrolled
-window.addEventListener("scroll", handleWindowScroll, {passive: true});
-
-// remove the event
-window.removeEventListener("scroll", handleWindowScroll, {passive: true});
-```
-
-Bây giờ quay trở lại useEffect, chúng ta cần trả về một hàm từ useEffect để dọn dẹp trình lắng nghe sự kiện này:
-
-```
-import React, {useEffect} from "react";
+``` jsx
+import React, { useEffect } from "react";
 
 function App() {
-
   function handleWindowScroll(event) {
     console.log("page scrolled");
   }
 
   useEffect(() => {
-    window.addEventListener("scroll", handleWindowScroll, {passive: true});
+    window.addEventListener("scroll", handleWindowScroll, { passive: true });
 
-    // cleanup event listener
+    // Dọn dẹp khi component unmount hoặc re-render
     return () => {
-        window.removeEventListener("scroll", handleWindowScroll, {passive: true});
-    }
-  });
+      window.removeEventListener("scroll", handleWindowScroll, { passive: true });
+    };
+  }, []); // 👈 Chạy một lần khi component mount
 
-  return (<>
-    <h2>List of products</h2>
-    <p>Lorem ipsum...</p>
-  </>);
+  return (
+    <>
+      <h2>List of products</h2>
+      <p>Lorem ipsum dolor sit amet...</p>
+    </>
+  );
 }
 ```
 
-Bây giờ khi component App bị hủy gắn kết (loại bỏ khỏi DOM) và mỗi khi nó được hiển thị lại, React sẽ dọn dẹp trình lắng nghe sự kiện để tránh rò rỉ bộ nhớ.
+Component App bị hủy gắn kết (loại bỏ khỏi DOM) và mỗi khi nó được hiển thị lại, React sẽ dọn dẹp trình lắng nghe sự kiện để tránh rò rỉ bộ nhớ.
 
 Lưu ý rằng nếu bạn muốn thêm sự kiện vào một phần tử được mô tả trong JSX, bạn vẫn phải sử dụng cú pháp onClick, onChange, v.v. Điều này chỉ áp dụng cho việc thêm sự kiện vào các đối tượng window, document hoặc các đối tượng bên ngoài React.
 
