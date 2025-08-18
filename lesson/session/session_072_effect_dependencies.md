@@ -2,7 +2,7 @@
 
 # RS72 Dependencies trong useEffect
 
-### Dependencies
+### useEffect và Dependencies
 
 Tất cả các cuộc gọi `useEffect` mà chúng ta đã thấy cho đến nay đều chạy sau lần hiển thị đầu tiên của component và sau mỗi lần component hiển thị lại. Nhưng đôi khi bạn không muốn `useEffect` hiển thị lại mỗi lần (đôi khi điều này sẽ tạo ra vòng lặp vô hạn). Đó là lý do tại sao hàm `useEffect` có đối số thứ hai.
 
@@ -10,11 +10,13 @@ Tất cả các cuộc gọi `useEffect` mà chúng ta đã thấy cho đến na
 useEffect(effectCallback, dependencies)
 ```
 
-Hàm `effectCallback` là hàm được truyền vào làm đối số đầu tiên và đối số `dependencies`. Giá trị mặc định của `dependencies` là null. Vì vậy trong các bài trước, chúng ta không bao giờ truyền tham số đó, do đó nó mặc định là null.
+Hàm `effectCallback` là hàm được truyền vào làm đối số đầu tiên và đối số `dependencies`.
+
+Nếu không truyền đối số thứ hai, useEffect sẽ chạy sau mỗi lần render. React không mặc định giá trị này là null.
 
 ### Cách hoạt động của Dependencies
 
-`dependencies` trong `useEffect` là một mảng quyết định khi nào hiệu ứng sẽ được chạy lại. Dưới đây là cách nó hoạt động:
+Mảng `dependencies` quyết định khi nào hiệu ứng sẽ được chạy lại. Ví dụ:
 
 ```jsx
 import {useState, useEffect} from "react";
@@ -38,7 +40,7 @@ Vì vậy trong ví dụ này, [`counter`] bắt đầu là [`0`] (vì trạng t
 
 React sẽ lưu trữ `[0]` và sau đó khi người dùng nhấp vào nút. Giá trị mới của `[counter]` trở thành `[1]`.
 
-Dependency là một mảng vì bạn có thể cung cấp nhiều giá trị trong mảng đó (từ state hoặc props của component). Chúng ta sẽ xem những ví dụ này sau trong khóa học.
+Dependency là một mảng vì bạn có thể cung cấp nhiều giá trị trong mảng đó (từ state hoặc props của component).
 
 Điều này cho phép bạn tối ưu hóa code và chỉ chạy khi cần thiết.
 
@@ -46,15 +48,22 @@ Dependency là một mảng vì bạn có thể cung cấp nhiều giá trị tr
 
 Ta cũng có thể truyền mảng rỗng làm phụ thuộc: `[]` và trên thực tế, thực hành này khá phổ biến trong lập trình React.
 
+```jsx
+useEffect(() => {
+    // hiệu ứng chỉ chạy một lần sau khi component mount
+}, []);
+
+```
+
 Khi bạn truyền một mảng rỗng, so sánh giữa lần hiển thị trước và lần hiển thị tiếp theo luôn trả về kết quả giống nhau (vì React so sánh cùng một thực thể của `[]`, không có giá trị nào trong mảng đó có thể thay đổi). Điều này có nghĩa là việc truyền `[]` sẽ chỉ chạy hiệu ứng một lần sau lần hiển thị đầu tiên.
 
 Vì vậy nếu bạn muốn chỉ chạy hiệu ứng một lần duy nhất sau khi component đã được gắn kết, bạn nên truyền một mảng rỗng. Điều này thường hữu ích khi làm việc với các thư viện bên ngoài hoặc gửi cuộc gọi phân tích trong component.
 
-Hãy xem một ví dụ vẽ bản đồ bằng cách sử dụng thư viện bên ngoài.
+### Khởi tạo thư viện bản đồ
 
 Trong JavaScript, bạn cần khởi tạo thư viện map một lần bằng cách gọi giả mã dưới đây:
 
-```
+```js
 const map = new mapboxgl.Map({
     container: "#map",
     style: "mapbox://styles/mapbox/streets-v11",
@@ -63,9 +72,9 @@ const map = new mapboxgl.Map({
 });
 ```
 
-Nhưng bạn không cần chạy lại mã lệnh trên mỗi khi trạng thái của component thay đổi! Bạn chỉ cần chạy nó một lần. Đó là lý do tại sao trong React, bạn cần chạy nó bên trong useEffect và sử dụng mảng rỗng làm phụ thuộc. Dưới đây là giả mã:
+Nhưng bạn không cần chạy lại mã lệnh trên mỗi khi trạng thái của component thay đổi! Bạn chỉ cần chạy nó một lần. Đó là lý do tại sao trong React, bạn cần chạy nó bên trong useEffect và sử dụng mảng rỗng làm phụ thuộc.
 
-```
+```jsx
 useEffect(() => {
     const map = new mapboxgl.Map({
         container: "#map",
