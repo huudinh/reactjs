@@ -61,7 +61,7 @@ Vì vậy nếu bạn muốn chỉ chạy hiệu ứng một lần duy nhất sa
 
 ### Khởi tạo thư viện bản đồ
 
-Trong JavaScript, bạn cần khởi tạo thư viện map một lần bằng cách gọi giả mã dưới đây:
+Trong JavaScript, bạn cần khởi tạo thư viện map một lần
 
 ```js
 const map = new mapboxgl.Map({
