@@ -4,7 +4,7 @@
 
 Chúng ta đã học cách thêm trình lắng nghe sự kiện vào phần tử bằng thuộc tính JSX `onClick` (hoặc tương tự). Tuy nhiên, nếu bạn muốn thêm một trình lắng nghe sự kiện vào đối tượng window thì phải làm thế nào?
 
-### Dọn dẹp sự kiện trong Javascript
+### Lắng nghe sự kiện trong Javascript
 
 Để dọn dẹp sự kiện, chúng ta cần đặt tên cho hàm lắng nghe sự kiện
 
@@ -21,7 +21,7 @@ window.addEventListener("scroll", handleWindowScroll, {passive: true});
 window.removeEventListener("scroll", handleWindowScroll, {passive: true});
 ```
 
-### Dọn dẹp sự kiện trong React
+### Lắng nghe sự kiện trong React
 
 Khi thực hiện hành động trên, ta đang tương tác với môi trường bên ngoài và điều này được coi là một hiệu ứng trong React. Điều đó là bởi vì khi component hiển thị, nó gây ra hiệu ứng phụ đến phần tử bên ngoài, đó là đối tượng window. Hiệu ứng phụ là thêm một trình lắng nghe sự kiện mới.
 
