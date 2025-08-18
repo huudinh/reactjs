@@ -45,7 +45,7 @@ Mỗi khi component bị hủy gắn kết (hoặc hiển thị lại), React s�
 
 > Bạn không nên đặt return () => {...} bên trong setTimeout. Mục tiêu không phải là trả về từ setTimeout mà là từ useEffect.
 
-#### Cách hoạt động
+### Cách hoạt động
 
 Bạn có thể tự hỏi tại sao React dọn dẹp hiệu ứng sau mỗi lần hiển thị lại. Kỹ thuật này nghe có vẻ không hiệu quả nhưng nó giúp bạn tránh rò rỉ bộ nhớ và những lỗi nhỏ khó phát hiện.
 
