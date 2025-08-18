@@ -12,7 +12,7 @@
 
 `use()` là một hook mới trong React 19 cho phép bạn sử dụng giá trị từ Promise trực tiếp trong component mà không cần `useEffect` hay `useState`.
 
-> ✅ Nó hoạt động tốt trong môi trường hỗ trợ **React Server Components** và **Suspense**.
+> Nó hoạt động tốt trong môi trường hỗ trợ **React Server Components** và **Suspense**.
 
 ---
 
